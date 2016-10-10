@@ -1,23 +1,23 @@
 [
     {
-        "outputFile": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\values-sv\\values-sv.xml",
+        "outputFile": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 167,
-                    "endOffset": 218
+                    "endColumn": 105,
+                    "endOffset": 156
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 167,
-                        "endOffset": 218
+                        "endColumn": 105,
+                        "endOffset": 156
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 223,
-                    "endColumn": 106,
-                    "endOffset": 325
+                    "startOffset": 161,
+                    "endColumn": 107,
+                    "endOffset": 264
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 223,
-                        "endColumn": 106,
-                        "endOffset": 325
+                        "startOffset": 161,
+                        "endColumn": 107,
+                        "endOffset": 264
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 330,
-                    "endColumn": 115,
-                    "endOffset": 441
+                    "startOffset": 269,
+                    "endColumn": 122,
+                    "endOffset": 387
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 330,
-                        "endColumn": 115,
-                        "endOffset": 441
+                        "startOffset": 269,
+                        "endColumn": 122,
+                        "endOffset": 387
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 446,
-                    "endColumn": 92,
-                    "endOffset": 534
+                    "startOffset": 392,
+                    "endColumn": 102,
+                    "endOffset": 490
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 446,
-                        "endColumn": 92,
-                        "endOffset": 534
+                        "startOffset": 392,
+                        "endColumn": 102,
+                        "endOffset": 490
                     }
                 }
             },
@@ -82,17 +82,17 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 539,
-                    "endColumn": 66,
+                    "startOffset": 495,
+                    "endColumn": 110,
                     "endOffset": 601
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 539,
-                        "endColumn": 66,
+                        "startOffset": 495,
+                        "endColumn": 110,
                         "endOffset": 601
                     }
                 }
@@ -102,17 +102,17 @@
                     "startLine": 7,
                     "startColumn": 4,
                     "startOffset": 606,
-                    "endColumn": 68,
-                    "endOffset": 670
+                    "endColumn": 84,
+                    "endOffset": 686
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
                         "startOffset": 606,
-                        "endColumn": 68,
-                        "endOffset": 670
+                        "endColumn": 84,
+                        "endOffset": 686
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 675,
-                    "endColumn": 59,
-                    "endOffset": 730
+                    "startOffset": 691,
+                    "endColumn": 101,
+                    "endOffset": 788
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 675,
-                        "endColumn": 59,
-                        "endOffset": 730
+                        "startOffset": 691,
+                        "endColumn": 101,
+                        "endOffset": 788
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 735,
-                    "endColumn": 71,
-                    "endOffset": 802
+                    "startOffset": 793,
+                    "endColumn": 112,
+                    "endOffset": 901
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 735,
-                        "endColumn": 71,
-                        "endOffset": 802
+                        "startOffset": 793,
+                        "endColumn": 112,
+                        "endOffset": 901
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 807,
-                    "endColumn": 73,
-                    "endOffset": 876
+                    "startOffset": 906,
+                    "endColumn": 75,
+                    "endOffset": 977
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 807,
-                        "endColumn": 73,
-                        "endOffset": 876
+                        "startOffset": 906,
+                        "endColumn": 75,
+                        "endOffset": 977
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 881,
-                    "endColumn": 91,
-                    "endOffset": 968
+                    "startOffset": 982,
+                    "endColumn": 75,
+                    "endOffset": 1053
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 881,
-                        "endColumn": 91,
-                        "endOffset": 968
+                        "startOffset": 982,
+                        "endColumn": 75,
+                        "endOffset": 1053
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 973,
-                    "endColumn": 74,
-                    "endOffset": 1043
+                    "startOffset": 1058,
+                    "endColumn": 79,
+                    "endOffset": 1133
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 973,
-                        "endColumn": 74,
-                        "endOffset": 1043
+                        "startOffset": 1058,
+                        "endColumn": 79,
+                        "endOffset": 1133
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1048,
-                    "endColumn": 74,
-                    "endOffset": 1118
+                    "startOffset": 1138,
+                    "endColumn": 105,
+                    "endOffset": 1239
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1048,
-                        "endColumn": 74,
-                        "endOffset": 1118
+                        "startOffset": 1138,
+                        "endColumn": 105,
+                        "endOffset": 1239
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1123,
-                    "endColumn": 82,
-                    "endOffset": 1201
+                    "startOffset": 1244,
+                    "endColumn": 99,
+                    "endOffset": 1339
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1123,
-                        "endColumn": 82,
-                        "endOffset": 1201
+                        "startOffset": 1244,
+                        "endColumn": 99,
+                        "endOffset": 1339
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1206,
-                    "endColumn": 97,
-                    "endOffset": 1299
+                    "startOffset": 1344,
+                    "endColumn": 95,
+                    "endOffset": 1435
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1206,
-                        "endColumn": 97,
-                        "endOffset": 1299
+                        "startOffset": 1344,
+                        "endColumn": 95,
+                        "endOffset": 1435
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1304,
-                    "endColumn": 64,
-                    "endOffset": 1364
+                    "startOffset": 1440,
+                    "endColumn": 104,
+                    "endOffset": 1540
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1304,
-                        "endColumn": 64,
-                        "endOffset": 1364
+                        "startOffset": 1440,
+                        "endColumn": 104,
+                        "endOffset": 1540
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1369,
-                    "endColumn": 63,
-                    "endOffset": 1428
+                    "startOffset": 1545,
+                    "endColumn": 101,
+                    "endOffset": 1642
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1369,
-                        "endColumn": 63,
-                        "endOffset": 1428
+                        "startOffset": 1545,
+                        "endColumn": 101,
+                        "endOffset": 1642
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1433,
-                    "endColumn": 119,
-                    "endOffset": 1548
+                    "startOffset": 1647,
+                    "endColumn": 101,
+                    "endOffset": 1744
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1433,
-                        "endColumn": 119,
-                        "endOffset": 1548
+                        "startOffset": 1647,
+                        "endColumn": 101,
+                        "endOffset": 1744
                     }
                 }
             },
@@ -329,18 +329,398 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1553,
-                    "endColumn": 61,
-                    "endOffset": 1610
+                    "startOffset": 1749,
+                    "endColumn": 116,
+                    "endOffset": 1861
                 },
                 "from": {
-                    "file": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\values-sv\\values-sv.xml",
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1553,
+                        "startOffset": 1749,
+                        "endColumn": 116,
+                        "endOffset": 1861
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1866,
+                    "endColumn": 101,
+                    "endOffset": 1963
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1866,
+                        "endColumn": 101,
+                        "endOffset": 1963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1968,
+                    "endColumn": 158,
+                    "endOffset": 2122
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 158,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2127,
+                    "endColumn": 106,
+                    "endOffset": 2229
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endColumn": 106,
+                        "endOffset": 316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2234,
+                    "endColumn": 115,
+                    "endOffset": 2345
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 321,
+                        "endColumn": 115,
+                        "endOffset": 432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2350,
+                    "endColumn": 92,
+                    "endOffset": 2438
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 437,
+                        "endColumn": 92,
+                        "endOffset": 525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2443,
+                    "endColumn": 66,
+                    "endOffset": 2505
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 530,
+                        "endColumn": 66,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2510,
+                    "endColumn": 68,
+                    "endOffset": 2574
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 597,
+                        "endColumn": 68,
+                        "endOffset": 661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2579,
+                    "endColumn": 59,
+                    "endOffset": 2634
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 666,
+                        "endColumn": 59,
+                        "endOffset": 721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2639,
+                    "endColumn": 71,
+                    "endOffset": 2706
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endColumn": 71,
+                        "endOffset": 793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2711,
+                    "endColumn": 73,
+                    "endOffset": 2780
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 798,
+                        "endColumn": 73,
+                        "endOffset": 867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2785,
+                    "endColumn": 91,
+                    "endOffset": 2872
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 872,
+                        "endColumn": 91,
+                        "endOffset": 959
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2877,
+                    "endColumn": 74,
+                    "endOffset": 2947
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 964,
+                        "endColumn": 74,
+                        "endOffset": 1034
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2952,
+                    "endColumn": 74,
+                    "endOffset": 3022
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1039,
+                        "endColumn": 74,
+                        "endOffset": 1109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3027,
+                    "endColumn": 82,
+                    "endOffset": 3105
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1114,
+                        "endColumn": 82,
+                        "endOffset": 1192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3110,
+                    "endColumn": 97,
+                    "endOffset": 3203
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1197,
+                        "endColumn": 97,
+                        "endOffset": 1290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3208,
+                    "endColumn": 64,
+                    "endOffset": 3268
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1295,
+                        "endColumn": 64,
+                        "endOffset": 1355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3273,
+                    "endColumn": 63,
+                    "endOffset": 3332
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1360,
+                        "endColumn": 63,
+                        "endOffset": 1419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3337,
+                    "endColumn": 119,
+                    "endOffset": 3452
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1424,
+                        "endColumn": 119,
+                        "endOffset": 1539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3457,
+                    "endColumn": 61,
+                    "endOffset": 3514
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1544,
                         "endColumn": 61,
-                        "endOffset": 1610
+                        "endOffset": 1601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3519,
+                    "endColumn": 100,
+                    "endOffset": 3615
+                },
+                "from": {
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sv\\values-sv.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1968,
+                        "endColumn": 100,
+                        "endOffset": 2064
                     }
                 }
             }
