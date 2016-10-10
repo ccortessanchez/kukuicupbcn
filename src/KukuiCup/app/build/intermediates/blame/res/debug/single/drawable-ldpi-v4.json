@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_user.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable-ldpi\\ic_user.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_level.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable-ldpi\\ic_level.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\background_land.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable-ldpi\\background_land.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_team.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable-ldpi\\ic_team.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\background.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable-ldpi\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_blocked_level.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable-ldpi\\ic_blocked_level.png"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nat_geo_logo.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable\\nat_geo_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wild.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable\\wild.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rouned_corner_shadow.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable\\rouned_corner_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\snake_bg.jpg",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\drawable\\snake_bg.jpg"
+    }
+]

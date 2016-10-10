@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.ub.tfg.kukuicup"
+        minSdkVersion 15
+        targetSdkVersion 23
+//        compileOptions {
+//            sourceCompatibility JavaVersion.VERSION_1_5
+//            targetCompatibility JavaVersion.VERSION_1_5
+//        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+//    compileOptions {
+//        targetCompatibility JavaVersion.VERSION_1_6
+//        sourceCompatibility JavaVersion.VERSION_1_6
+//    }
+    productFlavors {
+    }
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.apis:google-api-services-youtube:v3-rev174-1.22.0'
+//    compile files('C:/Users/Juanmi/StudioProjects/KukuiCup/libs/YouTubeAndroidPlayerApi.jar')
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+}

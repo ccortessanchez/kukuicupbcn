@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnCreateTeam"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Add New Team"/>
+    <!--  Button to view all players screen -->
+    <Button
+        android:id="@+id/btnViewPlayers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="View Players"/>
+
+    <!--  Button to create a new player screen -->
+    <Button
+        android:id="@+id/btnCreatePlayer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Add New Player"/>
+
+
+    <Button
+        android:id="@+id/startTournament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Start the tournament"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Init Date: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/initDate"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Date: "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/endDate"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/RelativeLayout1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" >-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:text="Tournament configuration"-->
+    <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/linearLayout1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/textView1"-->
+    <!--android:layout_centerHorizontal="true" >-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Select number of teams:" />-->
+
+    <!--<Spinner-->
+    <!--android:id="@+id/spinner1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:entries="@array/number_of_teams" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/linearLayout2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/linearLayout1"-->
+    <!--android:layout_centerHorizontal="true" >-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/team1name"-->
+    <!--android:layout_width="110dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:hint="teamname" >-->
+
+    <!--<requestFocus />-->
+    <!--</EditText>-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/team2name"-->
+    <!--android:layout_width="110dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:hint="teamname" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/team3name"-->
+    <!--android:layout_width="110dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:ems="10"-->
+    <!--android:hint="teamname"-->
+    <!--android:singleLine="true"-->
+    <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/linearLayout2"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/introPlayerLbl"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Introduce tournament players" />-->
+
+    <!--<Spinner-->
+    <!--android:id="@+id/spinner2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/usernameIntro"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" android:hint="Username"/>-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/passwdIntro"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:inputType="textPassword"-->
+    <!--android:hint="Password" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/addUserBtn"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Add" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--</RelativeLayout>-->

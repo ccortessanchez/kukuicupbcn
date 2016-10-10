@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_land"
+    android:theme="@android:style/Theme.Black.NoTitleBar">
+
+    <LinearLayout
+        android:id="@+id/levelLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:id="@+id/level1Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black" />
+
+        <ImageButton
+            android:id="@+id/level1Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_level" />
+
+        <TextView
+            android:id="@+id/level2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black" />
+
+        <ImageButton
+            android:id="@+id/level2Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_blocked_level" />
+
+        <TextView
+            android:id="@+id/level3Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black" />
+
+        <ImageButton
+            android:id="@+id/level3Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_blocked_level" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/teamLayout"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/collectLayout"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/levelLayout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/teamImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_team" />
+
+
+        <TextView
+            android:id="@+id/teamLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Teamname"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/teamRkg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ranking: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@android:color/holo_orange_dark"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/teamRkgLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@android:color/holo_orange_dark"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            >
+
+            <TextView
+                android:id="@+id/teamPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Points: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@android:color/holo_orange_dark"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/teamPointsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@android:color/holo_orange_dark"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/playerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/collectLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_toLeftOf="@+id/teamLayout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/userImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_user" />
+
+        <TextView
+            android:id="@+id/usernameLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:background="@android:color/holo_orange_light"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/userRk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ranking: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@android:color/holo_orange_light"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/userRkgLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@android:color/holo_orange_light"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            >
+
+            <TextView
+                android:id="@+id/userPt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Points: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@android:color/holo_orange_light"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:id="@+id/userPointsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@android:color/holo_orange_light"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/badgesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/teamLayout"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@android:color/holo_green_dark">
+
+        <ImageView
+            android:id="@+id/badgeLevel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/badge_base" />
+
+        <ImageView
+            android:id="@+id/badgeOffBeforeSleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/badge_base" />
+
+        <ImageView
+            android:id="@+id/badgeUpStairs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/badge_base" />
+
+        <ImageView
+            android:id="@+id/badgeLevel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/badge_base" />
+
+        <ImageView
+            android:id="@+id/badgeLedBulb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/badge_base" />
+
+        <ImageView
+            android:id="@+id/badgeTurnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/badge_base" />
+
+        <ImageView
+            android:id="@+id/badgeCleanEnergy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/badge_base" />
+
+        <ImageView
+            android:id="@+id/badgeLevel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/badge_base" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/levelLayout"
+        android:layout_toStartOf="@+id/levelLayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KukuiCupBCN end date: "
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/daysRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/collectLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/badgesLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/levelLayout"
+        android:gravity="left"
+        android:background="@android:color/holo_green_light">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Badge collection: "
+            android:textColor="@android:color/widget_edittext_dark" />
+    </LinearLayout>
+
+</RelativeLayout>

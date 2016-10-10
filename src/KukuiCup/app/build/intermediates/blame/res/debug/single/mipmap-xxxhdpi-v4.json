@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\badge_base.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\badge_base.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\off_sleep_team_badge.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\off_sleep_team_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\level1_badge.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\level1_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\off_sleep_badge.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\off_sleep_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\joke1_img.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\joke1_img.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\level1team_badge.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\level1team_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\logo_bcn.png",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo_bcn.png"
+    }
+]

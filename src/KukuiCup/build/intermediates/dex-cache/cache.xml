@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_ef42502bb13da175ef591c8697230db45dac2293\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.13.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3322df7b184ab5c8e8341508431cb3fcf395d13f">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.13.2_7496aafbc3be1c7135d8c53da69ba2fc0c5deabb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_24d924c7e642e6b03dcf171be1e5a902374b8843\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\Documents\KukuiCup\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\2\YouTubeAndroidPlayerApi_21697cb15224eb2b4c6ba8a7f15122bf04e90725\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.22.0\1d63f369ac78e4838a3197147012026e791008cb\google-oauth-client-1.22.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1d63f369ac78e4838a3197147012026e791008cb">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.22.0_261c4c2a6d844abd5c8c6c2c1041ae80352372ca\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_29b3038f1b4ecdf6be0e6d0a1f797b91fd8df7f1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.22.0\d441fc58329c4a4c067acec04ac361627f66ecc8\google-http-client-1.22.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.22.0_cab12fd05d9c555a8a23501e2898d59abedb9f02\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_fef3ea40613066424254f12bdb7616aec93aae5a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_35afcbfe1abc3315aacd085950d4af09587b4b00\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.22.0\244350c0c845c583717ade13f5666a452fd0cfa\google-api-client-1.22.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0244350c0c845c583717ade13f5666a452fd0cfa">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-1.22.0_f1d15cc629ca855599997780161153cacffd44b6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-jdk5-17.0_82fdd2c5a2a4bfd775cfbe358665463d5622b9e9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8023b6f1bdb76f04a75b525d945458af1e73796e">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_86db8e3a282892787717c7f407836498a23b8ba7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_de6c7266b73c22b9e4379caef33ea5d5dfcfdfc0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_2e3847dbcde900fa9b995412b5b066e99092c5f9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="32703a17f8a07d50ef432f9806c67168d59a4bd1">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5796dc3ba2c104f356d54c142042d1cfc6f1bcc8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_104d767f11bb28a8953eaa007ff35db66b397474\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_c13f1ad0cb15748a5e6ae533ba1f465960795d28\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.22.0\cc014d64ae11117e159d334c99d9c246d9b36f44\google-http-client-jackson2-1.22.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cc014d64ae11117e159d334c99d9c246d9b36f44">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.22.0_7f062f61909cd6f78f1d8e86b7982f5b3b2b3606\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_c4f31d97b0f366940f47e6187a381784a555de26\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\patri_000\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-youtube\v3-rev174-1.22.0\6dc7771f5efe159fb26d3ae73dbbbd8837a95939\google-api-services-youtube-v3-rev174-1.22.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6dc7771f5efe159fb26d3ae73dbbbd8837a95939">
+        <dex dex="C:\Users\patri_000\Documents\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-services-youtube-v3-rev174-1.22.0_8d44861c545c751bcf47b9b8ff347f8a8872254c\classes.dex" />
+    </item>
+
+</items>

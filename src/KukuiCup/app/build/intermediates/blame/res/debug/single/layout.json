@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\player_list_item.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\player_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\energy_challenge.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\energy_challenge.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\joke.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\joke.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tasteit.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\tasteit.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\list_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_admin.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\menu_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\saving_action.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\saving_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_team.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\add_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\video.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_players.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\all_players.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edit_player.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\edit_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_player.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\add_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\energy_challenge_resume.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\energy_challenge_resume.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.2\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form.xml",
+        "source": "C:\\Users\\patri_000\\Documents\\KukuiCup\\app\\src\\main\\res\\layout\\form.xml"
+    }
+]
