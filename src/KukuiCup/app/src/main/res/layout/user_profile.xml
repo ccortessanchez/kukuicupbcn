@@ -3,7 +3,7 @@
               android:orientation="horizontal"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              >
+    android:background="#BEF781">
 
     <LinearLayout
         android:orientation="vertical"
@@ -31,7 +31,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Log Out"
-            android:id="@+id/logOutBtn"/>
+            android:id="@+id/logOutBtn"
+            android:background="#5F4C0B"
+            android:textColor="#BEF781" />
 
     </LinearLayout>
 
@@ -62,14 +64,15 @@
                 android:layout_height="match_parent"
                 android:text="Actual password"
                 android:gravity="center"
-                />
+                android:textColor="#000000" />
+
             <EditText
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:id="@+id/inputPswd"
                 android:layout_marginLeft="30dp"
                 android:inputType="textPassword"
-                />
+                android:textColor="#000000" />
 
         </LinearLayout>
 
@@ -85,14 +88,14 @@
                 android:layout_height="match_parent"
                 android:text="New password"
                 android:gravity="center"
-                />
+                android:textColor="#000000" />
             <EditText
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:id="@+id/inputNewPswd"
                 android:layout_marginLeft="30dp"
                 android:inputType="textPassword"
-                />
+                android:textColor="#000000" />
         </LinearLayout>
 
         <LinearLayout
@@ -107,14 +110,15 @@
                 android:layout_height="match_parent"
                 android:text="Confirm password"
                 android:gravity="center"
-                />
+                android:textColor="#000000" />
 
             <EditText
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:id="@+id/inputConfirmPswd"
                 android:layout_marginLeft="30dp"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword"
+                android:textColor="#000000" />
         </LinearLayout>
 
         <LinearLayout
@@ -129,7 +133,8 @@
                 android:layout_height="wrap_content"
                 android:text="Done"
                 android:id="@+id/doneBtn"
-                />
+                android:background="#5F4C0B"
+                android:textColor="#BEF781" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
