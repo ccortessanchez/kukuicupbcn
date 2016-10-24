@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/RelativeLayout1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -62,14 +63,16 @@
         android:layout_marginTop="93dp"
         android:text="Welcome to KukuiCupBCN!"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#111111" />
+        android:textColor="#0A2A0A" />
 
     <Button
         android:id="@+id/enterBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#5F4C0B"
         android:layout_below="@+id/inputPasswd"
         android:layout_centerHorizontal="true"
-        android:text="Login" />
+        android:textColor="#BEF781" />
 
 </RelativeLayout>

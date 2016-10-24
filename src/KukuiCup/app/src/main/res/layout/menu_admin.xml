@@ -3,38 +3,47 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:gravity="center_horizontal"
-              android:orientation="vertical">
+              android:orientation="vertical"
+              android:background="@drawable/background">
 
 
     <Button
         android:id="@+id/btnCreateTeam"
-        android:layout_width="fill_parent"
+        android:layout_width="315dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dip"
-        android:text="Add New Team"/>
+        android:text="Add New Team"
+        android:background="#5F4C0B"
+        android:textColor="#BEF781" />
     <!--  Button to view all players screen -->
     <Button
         android:id="@+id/btnViewPlayers"
-        android:layout_width="fill_parent"
+        android:layout_width="315dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dip"
-        android:text="View Players"/>
+        android:text="View Players"
+        android:background="#5F4C0B"
+        android:textColor="#BEF781" />
 
     <!--  Button to create a new player screen -->
     <Button
         android:id="@+id/btnCreatePlayer"
-        android:layout_width="fill_parent"
+        android:layout_width="315dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dip"
-        android:text="Add New Player"/>
+        android:text="Add New Player"
+        android:background="#5F4C0B"
+        android:textColor="#BEF781" />
 
 
     <Button
         android:id="@+id/startTournament"
-        android:layout_width="wrap_content"
+        android:layout_width="202dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dip"
-        android:text="Start the tournament"/>
+        android:text="Start the tournament"
+        android:background="#5F4C0B"
+        android:textColor="#BEF781" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -50,7 +59,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Init Date: "/>
+                android:text="Init Date: "
+                android:textColor="#000000" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -66,7 +76,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="End Date: "/>
+                android:text="End Date: "
+                android:textColor="#000000" />
 
             <TextView
                 android:layout_width="wrap_content"
