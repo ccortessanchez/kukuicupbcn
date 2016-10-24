@@ -62,7 +62,7 @@
         android:layout_marginTop="93dp"
         android:text="Welcome to KukuiCupBCN!"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#0A2A0A" />
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/enterBtn"

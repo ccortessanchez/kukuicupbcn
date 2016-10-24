@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Oct 24 13:09:37 CEST 2016
+#Mon Oct 24 15:10:50 CEST 2016
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png
