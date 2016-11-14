@@ -25,7 +25,7 @@
     <string name="com_facebook_internet_permission_error_title">Fejl i forbindelse med AndroidManifest</string>
     <string name="com_facebook_like_button_liked">Synes godt om</string>
     <string name="com_facebook_like_button_not_liked">Synes godt om</string>
-    <string name="com_facebook_loading">Indlæser ...</string>
+    <string name="com_facebook_loading">Indlæser …</string>
     <string name="com_facebook_loginview_cancel_action">Annuller</string>
     <string name="com_facebook_loginview_log_in_button">Log på</string>
     <string name="com_facebook_loginview_log_in_button_long">Log på med Facebook</string>
@@ -37,5 +37,6 @@
     <string name="com_facebook_share_button_text">Del</string>
     <string name="com_facebook_tooltip_default">Nyhed! Du har styringen – vælg de oplysninger, som du vil dele med apps.</string>
     <string name="messenger_send_button_text">Send</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Søg"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

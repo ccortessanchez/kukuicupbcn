@@ -37,5 +37,6 @@
     <string name="com_facebook_share_button_text">分享</string>
     <string name="com_facebook_tooltip_default">最新消息！控制權在您 - 選擇您要與應用程式分享的資訊。</string>
     <string name="messenger_send_button_text">傳送</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999 +"</string>
 </resources>

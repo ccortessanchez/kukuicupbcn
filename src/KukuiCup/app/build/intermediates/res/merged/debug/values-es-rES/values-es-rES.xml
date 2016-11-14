@@ -6,7 +6,7 @@
     <string name="com_facebook_internet_permission_error_title">Error de AndroidManifest</string>
     <string name="com_facebook_like_button_liked">Te gusta</string>
     <string name="com_facebook_like_button_not_liked">Me gusta</string>
-    <string name="com_facebook_loading">Cargando...</string>
+    <string name="com_facebook_loading">Cargando…</string>
     <string name="com_facebook_loginview_cancel_action">Cancelar</string>
     <string name="com_facebook_loginview_log_in_button">Inicio de sesión</string>
     <string name="com_facebook_loginview_log_in_button_long">Iniciar sesión con Facebook</string>

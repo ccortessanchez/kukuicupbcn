@@ -25,7 +25,7 @@
     <string name="com_facebook_internet_permission_error_title">Erro AndroidManifest</string>
     <string name="com_facebook_like_button_liked">Gostei</string>
     <string name="com_facebook_like_button_not_liked">Gosto</string>
-    <string name="com_facebook_loading">A carregar...</string>
+    <string name="com_facebook_loading">A carregar…</string>
     <string name="com_facebook_loginview_cancel_action">Cancelar</string>
     <string name="com_facebook_loginview_log_in_button">Iniciar sessão</string>
     <string name="com_facebook_loginview_log_in_button_long">Iniciar sessão com o Facebook</string>
@@ -37,5 +37,6 @@
     <string name="com_facebook_share_button_text">Partilhar</string>
     <string name="com_facebook_tooltip_default">Novidade! Tens o controlo: escolhe a informação que pretendes partilhar com as aplicações.</string>
     <string name="messenger_send_button_text">Enviar</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
 </resources>

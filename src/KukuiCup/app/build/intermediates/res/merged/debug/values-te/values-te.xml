@@ -6,7 +6,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest లోపం</string>
     <string name="com_facebook_like_button_liked">ఇష్టంగా గుర్తు పెట్టబడింది</string>
     <string name="com_facebook_like_button_not_liked">ఇష్టంగా గుర్తు పెట్టు</string>
-    <string name="com_facebook_loading">లోడ్ చేస్తోంది...</string>
+    <string name="com_facebook_loading">లోడ్ చేస్తోంది…</string>
     <string name="com_facebook_loginview_cancel_action">రద్దు చేయి</string>
     <string name="com_facebook_loginview_log_in_button">లాగిన్ చేయి</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebookతో లాగిన్ చేయి</string>

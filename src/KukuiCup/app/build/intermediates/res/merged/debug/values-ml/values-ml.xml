@@ -6,7 +6,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest പിശക്</string>
     <string name="com_facebook_like_button_liked">ലൈക്കുചെയ്‌‌തു</string>
     <string name="com_facebook_like_button_not_liked">ലൈക്കുചെയ്യുക</string>
-    <string name="com_facebook_loading">ലോഡുചെയ്യുന്നു...</string>
+    <string name="com_facebook_loading">ലോഡുചെയ്യുന്നു…</string>
     <string name="com_facebook_loginview_cancel_action">റദ്ദാക്കുക</string>
     <string name="com_facebook_loginview_log_in_button">ലോഗിൻ ചെയ്യുക</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook ഉപയോഗിച്ച് ലോഗിൻ ചെയ്യുക</string>

@@ -6,7 +6,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest ਤਰੁੱਟੀ</string>
     <string name="com_facebook_like_button_liked">ਪਸੰਦ ਕੀਤਾ ਗਿਆ</string>
     <string name="com_facebook_like_button_not_liked">ਪਸੰਦ ਕਰੋ</string>
-    <string name="com_facebook_loading">ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ...</string>
+    <string name="com_facebook_loading">ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ…</string>
     <string name="com_facebook_loginview_cancel_action">ਰੱਦ ਕਰੋ</string>
     <string name="com_facebook_loginview_log_in_button">ਲੌਗ ਇਨ ਕਰੋ</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook ਦੇ ਨਾਲ ਲੌਗ ਇਨ ਕਰੋ</string>

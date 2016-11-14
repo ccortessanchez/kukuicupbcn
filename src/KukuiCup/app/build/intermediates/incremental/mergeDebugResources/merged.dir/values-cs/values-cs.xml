@@ -37,5 +37,6 @@
     <string name="com_facebook_share_button_text">Sdílet</string>
     <string name="com_facebook_tooltip_default">Novinka! Je jen na vás, které informace chcete s aplikacemi sdílet.</string>
     <string name="messenger_send_button_text">Odeslat</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Hledat"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

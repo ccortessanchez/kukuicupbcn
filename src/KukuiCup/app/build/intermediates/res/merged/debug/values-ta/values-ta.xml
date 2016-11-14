@@ -6,7 +6,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest பிழை</string>
     <string name="com_facebook_like_button_liked">விரும்பப்பட்டது</string>
     <string name="com_facebook_like_button_not_liked">விருப்பம்</string>
-    <string name="com_facebook_loading">ஏற்றுகிறது...</string>
+    <string name="com_facebook_loading">ஏற்றுகிறது…</string>
     <string name="com_facebook_loginview_cancel_action">ரத்துசெய்</string>
     <string name="com_facebook_loginview_log_in_button">உள்நுழைவு</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook மூலம் உள்நுழையவும்</string>

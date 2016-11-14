@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="vertical" >
+              android:orientation="vertical"
+    android:background="#BEF781">
 
     <!-- Name Label -->
     <TextView android:layout_width="fill_parent"
@@ -11,7 +12,8 @@
               android:paddingLeft="10dip"
               android:paddingRight="10dip"
               android:paddingTop="10dip"
-              android:textSize="17dip"/>
+              android:textSize="17dip"
+        android:textColor="#000000" />
 
     <!-- Input Name -->
     <EditText android:id="@+id/inputName"
@@ -19,7 +21,8 @@
               android:layout_height="wrap_content"
               android:layout_margin="5dip"
               android:layout_marginBottom="15dip"
-              android:singleLine="true"/>
+              android:singleLine="true"
+        android:textColor="#000000" />
 
     <!-- Team Label -->
     <TextView android:layout_width="fill_parent"
@@ -28,7 +31,8 @@
               android:paddingLeft="10dip"
               android:paddingRight="10dip"
               android:paddingTop="10dip"
-              android:textSize="17dip"/>
+              android:textSize="17dip"
+        android:textColor="#000000" />
 
     <!-- Input Team -->
     <!--<EditText android:id="@+id/inputTeam"-->
@@ -53,14 +57,18 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Save Changes"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+            android:background="#5F4C0B"
+            android:textColor="#BEF781" />
 
         <!-- Button Create Player -->
         <Button android:id="@+id/btnDelete"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Delete"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+            android:background="#5F4C0B"
+            android:textColor="#BEF781" />
     </LinearLayout>
 
 </LinearLayout>

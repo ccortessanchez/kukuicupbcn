@@ -1,4 +1,4 @@
-#Mon Oct 24 17:33:37 CEST 2016
+#Tue Oct 25 17:14:13 CEST 2016
 base.0=C\:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e1f492587f8ae2f13571f9acbc27e4f786bc45d3
 renamed.1=classes.dex
 renamed.0=classes2.dex

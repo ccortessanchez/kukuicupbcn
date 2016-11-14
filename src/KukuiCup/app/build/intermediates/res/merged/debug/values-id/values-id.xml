@@ -6,7 +6,7 @@
     <string name="com_facebook_internet_permission_error_title">Kesalahan AndroidManifest</string>
     <string name="com_facebook_like_button_liked">Disukai</string>
     <string name="com_facebook_like_button_not_liked">Suka</string>
-    <string name="com_facebook_loading">Memuat...</string>
+    <string name="com_facebook_loading">Memuat…</string>
     <string name="com_facebook_loginview_cancel_action">Batal</string>
     <string name="com_facebook_loginview_log_in_button">Masuk</string>
     <string name="com_facebook_loginview_log_in_button_long">Masuk menggunakan Facebook</string>

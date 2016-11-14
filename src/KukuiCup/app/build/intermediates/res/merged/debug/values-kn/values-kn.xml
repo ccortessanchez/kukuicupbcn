@@ -6,7 +6,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest ದೋಷ</string>
     <string name="com_facebook_like_button_liked">ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ</string>
     <string name="com_facebook_like_button_not_liked">ಇಷ್ಟವಾಗಿದೆ</string>
-    <string name="com_facebook_loading">ಲೋಡ್‌ ಆಗುತ್ತಿದೆ...</string>
+    <string name="com_facebook_loading">ಲೋಡ್‌ ಆಗುತ್ತಿದೆ…</string>
     <string name="com_facebook_loginview_cancel_action">ರದ್ದುಮಾಡು</string>
     <string name="com_facebook_loginview_log_in_button">ಲಾಗ್‌ ಇನ್‌</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook ಮೂಲಕ ಲಾಗ್‌ ಇನ್‌ ಮಾಡಿ</string>

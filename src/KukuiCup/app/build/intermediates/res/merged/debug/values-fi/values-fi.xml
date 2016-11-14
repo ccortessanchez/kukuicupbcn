@@ -25,7 +25,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest-virhe</string>
     <string name="com_facebook_like_button_liked">Tykätty</string>
     <string name="com_facebook_like_button_not_liked">Tykkää</string>
-    <string name="com_facebook_loading">Ladataan...</string>
+    <string name="com_facebook_loading">Ladataan…</string>
     <string name="com_facebook_loginview_cancel_action">Peruuta</string>
     <string name="com_facebook_loginview_log_in_button">Kirjaudu sisään</string>
     <string name="com_facebook_loginview_log_in_button_long">Kirjaudu sisään Facebookin avulla</string>
@@ -37,5 +37,6 @@
     <string name="com_facebook_share_button_text">Jaa</string>
     <string name="com_facebook_tooltip_default">Uutta! Sinä päätät – valitse, mitä haluat jakaa sovellusten kanssa.</string>
     <string name="messenger_send_button_text">Lähetä</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Haku"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

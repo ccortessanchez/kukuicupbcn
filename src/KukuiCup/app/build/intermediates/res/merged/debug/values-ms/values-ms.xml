@@ -5,7 +5,7 @@
     <string name="com_facebook_internet_permission_error_title">Ralat AndroidManifest</string>
     <string name="com_facebook_like_button_liked">Disukai</string>
     <string name="com_facebook_like_button_not_liked">Suka</string>
-    <string name="com_facebook_loading">Memuatkan...</string>
+    <string name="com_facebook_loading">Memuatkan…</string>
     <string name="com_facebook_loginview_cancel_action">Batal</string>
     <string name="com_facebook_loginview_log_in_button">Log masuk</string>
     <string name="com_facebook_loginview_log_in_button_long">Log masuk dengan Facebook</string>

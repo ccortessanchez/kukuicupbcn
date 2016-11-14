@@ -222,8 +222,70 @@ public class SavingActionActivity extends Activity {
                 }
                 break;
             case 2:
+                switch (actionId) {
+                    case 0:
+                        actionName.setText("My room consumption");
+                        reward.setText("+20");
+                        description.setText("For each electronic device in your room, calculate his energy consumption. Also write how many hours you use it every day. Then add up all the devices to know room consumption and take a photo for verification" +
+                                "\n" +
+                                "How to calculate energy consumption:\n" +
+                                "LIST OF DEVICES - CONSUME/HOUR");
+
+                        primaryBtn.setEnabled(false);
+                        primaryBtn.setText("Done!");
+                        secondaryBtn.setText("Take a photo");
+
+                        // Setting Dialog Message
+                        alertDialog.setMessage("You have won 20 points");
+                        pointsObt = 20;
+                        break;
+                    case 1:
+                        actionName.setText("Use daylight");
+                        reward.setText("+3");
+                        description.setText("During the day, turn off your room light and use daylight (if it's possible in your room)." +
+                                "\n" +
+                                "Press the 'Done! button when you make this saving action.");
+
+                        primaryBtn.setText("Done!");
+                        primaryBtn.setEnabled(true);
+                        secondaryBtn.setVisibility(View.INVISIBLE);
+                        secondaryBtn.setEnabled(false);
+
+                        // Setting Dialog Message
+                        alertDialog.setMessage("You have won 3 points");
+                        pointsObt = 3;
+                        break;
+                    case 2:
+                        actionName.setText("Consumption in POST-IT");
+                        reward.setText("+20");
+                        description.setText("Write in a post-it the energetic consumption and hours of daily use of any domestic device. Then calculate his daily consumption, paste the post-it and take a photo for verification." +
+                                "\n" +
+                                "How to calculate energy consumption:\n" +
+                                "LIST OF DEVICES - CONSUME/HOUR");
+
+                        primaryBtn.setEnabled(false);
+                        primaryBtn.setText("Done!");
+                        secondaryBtn.setText("Take a photo");
+
+                        // Setting Dialog Message
+                        alertDialog.setMessage("You have won 20 points");
+                        pointsObt = 20;
+                        break;
+                    case 3:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             case 3:
+                switch (actionId) {
+                    case 0:
+                        break;
+                    case 1:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             default:
                 break;

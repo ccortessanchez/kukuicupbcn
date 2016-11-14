@@ -6,7 +6,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest ত্রুটি</string>
     <string name="com_facebook_like_button_liked">পছন্দ করা হয়েছে</string>
     <string name="com_facebook_like_button_not_liked">পছন্দ করুন</string>
-    <string name="com_facebook_loading">লোড হচ্ছে...</string>
+    <string name="com_facebook_loading">লোড হচ্ছে…</string>
     <string name="com_facebook_loginview_cancel_action">বাতিল করুন</string>
     <string name="com_facebook_loginview_log_in_button">লগ ইন করুন</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook -এর সাথে লগ ইন করুন</string>

@@ -105,8 +105,79 @@ public class EnergyChallengeActivity extends Activity {
                 }
                 break;
             case 2:
+                switch (challengeId) {
+                    case 0:
+                        challengeName.setText("Use stairs");
+                        reward.setText("+1/floor");
+                        //cambiar nombre medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText("Will you get the next challenge? " +
+                                "\n" +
+                                "Use the stairs instead of using the elevator to win the challenge");
+
+                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
+                        else primaryBtn.setText("Start challenge");
+                        break;
+                    case 1:
+                        challengeName.setText("Change for LED");
+                        reward.setText("+30");
+                        //cambiar nombre medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText("Will you get the next challenge? " +
+                                "\n" +
+                                "Change any lightbulb for a LED to win the challenge");
+
+                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
+                        else primaryBtn.setText("Start challenge");
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             case 3:
+                switch (challengeId) {
+                    case 0:
+                        challengeName.setText("Team play");
+                        reward.setText("+100/winner");
+                        //cambiar nombre medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText("Will you get the next challenge? " +
+                                "\n" +
+                                "Team play! In this challenge, each team has to find two types of electronic devices:\n" +
+                                "-The device with the higher consumption\n" +
+                                "-The device with the lower consumption\n" +
+                                "\n" +
+                                "The first team to find them will be the challenge winner!" +
+                                "50 point for the team in second place.");
+
+                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
+                        else primaryBtn.setText("Start challenge");
+                        break;
+                    case 1:
+                        challengeName.setText("Shirt design");
+                        reward.setText("+20");
+                        //cambiar nombre medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText("Will you get the next challenge? " +
+                                "\n" +
+                                "Create a design to put on a shirt for the upcoming KukuiCupBCN and take a photo of it to win the challenge");
+
+                        //if(energyChallenge.isStarted)primaryBtn.setText("Continue challenge");
+                        //else
+                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
+                        else primaryBtn.setText("Start challenge");
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             default:
                 break;

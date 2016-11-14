@@ -25,7 +25,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifestエラー</string>
     <string name="com_facebook_like_button_liked">いいね！済み</string>
     <string name="com_facebook_like_button_not_liked">いいね！</string>
-    <string name="com_facebook_loading">読み込み中...</string>
+    <string name="com_facebook_loading">読み込み中…</string>
     <string name="com_facebook_loginview_cancel_action">キャンセル</string>
     <string name="com_facebook_loginview_log_in_button">ログイン</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebookでログイン</string>
@@ -37,5 +37,6 @@
     <string name="com_facebook_share_button_text">シェア</string>
     <string name="com_facebook_tooltip_default">新機能！アプリと共有する情報をコントロールできます。</string>
     <string name="messenger_send_button_text">送信</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

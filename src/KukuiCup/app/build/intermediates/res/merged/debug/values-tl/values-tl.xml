@@ -25,7 +25,7 @@
     <string name="com_facebook_internet_permission_error_title">Error na AndroidManifest</string>
     <string name="com_facebook_like_button_liked">Nagustuhan</string>
     <string name="com_facebook_like_button_not_liked">Gustuhin</string>
-    <string name="com_facebook_loading">Naglo-load...</string>
+    <string name="com_facebook_loading">Naglo-load…</string>
     <string name="com_facebook_loginview_cancel_action">Kanselahin</string>
     <string name="com_facebook_loginview_log_in_button">Mag-log in</string>
     <string name="com_facebook_loginview_log_in_button_long">Mag-log in sa pamamagitan ng Facebook</string>
@@ -37,5 +37,6 @@
     <string name="com_facebook_share_button_text">Ibahagi</string>
     <string name="com_facebook_tooltip_default">Bago! Ikaw ang may kontrol - piliin kung anong impormasyon ang gusto mong ibahagi sa mga app.</string>
     <string name="messenger_send_button_text">Ipadala</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Maghanap"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
