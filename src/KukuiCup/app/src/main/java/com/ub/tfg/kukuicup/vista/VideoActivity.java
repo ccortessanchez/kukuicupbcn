@@ -68,6 +68,30 @@ public class VideoActivity extends YouTubeBaseActivity implements
 			reward.setText("+10");
 		}
 
+		if(levelId==2 && videoId == 1){
+            //energia eolica
+			videoname.setText("");
+			reward.setText("+10");
+		}
+
+        if(levelId==2 && videoId == 2){
+            //beneficios LED
+            videoname.setText("");
+            reward.setText("+10");
+        }
+
+        if(levelId==3 && videoId == 3){
+            //energia limpia
+            videoname.setText("");
+            reward.setText("+10");
+        }
+
+        if(levelId==3 && videoId == 4){
+            //energia solar
+            videoname.setText("");
+            reward.setText("+10");
+        }
+
 		playBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {

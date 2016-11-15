@@ -155,8 +155,36 @@ public class SavingActionActivity extends Activity {
                 }
                 break;
             case 2:
+                switch (actionId) {
+                    case 0:
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        if(intent.resolveActivity(getPackageManager())!=null) {
+                            startActivityForResult(intent,REQUEST_CODE);
+                        }
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             case 3:
+                switch (actionId) {
+                    case 0:
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        if(intent.resolveActivity(getPackageManager())!=null) {
+                            startActivityForResult(intent,REQUEST_CODE);
+                        }
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             default:
                 break;

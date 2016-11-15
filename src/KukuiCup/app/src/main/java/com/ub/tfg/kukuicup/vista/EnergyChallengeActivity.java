@@ -87,7 +87,7 @@ public class EnergyChallengeActivity extends Activity {
                         badgeImg.setVisibility(View.VISIBLE);
                         description.setText("Will you get the next challenge? " +
                                 "\n" +
-                                "Off and unplug all electrical appliances in your room before going to sleep. " +
+                                "Off and unplug all electrical devices in your room before going to sleep. " +
                                 "Perform this action for 5 consecutive days to win the challenge.");
 
                         //if(energyChallenge.isStarted)primaryBtn.setText("Continue challenge");
@@ -133,6 +133,19 @@ public class EnergyChallengeActivity extends Activity {
                         else primaryBtn.setText("Start challenge");
                         break;
                     case 2:
+                        challengeName.setText("Off empty room");
+                        reward.setText("+5/day");
+                        //cambiar nombre medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText("Will you get the next challenge? " +
+                                "\n" +
+                                "Off and unplug all electrical devices in any empty room. " +
+                                "Perform this action for 5 consecutive days to win the challenge.");
+
+                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
+                        else primaryBtn.setText("Start challenge");
+
                         break;
                     default:
                         break;
@@ -159,6 +172,7 @@ public class EnergyChallengeActivity extends Activity {
                         else primaryBtn.setText("Start challenge");
                         break;
                     case 1:
+                        //PONER BOTON TAKE PHOTO
                         challengeName.setText("Shirt design");
                         reward.setText("+20");
                         //cambiar nombre medalla

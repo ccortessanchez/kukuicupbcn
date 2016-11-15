@@ -126,8 +126,87 @@ public class EnergyChallengeResume extends Activity {
                 }
                 break;
             case 2:
+                switch (challengeId) {
+                    case 0:
+                        challengeName.setText("Use stairs");
+                        reward.setText("+1/floor");
+                        //cambiar imagen medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText("Use the stairs instead of using the elevator.");
+                        primaryBtn.setText("Done!");
+                        pointsObt = 1;
+                        //cambiar nombre medalla
+                        badge = "offBeforeSleep";
+                        break;
+                    case 1:
+                        challengeName.setText("Change for LED");
+                        reward.setText("+30");
+                        //cambiar imagen medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText("Change any lightbulb for a LED.");
+                        primaryBtn.setText("Done!");
+                        pointsObt = 30;
+                        //cambiar nombre medalla
+                        badge = "offBeforeSleep";
+                        break;
+                    case 2:
+                        challengeName.setText("Off empty room");
+                        reward.setText("+5/day");
+                        //cambiar imagen medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText("Turn off and unplug all electrical devices in any empty room. ");
+
+                        daysRemaining.setText(""+counter);
+
+                        primaryBtn.setText("Done!");
+                        pointsObt = 5;
+                        //cambiar nombre medalla
+                        badge = "offBeforeSleep";
+                        break;
+                    default:
+                        break;
+
+                }
                 break;
             case 3:
+                switch (challengeId) {
+                    case 0:
+                        challengeName.setText("Team play");
+                        reward.setText("+100/winner");
+                        //cambiar imagen medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText("Team play! In this challenge, each team has to find two types of electronic devices:\n" +
+                                "-The device with the higher consumption\n" +
+                                "-The device with the lower consumption\n");
+
+                        primaryBtn.setText("Done!");
+                        //comprobar primera posicion o segunda
+                        pointsObt = 100;
+                        //cambiar nombre medalla
+                        badge = "offBeforeSleep";
+                        break;
+                    case 1:
+                        //PONER BOTON TAKE PHOTO
+                        challengeName.setText("Shirt design");
+                        reward.setText("+20");
+                        //cambiar imagen medalla
+                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+                        description.setText( "Create a design to put on a shirt for the upcoming KukuiCupBCN and take a photo of it.");
+                        primaryBtn.setText("Done!");
+                        pointsObt = 10;
+                        //cambiar nombre medalla
+                        badge = "offBeforeSleep";
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             default:
                 break;
