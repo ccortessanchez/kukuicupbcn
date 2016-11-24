@@ -162,8 +162,119 @@ public class FormActivity extends Activity {
                 }
                 break;
             case 2:
+                switch (formId) {
+                    case 0:
+                        formName.setText("Wind Power");
+                        reward.setText("+30");
+                        badgeImg.setImageResource(R.mipmap.level1_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+
+                        answer1btn = (RadioButton)findViewById(R.id.answer1b);
+                        answer2btn = (RadioButton)findViewById(R.id.answer2a);
+                        answer3btn = (RadioButton)findViewById(R.id.answer3a);
+
+                        jokeId = 1;
+
+                        question1.setText("Through _____ electricity is obtained using the wind as source of energy");
+                        answer1a.setText("A: wind power plants");
+                        answer1b.setText("B: nuclear power plants");
+                        answer1c.setText("C: power plants");
+                        question2.setText("Once the ideal place is found, which objects are placed to take advantage of the wind?");
+                        answer2a.setText("A: none");
+                        answer2b.setText("B: windmills");
+                        answer2c.setText("C: water mills");
+                        question3.setText("When wind moves the mill's helix, what kind of energy generates?");
+                        answer3a.setText("A: kinetic energy");
+                        answer3b.setText("B: mechanical energy");
+                        answer3c.setText("C: electric power");
+
+                        // Setting Dialog Message
+                        alertDialog.setMessage("You have won the bagde of Level 2 and 30 points.");
+                        // Setting Icon to Dialog
+                        alertDialog.setIcon(R.mipmap.level1_badge);
+                        pointsObt+=30;
+                        badgeObt = "level2";
+                        break;
+                    case 1:
+
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             case 3:
+                switch (formId) {
+                    case 0:
+                        formName.setText("Clean Energy");
+                        reward.setText("+30");
+                        badgeImg.setImageResource(R.mipmap.level1_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+
+                        answer1btn = (RadioButton)findViewById(R.id.answer1b);
+                        answer2btn = (RadioButton)findViewById(R.id.answer2a);
+                        answer3btn = (RadioButton)findViewById(R.id.answer3a);
+
+                        jokeId = 1;
+
+                        question1.setText("What kind of materials are use during the setting of the 4 meter tower?");
+                        answer1a.setText("A: pollutant materials");
+                        answer1b.setText("B: recycled materials");
+                        answer1c.setText("C: no materials are used");
+                        question2.setText("What kind of panels are used?");
+                        answer2a.setText("A: solar panels");
+                        answer2b.setText("B: cardboard panels");
+                        answer2c.setText("C: no panels are used");
+                        question3.setText("How much voltage are the batteries used?");
+                        answer3a.setText("A:15V");
+                        answer3b.setText("B: no batteries are used");
+                        answer3c.setText("C: 6V");
+
+                        // Setting Dialog Message
+                        alertDialog.setMessage("You have won the bagde of Level 3+ and 30 points.");
+                        // Setting Icon to Dialog
+                        alertDialog.setIcon(R.mipmap.level1_badge);
+                        pointsObt+=30;
+                        badgeObt = "level3+";
+                        break;
+                    case 1:
+                        formName.setText("Solar Energy");
+                        reward.setText("+30");
+                        badgeImg.setImageResource(R.mipmap.level1_badge);
+                        badgeImg.setVisibility(View.VISIBLE);
+
+                        answer1btn = (RadioButton)findViewById(R.id.answer1b);
+                        answer2btn = (RadioButton)findViewById(R.id.answer2a);
+                        answer3btn = (RadioButton)findViewById(R.id.answer3a);
+
+                        jokeId = 1;
+
+                        question1.setText("Solar panels turn _____ into electric power");
+                        answer1a.setText("A: wind force");
+                        answer1b.setText("B: rain water");
+                        answer1c.setText("C: solar radiation");
+                        question2.setText("How many types of photovoltaic installations are there? ");
+                        answer2a.setText("A: infinite");
+                        answer2b.setText("B: two");
+                        answer2c.setText("C: one");
+                        question3.setText("If we have an installation connected to the electric network, what is done with the transformed solar energy?");
+                        answer3a.setText("A: nothinh");
+                        answer3b.setText("B: is sold to the electric company ");
+                        answer3c.setText("C: owner of the installation keeps it for him");
+
+                        // Setting Dialog Message
+                        alertDialog.setMessage("You have won the bagde of Level 3 and 30 points.");
+                        // Setting Icon to Dialog
+                        alertDialog.setIcon(R.mipmap.level1_badge);
+                        pointsObt+=30;
+                        badgeObt = "level3";
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             default:
                 break;

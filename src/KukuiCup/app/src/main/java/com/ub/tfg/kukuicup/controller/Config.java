@@ -9,5 +9,5 @@ public class Config {
     public static final String YOUTUBE_VIDEO_CODE = "_PD7a1EWjsTc";
 
     //Dev Machine IP
-    public static final String LOCALHOST = "10.133.3.54";
+    public static final String LOCALHOST = "10.133.5.181";
 }

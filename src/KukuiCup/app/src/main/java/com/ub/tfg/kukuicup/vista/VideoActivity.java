@@ -57,38 +57,39 @@ public class VideoActivity extends YouTubeBaseActivity implements
 		videoId = extras.getInt("videoId");
 		pointsObt = 0;
 
-		address = "https://www.youtube.com/watch?v=PD7a1EWjsTc";
+		address = "";
 		toQuiz = (Button)findViewById(R.id.primaryBtn);
 		playBtn = (ImageButton)findViewById(R.id.playBtn);
 		reward = (TextView)findViewById(R.id.reward);
 		videoname = (TextView)findViewById(R.id.videoName);
 
 		if(levelId==1 && videoId == 0){
+			address = "https://www.youtube.com/watch?v=PD7a1EWjsTc";
 			videoname.setText("Power and Energy");
 			reward.setText("+10");
 		}
 
 		if(levelId==2 && videoId == 1){
-            //energia eolica
-			videoname.setText("");
+			address = "https://www.youtube.com/watch?v=HRzxf4ir4Ho";
+			videoname.setText("Wind Power");
 			reward.setText("+10");
 		}
 
         if(levelId==2 && videoId == 2){
-            //beneficios LED
-            videoname.setText("");
+			address = "https://www.youtube.com/watch?v=hnx8IQJ474s";
+			videoname.setText("The benefits of LED");
             reward.setText("+10");
         }
 
         if(levelId==3 && videoId == 3){
-            //energia limpia
-            videoname.setText("");
+			address = "https://www.youtube.com/watch?v=AqzvooRCi1c&feature=youtu.be";
+            videoname.setText("Clean Energy");
             reward.setText("+10");
         }
 
         if(levelId==3 && videoId == 4){
-            //energia solar
-            videoname.setText("");
+			address = "https://www.youtube.com/watch?v=8pJMsHrIhvk";
+            videoname.setText("Solar Energy");
             reward.setText("+10");
         }
 

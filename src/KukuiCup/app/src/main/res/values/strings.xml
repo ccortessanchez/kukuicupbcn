@@ -17,6 +17,6 @@
     <string name="btn_skip_intro">Skip Intro</string>     
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
     <string name="facebook_app_id">1041656969263684</string>
-    <string name="localhost">192.168.56.1</string>
+    <string name="localhost">10.133.5.181</string>
 
 </resources>
