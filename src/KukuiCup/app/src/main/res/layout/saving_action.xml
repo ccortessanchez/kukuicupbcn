@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:theme="@android:style/Theme.Black">
 
@@ -35,14 +36,6 @@
                 >
 
                 <TextView
-                    android:id="@+id/actionName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Saving Action name"
-                    android:layout_marginLeft="35dp"
-                    android:layout_centerVertical="true"/>
-
-                <TextView
                     android:id="@+id/actionReward"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -71,6 +64,29 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/banking"
+                    android:id="@+id/imageView5"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp" />
+
+                <TextView
+                    android:id="@+id/actionName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saving Action name"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_alignBottom="@+id/badgeImg"
+                    android:layout_toRightOf="@+id/imageView5"
+                    android:layout_toEndOf="@+id/imageView5" />
+
             </RelativeLayout>
 
             <TextView
@@ -87,7 +103,7 @@ Once you have changed your settings, please take a photo showing the new setting
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:gravity="right"
                 >

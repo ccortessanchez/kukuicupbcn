@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Black">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/background_land"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="265dp"
+            android:background="@drawable/rouned_corner_shadow"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/challengeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:text="Energy Challenge name" />
+
+                <TextView
+                    android:id="@+id/challengeReward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/pointsLbl"
+                    android:text="Reward" />
+
+                <TextView
+                    android:id="@+id/pointsLbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="35dp"
+                    android:text="Points" />
+
+                <ImageView
+                    android:id="@+id/badgeImg"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/badge_base"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/actionDevice1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Computer/Laptop"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/laptopEnergy" />
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/laptopTime" />
+
+                <TextView
+                    android:id="@+id/actionDevice2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Room light"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/roomLightEnergy" />
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/roomLightTime" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/actionDevice3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TV"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/tvEnergy" />
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/tvTime" />
+
+                <TextView
+                    android:id="@+id/actionDevice4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Desk light"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/deskLightEnergy" />
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/deskLightTime" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/actionDevice5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Videogame console"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/consoleEnergy" />
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/consoleTime" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/actionTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total consume"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:layout_width="38dp"
+                    android:layout_height="31dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:id="@+id/totalCalculated" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Calculate total"
+                    android:id="@+id/secondaryBtn"/>
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:visibility="invisible"
+                    android:id="@+id/actionImg"/>
+
+                <com.facebook.share.widget.LikeView
+                    android:id="@+id/likeView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"/>
+
+                <Button
+                    android:id="@+id/primaryBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="35dp"
+                    android:text="Done!" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

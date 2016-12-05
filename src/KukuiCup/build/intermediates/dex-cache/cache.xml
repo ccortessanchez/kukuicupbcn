@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="681cc578f37b2f899efcd47f5033fcf2cb64405e">
+        sha1="c6b05a77fa981bd33afe88023dc66c9e5dcae702">
         <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e1f492587f8ae2f13571f9acbc27e4f786bc45d3\classes.dex" />
     </item>
     <item
@@ -72,15 +72,6 @@
         revision="23.0.3"
         sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
         <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_61fe208f4257c12116be0d3b9c57cf2d8414e836\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
-        <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.17.0_61aace95f3fd4799a4f65375c0d5def2cb0f0331\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -187,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="ead34863dcf572cff2439da74dc333f95fc09da7">
+        sha1="87b7725feb27d532933ff71db0b3fe1a087e99a4">
         <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1390f4ccd4d0d7fac74e7d8473a2657e47199c8e\classes.dex" />
     </item>
     <item
@@ -237,6 +228,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
+        <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.18.0_96161f392fb1adbb7a33b986ee5fc63ed980907d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -279,6 +279,15 @@
         revision="23.0.3"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
         <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_a44d019d390f2a998a2c469764c675c24b3d58fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carlos\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.4.1.2\64950d33e2d3095cc831b414063bea45524103d4\httpclient-4.4.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="64950d33e2d3095cc831b414063bea45524103d4">
+        <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.4.1.2_24ee80eb99760012b0239ce61401db61a187d1f1\classes.dex" />
     </item>
     <item
         is-multidex="true"

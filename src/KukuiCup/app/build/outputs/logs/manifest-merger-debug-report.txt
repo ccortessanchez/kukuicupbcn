@@ -18,7 +18,7 @@ ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCu
 uses-sdk
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:7:5-44
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\AndroidManifest.xml:3:5-72
-MERGED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-compat:25.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\AndroidManifest.xml:21:5-23:63
@@ -56,7 +56,7 @@ ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCu
 application
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:14:5-101:20
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\AndroidManifest.xml:5:5-19
-MERGED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:28:5-38:19
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\AndroidManifest.xml:25:5-20
@@ -193,20 +193,20 @@ ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCu
 	android:name
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:99:20-65
 activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:29:9-32:66
+ADDED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:29:9-32:66
 	android:configChanges
-		ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:31:13-96
+		ADDED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:31:13-96
 	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:32:13-63
+		ADDED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:30:13-57
+		ADDED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:30:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:33:9-36:20
+ADDED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:33:9-36:20
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:35:13-36
+		ADDED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:34:13-58
+		ADDED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:34:13-58
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:37:9-71
+ADDED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:37:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:37:19-68
+		ADDED from [com.facebook.android:facebook-android-sdk:4.18.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\AndroidManifest.xml:37:19-68

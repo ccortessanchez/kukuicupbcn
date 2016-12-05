@@ -1,7 +1,0 @@
-#Tue Nov 15 17:17:53 CET 2016
-base.0=C\:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e1f492587f8ae2f13571f9acbc27e4f786bc45d3
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1390f4ccd4d0d7fac74e7d8473a2657e47199c8e\\classes.dex
-base.1=C\:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1390f4ccd4d0d7fac74e7d8473a2657e47199c8e
-file.0=C\:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e1f492587f8ae2f13571f9acbc27e4f786bc45d3\\classes.dex

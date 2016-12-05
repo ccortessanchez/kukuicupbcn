@@ -29,8 +29,8 @@ import com.ub.tfg.kukuicup.controller.CustomRequest;
 import com.ub.tfg.kukuicup.model.JSONParser;
 import com.ub.tfg.kukuicup.vista.MainActivity;
 
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
+import cz.msebera.android.httpclient.NameValuePair;
+import cz.msebera.android.httpclient.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

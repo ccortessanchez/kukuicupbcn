@@ -14,8 +14,8 @@ import com.ub.tfg.kukuicup.R;
 import com.ub.tfg.kukuicup.controller.Controller;
 import com.ub.tfg.kukuicup.model.JSONParser;
 
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
+import cz.msebera.android.httpclient.NameValuePair;
+import cz.msebera.android.httpclient.message.BasicNameValuePair;
 import org.json.JSONException;
 import org.json.JSONObject;
 
