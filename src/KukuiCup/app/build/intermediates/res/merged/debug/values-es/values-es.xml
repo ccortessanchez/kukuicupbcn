@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="activityTypes">
+        <item>Acción de Ahorro</item>
+        <item>Reto Energético</item>
+        <item>Video</item>
+    </string-array>
+    <integer-array name="number_of_teams">
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string name="L1V1_1A">A: con</string>
+    <string name="L1V1_1B">B: moviendo</string>
+    <string name="L1V1_1C">C: al lado de</string>
+    <string name="L1V1_2A">A: energía cinética</string>
+    <string name="L1V1_2B">B: alta energía</string>
+    <string name="L1V1_2C">C: energía potencial</string>
+    <string name="L1V1_3A">A: la energía puede ser transferida de un objeto a otro</string>
+    <string name="L1V1_3B">B: la temperatura cambia el tipo de energía</string>
+    <string name="L1V1_3C">C: la energía eléctrica puede cambiar la energía de la luz</string>
+    <string name="L1_video1">Potencia y Energía</string>
+    <string name="L2V1_1A">A: centrales termoeléctricas</string>
+    <string name="L2V1_1B">B: centrales eléctricas</string>
+    <string name="L2V1_1C">C: centrales eólicas</string>
+    <string name="L2V1_2A">A: en los molinos y en las subestaciones eléctricas</string>
+    <string name="L2V1_2B">B: en el transformador de cada molino</string>
+    <string name="L2V1_2C">C: en las subestaciones eléctricas</string>
+    <string name="L2V1_3A">A: energía cinética -> eléctrica</string>
+    <string name="L2V1_3B">B: energía cinética -> mecánica -> eléctrica</string>
+    <string name="L2V1_3C">C: energía mecánica -> eléctrica -> cinética</string>
+    <string name="L2V2_1A">A: España</string>
+    <string name="L2V2_1B">B: China</string>
+    <string name="L2V2_1C">C: Rusia</string>
+    <string name="L2V2_2A">A: 90%</string>
+    <string name="L2V2_2B">B: ninguno, es mejor usar luces convencionales</string>
+    <string name="L2V2_2C">C: 50%</string>
+    <string name="L2V2_3A">A: la bombilla LED contamina más que una convencional</string>
+    <string name="L2V2_3B">B: la bombilla LED no produce calor</string>
+    <string name="L2V2_3C">C: ambas bombillas son iguales</string>
+    <string name="L2_video1">Energía Eólica</string>
+    <string name="L2_video2">Los beneficios del LED</string>
+    <string name="L3V1_1A">A: el sol, el viento y el calor de la tierra</string>
+    <string name="L3V1_1B">B: el sol, el agua y el calor de la tierra</string>
+    <string name="L3V1_1C">C: el sol, el agua, el viento y el calor de la tierra</string>
+    <string name="L3V1_2A">A: son menos limpias que las energías no renovables</string>
+    <string name="L3V1_2B">B: se pueden renovar a la misma velocidad que se consumen</string>
+    <string name="L3V1_2C">C: contribuyen al calentamiento global</string>
+    <string name="L3V1_3A">A: el agua</string>
+    <string name="L3V1_3B">B: el sol</string>
+    <string name="L3V1_3C">C: el viento</string>
+    <string name="L3V2_1A">A: es un tipo de energía natural</string>
+    <string name="L3V2_1B">B: es un tipo de energía que se agota</string>
+    <string name="L3V2_1C">C: es un tipo de energía generada por el hombre</string>
+    <string name="L3V2_2A">A: contamina pero no se agota</string>
+    <string name="L3V2_2B">B: se agota y pero no contamina</string>
+    <string name="L3V2_2C">C: no contamina, no se agota y se encuentra en todas partes</string>
+    <string name="L3V2_3A">A: se usan para transformar el viento en energía eléctrica</string>
+    <string name="L3V2_3B">B: se usan para guardar los rayos del sol</string>
+    <string name="L3V2_3C">C: se usan para generar energía eléctrica</string>
+    <string name="L3_video1">Energía Renovable</string>
+    <string name="L3_video2">Energía Solar</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -19,6 +78,25 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="actualPassLabel">Contraseña actual</string>
+    <string name="app_name">KukuiCup</string>
+    <string name="badgeCollect">Colección de Medallas :</string>
+    <string name="btnAddPlayer">Crear Jugador</string>
+    <string name="btnAddTeam">Crear Equipo</string>
+    <string name="btnContinue">Continuar reto</string>
+    <string name="btnCreatePlayer">Añadir Jugador</string>
+    <string name="btnCreateTeam">Añadir Equipo</string>
+    <string name="btnDelete">Borrar</string>
+    <string name="btnDone">¡Hecho!</string>
+    <string name="btnLogout">Salir</string>
+    <string name="btnOk">OK</string>
+    <string name="btnSave">Guardar Cambios</string>
+    <string name="btnStart">Empezar reto</string>
+    <string name="btnTakePhoto">Hacer foto</string>
+    <string name="btnUploadPhoto">Subir foto</string>
+    <string name="btnViewPlayers">Ver Jugadores</string>
+    <string name="btn_skip_intro">Skip Intro</string>
+    <string name="changePassLabel">Cambiar Contraseña</string>
     <string name="com_facebook_device_auth_instructions">Visita &lt;b>facebook.com/device&lt;/b> en tu smartphone u ordenador e introduce este código:</string>
     <string name="com_facebook_image_download_unknown_error">Se produjo un error inesperado al descargar una imagen.</string>
     <string name="com_facebook_internet_permission_error_message">El inicio de sesión a la web requiere permiso de conexión a internet</string>
@@ -36,7 +114,115 @@
     <string name="com_facebook_send_button_text">Enviar</string>
     <string name="com_facebook_share_button_text">Compartir</string>
     <string name="com_facebook_tooltip_default">¡Nuevo! Tú tienes el control: elige qué información quieres compartir con las aplicaciones.</string>
+    <string name="confirmPassLabel">Confirmar contraseña</string>
+    <string name="dashPoints">Puntos :</string>
+    <string name="dashRkg">Ranking :</string>
+    <string name="daysRemaining">Fecha final KukuiCupBCN : </string>
+    <string name="descL1_enrgChal1">¿Conseguirás el siguiente reto?
+        Apagar y desconectar los aparatos electrónicos de tu cuarto antes de dormir.
+        Realiza esta acción durante 5 días seguidos para conseguir el reto.</string>
+    <string name="descL1_saveAct1">Configura tu ordenador y cualquier monitor en modo ahorro después de 20 minutos de inactividad.
+        Una vez cambiada la configuración, haz una foto de esta para su posterior verificación.</string>
+    <string name="descL1_saveAct2"> Usa la lámpara de escritorio para realizar tus tareas en lugar de la luz general de tu cuarto.
+        Aprieta el botón ¡Hecho! cuando hayas realizado esta acción de ahorro.</string>
+    <string name="descL1_saveAct3"> Muestra tu apoyo a Kukui Cup dando Like a su página de Facebook.
+        Sigue el enlace, haz click en Me Gusta y de vuelta en esta ventana haz click en el botón ¡Hecho!.</string>
+    <string name="descL2_enrgChal1">¿Conseguirás el siguiente reto?
+        Usa las escaleras en lugar del ascensor para completar este reto</string>
+    <string name="descL2_enrgChal2">¿Conseguirás el siguiente reto?
+        Cambia cualquier bombilla corriente por una bombilla LED para completar el reto.</string>
+    <string name="descL2_enrgChal3">¿Conseguirás el siguiente reto?
+        Apega y desconecta aparatos electrónicos de habitaciones vacías.
+        Realiza esta acción durante 5 días seguidos para conseguir el reto.</string>
+    <string name="descL2_saveAct1">Por cada aparato electrónico de tu habitación, calcula su consumo. Apunta también cuantas horas lo usas cada día. Súmalo todo para saber el consumo total y haz una foto.
+        Aprieta el botón ¡Hecho! cuando hayas realizado esta acción de ahorro.</string>
+    <string name="descL2_saveAct2">Durante el día apaga la luz de tu habitación y usa la luz del día (si es posible en tu habitación).
+        Aprieta el botón ¡Hecho! cuando hayas realizado esta acción de ahorro.</string>
+    <string name="descL2_saveAct3"> Escribe en un post-it el consumo energético y el número de horas de uso de cualquier aparato doméstico. Calcula su consumo diario y haz una foto al post-it.</string>
+    <string name="descL3_enrgChal1">¿Conseguirás el siguiente reto?
+        !Por equipos¡ Cada equipo debe encontrar en clase los siguientes aparatos:
+            -El aparato electrónico con mayor consumo energético
+            -El aparato electrónico con menor consumo energético
+        El primer equipo que los encuentre ganará el reto. El equipo en segundo lugar obtendrá 50 puntos.</string>
+    <string name="descL3_enrgChal2">¿Conseguirás el siguiente reto?
+        Crea un diseño para la futura camiseta de KukuiCupBCN y haz una foto para completar este reto.</string>
+    <string name="descL3_saveAct1">TEXTO LAVADORA</string>
+    <string name="endDate">Fecha Fin:</string>
+    <string name="enrgChalL1_1">Apagar antes de dormir</string>
+    <string name="enrgChalL2_1">Usa las escaleras</string>
+    <string name="enrgChalL2_2">Sustituir por un LED</string>
+    <string name="enrgChalL2_3">Apaga las luces</string>
+    <string name="enrgChalL3_1">La caza de la energía</string>
+    <string name="enrgChalL3_2">Diseño Kukui</string>
+    <string name="enrgChall">Reto Energético</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="facebook_app_id">1041656969263684</string>
+    <string name="hello">Hola mundo, Actividad de KukuiCup!</string>
+    <string name="initDate">Fecha Inicio:</string>
+    <string name="level1Label">Nivel 1</string>
+    <string name="level2Label">Nivel 2</string>
+    <string name="level3Label">Nivel 3</string>
+    <string name="localhost">10.133.5.181</string>
     <string name="messenger_send_button_text">Enviar</string>
+    <string name="msgCongrats">¡Enhorabuena, recoge tus puntos!</string>
+    <string name="msgCongratsAlt">¡Enhorabuena!</string>
+    <string name="msgEasterEgg">Es un día perfecto para darte 5 puntos. ¡Disfrútalos!</string>
+    <string name="msgLevelBlocked">Necesitas completar el nivel anterior para continuar</string>
+    <string name="msgQuiz1L1">Has ganado la medalla del Nivel 1 y 30 puntos</string>
+    <string name="msgQuiz1L2">Has ganado la medalla del Nivel 2 y 30 puntos</string>
+    <string name="msgQuiz1L3">Has ganado la medalla del Nivel 3+ y 30 puntos</string>
+    <string name="msgQuiz2L2">Has ganado 30 puntos</string>
+    <string name="msgQuiz2L3">Has ganado la medalla del Nivel 3 y 30 puntos</string>
+    <string name="msgReward">Has ganado</string>
+    <string name="msgRewardPoint">puntos</string>
+    <string name="msgToastLevel">¡Tú puedes!</string>
+    <string name="msgToastQuiz">¡Puedes hacerlo mejor!</string>
+    <string name="msgToastUpload">Subida correcta</string>
+    <string name="newPassLabel">Contraseña nueva</string>
+    <string name="playerNameLabel">Nombre del Jugador</string>
+    <string name="pointsLabel">Puntos</string>
+    <string name="quest1_L1_video1">El trabajo es realizado únicamente cuando una fuerza está _____ un objeto.</string>
+    <string name="quest1_L2_video1">Mediante _______ se obtiene electricidad usando el viento como fuente de energía</string>
+    <string name="quest1_L2_video2">¿En qué país fue descubierto el LED?</string>
+    <string name="quest1_L3_video1">¿Qué recursos podemos usar en el proceso de generar energía?</string>
+    <string name="quest1_L3_video2">¿Qué es la energía solar?</string>
+    <string name="quest2_L1_video1">Cuando un objeto tiene la energía del movimiento tiene este tipo de energía.</string>
+    <string name="quest2_L2_video1">¿Dónde se incrementa la potencia de la electricidad generada?</string>
+    <string name="quest2_L2_video2">¿Qué porcentaje de ahorro permiten las luces LED?</string>
+    <string name="quest2_L3_video1">¿Qué beneficios pueden tener las energías renovables?</string>
+    <string name="quest2_L3_video2">¿Qué beneficios tiene la energía solar?</string>
+    <string name="quest3_L1_video1">¿Como puede cambiar la energía?</string>
+    <string name="quest3_L2_video1">¿Qué transformación de energía en cadena produce el viento al mover las hélices del molino?</string>
+    <string name="quest3_L2_video2">¿Qué diferencia hay entre una bombilla LED y una bombilla convencional?</string>
+    <string name="quest3_L3_video1">¿Qué recurso natural es, por el momento, el más utilizado para la generación de energía eléctrica?</string>
+    <string name="quest3_L3_video2">¿Qué función tienen los paneles solares?</string>
+    <string name="resumeDay">/día</string>
+    <string name="resumeFloor">/piso</string>
+    <string name="resumeL1_enrgChal1">Apaga y desconecta todos los aparatos electrónicos de tu habitación antes de ir a dormir.</string>
+    <string name="resumeL2_enrgChal1">Usa las escaleras en lugar de usar el ascensor</string>
+    <string name="resumeL2_enrgChal2">Cambia cualquier bombilla por un LED.</string>
+    <string name="resumeL2_enrgChal3">Apaga las luces y desconecta los aparatos electrónicos de cualquier habitación vacía.</string>
+    <string name="resumeL3_enrgChal1">"!Por equipos! Cada equipo debe encontrar en su clase:
+        -El aparato con el mayor consumo energético
+        -El aparato con el menor consumo energético</string>
+    <string name="resumeL3_enrgChal2">Crea un diseño de KukuiCupBCN para estampar en una camiseta y haz una foto.</string>
+    <string name="resumeTeam">/ganador</string>
+    <string name="rewardLabel">Recompensa</string>
+    <string name="savActL1_1">Ordenador responsable</string>
+    <string name="savActL1_2">Luz de escritorio</string>
+    <string name="savActL1_3">Dar Like a Kukui</string>
+    <string name="savActL2_1">La energía de mi habitación</string>
+    <string name="savActL2_2">Luz natural</string>
+    <string name="savActL2_3">Energía en POST-IT</string>
+    <string name="savActL3_1">La hora de la lavadora</string>
+    <string name="savAction">Acción de Ahorro</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string name="startTournament">Empezar el torneo</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="teamNameLabel">Nombre del Equipo</string>
+    <string name="teamSelectLabel">Equipo</string>
+    <string name="titleEasterEgg">¡Es tu día de suerte!</string>
+    <string name="titleLevelBlocked">Nivel bloqueado</string>
+    <string name="title_logo">NATIONAL GEOGRAPHIC</string>
+    <string name="video">Video</string>
 </resources>

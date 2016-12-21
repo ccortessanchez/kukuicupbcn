@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="c6b05a77fa981bd33afe88023dc66c9e5dcae702">
+        sha1="4a14212f91e6fef77f640e0029ec42e6c485c747">
         <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e1f492587f8ae2f13571f9acbc27e4f786bc45d3\classes.dex" />
     </item>
     <item
@@ -63,6 +63,15 @@
         revision="23.0.3"
         sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
         <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_0569ece7f529f671a54367a3fd0479c3e2837e4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carlos\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.4.1.1\c8d96f6fd2bcc179c312da33ee670a71188cc60d\httpclient-4.4.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c8d96f6fd2bcc179c312da33ee670a71188cc60d">
+        <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.4.1.1_3657292143b8d47737d271e48bd6d759ba5c6065\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -178,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="87b7725feb27d532933ff71db0b3fe1a087e99a4">
+        sha1="ddc2a52d33c8af0a65443f76b628e0665df5f3c0">
         <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1390f4ccd4d0d7fac74e7d8473a2657e47199c8e\classes.dex" />
     </item>
     <item
@@ -279,15 +288,6 @@
         revision="23.0.3"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
         <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_a44d019d390f2a998a2c469764c675c24b3d58fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\carlos\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.4.1.2\64950d33e2d3095cc831b414063bea45524103d4\httpclient-4.4.1.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="64950d33e2d3095cc831b414063bea45524103d4">
-        <dex dex="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.4.1.2_24ee80eb99760012b0239ce61401db61a187d1f1\classes.dex" />
     </item>
     <item
         is-multidex="true"

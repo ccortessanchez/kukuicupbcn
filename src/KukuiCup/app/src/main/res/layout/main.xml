@@ -23,9 +23,9 @@
             android:id="@+id/level1Label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Level 1"
+            android:text="@string/level1Label"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="#BEF781" />
+            android:textColor="@android:color/black"/>
 
         <ImageButton
             android:id="@+id/level1Btn"
@@ -37,7 +37,7 @@
             android:id="@+id/level2Label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Level 2"
+            android:text="@string/level2Label"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@android:color/black" />
 
@@ -51,7 +51,7 @@
             android:id="@+id/level3Label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Level 3"
+            android:text="@string/level3Label"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@android:color/black" />
 
@@ -100,7 +100,7 @@
                 android:id="@+id/teamRkg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ranking: "
+                android:text="@string/dashRkg"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:background="#BEF781"
                 android:textColor="@android:color/black" />
@@ -124,7 +124,7 @@
                 android:id="@+id/teamPoints"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Points: "
+                android:text="@string/dashPoints"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:background="#BEF781"
                 android:textColor="@android:color/black" />
@@ -177,7 +177,7 @@
                 android:id="@+id/userRk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ranking: "
+                android:text="@string/dashRkg"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:background="#BEF781"
                 android:textColor="@android:color/black" />
@@ -201,7 +201,7 @@
                 android:id="@+id/userPt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Points: "
+                android:text="@string/dashPoints"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:background="#BEF781"
                 android:textColor="@android:color/black"
@@ -295,7 +295,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="KukuiCupBCN end date: "
+            android:text="@string/daysRemaining"
             android:textColor="@android:color/black"/>
 
         <TextView
@@ -322,7 +322,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Badge collection: "
+            android:text="@string/badgeCollect"
             android:textColor="@android:color/widget_edittext_dark" />
     </LinearLayout>
 

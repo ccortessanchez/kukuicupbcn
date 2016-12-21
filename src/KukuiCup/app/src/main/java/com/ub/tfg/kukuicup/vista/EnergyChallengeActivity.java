@@ -64,7 +64,7 @@ public class EnergyChallengeActivity extends Activity {
                 Intent intent = new Intent(EnergyChallengeActivity.this, EnergyChallengeResume.class);
                 intent.putExtra("levelId",levelId);
                 intent.putExtra("challengeId",challengeId);
-                if(primaryBtn.getText().equals("Start challenge")) {
+                if(primaryBtn.getText().equals(getResources().getString(R.string.btnStart))) {
                     session.setChallengeStart(true);
                     session.setChallengeCnt(5);
                 }else {counter = session.getChallengeCnt();}
@@ -81,19 +81,16 @@ public class EnergyChallengeActivity extends Activity {
             case 1:
                 switch (challengeId) {
                     case 0:
-                        challengeName.setText("Off before sleep");
-                        reward.setText("+5/day");
+                        challengeName.setText(getResources().getString(R.string.enrgChalL1_1));
+                        reward.setText("+5" + getResources().getString(R.string.resumeDay));
                         badgeImg.setImageResource(R.mipmap.off_sleep_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Will you get the next challenge? " +
-                                "\n" +
-                                "Off and unplug all electrical devices in your room before going to sleep. " +
-                                "Perform this action for 5 consecutive days to win the challenge.");
+                        description.setText(getResources().getString(R.string.descL1_enrgChal1));
 
                         //if(energyChallenge.isStarted)primaryBtn.setText("Continue challenge");
                         //else
-                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
-                        else primaryBtn.setText("Start challenge");
+                        if(session.isChallengeStarted()) primaryBtn.setText(getResources().getString(R.string.btnContinue));
+                        else primaryBtn.setText(getResources().getString(R.string.btnStart));
 
                         break;
                     case 1:
@@ -107,44 +104,37 @@ public class EnergyChallengeActivity extends Activity {
             case 2:
                 switch (challengeId) {
                     case 0:
-                        challengeName.setText("Use stairs");
-                        reward.setText("+1/floor");
+                        challengeName.setText(getResources().getString(R.string.enrgChalL2_1));
+                        reward.setText("+15");
                         //cambiar nombre medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setImageResource(R.mipmap.stairs_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Will you get the next challenge? " +
-                                "\n" +
-                                "Use the stairs instead of using the elevator to win the challenge");
-
-                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
-                        else primaryBtn.setText("Start challenge");
+                        description.setText(getResources().getString(R.string.descL2_enrgChal1));
+                        if(session.isChallengeStarted()) primaryBtn.setText(getResources().getString(R.string.btnContinue));
+                        else primaryBtn.setText(getResources().getString(R.string.btnStart));
                         break;
+
                     case 1:
-                        challengeName.setText("Change for LED");
+                        challengeName.setText(getResources().getString(R.string.enrgChalL2_2));
                         reward.setText("+30");
                         //cambiar nombre medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setImageResource(R.mipmap.level1team_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Will you get the next challenge? " +
-                                "\n" +
-                                "Change any lightbulb for a LED to win the challenge");
+                        description.setText(getResources().getString(R.string.descL2_enrgChal2));
 
-                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
-                        else primaryBtn.setText("Start challenge");
+                        if(session.isChallengeStarted()) primaryBtn.setText(getResources().getString(R.string.btnContinue));
+                        else primaryBtn.setText(getResources().getString(R.string.btnStart));
                         break;
                     case 2:
-                        challengeName.setText("Off empty room");
-                        reward.setText("+5/day");
+                        challengeName.setText(getResources().getString(R.string.enrgChalL2_3));
+                        reward.setText("+5" + getResources().getString(R.string.resumeDay));
                         //cambiar nombre medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setImageResource(R.mipmap.empty_room_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Will you get the next challenge? " +
-                                "\n" +
-                                "Off and unplug all electrical devices in any empty room. " +
-                                "Perform this action for 5 consecutive days to win the challenge.");
+                        description.setText(getResources().getString(R.string.descL2_enrgChal3));
 
-                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
-                        else primaryBtn.setText("Start challenge");
+                        if(session.isChallengeStarted()) primaryBtn.setText(getResources().getString(R.string.btnContinue));
+                        else primaryBtn.setText(getResources().getString(R.string.btnStart));
 
                         break;
                     default:
@@ -154,38 +144,29 @@ public class EnergyChallengeActivity extends Activity {
             case 3:
                 switch (challengeId) {
                     case 0:
-                        challengeName.setText("Team play");
-                        reward.setText("+100/winner");
+                        challengeName.setText(getResources().getString(R.string.enrgChalL3_1));
+                        reward.setText("+100" + getResources().getString(R.string.resumeTeam));
                         //cambiar nombre medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setImageResource(R.mipmap.more_less_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Will you get the next challenge? " +
-                                "\n" +
-                                "Team play! In this challenge, each team has to find two types of electronic devices:\n" +
-                                "-The device with the higher consumption\n" +
-                                "-The device with the lower consumption\n" +
-                                "\n" +
-                                "The first team to find them will be the challenge winner!" +
-                                "50 point for the team in second place.");
+                        description.setText(getResources().getString(R.string.descL3_enrgChal1));
 
-                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
-                        else primaryBtn.setText("Start challenge");
+                        if(session.isChallengeStarted()) primaryBtn.setText(getResources().getString(R.string.btnContinue));
+                        else primaryBtn.setText(getResources().getString(R.string.btnStart));
                         break;
                     case 1:
                         //PONER BOTON TAKE PHOTO
-                        challengeName.setText("Shirt design");
+                        challengeName.setText(getResources().getString(R.string.enrgChalL3_2));
                         reward.setText("+20");
                         //cambiar nombre medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        badgeImg.setImageResource(R.mipmap.logo_bcn);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Will you get the next challenge? " +
-                                "\n" +
-                                "Create a design to put on a shirt for the upcoming KukuiCupBCN and take a photo of it to win the challenge");
+                        description.setText(getResources().getString(R.string.descL3_enrgChal2));
 
                         //if(energyChallenge.isStarted)primaryBtn.setText("Continue challenge");
                         //else
-                        if(session.isChallengeStarted()) primaryBtn.setText("Continue challenge");
-                        else primaryBtn.setText("Start challenge");
+                        if(session.isChallengeStarted()) primaryBtn.setText(getResources().getString(R.string.btnContinue));
+                        else primaryBtn.setText(getResources().getString(R.string.btnStart));
                         break;
                     case 2:
                         break;

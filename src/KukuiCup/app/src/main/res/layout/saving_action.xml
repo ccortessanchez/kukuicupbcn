@@ -41,14 +41,14 @@
                     android:layout_height="wrap_content"
                     android:layout_toLeftOf="@+id/pointsLbl"
                     android:layout_alignParentTop="true"
-                    android:text="Reward"
+                    android:text="@string/rewardLabel"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="5dp"/>
 
                 <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Points"
+                android:text="@string/pointsLabel"
                 android:id="@+id/pointsLbl"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
@@ -69,7 +69,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/banking"
-                    android:id="@+id/imageView5"
+                    android:id="@+id/savActionImg"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -84,8 +84,8 @@
                     android:layout_marginLeft="17dp"
                     android:layout_marginStart="17dp"
                     android:layout_alignBottom="@+id/badgeImg"
-                    android:layout_toRightOf="@+id/imageView5"
-                    android:layout_toEndOf="@+id/imageView5" />
+                    android:layout_toRightOf="@+id/savActionImg"
+                    android:layout_toEndOf="@+id/savActionImg" />
 
             </RelativeLayout>
 
@@ -132,7 +132,7 @@ Once you have changed your settings, please take a photo showing the new setting
                     android:id="@+id/upload"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Upload photo"
+                    android:text="@string/btnUploadPhoto"
                     android:visibility="invisible"
                     android:enabled="false"
                     />

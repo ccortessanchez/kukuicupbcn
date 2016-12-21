@@ -30,7 +30,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Log Out"
+            android:text="@string/btnLogout"
             android:id="@+id/logOutBtn"
             android:background="#5F4C0B"
             android:textColor="#BEF781" />
@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Change Password"
+            android:text="@string/changePassLabel"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
             android:gravity="center"
             android:layout_marginBottom="10dp"/>
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
-                android:text="Actual password"
+                android:text="@string/actualPassLabel"
                 android:gravity="center"
                 android:textColor="#000000" />
 
@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
-                android:text="New password"
+                android:text="@string/newPassLabel"
                 android:gravity="center"
                 android:textColor="#000000" />
             <EditText
@@ -108,7 +108,7 @@
             <TextView
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
-                android:text="Confirm password"
+                android:text="@string/confirmPassLabel"
                 android:gravity="center"
                 android:textColor="#000000" />
 
@@ -131,7 +131,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Done"
+                android:text="@string/btnDone"
                 android:id="@+id/doneBtn"
                 android:background="#5F4C0B"
                 android:textColor="#BEF781" />

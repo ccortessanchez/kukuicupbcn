@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="This short educational video describes the difference between power and energy - a very important electrical concept that is used to determine what solar PV arrays can produce over time."
+                android:text="@string/L1_videoDesc"
                 android:layout_gravity="center"
                 android:layout_margin="30dp"/>
 

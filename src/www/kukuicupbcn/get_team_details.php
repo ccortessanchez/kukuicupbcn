@@ -4,7 +4,7 @@
  * Following code will get single team details
  * A team is identified by team id (id)
  */
- 
+error_reporting(E_ALL ^ E_DEPRECATED); 
 // array for JSON response
 $response = array();
  

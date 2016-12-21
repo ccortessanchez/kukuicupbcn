@@ -29,14 +29,16 @@ repositories {
     mavenCentral()
 }
 
+/*
 configurations {
     compile.exclude group: "org.apache.httpcomponents", module: "httpclient"
 }
+*/
 
 dependencies {
     compile 'com.google.apis:google-api-services-youtube:v3-rev174-1.22.0'
 //    compile files('C:/Users/Juanmi/StudioProjects/KukuiCup/libs/YouTubeAndroidPlayerApi.jar')
-    compile "cz.msebera.android:httpclient:4.4.1.2"
+    compile group: 'cz.msebera.android' , name: 'httpclient', version: '4.4.1.1'
     compile files('libs/YouTubeAndroidPlayerApi.jar')
     compile 'com.mcxiaoke.volley:library-aar:1.0.0'
     compile 'com.facebook.android:facebook-android-sdk:4.+'

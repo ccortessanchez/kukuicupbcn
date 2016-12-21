@@ -5,6 +5,7 @@
  * All player details are read from HTTP Post Request
  */
  
+error_reporting(E_ALL ^ E_DEPRECATED);
 // array for JSON response
 $response = array();
  
@@ -15,7 +16,7 @@ if (isset($_POST['name'])&& isset($_POST['team_id'])) {
 	$team_id = $_POST['team_id'];
  
     // include db connect class
-    require_once __DIR__ . '/db_connect.php';
+    require_once'/db_connect.php';
  
     // connecting to db
     $db = new DB_CONNECT();

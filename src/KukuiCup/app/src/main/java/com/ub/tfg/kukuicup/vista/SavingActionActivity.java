@@ -42,6 +42,7 @@ public class SavingActionActivity extends Activity {
     private ImageView pointsImg;
     private ImageView badgeImg;
     private ImageView actionImg;
+    private ImageView savActionImg;
 
     private AlertDialog alertDialog;
 
@@ -77,14 +78,15 @@ public class SavingActionActivity extends Activity {
         pointsImg = (ImageView)findViewById(R.id.pointsImg);
         badgeImg = (ImageView)findViewById(R.id.badgeImg);
         actionImg = (ImageView)findViewById(R.id.actionImg);
+        savActionImg = (ImageView)findViewById(R.id.savActionImg);
 
         alertDialog = new AlertDialog.Builder(SavingActionActivity.this).create();
         // Setting Dialog Title
-        alertDialog.setTitle("Congratulations! Get your points!");
+        alertDialog.setTitle(getResources().getString(R.string.msgCongrats));
         // Setting Icon to Dialog
         alertDialog.setIcon(R.drawable.ic_launcher);
         // Setting OK Button
-        alertDialog.setButton2("OK", new DialogInterface.OnClickListener() {
+        alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
                 Intent intent = new Intent(SavingActionActivity.this, MainActivity.class);
@@ -113,7 +115,7 @@ public class SavingActionActivity extends Activity {
                 primaryBtn.setEnabled(true);
                 actionImg.setVisibility(View.INVISIBLE);
                 uploadBtn.setVisibility(View.INVISIBLE);
-                Toast.makeText(getApplicationContext(),"Uploaded successfully", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),getResources().getString(R.string.msgToastUpload), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -165,6 +167,10 @@ public class SavingActionActivity extends Activity {
                     case 1:
                         break;
                     case 2:
+                        Intent intent2 = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        if(intent2.resolveActivity(getPackageManager())!=null) {
+                            startActivityForResult(intent2,REQUEST_CODE);
+                        }
                         break;
                     default:
                         break;
@@ -197,52 +203,52 @@ public class SavingActionActivity extends Activity {
             case 1:
                 switch (actionId) {
                     case 0:
-                        actionName.setText("Computer responsible");
+                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setVisibility(View.VISIBLE);
+                        actionName.setText(getResources().getString(R.string.savActL1_1));
                         reward.setText("+5");
-                        description.setText("Configure your computer and any external monitor to sleep after 20 minutes of inactivity." +
-                                "\n" +
-                                "Once you have changed your settings, please take a photo showing the new settings for use in verification");
+                        description.setText(getResources().getString(R.string.descL1_saveAct1));
 
                         primaryBtn.setEnabled(false);
-                        primaryBtn.setText("Done!");
-                        secondaryBtn.setText("Take a photo");
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        secondaryBtn.setText(getResources().getString(R.string.btnTakePhoto));
 
                         // Setting Dialog Message
-                        alertDialog.setMessage("You have won 5 points");
+                        alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 5 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 5;
                         break;
                     case 1:
-                        actionName.setText("Desk light");
+                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setVisibility(View.VISIBLE);
+                        actionName.setText(getResources().getString(R.string.savActL1_2));
                         reward.setText("+3");
-                        description.setText("Commit to using task lighting (like a desk lamp) instead of overhead room lights when possible." +
-                                "\n" +
-                                "Press the 'Done! button when you make this saving action.");
+                        description.setText(getResources().getString(R.string.descL1_saveAct2));
 
-                        primaryBtn.setText("Done!");
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
                         primaryBtn.setEnabled(true);
                         secondaryBtn.setVisibility(View.INVISIBLE);
                         secondaryBtn.setEnabled(false);
 
                         // Setting Dialog Message
-                        alertDialog.setMessage("You have won 3 points");
+                        alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 3 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 3;
 
                         break;
                     case 2:
-                        actionName.setText("Like Kukui");
+                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setVisibility(View.VISIBLE);
+                        actionName.setText(getResources().getString(R.string.savActL1_3));
                         reward.setText("+5");
-                        description.setText("Show support for the Kukui Cup by Liking the Kukui Cup page on Facebook. " +
-                                "\n" +
-                                "Follow the link, click on the 'Like' button, and then back on this page click the 'Done' button.");
+                        description.setText(getResources().getString(R.string.descL1_saveAct3));
 
-                        primaryBtn.setText("Done!");
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
                         primaryBtn.setEnabled(true);
                         secondaryBtn.setVisibility(View.INVISIBLE);
                         likeView.setVisibility(View.VISIBLE);
                         likeView.setClickable(true);
 
                         // Setting Dialog Message
-                        alertDialog.setMessage("You have won 5 points");
+                        alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 5 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 5;
                         break;
                     default:
@@ -252,51 +258,47 @@ public class SavingActionActivity extends Activity {
             case 2:
                 switch (actionId) {
                     case 0:
-                        actionName.setText("My room consumption");
+                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setVisibility(View.VISIBLE);
+                        actionName.setText(getResources().getString(R.string.savActL2_1));
                         reward.setText("+20");
-                        description.setText("For each electronic device in your room, calculate his energy consumption. Also write how many hours you use it every day. Then add up all the devices to know room consumption and take a photo for verification" +
-                                "\n" +
-                                "How to calculate energy consumption:\n" +
-                                "LIST OF DEVICES - CONSUME/HOUR");
+                        description.setText(getResources().getString(R.string.descL2_saveAct1));
 
                         primaryBtn.setEnabled(false);
-                        primaryBtn.setText("Done!");
-                        secondaryBtn.setText("Take a photo");
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        secondaryBtn.setText(getResources().getString(R.string.btnTakePhoto));
 
                         // Setting Dialog Message
-                        alertDialog.setMessage("You have won 20 points");
+                        alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 20 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 20;
                         break;
                     case 1:
-                        actionName.setText("Use daylight");
+                        actionName.setText(getResources().getString(R.string.savActL2_2));
                         reward.setText("+3");
-                        description.setText("During the day, turn off your room light and use daylight (if it's possible in your room)." +
-                                "\n" +
-                                "Press the 'Done! button when you make this saving action.");
+                        description.setText(getResources().getString(R.string.descL2_saveAct2));
 
-                        primaryBtn.setText("Done!");
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
                         primaryBtn.setEnabled(true);
                         secondaryBtn.setVisibility(View.INVISIBLE);
                         secondaryBtn.setEnabled(false);
 
                         // Setting Dialog Message
-                        alertDialog.setMessage("You have won 3 points");
+                        alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 3 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 3;
                         break;
                     case 2:
-                        actionName.setText("Consumption in POST-IT");
+                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setVisibility(View.VISIBLE);
+                        actionName.setText(getResources().getString(R.string.savActL2_3));
                         reward.setText("+20");
-                        description.setText("Write in a post-it the energetic consumption and hours of daily use of any domestic device. Then calculate his daily consumption, paste the post-it and take a photo for verification." +
-                                "\n" +
-                                "How to calculate energy consumption:\n" +
-                                "LIST OF DEVICES - CONSUME/HOUR");
+                        description.setText(getResources().getString(R.string.descL2_saveAct3));
 
                         primaryBtn.setEnabled(false);
-                        primaryBtn.setText("Done!");
-                        secondaryBtn.setText("Take a photo");
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        secondaryBtn.setText(getResources().getString(R.string.btnTakePhoto));
 
                         // Setting Dialog Message
-                        alertDialog.setMessage("You have won 20 points");
+                        alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 20 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 20;
                         break;
                     case 3:
@@ -308,7 +310,22 @@ public class SavingActionActivity extends Activity {
             case 3:
                 switch (actionId) {
                     case 0:
+                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setVisibility(View.VISIBLE);
+                        actionName.setText(getResources().getString(R.string.savActL3_1));
+                        reward.setText("+3");
+                        description.setText(getResources().getString(R.string.descL3_saveAct1));
+
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        primaryBtn.setEnabled(true);
+                        secondaryBtn.setVisibility(View.INVISIBLE);
+                        secondaryBtn.setEnabled(false);
+
+                        // Setting Dialog Message
+                        alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 15 " +getResources().getString(R.string.msgRewardPoint));
+                        pointsObt = 15;
                         break;
+
                     case 1:
                         break;
                     default:

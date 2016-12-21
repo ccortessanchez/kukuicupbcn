@@ -33,6 +33,7 @@ public class MenuActivity extends Activity {
     private int levelId;
     private int playerPoints;
     private TextView progressLabel;
+    private TextView levelLabel;
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -44,13 +45,38 @@ public class MenuActivity extends Activity {
 
         levelId = extras.getInt("levelId");
         playerPoints = extras.getInt("points");
-
+        levelLabel = (TextView)findViewById(R.id.levelLabel);
         levelBar = (ProgressBar)findViewById(R.id.LevelProgressBar);
-        levelBar.setMax(LEVEL1_POINTS);
-        levelBar.setProgress(playerPoints);
+        if (levelId == 1) {
+            levelLabel.setText(getResources().getString(R.string.level1Label));
 
-        progressLabel = (TextView)findViewById(R.id.progressLabel);
-        progressLabel.setText(playerPoints+"/"+LEVEL1_POINTS+" Points");
+            levelBar.setMax(LEVEL1_POINTS);
+            levelBar.setProgress(playerPoints);
+
+            progressLabel = (TextView)findViewById(R.id.progressLabel);
+            progressLabel.setText(playerPoints+"/"+LEVEL1_POINTS+" Points");
+        }
+
+        if (levelId == 2) {
+            levelLabel.setText(getResources().getString(R.string.level2Label));
+
+            levelBar.setMax(LEVEL2_POINTS);
+            levelBar.setProgress(playerPoints);
+
+            progressLabel = (TextView)findViewById(R.id.progressLabel);
+            progressLabel.setText(playerPoints+"/"+LEVEL2_POINTS+" Points");
+        }
+
+        if (levelId == 3) {
+            levelLabel.setText(getResources().getString(R.string.level3Label));
+
+            levelBar.setMax(LEVEL3_POINTS);
+            levelBar.setProgress(playerPoints);
+
+            progressLabel = (TextView)findViewById(R.id.progressLabel);
+            progressLabel.setText(playerPoints+"/"+LEVEL3_POINTS+" Points");
+        }
+
         
 		// get the listview
         expListView = (ExpandableListView) findViewById(R.id.lvExp);
@@ -109,29 +135,74 @@ public class MenuActivity extends Activity {
         listDataChild = new HashMap<String, List<String>>();
  
         // Adding child data
-        listDataHeader.add("Saving Actions");
-        listDataHeader.add("Energy Challenge");
-        listDataHeader.add("Videos and Quiz");
+        listDataHeader.add(getResources().getString(R.string.savAction));
+        listDataHeader.add(getResources().getString(R.string.enrgChall));
+        listDataHeader.add(getResources().getString(R.string.video));
 
         // Adding child data depending of level
         if(levelId == 1) {
             List<String> action = new ArrayList<String>();
-            action.add("Computer responsible");
-            action.add("Desk light");
-            action.add("Like Kukui");
+            action.add(getResources().getString(R.string.savActL1_1));
+            action.add(getResources().getString(R.string.savActL1_2));
+            action.add(getResources().getString(R.string.savActL1_3));
 
 
             List<String> challenge = new ArrayList<String>();
-            challenge.add("Off before sleep");
+            challenge.add(getResources().getString(R.string.enrgChalL1_1));
 
 
             List<String> video = new ArrayList<String>();
-            video.add("Power and energy");
+            video.add(getResources().getString(R.string.L1_video1));
 
 
             listDataChild.put(listDataHeader.get(0), action); // Header, Child data
             listDataChild.put(listDataHeader.get(1), challenge);
             listDataChild.put(listDataHeader.get(2), video);
         }
+
+        if(levelId == 2) {
+            List<String> action = new ArrayList<String>();
+            action.add(getResources().getString(R.string.savActL2_1));
+            action.add(getResources().getString(R.string.savActL2_2));
+            action.add(getResources().getString(R.string.savActL2_3));
+
+
+            List<String> challenge = new ArrayList<String>();
+            challenge.add(getResources().getString(R.string.enrgChalL2_1));
+            challenge.add(getResources().getString(R.string.enrgChalL2_2));
+            challenge.add(getResources().getString(R.string.enrgChalL2_3));
+
+
+            List<String> video = new ArrayList<String>();
+            video.add(getResources().getString(R.string.L2_video1));
+            video.add(getResources().getString(R.string.L2_video2));
+
+
+            listDataChild.put(listDataHeader.get(0), action); // Header, Child data
+            listDataChild.put(listDataHeader.get(1), challenge);
+            listDataChild.put(listDataHeader.get(2), video);
+        }
+
+        if(levelId == 3) {
+            List<String> action = new ArrayList<String>();
+            action.add(getResources().getString(R.string.savActL3_1));
+
+
+            List<String> challenge = new ArrayList<String>();
+            challenge.add(getResources().getString(R.string.enrgChalL3_1));
+            challenge.add(getResources().getString(R.string.enrgChalL3_2));
+
+
+            List<String> video = new ArrayList<String>();
+            video.add(getResources().getString(R.string.L3_video1));
+            video.add(getResources().getString(R.string.L3_video2));
+
+
+            listDataChild.put(listDataHeader.get(0), action); // Header, Child data
+            listDataChild.put(listDataHeader.get(1), challenge);
+            listDataChild.put(listDataHeader.get(2), video);
+        }
+
+
     }
 }

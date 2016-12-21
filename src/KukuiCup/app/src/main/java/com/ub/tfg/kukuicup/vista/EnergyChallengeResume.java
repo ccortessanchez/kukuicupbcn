@@ -4,12 +4,16 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ub.tfg.kukuicup.R;
 import com.ub.tfg.kukuicup.controller.SessionManager;
@@ -20,6 +24,8 @@ import org.w3c.dom.Text;
  * Created by Juanmi on 29/06/2016.
  */
 public class EnergyChallengeResume extends Activity {
+
+    int REQUEST_CODE = 1;
 
     public int levelId;
     public int challengeId;
@@ -34,11 +40,15 @@ public class EnergyChallengeResume extends Activity {
     private TextView reward;
     private TextView description;
     private TextView daysRemaining;
+    private TextView getDaysRemainingLabel;
 
     private Button primaryBtn;
+    private Button secondaryBtn;
+    private Button uploadBtn;
 
     private ImageView pointsImg;
     private ImageView badgeImg;
+    private ImageView actionImg;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,21 +66,25 @@ public class EnergyChallengeResume extends Activity {
         reward = (TextView)findViewById(R.id.challengeReward);
         description = (TextView)findViewById(R.id.challengeDescription);
         daysRemaining = (TextView)findViewById(R.id.daysRemaining);
+        getDaysRemainingLabel = (TextView)findViewById(R.id.daysRemainingLbl);
 
         primaryBtn = (Button)findViewById(R.id.primaryBtn);
+        secondaryBtn = (Button)findViewById(R.id.secondaryBtn);
+        uploadBtn = (Button)findViewById(R.id.upload);
 
         pointsImg = (ImageView)findViewById(R.id.pointsImg);
         badgeImg = (ImageView)findViewById(R.id.badgeImg);
+        actionImg = (ImageView)findViewById(R.id.actionImg);
 
         getInfoBychallengeId(levelId, challengeId);
 
         alertDialog = new AlertDialog.Builder(EnergyChallengeResume.this).create();
         // Setting Dialog Title
-        alertDialog.setTitle("Congratulations!");
+        alertDialog.setTitle(getResources().getString(R.string.msgCongratsAlt));
         alertDialog.setIcon(R.mipmap.off_sleep_badge);
         alertDialog.setMessage("You have won the bagde Off Before Sleep.");
 
-        alertDialog.setButton2("OK", new DialogInterface.OnClickListener() {
+        alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
                 Intent intent = new Intent(EnergyChallengeResume.this, MainActivity.class);
@@ -78,6 +92,12 @@ public class EnergyChallengeResume extends Activity {
                 intent.putExtra("badge", badge);
                 startActivity(intent);
                 primaryBtn.setEnabled(false);
+            }
+        });
+
+        secondaryBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                initTaskByChallengeId(levelId,challengeId);
             }
         });
 
@@ -95,6 +115,87 @@ public class EnergyChallengeResume extends Activity {
             }
         });
 
+        uploadBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                primaryBtn.setEnabled(true);
+                actionImg.setVisibility(View.INVISIBLE);
+                uploadBtn.setVisibility(View.INVISIBLE);
+                Toast.makeText(getApplicationContext(),getResources().getString(R.string.msgToastUpload), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if(requestCode==REQUEST_CODE) {
+            if(resultCode==RESULT_OK) {
+                Bundle bundle = new Bundle();
+                bundle = data.getExtras();
+                Bitmap BMP;
+                BMP = (Bitmap)bundle.get("data");
+                actionImg.setImageBitmap(BMP);
+                actionImg.setVisibility(View.VISIBLE);
+                uploadBtn.setEnabled(true);
+                uploadBtn.setVisibility(View.VISIBLE);
+            }
+        }
+
+    }
+
+    public void initTaskByChallengeId(int levelId, int challengeId) {
+        switch (levelId) {
+            case 1:
+                switch (challengeId) {
+                    case 0:
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        if(intent.resolveActivity(getPackageManager())!=null) {
+                            startActivityForResult(intent,REQUEST_CODE);
+                        }
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
+                break;
+            case 2:
+                switch (challengeId) {
+                    case 0:
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        if(intent.resolveActivity(getPackageManager())!=null) {
+                            startActivityForResult(intent,REQUEST_CODE);
+                        }
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
+                break;
+            case 3:
+                switch (challengeId) {
+                    case 0:
+                        break;
+                    case 1:
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        if(intent.resolveActivity(getPackageManager())!=null) {
+                            startActivityForResult(intent,REQUEST_CODE);
+                        }
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
+                break;
+            default:
+                break;
+        }
     }
 
     public void getInfoBychallengeId(int levelId, int challengeId) {
@@ -103,17 +204,17 @@ public class EnergyChallengeResume extends Activity {
             case 1:
                 switch (challengeId) {
                     case 0:
-                        challengeName.setText("Off before sleep");
-                        reward.setText("+5/day");
+                        challengeName.setText(getResources().getString(R.string.enrgChalL1_1));
+                        reward.setText("+5" + getResources().getString(R.string.resumeDay));
                         badgeImg.setImageResource(R.mipmap.off_sleep_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Turn off and unplug all electrical appliances in your room before going to sleep. ");
+                        description.setText(getResources().getString(R.string.resumeL1_enrgChal1));
 
                         daysRemaining.setText(""+counter);
 
-                        primaryBtn.setText("Done!");
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 5;
-                        badge = "offBeforeSleep";
+                        badge = getResources().getString(R.string.badgeL1_Chal1);
 
 
                         break;
@@ -128,43 +229,42 @@ public class EnergyChallengeResume extends Activity {
             case 2:
                 switch (challengeId) {
                     case 0:
-                        challengeName.setText("Use stairs");
-                        reward.setText("+1/floor");
-                        //cambiar imagen medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        challengeName.setText(getResources().getString(R.string.enrgChalL2_1));
+                        reward.setText("+15");
+                        badgeImg.setImageResource(R.mipmap.stairs_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Use the stairs instead of using the elevator.");
-                        primaryBtn.setText("Done!");
-                        pointsObt = 1;
+                        getDaysRemainingLabel.setVisibility(View.INVISIBLE);
+                        description.setText(getResources().getString(R.string.resumeL2_enrgChal1));
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        pointsObt = 15;
                         //cambiar nombre medalla
-                        badge = "offBeforeSleep";
+                        badge = "useStairs";
                         break;
                     case 1:
-                        challengeName.setText("Change for LED");
+                        challengeName.setText(getResources().getString(R.string.enrgChalL2_2));
                         reward.setText("+30");
-                        //cambiar imagen medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        getDaysRemainingLabel.setVisibility(View.INVISIBLE);
+                        badgeImg.setImageResource(R.mipmap.level1team_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Change any lightbulb for a LED.");
-                        primaryBtn.setText("Done!");
+                        description.setText(getResources().getString(R.string.resumeL2_enrgChal2));
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 30;
                         //cambiar nombre medalla
-                        badge = "offBeforeSleep";
+                        badge = "level2Plus";
                         break;
                     case 2:
-                        challengeName.setText("Off empty room");
-                        reward.setText("+5/day");
-                        //cambiar imagen medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        challengeName.setText(getResources().getString(R.string.enrgChalL2_3));
+                        reward.setText("+5" + getResources().getString(R.string.resumeDay));
+                        badgeImg.setImageResource(R.mipmap.empty_room_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Turn off and unplug all electrical devices in any empty room. ");
+                        description.setText(getResources().getString(R.string.resumeL2_enrgChal3));
 
                         daysRemaining.setText(""+counter);
 
-                        primaryBtn.setText("Done!");
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 5;
                         //cambiar nombre medalla
-                        badge = "offBeforeSleep";
+                        badge = "emptyRoom";
                         break;
                     default:
                         break;
@@ -174,33 +274,33 @@ public class EnergyChallengeResume extends Activity {
             case 3:
                 switch (challengeId) {
                     case 0:
-                        challengeName.setText("Team play");
-                        reward.setText("+100/winner");
-                        //cambiar imagen medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        challengeName.setText(getResources().getString(R.string.enrgChalL3_1));
+                        reward.setText("+100" + getResources().getString(R.string.resumeTeam));
+                        getDaysRemainingLabel.setVisibility(View.INVISIBLE);
+                        badgeImg.setImageResource(R.mipmap.more_less_badge);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText("Team play! In this challenge, each team has to find two types of electronic devices:\n" +
-                                "-The device with the higher consumption\n" +
-                                "-The device with the lower consumption\n");
+                        description.setText(getResources().getString(R.string.resumeL3_enrgChal1));
 
-                        primaryBtn.setText("Done!");
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
                         //comprobar primera posicion o segunda
                         pointsObt = 100;
                         //cambiar nombre medalla
-                        badge = "offBeforeSleep";
+                        badge = "teamPlay";
                         break;
                     case 1:
                         //PONER BOTON TAKE PHOTO
-                        challengeName.setText("Shirt design");
+                        challengeName.setText(getResources().getString(R.string.enrgChalL3_2));
                         reward.setText("+20");
-                        //cambiar imagen medalla
-                        badgeImg.setImageResource(R.mipmap.off_sleep_badge);
+                        getDaysRemainingLabel.setVisibility(View.INVISIBLE);
+                        badgeImg.setImageResource(R.mipmap.logo_bcn);
                         badgeImg.setVisibility(View.VISIBLE);
-                        description.setText( "Create a design to put on a shirt for the upcoming KukuiCupBCN and take a photo of it.");
-                        primaryBtn.setText("Done!");
+                        description.setText(getResources().getString(R.string.resumeL3_enrgChal2));
+                        primaryBtn.setEnabled(false);
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        secondaryBtn.setText(getResources().getString(R.string.btnTakePhoto));
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 10;
-                        //cambiar nombre medalla
-                        badge = "offBeforeSleep";
+
                         break;
                     case 2:
                         break;

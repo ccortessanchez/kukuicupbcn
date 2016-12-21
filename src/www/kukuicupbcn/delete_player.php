@@ -4,7 +4,7 @@
  * Following code will delete a player from table
  * A player is identified by player id (id)
  */
- 
+error_reporting(E_ALL ^ E_DEPRECATED);
 // array for JSON response
 $response = array();
  

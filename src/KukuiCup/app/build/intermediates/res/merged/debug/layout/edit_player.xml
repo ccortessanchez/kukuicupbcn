@@ -8,7 +8,7 @@
     <!-- Name Label -->
     <TextView android:layout_width="fill_parent"
               android:layout_height="wrap_content"
-              android:text="Player Name"
+              android:text="@string/playerNameLabel"
               android:paddingLeft="10dip"
               android:paddingRight="10dip"
               android:paddingTop="10dip"
@@ -27,7 +27,7 @@
     <!-- Team Label -->
     <TextView android:layout_width="fill_parent"
               android:layout_height="wrap_content"
-              android:text="Team"
+              android:text="@string/teamSelectLabel"
               android:paddingLeft="10dip"
               android:paddingRight="10dip"
               android:paddingTop="10dip"
@@ -56,7 +56,7 @@
         <Button android:id="@+id/btnSave"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Save Changes"
+                android:text="@string/btnSave"
                 android:layout_weight="1"
             android:background="#5F4C0B"
             android:textColor="#BEF781" />
@@ -65,7 +65,7 @@
         <Button android:id="@+id/btnDelete"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Delete"
+                android:text="@string/btnDelete"
                 android:layout_weight="1"
             android:background="#5F4C0B"
             android:textColor="#BEF781" />

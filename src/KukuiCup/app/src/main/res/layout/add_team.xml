@@ -7,7 +7,7 @@
     <!-- Name Label -->
     <TextView android:layout_width="fill_parent"
               android:layout_height="wrap_content"
-              android:text="Team Name"
+              android:text="@string/teamNameLabel"
               android:paddingLeft="10dip"
               android:paddingRight="10dip"
               android:paddingTop="10dip"
@@ -26,7 +26,7 @@
     <Button android:id="@+id/btnCreateTeam"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Create Team"
+            android:text="@string/btnAddTeam"
         android:background="#5F4C0B"
         android:textColor="#BEF781" />
 

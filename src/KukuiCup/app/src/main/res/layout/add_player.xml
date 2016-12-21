@@ -10,7 +10,7 @@
         <!-- Name Label -->
         <TextView android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
-                  android:text="Player Name"
+                  android:text="@string/playerNameLabel"
                   android:paddingLeft="10dip"
                   android:paddingRight="10dip"
                   android:paddingTop="10dip"
@@ -29,7 +29,7 @@
         <!-- Team Label -->
         <TextView android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
-                  android:text="Team"
+                  android:text="@string/teamSelectLabel"
                   android:paddingLeft="10dip"
                   android:paddingRight="10dip"
                   android:paddingTop="10dip"
@@ -58,7 +58,7 @@
         <Button android:id="@+id/btnCreatePlayer"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Create Player"
+                android:text="@string/btnAddPlayer"
             android:background="#5F4C0B"
             android:textColor="#BEF781" />
 

@@ -3,7 +3,7 @@
 /*
  * Following code will list all the players
  */
- 
+error_reporting(E_ALL ^ E_DEPRECATED);
 // array for JSON response
 $response = array();
  

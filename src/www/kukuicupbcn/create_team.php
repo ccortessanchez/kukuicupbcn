@@ -5,6 +5,7 @@
  * All team details are read from HTTP Post Request
  */
  
+ error_reporting(E_ALL ^ E_DEPRECATED);
 // array for JSON response
 $response = array();
  

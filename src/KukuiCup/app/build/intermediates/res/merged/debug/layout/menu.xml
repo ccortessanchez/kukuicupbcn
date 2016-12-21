@@ -10,9 +10,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true" >
-
+
+
         <TextView
-            android:id="@+id/LevelLabel"
+            android:id="@+id/levelLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Level 1" />
@@ -30,7 +31,10 @@
             android:layout_height="wrap_content"
             android:text="40/50" />
     </LinearLayout>
-
+
+
+
+
     <ExpandableListView
         android:id="@+id/lvExp"
         android:layout_width="match_parent"

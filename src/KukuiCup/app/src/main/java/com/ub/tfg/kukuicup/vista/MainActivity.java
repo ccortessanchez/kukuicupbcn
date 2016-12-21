@@ -67,6 +67,8 @@ public class MainActivity extends Activity {
 
     private ImageView playerImg;
     private ImageView badgeLevel1;
+    private ImageView badgeLevel2;
+    private ImageView badgeLevel3;
     private ImageView badgeOffBeforeSleep;
     //...
 
@@ -153,6 +155,8 @@ public class MainActivity extends Activity {
 
         playerImg = (ImageView) findViewById(R.id.userImg);
         badgeLevel1 = (ImageView)findViewById(R.id.badgeLevel1);
+        badgeLevel2 = (ImageView)findViewById(R.id.badgeLevel2);
+        badgeLevel3 = (ImageView)findViewById(R.id.badgeLevel3);
         badgeOffBeforeSleep = (ImageView)findViewById(R.id.badgeOffBeforeSleep);
 
         level1Btn = (ImageButton) findViewById(R.id.level1Btn);
@@ -165,25 +169,25 @@ public class MainActivity extends Activity {
         easterEgg = new AlertDialog.Builder(MainActivity.this).create();
 
         // Setting Dialog Title
-        alertDialog.setTitle("Level blocked");
-        easterEgg.setTitle("It's your lucky day!");
+        alertDialog.setTitle(getResources().getString(R.string.titleLevelBlocked));
+        easterEgg.setTitle(getResources().getString(R.string.titleEasterEgg));
 
         // Setting Dialog Message
-        alertDialog.setMessage("You need to complete the previous level to continue");
-        easterEgg.setMessage("It's a perfect day to give you 5 points. Enjoy it!");
+        alertDialog.setMessage(getResources().getString(R.string.msgLevelBlocked));
+        easterEgg.setMessage(getResources().getString(R.string.msgEasterEgg));
 
         // Setting Icon to Dialog
         alertDialog.setIcon(R.drawable.ic_blocked_level);
         easterEgg.setIcon(R.drawable.ic_user);
 
         // Setting OK Button
-        alertDialog.setButton2("OK", new DialogInterface.OnClickListener() {
+        alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
-                Toast.makeText(getApplicationContext(), "You can do it!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgToastLevel), Toast.LENGTH_SHORT).show();
             }
         });
-        easterEgg.setButton2("OK", new DialogInterface.OnClickListener() {
+        easterEgg.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
 
@@ -195,6 +199,7 @@ public class MainActivity extends Activity {
         }
 
         loadPlayerData(username);
+        updateDashBoard();
 
 
         playerImg.setOnClickListener(new OnClickListener() {
@@ -218,7 +223,16 @@ public class MainActivity extends Activity {
 		
 		level2Btn.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				alertDialog.show();
+                if (player.getPoints() <= 50) {
+                    alertDialog.show();
+                }
+                else {
+                    Intent intent = new Intent(ctxt, MenuActivity.class);
+                    int level = 2;
+                    intent.putExtra("levelId", level);
+                    intent.putExtra("points", player.getPoints());
+                    startActivity(intent);
+                }
 //				Intent intent = new Intent(ctxt, MenuActivity.class);
 				//intent.putExtra("levelId",2);
                 //intent.putExtra("points", player.getPoints());
@@ -228,7 +242,16 @@ public class MainActivity extends Activity {
 		
 		level3Btn.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				alertDialog.show();
+                if (player.getPoints() <= 150) {
+                    alertDialog.show();
+                }
+                else {
+                    Intent intent = new Intent(ctxt, MenuActivity.class);
+                    int level = 3;
+                    intent.putExtra("levelId", level);
+                    intent.putExtra("points", player.getPoints());
+                    startActivity(intent);
+                }
 //				Intent intent = new Intent(ctxt, MenuActivity.class);
 				//intent.putExtra("levelId",3);
 //                intent.putExtra("points", player.getPoints());
@@ -401,6 +424,15 @@ public class MainActivity extends Activity {
                 if(extras.getString("badge").equals("level1")){
                     badgeLevel1.setImageResource(R.mipmap.level1_badge);
                 }
+
+                if(extras.getString("badge").equals("level2")){
+                    badgeLevel2.setImageResource(R.mipmap.level3_badge);
+                }
+
+                if(extras.getString("badge").equals("level3")){
+                    badgeLevel3.setImageResource(R.mipmap.level2_badge);
+                }
+
                 if(extras.getString("badge").equals("offBeforeSleep")){
                     badgeOffBeforeSleep.setImageResource(R.mipmap.off_sleep_badge);
                 }
@@ -415,6 +447,13 @@ public class MainActivity extends Activity {
                 team.setPoints(team.getPoints()+5);
                 points = String.valueOf(team.getPoints());
                 new SaveTeamPoints().execute();
+            }
+            if(player.getPoints() >= 50) {
+                level2Btn.setImageResource(R.drawable.ic_level);
+            }
+
+            if(player.getPoints() >= 150) {
+                level3Btn.setImageResource(R.drawable.ic_level);
             }
 //                playerRanking.setText(extras.getInt("points"));
         }

@@ -70,16 +70,6 @@
                     android:src="@mipmap/badge_base"
                     android:visibility="invisible" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/battery"
-                    android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/challengeName"
-                    android:layout_toEndOf="@+id/challengeName"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginStart="25dp"
-                    android:id="@+id/energyIcon" />
             </RelativeLayout>
 
 
@@ -91,20 +81,22 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
                     android:layout_marginTop="15dp"
-                    >
+                    android:weightSum="1">
+
 
                     <TextView
                         android:id="@+id/daysRemainingLbl"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="67dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="left"
                         android:layout_marginLeft="35dp"
                         android:layout_marginTop="15dp"
-                        android:text="Days remaining: " />
+                        android:text="Days remaining: "
+                        android:layout_weight="0.24" />
 
                     <TextView
                         android:id="@+id/daysRemaining"
@@ -113,6 +105,8 @@
                         android:layout_gravity="left"
                         android:layout_marginTop="15dp"
                         />
+
+
                 </LinearLayout>
 
                 <TextView
@@ -131,6 +125,28 @@
                 android:layout_gravity="center"
                 android:gravity="right"
                 android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take a photo"
+                    android:id="@+id/secondaryBtn"
+                    />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:visibility="invisible"
+                    android:id="@+id/actionImg"/>
+
+                <Button
+                    android:id="@+id/upload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnUploadPhoto"
+                    android:visibility="invisible"
+                    android:enabled="false"
+                    />
 
                 <Button
                     android:id="@+id/primaryBtn"
