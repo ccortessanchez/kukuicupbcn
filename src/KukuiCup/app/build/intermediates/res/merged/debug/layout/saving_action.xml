@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+
     android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:theme="@android:style/Theme.Black">
@@ -15,7 +16,7 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -24,8 +25,8 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@drawable/rouned_corner_shadow"
             android:gravity="center_horizontal"
             android:orientation="vertical">
@@ -95,17 +96,47 @@
                 android:id="@+id/actionDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Configure your computer and any external monitor to sleep after 20 minutes of inactivity.
-
-Once you have changed your settings, please take a photo showing the new settings for use in verification"
-                android:layout_gravity="center"
+                android:text="Configure your computer and any external monitor to sleep after 20 minutes of inactivity."
+                android:layout_gravity="left"
                 android:layout_margin="10dp"/>
-
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:id="@+id/RGActlvl3">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/answera"
+                        android:text="Answer a"
+                        android:visibility="invisible"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/answerb"
+                        android:text="Answer b"
+                        android:visibility="invisible"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/answerc"
+                        android:text="Answer c"
+                        android:visibility="invisible"/>
+
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="right"
                 >

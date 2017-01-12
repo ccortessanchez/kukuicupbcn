@@ -3,6 +3,7 @@ package com.ub.tfg.kukuicup.vista;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -85,6 +86,7 @@ public class UserProfileActivity extends Activity {
         done = (Button) findViewById(R.id.doneBtn);
         username = (TextView) findViewById(R.id.usernameLabel);
         username.setText(session.getName().toString());
+        username.setTextColor(Color.BLACK);
 
         logOutBtn = (Button) findViewById(R.id.logOutBtn);
 

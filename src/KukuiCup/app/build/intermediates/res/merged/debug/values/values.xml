@@ -541,8 +541,9 @@
     <string name="descL3_saveAct1_opt1">Morning</string>
     <string name="descL3_saveAct1_opt2">Afternoon</string>
     <string name="descL3_saveAct1_opt3">Night</string>
-    <string name="descL3_saveAct1_tip1"/>
-    <string name="descL3_saveAct1_tip2"/>
+    <string name="descL3_saveAct1_tip1">Kilowatt is cheaper if you do your laundry between 23h and 8h in the morning!</string>
+    <string name="descL3_saveAct1_tip2">Kilowatt is cheaper if you do your laundry between 14h and 16h. Try to avoid doing it between 20h and 22h!</string>
+    <string name="descL3_saveAct1_tip3">Kilowatt is more expensive between 20h and 22h. Try to avoid those hours!</string>
     <string name="descL3_saveAct2">When you do your laundry, how is the washing machine?</string>
     <string name="descL3_saveAct2_opt1">Full charged</string>
     <string name="descL3_saveAct2_opt2">Half charged</string>

@@ -126,7 +126,8 @@
                     android:text="Do the Quiz"
                     android:layout_marginRight="35dp"
                     android:enabled="false"
-                    />
+                    android:background="@android:drawable/btn_default"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse"/>
             </LinearLayout>
         </LinearLayout>
 

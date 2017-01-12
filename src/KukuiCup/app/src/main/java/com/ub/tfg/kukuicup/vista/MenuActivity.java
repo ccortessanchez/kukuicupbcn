@@ -187,6 +187,7 @@ public class MenuActivity extends Activity {
         if(levelId == 3) {
             List<String> action = new ArrayList<String>();
             action.add(getResources().getString(R.string.savActL3_1));
+            action.add(getResources().getString(R.string.savActL3_2));
 
 
             List<String> challenge = new ArrayList<String>();

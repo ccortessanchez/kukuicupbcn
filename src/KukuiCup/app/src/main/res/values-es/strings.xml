@@ -117,8 +117,9 @@
     <string name="descL3_saveAct1_opt1">Mañana</string>
     <string name="descL3_saveAct1_opt2">Tarde</string>
     <string name="descL3_saveAct1_opt3">Noche</string>
-    <string name="descL3_saveAct1_tip1"></string>
-    <string name="descL3_saveAct1_tip2"></string>
+    <string name="descL3_saveAct1_tip1">¡El kilovatio es más barato si pones la lavadora entre las 23h y las 8h de la mañana!</string>
+    <string name="descL3_saveAct1_tip2">El kilovatio es más barato si pones la lavadora entre las 14h y las 16h. ¡Intenta no ponerla entre las 20h y las 22h!</string>
+    <string name="descL3_saveAct1_tip3">El kilowvatio es más caro entre las 20h y las 22h. ¡Intenta evitar esas horas!</string>
     <string name="savActL3_2">Carga de la lavadora</string>
     <string name="descL3_saveAct2">Cuando pones la lavadora, ¿como es su carga?</string>
     <string name="descL3_saveAct2_opt1">Llena</string>

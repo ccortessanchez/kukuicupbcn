@@ -4,29 +4,29 @@
     density="mdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="761733693203745"
+    timestamp="782557449643910"
     token="-2273659556054413950"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="34236" />
+        duration="4368" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="5713" />
+        duration="3580" />
     <task
         name="verifier"
-        duration="762" />
+        duration="1239" />
 
     <artifact
         location="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="761733693203745"
+        timestamp="782557449643910"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\outputs\apk\app-debug.apk"

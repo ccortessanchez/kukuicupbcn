@@ -117,8 +117,9 @@
     <string name="descL3_saveAct1_opt1">Matí</string>
     <string name="descL3_saveAct1_opt2">Tarda</string>
     <string name="descL3_saveAct1_opt3">Nit</string>
-    <string name="descL3_saveAct1_tip1"></string>
-    <string name="descL3_saveAct1_tip2"></string>
+    <string name="descL3_saveAct1_tip1">El kilowatt es més barat si poses la rentadora entre les 23h i les 8h del matí!</string>
+    <string name="descL3_saveAct1_tip2">El kilowatt es més barat si poses la rentadora entre les 14h i les 16h. Intenta no posar-la entre les 20h i les 22h!</string>
+    <string name="descL3_saveAct1_tip3">El kilowatt es més car entre les 20h i les 22h. Intenta evitar aquestes hores!</string>
     <string name="savActL3_2">Càrrega de la rentadora</string>
     <string name="descL3_saveAct2">Quan poses la rentadora, com es la seva càrrega?</string>
     <string name="descL3_saveAct2_opt1">Plena</string>

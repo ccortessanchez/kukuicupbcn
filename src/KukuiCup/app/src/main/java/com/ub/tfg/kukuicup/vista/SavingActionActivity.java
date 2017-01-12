@@ -11,6 +11,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,6 +46,10 @@ public class SavingActionActivity extends Activity {
     private ImageView actionImg;
     private ImageView savActionImg;
 
+    private RadioGroup radioGr;
+    private RadioButton answer1btn, answer2btn, answer3btn;
+    private RadioButton answera, answerb, answerc;
+
     private AlertDialog alertDialog;
 
     public void onCreate(Bundle savedInstanceState) {
@@ -57,17 +63,17 @@ public class SavingActionActivity extends Activity {
         levelId = extras.getInt("levelId");
         actionId = extras.getInt("actionId");
 
-        actionName = (TextView)findViewById(R.id.actionName);
-        reward = (TextView)findViewById(R.id.actionReward);
-        description = (TextView)findViewById(R.id.actionDescription);
+        actionName = (TextView) findViewById(R.id.actionName);
+        reward = (TextView) findViewById(R.id.actionReward);
+        description = (TextView) findViewById(R.id.actionDescription);
 
-        primaryBtn = (Button)findViewById(R.id.primaryBtn);
-        secondaryBtn = (Button)findViewById(R.id.secondaryBtn);
-        uploadBtn = (Button)findViewById(R.id.upload);
-        likeView = (LikeView)findViewById(R.id.likeView);
+        primaryBtn = (Button) findViewById(R.id.primaryBtn);
+        secondaryBtn = (Button) findViewById(R.id.secondaryBtn);
+        uploadBtn = (Button) findViewById(R.id.upload);
+        likeView = (LikeView) findViewById(R.id.likeView);
         likeView.setLikeViewStyle(LikeView.Style.STANDARD);
         likeView.setAuxiliaryViewPosition(LikeView.AuxiliaryViewPosition.INLINE);
-        likeView.setObjectIdAndType("https://www.facebook.com/kukuicup/?fref=ts",LikeView.ObjectType.OPEN_GRAPH);
+        likeView.setObjectIdAndType("https://www.facebook.com/kukuicup/?fref=ts", LikeView.ObjectType.OPEN_GRAPH);
         likeView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,10 +81,15 @@ public class SavingActionActivity extends Activity {
             }
         });
 
-        pointsImg = (ImageView)findViewById(R.id.pointsImg);
-        badgeImg = (ImageView)findViewById(R.id.badgeImg);
-        actionImg = (ImageView)findViewById(R.id.actionImg);
-        savActionImg = (ImageView)findViewById(R.id.savActionImg);
+        pointsImg = (ImageView) findViewById(R.id.pointsImg);
+        badgeImg = (ImageView) findViewById(R.id.badgeImg);
+        actionImg = (ImageView) findViewById(R.id.actionImg);
+        savActionImg = (ImageView) findViewById(R.id.savActionImg);
+
+        radioGr = (RadioGroup) findViewById(R.id.RGActlvl3);
+        answera = (RadioButton) findViewById(R.id.answera);
+        answerb = (RadioButton) findViewById(R.id.answerb);
+        answerc = (RadioButton) findViewById(R.id.answerc);
 
         alertDialog = new AlertDialog.Builder(SavingActionActivity.this).create();
         // Setting Dialog Title
@@ -100,7 +111,7 @@ public class SavingActionActivity extends Activity {
 
         secondaryBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                initTaskByActionId(levelId,actionId);
+                initTaskByActionId(levelId, actionId);
             }
         });
 
@@ -115,7 +126,39 @@ public class SavingActionActivity extends Activity {
                 primaryBtn.setEnabled(true);
                 actionImg.setVisibility(View.INVISIBLE);
                 uploadBtn.setVisibility(View.INVISIBLE);
-                Toast.makeText(getApplicationContext(),getResources().getString(R.string.msgToastUpload), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgToastUpload), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        answera.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if (actionId == 0) {
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct1_tip1), Toast.LENGTH_LONG).show();
+                }
+                if (actionId == 1) {
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct2_tip1), Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+        answerb.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if (actionId == 0) {
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct1_tip2), Toast.LENGTH_LONG).show();
+
+                }
+                if (actionId == 1) {
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct2_tip2), Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+        answerc.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if (actionId == 0) {
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct1_tip3), Toast.LENGTH_LONG).show();
+
+                }
             }
         });
 
@@ -336,7 +379,12 @@ public class SavingActionActivity extends Activity {
                         actionName.setText(getResources().getString(R.string.savActL3_1));
                         reward.setText("+3");
                         description.setText(getResources().getString(R.string.descL3_saveAct1));
-
+                        answera.setVisibility(View.VISIBLE);
+                        answerb.setVisibility(View.VISIBLE);
+                        answerc.setVisibility(View.VISIBLE);
+                        answera.setText(getResources().getString(R.string.descL3_saveAct1_opt1));
+                        answerb.setText(getResources().getString(R.string.descL3_saveAct1_opt2));
+                        answerc.setText(getResources().getString(R.string.descL3_saveAct1_opt3));
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         primaryBtn.setEnabled(true);
                         secondaryBtn.setVisibility(View.INVISIBLE);
@@ -353,7 +401,10 @@ public class SavingActionActivity extends Activity {
                         actionName.setText(getResources().getString(R.string.savActL3_2));
                         reward.setText("+3");
                         description.setText(getResources().getString(R.string.descL3_saveAct2));
-
+                        answera.setVisibility(View.VISIBLE);
+                        answerb.setVisibility(View.VISIBLE);
+                        answera.setText(getResources().getString(R.string.descL3_saveAct2_opt1));
+                        answerb.setText(getResources().getString(R.string.descL3_saveAct2_opt2));
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         primaryBtn.setEnabled(true);
                         secondaryBtn.setVisibility(View.INVISIBLE);

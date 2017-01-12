@@ -146,7 +146,8 @@
                     android:id="@+id/secondaryBtn"
                     android:background="@android:drawable/btn_default"
                     tools:textColor="@android:color/black"
-                    android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
+                    android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse"
+                    android:visibility="invisible" />
 
                 <ImageView
                     android:layout_width="45dp"
@@ -159,6 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnUploadPhoto"
+                    android:textColor="@android:color/black"
                     android:visibility="invisible"
                     android:enabled="false"
                     android:background="@android:drawable/btn_default"

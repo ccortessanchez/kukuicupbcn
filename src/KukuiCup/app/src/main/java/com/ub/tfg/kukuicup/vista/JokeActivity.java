@@ -69,10 +69,10 @@ public class JokeActivity extends Activity {
             case 2:
                 switch (formId) {
                     case 0:
-                        jokeImg.setImageResource(R.mipmap.joke1_img);
+                        jokeImg.setImageResource(R.mipmap.joke2_img);
                         break;
                     case 1:
-                        jokeImg.setImageResource(R.mipmap.joke1_img);
+                        jokeImg.setImageResource(R.mipmap.joke3_img);
                         break;
                     case 2:
                         break;
@@ -83,10 +83,10 @@ public class JokeActivity extends Activity {
             case 3:
                 switch (formId) {
                     case 0:
-                        jokeImg.setImageResource(R.mipmap.joke1_img);
+                        jokeImg.setImageResource(R.mipmap.joke4_img);
                         break;
                     case 1:
-                        jokeImg.setImageResource(R.mipmap.joke1_img);
+                        jokeImg.setImageResource(R.mipmap.joke5_img);
                         break;
                     case 2:
                         break;

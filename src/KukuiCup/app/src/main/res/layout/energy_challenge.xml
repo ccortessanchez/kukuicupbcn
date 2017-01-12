@@ -108,6 +108,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="Let's go!"
+                    android:textColor="@android:color/black"
                     android:layout_marginRight="35dp"
                     android:background="@android:drawable/btn_default"
                     android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
