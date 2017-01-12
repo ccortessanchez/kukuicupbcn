@@ -3,6 +3,7 @@ package com.ub.tfg.kukuicup.admin.vista;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -99,6 +100,7 @@ public class NewPlayerActivity extends Activity {
         teamSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                ((TextView) parent.getChildAt(0)).setTextColor(Color.BLACK);
                 pid = ((TextView) view.findViewById(R.id.pid)).getText()
                         .toString();
             }
@@ -123,7 +125,7 @@ public class NewPlayerActivity extends Activity {
         protected void onPreExecute() {
             super.onPreExecute();
             pDialog = new ProgressDialog(NewPlayerActivity.this);
-            pDialog.setMessage("Creating Player..");
+            pDialog.setMessage(getResources().getString(R.string.creatingPlayers));
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
             pDialog.show();
@@ -193,7 +195,7 @@ public class NewPlayerActivity extends Activity {
         protected void onPreExecute() {
             super.onPreExecute();
             pDialog = new ProgressDialog(NewPlayerActivity.this);
-            pDialog.setMessage("Loading teams. Please wait...");
+            pDialog.setMessage(getResources().getString(R.string.loadTeams));
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(false);
             pDialog.show();

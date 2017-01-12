@@ -43,6 +43,17 @@
     <string name="msgQuiz2L2">Has guanyat 30 punts</string>
     <string name="msgQuiz1L3">Has guanyat la medalla del Nivell 3+ i 30 punts</string>
     <string name="msgQuiz2L3">Has guanyat la medalla del Nivell 3 i 30 punts</string>
+    <string name="msgBadge1">Has guanyat la medalla Apagar Abans De Dormir.</string>
+    <string name="msgBadge2">Has guanyat la medalla Usa les Escales.</string>
+    <string name="msgBadge3">Has guanyat la medalla Habitació Buida.</string>
+    <string name="msgBadge4">Has guanyat la medalla Joc en Equip.</string>
+
+    <string name="msgPass">Has d\'omplir tots els camps</string>
+    <string name="msgId">Identificació ...</string>
+    <string name="msgLogResp">Resposta de Login:</string>
+    <string name="msgChangeSuccess">Canvi satisfactori</string>
+    <string name="msgChangeAnfConfirm">La nova contrasenya i la confirmación ha de ser iguals</string>
+    <string name="msgInvPass">Contrasenya no vàlida</string>
 
     <!--- MENU ADMIN -->
     <string name="btnCreateTeam">Afergir Equip</string>
@@ -63,6 +74,10 @@
     <string name="actualPassLabel">Contrasenya actual</string>
     <string name="newPassLabel">Contrasenya nova</string>
     <string name="confirmPassLabel">Confirmar contrasenya</string>
+    <string name="loadTeams">Carregant equips. Espera siusplau...</string>
+    <string name="creatingPlayers">Creant jugador...</string>
+    <string name="loadPlayers">Carregant jugadors. Espera siusplau...</string>
+    <string name="creatingTeam">Creant jugador...</string>
 
     <!--- MAIN USER -->
     <string name="level1Label">Nivell 1</string>
@@ -93,10 +108,23 @@
         Prem el botó Fet! quan haguis realitzat aquesta acció d\'estalvi.</string>
     <string name="savActL2_3">Energia en POST-IT</string>
     <string name="descL2_saveAct3"> Escriu en un post-it el consum energètic i el nombre d\'hores d\'us de qualsevol aparell doméstic. Calcula el seu consumo diari i fes una foto al post-it.</string>
+    <string name="savActL2_4">Busca el LED</string>
+    <string name="descL2_saveAct4">Fes una ullada al teu voltant, busca qualsevol aparell que faci servir una bombeta LED i fes una foto.</string>
 
     <!--- SAVING ACTIONS LEVEL 3 -->
-    <string name="savActL3_1">L\'hora de la rentadora</string>
-    <string name="descL3_saveAct1">TEXT RENTADORA</string>
+    <string name="savActL3_1">Hora de la rentadora</string>
+    <string name="descL3_saveAct1">A quina hora del dia poses la rentadora?</string>
+    <string name="descL3_saveAct1_opt1">Matí</string>
+    <string name="descL3_saveAct1_opt2">Tarda</string>
+    <string name="descL3_saveAct1_opt3">Nit</string>
+    <string name="descL3_saveAct1_tip1"></string>
+    <string name="descL3_saveAct1_tip2"></string>
+    <string name="savActL3_2">Càrrega de la rentadora</string>
+    <string name="descL3_saveAct2">Quan poses la rentadora, com es la seva càrrega?</string>
+    <string name="descL3_saveAct2_opt1">Plena</string>
+    <string name="descL3_saveAct2_opt2">Mitja</string>
+    <string name="descL3_saveAct2_tip1">Si la teva rentadora es de baix consum, posar-la plena pot estalviar-te alguns litres d\'aigua. Tampoc cal emplenar-la massa!</string>
+    <string name="descL3_saveAct2_tip2">No es recomenable posar la rentora si no hi ha roba suficient. Espera a emplenar-la per estalviar aigua!</string>
 
     <!--- ENERGY CHALLENGE LEVEL 1 -->
     <string name="enrgChalL1_1">Apagar abans de dormir</string>
@@ -137,6 +165,7 @@
 
     <!--- VIDEO & QUIZ -->
     <string name="L1_video1">Potencia i Energia</string>
+    <string name="L1_videoDesc">Aquest curt video educatiu descriu les diferencies entre potencia i energia, un concepte molt important utilitzat per a determinar que poden produir els sistemes fotovoltaics amb el tiemps.</string>
     <string name="quest1_L1_video1">El treball es realitzat únicament quan una força es troba _____ un objecte.</string>
     <string name="L1V1_1A">A: amb</string>
     <string name="L1V1_1B">B: movent</string>
@@ -151,6 +180,7 @@
     <string name="L1V1_3C">C: l\'energia elèctrica pot canviar l\'energia de la llum</string>
 
     <string name="L2_video1">Energia eòlica</string>
+    <string name="L2_videoDesc1">Aquest curt video descriu com funciona l\'energía eólica i quins aparells es poden  usar per a obtenir electricitat</string>
     <string name="quest1_L2_video1">Mitjançant _______ obtenim electricitat fent ús del vent com a font d\’energia</string>
     <string name="L2V1_1A">A: centrals termoelèctriques</string>
     <string name="L2V1_1B">B: centrals elèctriques</string>
@@ -165,6 +195,7 @@
     <string name="L2V1_3C">C: energia mecànica -> elèctrica -> cinètica</string>
 
     <string name="L2_video2">Beneficis del LED</string>
+    <string name="L2_videoDesc2">Aquest curt video explica els beneficis de les llums LED i les seves diferencies amb les bombetes tradicionals.</string>
     <string name="quest1_L2_video2">En quin país va ser descobert el LED?</string>
     <string name="L2V2_1A">A: Espanya</string>
     <string name="L2V2_1B">B: China</string>
@@ -179,6 +210,7 @@
     <string name="L2V2_3C">C: les dues bombetes són iguals</string>
 
     <string name="L3_video1">Energia renovable</string>
+    <string name="L3_videoDesc1">Aquest curt video descriu quins recursos podem utilitzar per a produir energies renovables i quins son els seus beneficis.</string>
     <string name="quest1_L3_video1">Quins recursos podem utilitzar en el procés de generar energia?</string>
     <string name="L3V1_1A">A: sol, vent i el calor de la terra</string>
     <string name="L3V1_1B">B: sol, aigua i el calor de la terra</string>
@@ -193,6 +225,7 @@
     <string name="L3V1_3C">C: el vent</string>
 
     <string name="L3_video2">Energia Solar</string>
+    <string name="L3_videoDesc2">Aquest curt video descriu com funciona l\'energia solar i quins aparells s\'utilitzen per generar electricitat</string>
     <string name="quest1_L3_video2">Què és l\'energia solar?</string>
     <string name="L3V2_1A">A: un tipus d\’energia natural</string>
     <string name="L3V2_1B">B: un tipus d\’energia que s\’esgota</string>

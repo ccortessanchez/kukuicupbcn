@@ -122,7 +122,7 @@ public class AllPlayersActivity extends ListActivity{
         protected void onPreExecute() {
             super.onPreExecute();
             pDialog = new ProgressDialog(AllPlayersActivity.this);
-            pDialog.setMessage("Loading players. Please wait...");
+            pDialog.setMessage(getResources().getString(R.string.loadPlayers));
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(false);
             pDialog.show();

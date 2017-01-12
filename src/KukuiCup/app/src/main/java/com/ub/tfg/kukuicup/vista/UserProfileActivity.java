@@ -84,6 +84,8 @@ public class UserProfileActivity extends Activity {
         confirmPasswd = (EditText) findViewById(R.id.inputConfirmPswd);
         done = (Button) findViewById(R.id.doneBtn);
         username = (TextView) findViewById(R.id.usernameLabel);
+        username.setText(session.getName().toString());
+
         logOutBtn = (Button) findViewById(R.id.logOutBtn);
 
         logOutBtn.setOnClickListener(new View.OnClickListener() {
@@ -103,7 +105,7 @@ public class UserProfileActivity extends Activity {
                     checkLogin(session.getName(),pass,newpass, confirmpass);
 
                 } else {
-                    Toast.makeText(getApplicationContext(), "You must fill all the gaps", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgPass), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -172,22 +174,22 @@ public class UserProfileActivity extends Activity {
 
             @Override
             public void onResponse(String response) {
-                Log.d(TAG, "Login Response: " + response.toString());
+                Log.d(TAG, getResources().getString(R.string.msgLogResp) + response.toString());
                 hideDialog();
 
                 if (response.equalsIgnoreCase("success")) {
                     if (newpass.equals(confirmpass)) {
-                        Toast.makeText(getApplicationContext(), "Change successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgChangeSuccess), Toast.LENGTH_SHORT).show();
                         new SavePlayerPasswd().execute();
                         Intent intent = new Intent(UserProfileActivity.this, MainActivity.class);
                         startActivity(intent);
                     } else {
-                        Toast.makeText(getApplicationContext(), "New password and confirmation must be the same", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgChangeAnfConfirm), Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     //If the server response is not success
                     //Displaying an error message on toast
-                    Toast.makeText(UserProfileActivity.this, "Invalid password", Toast.LENGTH_LONG).show();
+                    Toast.makeText(UserProfileActivity.this, getResources().getString(R.string.msgInvPass), Toast.LENGTH_LONG).show();
                 }
 
             }

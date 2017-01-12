@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+              android:background="#5F4C0B"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,7 +17,8 @@
             android:text="Form"
             android:layout_marginLeft="30dp"
             android:layout_gravity="center"
-            />
+            android:textColor="#BEF781"
+            android:textStyle="bold" />
         <TextView
             android:id="@+id/formReward"
             android:layout_width="wrap_content"
@@ -23,7 +27,10 @@
             android:text="Reward"
             android:layout_toLeftOf="@+id/pointsImg"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="30dp"/>
+            android:layout_marginLeft="30dp"
+            android:textColor="#BEF781"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="wrap_content"
             android:text="Points"
@@ -32,7 +39,9 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="35dp"
             android:layout_gravity="center_vertical"
-            />
+            android:textColor="#BEF781"
+            android:textStyle="bold" />
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -61,7 +70,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/quest1"
-            android:text="Question 1"/>
+            android:text="Question 1"
+            android:textColor="#BEF781"
+            android:textStyle="bold" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -92,7 +103,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/quest2"
-            android:text="Question 2"/>
+            android:text="Question 2"
+            android:textColor="#BEF781"
+            android:textStyle="bold" />
 
 
         <RadioGroup
@@ -123,7 +136,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/quest3"
-            android:text="Question 3"/>
+            android:text="Question 3"
+            android:textColor="#BEF781"
+            android:textStyle="bold" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -165,8 +180,13 @@
             android:id="@+id/primaryBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#5F4C0B"
+            android:background="#BEF781"
             android:text="Finish"
-            />
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textStyle="bold"
+            tools:textStyle="bold" />
 
     </LinearLayout>
     </LinearLayout>

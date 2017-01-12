@@ -70,6 +70,9 @@ public class MainActivity extends Activity {
     private ImageView badgeLevel2;
     private ImageView badgeLevel3;
     private ImageView badgeOffBeforeSleep;
+    private ImageView badgeEmptyRoom;
+    private ImageView badgeUseStairs;
+    private ImageView badgeMoreLess;
     //...
 
 
@@ -158,6 +161,9 @@ public class MainActivity extends Activity {
         badgeLevel2 = (ImageView)findViewById(R.id.badgeLevel2);
         badgeLevel3 = (ImageView)findViewById(R.id.badgeLevel3);
         badgeOffBeforeSleep = (ImageView)findViewById(R.id.badgeOffBeforeSleep);
+        badgeEmptyRoom = (ImageView)findViewById(R.id.badgeTurnOff);
+        badgeUseStairs = (ImageView)findViewById(R.id.badgeUpStairs);
+        badgeMoreLess = (ImageView)findViewById(R.id.badgeMoreLess);
 
         level1Btn = (ImageButton) findViewById(R.id.level1Btn);
         level2Btn = (ImageButton) findViewById(R.id.level2Btn);
@@ -426,15 +432,25 @@ public class MainActivity extends Activity {
                 }
 
                 if(extras.getString("badge").equals("level2")){
-                    badgeLevel2.setImageResource(R.mipmap.level3_badge);
+                    badgeLevel2.setImageResource(R.mipmap.level2_badge);
                 }
 
                 if(extras.getString("badge").equals("level3")){
-                    badgeLevel3.setImageResource(R.mipmap.level2_badge);
+                    badgeLevel3.setImageResource(R.mipmap.level3_badge);
                 }
 
                 if(extras.getString("badge").equals("offBeforeSleep")){
                     badgeOffBeforeSleep.setImageResource(R.mipmap.off_sleep_badge);
+                }
+
+                if(extras.getString("badge").equals("emptyRoom")){
+                    badgeOffBeforeSleep.setImageResource(R.mipmap.empty_room_badge);
+                }
+                if(extras.getString("badge").equals("useStairs")){
+                    badgeOffBeforeSleep.setImageResource(R.mipmap.stairs_badge);
+                }
+                if(extras.getString("badge").equals("teamPlay")){
+                    badgeOffBeforeSleep.setImageResource(R.mipmap.more_less_badge);
                 }
             }
             if(easterEggDay){
@@ -472,11 +488,46 @@ public class MainActivity extends Activity {
                 badgeLevel1.setImageResource(R.mipmap.level1_badge);
         }
 
+        if(team.getBadgeByName("Level2")!=null)
+            badgeLevel1.setImageResource(R.mipmap.level2_badge);
+        else {
+            if(player.getBadgeByName("Level2")!=null)
+                badgeLevel1.setImageResource(R.mipmap.level2_badge);
+        }
+
+        if(team.getBadgeByName("Level3")!=null)
+            badgeLevel1.setImageResource(R.mipmap.level3_badge);
+        else {
+            if(player.getBadgeByName("Level3")!=null)
+                badgeLevel1.setImageResource(R.mipmap.level3_badge);
+        }
+
         if(team.getBadgeByName("OffBeforeSleep")!=null)
             badgeOffBeforeSleep.setImageResource(R.mipmap.off_sleep_team_badge);
         else {
             if(player.getBadgeByName("OffBeforeSleep")!=null)
                 badgeOffBeforeSleep.setImageResource(R.mipmap.off_sleep_badge);
+        }
+
+        if(team.getBadgeByName("EmptyRoom")!=null)
+            badgeOffBeforeSleep.setImageResource(R.mipmap.empty_room_team_badge);
+        else {
+            if(player.getBadgeByName("EmptyRoom")!=null)
+                badgeOffBeforeSleep.setImageResource(R.mipmap.empty_room_badge);
+        }
+
+        if(team.getBadgeByName("UseStairs")!=null)
+            badgeOffBeforeSleep.setImageResource(R.mipmap.stairs_badge_team);
+        else {
+            if(player.getBadgeByName("UseStairs")!=null)
+                badgeOffBeforeSleep.setImageResource(R.mipmap.stairs_badge);
+        }
+
+        if(team.getBadgeByName("TeamPlay")!=null)
+            badgeOffBeforeSleep.setImageResource(R.mipmap.more_less_team_badge);
+        else {
+            if(player.getBadgeByName("TeamPlay")!=null)
+                badgeOffBeforeSleep.setImageResource(R.mipmap.more_less_team_badge);
         }
 
     }

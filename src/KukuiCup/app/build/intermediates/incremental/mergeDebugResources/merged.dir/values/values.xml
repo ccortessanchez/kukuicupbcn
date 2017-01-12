@@ -404,14 +404,14 @@
     <string name="L2V2_3C">C: both are the same</string>
     <string name="L2_video1">Wind Power</string>
     <string name="L2_video2">The benefits of LED</string>
-    <string name="L2_videoDesc1"/>
-    <string name="L2_videoDesc2"/>
+    <string name="L2_videoDesc1">This short video describes how the wind power works and what devices are used to produce electricity from it.</string>
+    <string name="L2_videoDesc2">This short video explains the benefits of LED lights and the difference with light bulbs.</string>
     <string name="L3V1_1A">A: sun, water and earth heat</string>
     <string name="L3V1_1B">B: sun, wind and earth heat</string>
-    <string name="L3V1_1C">C: sun, water, sun and earth heat</string>
+    <string name="L3V1_1C">C: sun, water, wind and earth heat</string>
     <string name="L3V1_2A">A: they are less clean than non-renewable energies</string>
-    <string name="L3V1_2B">B: can be renewed at the same rate as they are consumed</string>
-    <string name="L3V1_2C">C: contribute to global warming</string>
+    <string name="L3V1_2B">B: they can be renewed at the same rate as they are consumed</string>
+    <string name="L3V1_2C">C: they contribute to global warming</string>
     <string name="L3V1_3A">A: water</string>
     <string name="L3V1_3B">B: sun</string>
     <string name="L3V1_3C">C: wind</string>
@@ -426,8 +426,8 @@
     <string name="L3V2_3C">C: they are used to generate electrical energy</string>
     <string name="L3_video1">Renewable Energy</string>
     <string name="L3_video2">Solar Energy</string>
-    <string name="L3_videoDesc1"/>
-    <string name="L3_videoDesc2"/>
+    <string name="L3_videoDesc1">This short video describes what resources we can use to produce renewable energy and their benefits</string>
+    <string name="L3_videoDesc2">This short video describes how the solar energy works and what devices are used to produce electricity from it.</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -505,6 +505,8 @@
     <string name="com_facebook_smart_login_confirmation_title">Confirm Login</string>
     <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
     <string name="confirmPassLabel">Confirm password</string>
+    <string name="creatingPlayers">Creating Player...</string>
+    <string name="creatingTeam">Creating Team...</string>
     <string name="dashPoints">Points :</string>
     <string name="dashRkg">Ranking :</string>
     <string name="daysRemaining">KukuiCupBCN end date : </string>
@@ -527,6 +529,7 @@
     <string name="descL2_saveAct2">During the day, turn off your room light and use daylight (if it\'s possible in your room).
         Press the Done! button when you make this saving action.</string>
     <string name="descL2_saveAct3">Write in a post-it the energetic consumption and hours of daily use of any domestic device. Then calculate his daily consumption, paste the post-it and take a photo for verification.</string>
+    <string name="descL2_saveAct4">Take a look around and search for any device that uses LED bulbs and take a picture of it.</string>
     <string name="descL3_enrgChal1">Will you get the next challenge?
         Team play! In this challenge, each team has to find two types of electronic devices:
             -The device with the higher consumption
@@ -534,7 +537,17 @@
         The first team to find them will be the challenge winner! 50 points for the team in second place.</string>
     <string name="descL3_enrgChal2">Will you get the next challenge?
         Create a design to put on a shirt for the upcoming KukuiCupBCN and take a photo of it to win the challenge</string>
-    <string name="descL3_saveAct1">WASHING MACHINE TEXT</string>
+    <string name="descL3_saveAct1">What time of the day do you do your laundry?</string>
+    <string name="descL3_saveAct1_opt1">Morning</string>
+    <string name="descL3_saveAct1_opt2">Afternoon</string>
+    <string name="descL3_saveAct1_opt3">Night</string>
+    <string name="descL3_saveAct1_tip1"/>
+    <string name="descL3_saveAct1_tip2"/>
+    <string name="descL3_saveAct2">When you do your laundry, how is the washing machine?</string>
+    <string name="descL3_saveAct2_opt1">Full charged</string>
+    <string name="descL3_saveAct2_opt2">Half charged</string>
+    <string name="descL3_saveAct2_tip1">If your washing machine has low consumption, doing the laundry with full charge washing machine will save you some liters of water. But don\'t do it excessively full!</string>
+    <string name="descL3_saveAct2_tip2">Is not advisable to do your laundry if there are not enough clothes. Wait until there are more to save water!</string>
     <string name="endDate">End Date:</string>
     <string name="enrgChalL1_1">Off before sleep</string>
     <string name="enrgChalL2_1">Use stairs</string>
@@ -550,12 +563,24 @@
     <string name="level1Label">Level 1</string>
     <string name="level2Label">Level 2</string>
     <string name="level3Label">Level 3</string>
+    <string name="loadPlayers">Loading players. Please wait...</string>
+    <string name="loadTeams">Loading teams. Please wait...</string>
     <string name="localhost">10.133.5.181</string>
     <string name="messenger_send_button_text">Send</string>
+    <string name="msgBadge1">You have won the bagde Off Before Sleep.</string>
+    <string name="msgBadge2">You have won the bagde Use Stairs.</string>
+    <string name="msgBadge3">You have won the bagde Empty Room.</string>
+    <string name="msgBadge4">You have won the bagde Team Play.</string>
+    <string name="msgChangeAnfConfirm">New password and confirmation must be the same</string>
+    <string name="msgChangeSuccess">Change successfull</string>
     <string name="msgCongrats">Congratulations! Get your points!</string>
     <string name="msgCongratsAlt">Congratulations!</string>
     <string name="msgEasterEgg">It\'s a perfect day to give you 5 points. Enjoy it!</string>
+    <string name="msgId">Identification ...</string>
+    <string name="msgInvPass">Invalid password</string>
     <string name="msgLevelBlocked">You need to complete the previous level to continue</string>
+    <string name="msgLogResp">Login Response:</string>
+    <string name="msgPass">You must fill all the gaps</string>
     <string name="msgQuiz1L1">You have won the bagde of Level 1 and 30 points.</string>
     <string name="msgQuiz1L2">You have won the bagde of Level 2 and 30 points.</string>
     <string name="msgQuiz1L3">You have won the bagde of Level 3+ and 30 points.</string>
@@ -576,12 +601,12 @@
     <string name="quest1_L3_video2">What is solar energy?</string>
     <string name="quest2_L1_video1">When a moving object has the energy of motion it has this type of energy.</string>
     <string name="quest2_L2_video1">Where does the power of the electricity generated increase?</string>
-    <string name="quest2_L2_video2">What percentage of savings do LED lights allow?</string>
+    <string name="quest2_L2_video2">What is the percentage of savings of LED lights?</string>
     <string name="quest2_L3_video1">What are the benefits of renewable energies?</string>
     <string name="quest2_L3_video2">What are the benefits of solar energy?</string>
     <string name="quest3_L1_video1">How can energy change?</string>
     <string name="quest3_L2_video1">What energy chain transformation does the wind produce when moving the propellers of the mill?</string>
-    <string name="quest3_L2_video2">What\’s the difference between an LED bulb and a light bulb?</string>
+    <string name="quest3_L2_video2">What\’s the difference between a LED bulb and a light bulb?</string>
     <string name="quest3_L3_video1">What natural resource is, by now, the most used for the generation of electric energy?</string>
     <string name="quest3_L3_video2">What is the function of solar panels?</string>
     <string name="resumeDay">/day</string>
@@ -602,7 +627,9 @@
     <string name="savActL2_1">My room consumption</string>
     <string name="savActL2_2">Use daylight</string>
     <string name="savActL2_3">Consumption in POST-IT</string>
+    <string name="savActL2_4">Search the LED</string>
     <string name="savActL3_1">Washing machine time</string>
+    <string name="savActL3_2">Washing machine charge</string>
     <string name="savAction">Saving Action</string>
     <string name="search_menu_title">Search</string>
     <string name="startTournament">Start the tournament</string>

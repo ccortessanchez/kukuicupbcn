@@ -19,6 +19,7 @@
     <string name="L1V1_3B">B: la temperatura cambia el tipo de energía</string>
     <string name="L1V1_3C">C: la energía eléctrica puede cambiar la energía de la luz</string>
     <string name="L1_video1">Potencia y Energía</string>
+    <string name="L1_videoDesc">Este video educativo corto describe las diferencias entre potencia y energia, un concepto muy importante usado para determinar que pueden producir los sistemas fotovoltaicos con el tiempo.</string>
     <string name="L2V1_1A">A: centrales termoeléctricas</string>
     <string name="L2V1_1B">B: centrales eléctricas</string>
     <string name="L2V1_1C">C: centrales eólicas</string>
@@ -39,6 +40,8 @@
     <string name="L2V2_3C">C: ambas bombillas son iguales</string>
     <string name="L2_video1">Energía Eólica</string>
     <string name="L2_video2">Los beneficios del LED</string>
+    <string name="L2_videoDesc1">Este video corto describe como funciona la energía eólica y que aparatos se usan para obtener electricidad de ellos.</string>
+    <string name="L2_videoDesc2">Este video corto explica los beneficios de las luces LED y sus diferencias con las bombillas convencionales.</string>
     <string name="L3V1_1A">A: el sol, el viento y el calor de la tierra</string>
     <string name="L3V1_1B">B: el sol, el agua y el calor de la tierra</string>
     <string name="L3V1_1C">C: el sol, el agua, el viento y el calor de la tierra</string>
@@ -59,6 +62,8 @@
     <string name="L3V2_3C">C: se usan para generar energía eléctrica</string>
     <string name="L3_video1">Energía Renovable</string>
     <string name="L3_video2">Energía Solar</string>
+    <string name="L3_videoDesc1">Este video corto describe que recursos podemos usar para producir energias renovables y cuales son sus beneficios.</string>
+    <string name="L3_videoDesc2">Este video corto describe como funciona la energía solar y que aparatos se usan para generar electricidad.</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -115,6 +120,8 @@
     <string name="com_facebook_share_button_text">Compartir</string>
     <string name="com_facebook_tooltip_default">¡Nuevo! Tú tienes el control: elige qué información quieres compartir con las aplicaciones.</string>
     <string name="confirmPassLabel">Confirmar contraseña</string>
+    <string name="creatingPlayers">Creando Jugador...</string>
+    <string name="creatingTeam">Creanado Equipo...</string>
     <string name="dashPoints">Puntos :</string>
     <string name="dashRkg">Ranking :</string>
     <string name="daysRemaining">Fecha final KukuiCupBCN : </string>
@@ -139,6 +146,7 @@
     <string name="descL2_saveAct2">Durante el día apaga la luz de tu habitación y usa la luz del día (si es posible en tu habitación).
         Aprieta el botón ¡Hecho! cuando hayas realizado esta acción de ahorro.</string>
     <string name="descL2_saveAct3"> Escribe en un post-it el consumo energético y el número de horas de uso de cualquier aparato doméstico. Calcula su consumo diario y haz una foto al post-it.</string>
+    <string name="descL2_saveAct4">Echa un vistazo a tu alrededor, busca cualquier aparato que use una bombilla LED y haz una foto.</string>
     <string name="descL3_enrgChal1">¿Conseguirás el siguiente reto?
         !Por equipos¡ Cada equipo debe encontrar en clase los siguientes aparatos:
             -El aparato electrónico con mayor consumo energético
@@ -146,7 +154,17 @@
         El primer equipo que los encuentre ganará el reto. El equipo en segundo lugar obtendrá 50 puntos.</string>
     <string name="descL3_enrgChal2">¿Conseguirás el siguiente reto?
         Crea un diseño para la futura camiseta de KukuiCupBCN y haz una foto para completar este reto.</string>
-    <string name="descL3_saveAct1">TEXTO LAVADORA</string>
+    <string name="descL3_saveAct1">¿A que hora del día pones la lavadora?</string>
+    <string name="descL3_saveAct1_opt1">Mañana</string>
+    <string name="descL3_saveAct1_opt2">Tarde</string>
+    <string name="descL3_saveAct1_opt3">Noche</string>
+    <string name="descL3_saveAct1_tip1"/>
+    <string name="descL3_saveAct1_tip2"/>
+    <string name="descL3_saveAct2">Cuando pones la lavadora, ¿como es su carga?</string>
+    <string name="descL3_saveAct2_opt1">Llena</string>
+    <string name="descL3_saveAct2_opt2">A medias</string>
+    <string name="descL3_saveAct2_tip1">Si tu lavadora es de bajo consumo, poner la lavadora llena puede ahorrarte muchos litros de agua. ¡Tampoco conviene llenarla en exceso!</string>
+    <string name="descL3_saveAct2_tip2">No es recomendable poner la lavadora si no hay ropa suficiente. ¡Espera a tenerla llena para ahorrar agua!</string>
     <string name="endDate">Fecha Fin:</string>
     <string name="enrgChalL1_1">Apagar antes de dormir</string>
     <string name="enrgChalL2_1">Usa las escaleras</string>
@@ -162,12 +180,24 @@
     <string name="level1Label">Nivel 1</string>
     <string name="level2Label">Nivel 2</string>
     <string name="level3Label">Nivel 3</string>
+    <string name="loadPlayers">Cargando judaroes. Espera por favor...</string>
+    <string name="loadTeams">Cargando equipos. Espera por favor...</string>
     <string name="localhost">10.133.5.181</string>
     <string name="messenger_send_button_text">Enviar</string>
+    <string name="msgBadge1">Has ganado la medalla Apagar Antes De Dormir.</string>
+    <string name="msgBadge2">Has ganado la medalla Usa las Escaleras.</string>
+    <string name="msgBadge3">Has ganado la medalla Habitación Vacía.</string>
+    <string name="msgBadge4">Has ganado la medalla Juego en Equipo.</string>
+    <string name="msgChangeAnfConfirm">La nueva contraseña y la confirmación deben ser la misma</string>
+    <string name="msgChangeSuccess">Cambio satisfactorio</string>
     <string name="msgCongrats">¡Enhorabuena, recoge tus puntos!</string>
     <string name="msgCongratsAlt">¡Enhorabuena!</string>
     <string name="msgEasterEgg">Es un día perfecto para darte 5 puntos. ¡Disfrútalos!</string>
+    <string name="msgId">Identificando ...</string>
+    <string name="msgInvPass">Contraseña inválida</string>
     <string name="msgLevelBlocked">Necesitas completar el nivel anterior para continuar</string>
+    <string name="msgLogResp">Respuesta de Login:</string>
+    <string name="msgPass">Debes rellenar todos los campos</string>
     <string name="msgQuiz1L1">Has ganado la medalla del Nivel 1 y 30 puntos</string>
     <string name="msgQuiz1L2">Has ganado la medalla del Nivel 2 y 30 puntos</string>
     <string name="msgQuiz1L3">Has ganado la medalla del Nivel 3+ y 30 puntos</string>
@@ -214,7 +244,9 @@
     <string name="savActL2_1">La energía de mi habitación</string>
     <string name="savActL2_2">Luz natural</string>
     <string name="savActL2_3">Energía en POST-IT</string>
-    <string name="savActL3_1">La hora de la lavadora</string>
+    <string name="savActL2_4">Busca el LED</string>
+    <string name="savActL3_1">Hora de la lavadora</string>
+    <string name="savActL3_2">Carga de la lavadora</string>
     <string name="savAction">Acción de Ahorro</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string name="startTournament">Empezar el torneo</string>

@@ -32,6 +32,7 @@ public class EnergyChallengeActivity extends Activity {
 
     private ImageView pointsImg;
     private ImageView badgeImg;
+    private ImageView challActionImg;
 
     private SessionManager session;
     
@@ -56,6 +57,7 @@ public class EnergyChallengeActivity extends Activity {
 
         pointsImg = (ImageView)findViewById(R.id.pointsImg);
         badgeImg = (ImageView)findViewById(R.id.badgeImg);
+        challActionImg = (ImageView)findViewById(R.id.enrgChallImg);
 
         getInfoBychallengeId(levelId, challengeId);
 
@@ -81,6 +83,8 @@ public class EnergyChallengeActivity extends Activity {
             case 1:
                 switch (challengeId) {
                     case 0:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL1_1));
                         reward.setText("+5" + getResources().getString(R.string.resumeDay));
                         badgeImg.setImageResource(R.mipmap.off_sleep_badge);
@@ -104,6 +108,8 @@ public class EnergyChallengeActivity extends Activity {
             case 2:
                 switch (challengeId) {
                     case 0:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL2_1));
                         reward.setText("+15");
                         //cambiar nombre medalla
@@ -115,6 +121,8 @@ public class EnergyChallengeActivity extends Activity {
                         break;
 
                     case 1:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL2_2));
                         reward.setText("+30");
                         //cambiar nombre medalla
@@ -126,6 +134,8 @@ public class EnergyChallengeActivity extends Activity {
                         else primaryBtn.setText(getResources().getString(R.string.btnStart));
                         break;
                     case 2:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL2_3));
                         reward.setText("+5" + getResources().getString(R.string.resumeDay));
                         //cambiar nombre medalla
@@ -144,6 +154,8 @@ public class EnergyChallengeActivity extends Activity {
             case 3:
                 switch (challengeId) {
                     case 0:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL3_1));
                         reward.setText("+100" + getResources().getString(R.string.resumeTeam));
                         //cambiar nombre medalla
@@ -155,7 +167,8 @@ public class EnergyChallengeActivity extends Activity {
                         else primaryBtn.setText(getResources().getString(R.string.btnStart));
                         break;
                     case 1:
-                        //PONER BOTON TAKE PHOTO
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL3_2));
                         reward.setText("+20");
                         //cambiar nombre medalla

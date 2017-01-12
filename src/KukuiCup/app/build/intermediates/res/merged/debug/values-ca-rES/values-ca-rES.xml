@@ -19,6 +19,7 @@
     <string name="L1V1_3B">B: la temperatura canvia el tipus d\'energia</string>
     <string name="L1V1_3C">C: l\'energia elèctrica pot canviar l\'energia de la llum</string>
     <string name="L1_video1">Potencia i Energia</string>
+    <string name="L1_videoDesc">Aquest curt video educatiu descriu les diferencies entre potencia i energia, un concepte molt important utilitzat per a determinar que poden produir els sistemes fotovoltaics amb el tiemps.</string>
     <string name="L2V1_1A">A: centrals termoelèctriques</string>
     <string name="L2V1_1B">B: centrals elèctriques</string>
     <string name="L2V1_1C">C: centrals eòliques</string>
@@ -39,6 +40,8 @@
     <string name="L2V2_3C">C: les dues bombetes són iguals</string>
     <string name="L2_video1">Energia eòlica</string>
     <string name="L2_video2">Beneficis del LED</string>
+    <string name="L2_videoDesc1">Aquest curt video descriu com funciona l\'energía eólica i quins aparells es poden  usar per a obtenir electricitat</string>
+    <string name="L2_videoDesc2">Aquest curt video explica els beneficis de les llums LED i les seves diferencies amb les bombetes tradicionals.</string>
     <string name="L3V1_1A">A: sol, vent i el calor de la terra</string>
     <string name="L3V1_1B">B: sol, aigua i el calor de la terra</string>
     <string name="L3V1_1C">C: sol, aigua, vent i el calor de la terra</string>
@@ -59,6 +62,8 @@
     <string name="L3V2_3C">C: s\'usen per generar energia elèctrica</string>
     <string name="L3_video1">Energia renovable</string>
     <string name="L3_video2">Energia Solar</string>
+    <string name="L3_videoDesc1">Aquest curt video descriu quins recursos podem utilitzar per a produir energies renovables i quins son els seus beneficis.</string>
+    <string name="L3_videoDesc2">Aquest curt video descriu com funciona l\'energia solar i quins aparells s\'utilitzen per generar electricitat</string>
     <string name="actualPassLabel">Contrasenya actual</string>
     <string name="app_name">KukuiCup</string>
     <string name="badgeCollect">Colecció de Medallas :</string>
@@ -79,6 +84,8 @@
     <string name="btn_skip_intro">Skip Intro</string>
     <string name="changePassLabel">Canviar Contrasenya</string>
     <string name="confirmPassLabel">Confirmar contrasenya</string>
+    <string name="creatingPlayers">Creant jugador...</string>
+    <string name="creatingTeam">Creant jugador...</string>
     <string name="dashPoints">Punts :</string>
     <string name="dashRkg">Ranking :</string>
     <string name="daysRemaining">Data fi KukuiCupBCN : </string>
@@ -103,6 +110,7 @@
     <string name="descL2_saveAct2">Durant el dia apaga la llum de la teva habitació i usa la llum del dia (si es possible a la teva habitació).
         Prem el botó Fet! quan haguis realitzat aquesta acció d\'estalvi.</string>
     <string name="descL2_saveAct3"> Escriu en un post-it el consum energètic i el nombre d\'hores d\'us de qualsevol aparell doméstic. Calcula el seu consumo diari i fes una foto al post-it.</string>
+    <string name="descL2_saveAct4">Fes una ullada al teu voltant, busca qualsevol aparell que faci servir una bombeta LED i fes una foto.</string>
     <string name="descL3_enrgChal1">Aconseguiràs el següent repte?
         Per equips! Cada equip ha de trobar a la seva clase els següents aparells:
             -L\'aparell electrònic amb major consum energètic
@@ -110,7 +118,17 @@
         El primer equip que els trobi guanyarà el repte. L\'equipo en segon lloc obtindrà 50 punts.</string>
     <string name="descL3_enrgChal2">Aconseguiràs el següent repte?
         Crea un diseny per a la futura samarreta de KukuiCupBCN i fes una foto para completar aquest repte.</string>
-    <string name="descL3_saveAct1">TEXT RENTADORA</string>
+    <string name="descL3_saveAct1">A quina hora del dia poses la rentadora?</string>
+    <string name="descL3_saveAct1_opt1">Matí</string>
+    <string name="descL3_saveAct1_opt2">Tarda</string>
+    <string name="descL3_saveAct1_opt3">Nit</string>
+    <string name="descL3_saveAct1_tip1"/>
+    <string name="descL3_saveAct1_tip2"/>
+    <string name="descL3_saveAct2">Quan poses la rentadora, com es la seva càrrega?</string>
+    <string name="descL3_saveAct2_opt1">Plena</string>
+    <string name="descL3_saveAct2_opt2">Mitja</string>
+    <string name="descL3_saveAct2_tip1">Si la teva rentadora es de baix consum, posar-la plena pot estalviar-te alguns litres d\'aigua. Tampoc cal emplenar-la massa!</string>
+    <string name="descL3_saveAct2_tip2">No es recomenable posar la rentora si no hi ha roba suficient. Espera a emplenar-la per estalviar aigua!</string>
     <string name="endDate">Data Fi:</string>
     <string name="enrgChalL1_1">Apagar abans de dormir</string>
     <string name="enrgChalL2_1">Fes us de les escales</string>
@@ -126,11 +144,23 @@
     <string name="level1Label">Nivell 1</string>
     <string name="level2Label">Nivell 2</string>
     <string name="level3Label">Nivell 3</string>
+    <string name="loadPlayers">Carregant jugadors. Espera siusplau...</string>
+    <string name="loadTeams">Carregant equips. Espera siusplau...</string>
     <string name="localhost">10.133.5.181</string>
+    <string name="msgBadge1">Has guanyat la medalla Apagar Abans De Dormir.</string>
+    <string name="msgBadge2">Has guanyat la medalla Usa les Escales.</string>
+    <string name="msgBadge3">Has guanyat la medalla Habitació Buida.</string>
+    <string name="msgBadge4">Has guanyat la medalla Joc en Equip.</string>
+    <string name="msgChangeAnfConfirm">La nova contrasenya i la confirmación ha de ser iguals</string>
+    <string name="msgChangeSuccess">Canvi satisfactori</string>
     <string name="msgCongrats">Enhorabona, recull els teus punts!</string>
     <string name="msgCongratsAlt">Enhorabpna!</string>
     <string name="msgEasterEgg">Es un dia perfecte per donar-te 5 punts. Gaudeix-los!</string>
+    <string name="msgId">Identificació ...</string>
+    <string name="msgInvPass">Contrasenya no vàlida</string>
     <string name="msgLevelBlocked">Has d\'acabar el nivell anterior per poder continuar</string>
+    <string name="msgLogResp">Resposta de Login:</string>
+    <string name="msgPass">Has d\'omplir tots els camps</string>
     <string name="msgQuiz1L1">Has guanyat la medalla del Nivell 1 i 30 punts</string>
     <string name="msgQuiz1L2">Has guanyat la medalla del Nivell 2 i 30 punts</string>
     <string name="msgQuiz1L3">Has guanyat la medalla del Nivell 3+ i 30 punts</string>
@@ -177,7 +207,9 @@
     <string name="savActL2_1">L\'energia de la meva habitació</string>
     <string name="savActL2_2">Llum natural</string>
     <string name="savActL2_3">Energia en POST-IT</string>
-    <string name="savActL3_1">L\'hora de la rentadora</string>
+    <string name="savActL2_4">Busca el LED</string>
+    <string name="savActL3_1">Hora de la rentadora</string>
+    <string name="savActL3_2">Càrrega de la rentadora</string>
     <string name="savAction">Acción d\'estalvi</string>
     <string name="startTournament">Iniciar el torneig</string>
     <string name="teamNameLabel">Nom de l\'Equip</string>

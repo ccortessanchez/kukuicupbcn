@@ -165,6 +165,7 @@ public class MenuActivity extends Activity {
             action.add(getResources().getString(R.string.savActL2_1));
             action.add(getResources().getString(R.string.savActL2_2));
             action.add(getResources().getString(R.string.savActL2_3));
+            action.add(getResources().getString(R.string.savActL2_4));
 
 
             List<String> challenge = new ArrayList<String>();

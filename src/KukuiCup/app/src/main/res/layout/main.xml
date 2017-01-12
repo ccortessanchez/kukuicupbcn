@@ -265,7 +265,7 @@
             android:src="@mipmap/badge_base" />
 
         <ImageView
-            android:id="@+id/badgeCleanEnergy"
+            android:id="@+id/badgeMoreLess"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/badge_base" />

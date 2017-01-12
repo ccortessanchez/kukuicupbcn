@@ -44,6 +44,19 @@
     <string name="msgQuiz2L2">You have won 30 points.</string>
     <string name="msgQuiz1L3">You have won the bagde of Level 3+ and 30 points.</string>
     <string name="msgQuiz2L3">You have won the bagde of Level 3 and 30 points.</string>
+    <string name="msgBadge1">You have won the bagde Off Before Sleep.</string>
+    <string name="msgBadge2">You have won the bagde Use Stairs.</string>
+    <string name="msgBadge3">You have won the bagde Empty Room.</string>
+    <string name="msgBadge4">You have won the bagde Team Play.</string>
+
+    <!--- MENU USER -->
+    <string name="msgPass">You must fill all the gaps</string>
+    <string name="msgId">Identification ...</string>
+    <string name="msgLogResp">Login Response:</string>
+    <string name="msgChangeSuccess">Change successfull</string>
+    <string name="msgChangeAnfConfirm">New password and confirmation must be the same</string>
+    <string name="msgInvPass">Invalid password</string>
+
 
     <!--- MENU ADMIN -->
     <string name="btnCreateTeam">Add New Team</string>
@@ -64,6 +77,11 @@
     <string name="actualPassLabel">Actual password</string>
     <string name="newPassLabel">New password</string>
     <string name="confirmPassLabel">Confirm password</string>
+    <string name="loadTeams">Loading teams. Please wait...</string>
+    <string name="creatingPlayers">Creating Player...</string>
+    <string name="loadPlayers">Loading players. Please wait...</string>
+    <string name="creatingTeam">Creating Team...</string>
+
 
     <!--- MAIN USER -->
     <string name="level1Label">Level 1</string>
@@ -94,10 +112,24 @@
         Press the Done! button when you make this saving action.</string>
     <string name="savActL2_3">Consumption in POST-IT</string>
     <string name="descL2_saveAct3">Write in a post-it the energetic consumption and hours of daily use of any domestic device. Then calculate his daily consumption, paste the post-it and take a photo for verification.</string>
+    <string name="savActL2_4">Search the LED</string>
+    <string name="descL2_saveAct4">Take a look around and search for any device that uses LED bulbs and take a picture of it.</string>
 
     <!--- SAVING ACTIONS LEVEL 3 -->
     <string name="savActL3_1">Washing machine time</string>
-    <string name="descL3_saveAct1">WASHING MACHINE TEXT</string>
+    <string name="descL3_saveAct1">What time of the day do you do your laundry?</string>
+    <string name="descL3_saveAct1_opt1">Morning</string>
+    <string name="descL3_saveAct1_opt2">Afternoon</string>
+    <string name="descL3_saveAct1_opt3">Night</string>
+    <string name="descL3_saveAct1_tip1"></string>
+    <string name="descL3_saveAct1_tip2"></string>
+    <string name="savActL3_2">Washing machine charge</string>
+    <string name="descL3_saveAct2">When you do your laundry, how is the washing machine?</string>
+    <string name="descL3_saveAct2_opt1">Full charged</string>
+    <string name="descL3_saveAct2_opt2">Half charged</string>
+    <string name="descL3_saveAct2_tip1">If your washing machine has low consumption, doing the laundry with full charge washing machine will save you some liters of water. But don\'t do it excessively full!</string>
+    <string name="descL3_saveAct2_tip2">Is not advisable to do your laundry if there are not enough clothes. Wait until there are more to save water!</string>
+
 
     <!--- ENERGY CHALLENGE LEVEL 1 -->
     <string name="enrgChalL1_1">Off before sleep</string>
@@ -151,7 +183,7 @@
     <string name="L1V1_3C">C: electrical energy can change light energy</string>
 
     <string name="L2_video1">Wind Power</string>
-    <string name="L2_videoDesc1"></string>
+    <string name="L2_videoDesc1">This short video describes how the wind power works and what devices are used to produce electricity from it.</string>
     <string name="quest1_L2_video1">Through _____ electricity is obtained using the wind as source of energy</string>
     <string name="L2V1_1A">A: thermoelectric power plants</string>
     <string name="L2V1_1B">B: power plants</string>
@@ -166,37 +198,37 @@
     <string name="L2V1_3C">C: mechanical energy -> electric power -> kinetic energy</string>
 
     <string name="L2_video2">The benefits of LED</string>
-    <string name="L2_videoDesc2"></string>
+    <string name="L2_videoDesc2">This short video explains the benefits of LED lights and the difference with light bulbs.</string>
     <string name="quest1_L2_video2">In which country was the LED discovered?</string>
     <string name="L2V2_1A">A: Spain</string>
     <string name="L2V2_1B">B: China</string>
     <string name="L2V2_1C">C: Russia</string>
-    <string name="quest2_L2_video2">What percentage of savings do LED lights allow?</string>
+    <string name="quest2_L2_video2">What is the percentage of savings of LED lights?</string>
     <string name="L2V2_2A">A: 90%</string>
     <string name="L2V2_2B">B: none, it\’s better to use light bulbs</string>
     <string name="L2V2_2C">C: 50%</string>
-    <string name="quest3_L2_video2">What\’s the difference between an LED bulb and a light bulb?</string>
+    <string name="quest3_L2_video2">What\’s the difference between a LED bulb and a light bulb?</string>
     <string name="L2V2_3A">A: LED bulb pollutes more than light bulb</string>
     <string name="L2V2_3B">B: LED bulb doesn’t produce heat</string>
     <string name="L2V2_3C">C: both are the same</string>
 
     <string name="L3_video1">Renewable Energy</string>
-    <string name="L3_videoDesc1"></string>
+    <string name="L3_videoDesc1">This short video describes what resources we can use to produce renewable energy and their benefits</string>
     <string name="quest1_L3_video1">What resources can we use in the process of generating energy?</string>
     <string name="L3V1_1A">A: sun, water and earth heat</string>
     <string name="L3V1_1B">B: sun, wind and earth heat</string>
-    <string name="L3V1_1C">C: sun, water, sun and earth heat</string>
+    <string name="L3V1_1C">C: sun, water, wind and earth heat</string>
     <string name="quest2_L3_video1">What are the benefits of renewable energies?</string>
     <string name="L3V1_2A">A: they are less clean than non-renewable energies</string>
-    <string name="L3V1_2B">B: can be renewed at the same rate as they are consumed</string>
-    <string name="L3V1_2C">C: contribute to global warming</string>
+    <string name="L3V1_2B">B: they can be renewed at the same rate as they are consumed</string>
+    <string name="L3V1_2C">C: they contribute to global warming</string>
     <string name="quest3_L3_video1">What natural resource is, by now, the most used for the generation of electric energy?</string>
     <string name="L3V1_3A">A: water</string>
     <string name="L3V1_3B">B: sun</string>
     <string name="L3V1_3C">C: wind</string>
 
     <string name="L3_video2">Solar Energy</string>
-    <string name="L3_videoDesc2"></string>
+    <string name="L3_videoDesc2">This short video describes how the solar energy works and what devices are used to produce electricity from it.</string>
     <string name="quest1_L3_video2">What is solar energy?</string>
     <string name="L3V2_1A">A: a type of natural energy</string>
     <string name="L3V2_1B">B: a type of non-renewable energy</string>

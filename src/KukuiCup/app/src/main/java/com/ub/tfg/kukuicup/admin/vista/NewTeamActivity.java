@@ -77,7 +77,7 @@ public class NewTeamActivity extends Activity {
         protected void onPreExecute() {
             super.onPreExecute();
             pDialog = new ProgressDialog(NewTeamActivity.this);
-            pDialog.setMessage("Creating Team..");
+            pDialog.setMessage(getResources().getString(R.string.creatingTeam));
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
             pDialog.show();

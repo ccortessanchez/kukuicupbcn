@@ -281,7 +281,8 @@ public class FormActivity extends Activity {
                         question1.setText(getResources().getString(R.string.quest1_L3_video2));
                         answer1a.setText(getResources().getString(R.string.L3V2_1A));
                         answer1b.setText(getResources().getString(R.string.L3V2_1B));
-                        answer1c.setText(getResources().getString(R.string.L3V2_1C));
+                        answer1c.setVisibility(View.INVISIBLE);
+                        //answer1c.setText(getResources().getString(R.string.L3V2_1C));
                         question2.setText(getResources().getString(R.string.quest2_L3_video2));
                         answer2a.setText(getResources().getString(R.string.L3V2_2A));
                         answer2b.setText(getResources().getString(R.string.L3V2_2B));

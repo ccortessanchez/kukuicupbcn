@@ -6,6 +6,7 @@ import com.ub.tfg.kukuicup.controller.SessionManager;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -102,7 +103,9 @@ public class MenuAdminActivity extends Activity {
 				String formattedInit = format1.format(initData.getTime());
 				String formattedEnd = format1.format(endData.getTime());
 				initDateText.setText(formattedInit);
+				initDateText.setTextColor(Color.BLACK);
 				endDateText.setText(formattedEnd);
+				endDateText.setTextColor(Color.BLACK);
 
 				session.setEndDay(formattedEnd);
 			}

@@ -72,21 +72,21 @@ public class VideoActivity extends YouTubeBaseActivity implements
 			videoDescription.setText(getResources().getString(R.string.L1_videoDesc));
 		}
 
-		if(levelId==2 && videoId == 1){
+		if(levelId==2 && videoId == 0){
 			address = "https://www.youtube.com/watch?v=HRzxf4ir4Ho";
 			videoname.setText(getResources().getString(R.string.L2_video1));
 			reward.setText("+10");
 			videoDescription.setText(getResources().getString(R.string.L2_videoDesc1));
 		}
 
-        if(levelId==2 && videoId == 2){
+        if(levelId==2 && videoId == 1){
 			address = "https://www.youtube.com/embed/hnx8IQJ474s?end=160";
 			videoname.setText(getResources().getString(R.string.L2_video2));
             reward.setText("+10");
 			videoDescription.setText(getResources().getString(R.string.L2_videoDesc2));
         }
 
-        if(levelId==3 && videoId == 3){
+        if(levelId==3 && videoId == 0){
 			//reproducir hasta el minuto 1:57
 			address = "https://www.youtube.com/embed/dLNCev0RMcQ?end=120";
             videoname.setText(getResources().getString(R.string.L3_video1));
@@ -94,7 +94,7 @@ public class VideoActivity extends YouTubeBaseActivity implements
 			videoDescription.setText(getResources().getString(R.string.L3_videoDesc1));
         }
 
-        if(levelId==3 && videoId == 4){
+        if(levelId==3 && videoId == 1){
 			address = "https://www.youtube.com/watch?v=-JDPdMa41Ow";
             videoname.setText(getResources().getString(R.string.L3_video2));
             reward.setText("+10");

@@ -49,6 +49,7 @@ public class EnergyChallengeResume extends Activity {
     private ImageView pointsImg;
     private ImageView badgeImg;
     private ImageView actionImg;
+    private ImageView challActionImg;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,6 +76,7 @@ public class EnergyChallengeResume extends Activity {
         pointsImg = (ImageView)findViewById(R.id.pointsImg);
         badgeImg = (ImageView)findViewById(R.id.badgeImg);
         actionImg = (ImageView)findViewById(R.id.actionImg);
+        challActionImg = (ImageView)findViewById(R.id.enrgChallImg);
 
         getInfoBychallengeId(levelId, challengeId);
 
@@ -204,6 +206,8 @@ public class EnergyChallengeResume extends Activity {
             case 1:
                 switch (challengeId) {
                     case 0:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL1_1));
                         reward.setText("+5" + getResources().getString(R.string.resumeDay));
                         badgeImg.setImageResource(R.mipmap.off_sleep_badge);
@@ -229,6 +233,8 @@ public class EnergyChallengeResume extends Activity {
             case 2:
                 switch (challengeId) {
                     case 0:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL2_1));
                         reward.setText("+15");
                         badgeImg.setImageResource(R.mipmap.stairs_badge);
@@ -241,6 +247,8 @@ public class EnergyChallengeResume extends Activity {
                         badge = "useStairs";
                         break;
                     case 1:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL2_2));
                         reward.setText("+30");
                         getDaysRemainingLabel.setVisibility(View.INVISIBLE);
@@ -253,6 +261,8 @@ public class EnergyChallengeResume extends Activity {
                         badge = "level2Plus";
                         break;
                     case 2:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL2_3));
                         reward.setText("+5" + getResources().getString(R.string.resumeDay));
                         badgeImg.setImageResource(R.mipmap.empty_room_badge);
@@ -274,6 +284,8 @@ public class EnergyChallengeResume extends Activity {
             case 3:
                 switch (challengeId) {
                     case 0:
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL3_1));
                         reward.setText("+100" + getResources().getString(R.string.resumeTeam));
                         getDaysRemainingLabel.setVisibility(View.INVISIBLE);
@@ -288,7 +300,8 @@ public class EnergyChallengeResume extends Activity {
                         badge = "teamPlay";
                         break;
                     case 1:
-                        //PONER BOTON TAKE PHOTO
+                        challActionImg.setImageResource(R.drawable.battery);
+                        challActionImg.setVisibility(View.VISIBLE);
                         challengeName.setText(getResources().getString(R.string.enrgChalL3_2));
                         reward.setText("+20");
                         getDaysRemainingLabel.setVisibility(View.INVISIBLE);
@@ -297,6 +310,7 @@ public class EnergyChallengeResume extends Activity {
                         description.setText(getResources().getString(R.string.resumeL3_enrgChal2));
                         primaryBtn.setEnabled(false);
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        secondaryBtn.setVisibility(View.VISIBLE);
                         secondaryBtn.setText(getResources().getString(R.string.btnTakePhoto));
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 10;

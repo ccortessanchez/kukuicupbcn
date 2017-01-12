@@ -172,6 +172,12 @@ public class SavingActionActivity extends Activity {
                             startActivityForResult(intent2,REQUEST_CODE);
                         }
                         break;
+                    case 3:
+                        Intent intent3 = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        if(intent3.resolveActivity(getPackageManager())!=null) {
+                            startActivityForResult(intent3,REQUEST_CODE);
+                        }
+                        break;
                     default:
                         break;
                 }
@@ -203,7 +209,7 @@ public class SavingActionActivity extends Activity {
             case 1:
                 switch (actionId) {
                     case 0:
-                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setImageResource(R.drawable.piggybank);
                         savActionImg.setVisibility(View.VISIBLE);
                         actionName.setText(getResources().getString(R.string.savActL1_1));
                         reward.setText("+5");
@@ -218,7 +224,7 @@ public class SavingActionActivity extends Activity {
                         pointsObt = 5;
                         break;
                     case 1:
-                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setImageResource(R.drawable.piggybank);
                         savActionImg.setVisibility(View.VISIBLE);
                         actionName.setText(getResources().getString(R.string.savActL1_2));
                         reward.setText("+3");
@@ -235,7 +241,7 @@ public class SavingActionActivity extends Activity {
 
                         break;
                     case 2:
-                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setImageResource(R.drawable.piggybank);
                         savActionImg.setVisibility(View.VISIBLE);
                         actionName.setText(getResources().getString(R.string.savActL1_3));
                         reward.setText("+5");
@@ -258,7 +264,7 @@ public class SavingActionActivity extends Activity {
             case 2:
                 switch (actionId) {
                     case 0:
-                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setImageResource(R.drawable.piggybank);
                         savActionImg.setVisibility(View.VISIBLE);
                         actionName.setText(getResources().getString(R.string.savActL2_1));
                         reward.setText("+20");
@@ -273,6 +279,8 @@ public class SavingActionActivity extends Activity {
                         pointsObt = 20;
                         break;
                     case 1:
+                        savActionImg.setImageResource(R.drawable.piggybank);
+                        savActionImg.setVisibility(View.VISIBLE);
                         actionName.setText(getResources().getString(R.string.savActL2_2));
                         reward.setText("+3");
                         description.setText(getResources().getString(R.string.descL2_saveAct2));
@@ -287,7 +295,7 @@ public class SavingActionActivity extends Activity {
                         pointsObt = 3;
                         break;
                     case 2:
-                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setImageResource(R.drawable.piggybank);
                         savActionImg.setVisibility(View.VISIBLE);
                         actionName.setText(getResources().getString(R.string.savActL2_3));
                         reward.setText("+20");
@@ -302,6 +310,19 @@ public class SavingActionActivity extends Activity {
                         pointsObt = 20;
                         break;
                     case 3:
+                        savActionImg.setImageResource(R.drawable.piggybank);
+                        savActionImg.setVisibility(View.VISIBLE);
+                        actionName.setText(getResources().getString(R.string.savActL2_4));
+                        reward.setText("+15");
+                        description.setText(getResources().getString(R.string.descL2_saveAct4));
+
+                        primaryBtn.setEnabled(false);
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        secondaryBtn.setText(getResources().getString(R.string.btnTakePhoto));
+
+                        // Setting Dialog Message
+                        alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 15 " +getResources().getString(R.string.msgRewardPoint));
+                        pointsObt = 20;
                         break;
                     default:
                         break;
@@ -310,7 +331,7 @@ public class SavingActionActivity extends Activity {
             case 3:
                 switch (actionId) {
                     case 0:
-                        savActionImg.setImageResource(R.drawable.banking);
+                        savActionImg.setImageResource(R.drawable.piggybank);
                         savActionImg.setVisibility(View.VISIBLE);
                         actionName.setText(getResources().getString(R.string.savActL3_1));
                         reward.setText("+3");
@@ -327,6 +348,20 @@ public class SavingActionActivity extends Activity {
                         break;
 
                     case 1:
+                        savActionImg.setImageResource(R.drawable.piggybank);
+                        savActionImg.setVisibility(View.VISIBLE);
+                        actionName.setText(getResources().getString(R.string.savActL3_2));
+                        reward.setText("+3");
+                        description.setText(getResources().getString(R.string.descL3_saveAct2));
+
+                        primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        primaryBtn.setEnabled(true);
+                        secondaryBtn.setVisibility(View.INVISIBLE);
+                        secondaryBtn.setEnabled(false);
+
+                        // Setting Dialog Message
+                        alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 15 " +getResources().getString(R.string.msgRewardPoint));
+                        pointsObt = 15;
                         break;
                     default:
                         break;

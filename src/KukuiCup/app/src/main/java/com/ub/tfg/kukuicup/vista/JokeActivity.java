@@ -57,7 +57,6 @@ public class JokeActivity extends Activity {
                 switch (formId) {
                     case 0:
                         jokeImg.setImageResource(R.mipmap.joke1_img);
-
                         break;
                     case 1:
                         break;
@@ -68,8 +67,32 @@ public class JokeActivity extends Activity {
                 }
                 break;
             case 2:
+                switch (formId) {
+                    case 0:
+                        jokeImg.setImageResource(R.mipmap.joke1_img);
+                        break;
+                    case 1:
+                        jokeImg.setImageResource(R.mipmap.joke1_img);
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             case 3:
+                switch (formId) {
+                    case 0:
+                        jokeImg.setImageResource(R.mipmap.joke1_img);
+                        break;
+                    case 1:
+                        jokeImg.setImageResource(R.mipmap.joke1_img);
+                        break;
+                    case 2:
+                        break;
+                    default:
+                        break;
+                }
                 break;
             default:
                 break;

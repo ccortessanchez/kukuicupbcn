@@ -43,6 +43,17 @@
     <string name="msgQuiz2L2">Has ganado 30 puntos</string>
     <string name="msgQuiz1L3">Has ganado la medalla del Nivel 3+ y 30 puntos</string>
     <string name="msgQuiz2L3">Has ganado la medalla del Nivel 3 y 30 puntos</string>
+    <string name="msgBadge1">Has ganado la medalla Apagar Antes De Dormir.</string>
+    <string name="msgBadge2">Has ganado la medalla Usa las Escaleras.</string>
+    <string name="msgBadge3">Has ganado la medalla Habitación Vacía.</string>
+    <string name="msgBadge4">Has ganado la medalla Juego en Equipo.</string>
+
+    <string name="msgPass">Debes rellenar todos los campos</string>
+    <string name="msgId">Identificando ...</string>
+    <string name="msgLogResp">Respuesta de Login:</string>
+    <string name="msgChangeSuccess">Cambio satisfactorio</string>
+    <string name="msgChangeAnfConfirm">La nueva contraseña y la confirmación deben ser la misma</string>
+    <string name="msgInvPass">Contraseña inválida</string>
 
     <!--- MENU ADMIN -->
     <string name="btnCreateTeam">Añadir Equipo</string>
@@ -63,6 +74,10 @@
     <string name="actualPassLabel">Contraseña actual</string>
     <string name="newPassLabel">Contraseña nueva</string>
     <string name="confirmPassLabel">Confirmar contraseña</string>
+    <string name="loadTeams">Cargando equipos. Espera por favor...</string>
+    <string name="creatingPlayers">Creando Jugador...</string>
+    <string name="loadPlayers">Cargando judaroes. Espera por favor...</string>
+    <string name="creatingTeam">Creanado Equipo...</string>
 
     <!--- MAIN USER -->
     <string name="level1Label">Nivel 1</string>
@@ -93,10 +108,23 @@
         Aprieta el botón ¡Hecho! cuando hayas realizado esta acción de ahorro.</string>
     <string name="savActL2_3">Energía en POST-IT</string>
     <string name="descL2_saveAct3"> Escribe en un post-it el consumo energético y el número de horas de uso de cualquier aparato doméstico. Calcula su consumo diario y haz una foto al post-it.</string>
+    <string name="savActL2_4">Busca el LED</string>
+    <string name="descL2_saveAct4">Echa un vistazo a tu alrededor, busca cualquier aparato que use una bombilla LED y haz una foto.</string>
 
     <!--- SAVING ACTIONS LEVEL 3 -->
-    <string name="savActL3_1">La hora de la lavadora</string>
-    <string name="descL3_saveAct1">TEXTO LAVADORA</string>
+    <string name="savActL3_1">Hora de la lavadora</string>
+    <string name="descL3_saveAct1">¿A que hora del día pones la lavadora?</string>
+    <string name="descL3_saveAct1_opt1">Mañana</string>
+    <string name="descL3_saveAct1_opt2">Tarde</string>
+    <string name="descL3_saveAct1_opt3">Noche</string>
+    <string name="descL3_saveAct1_tip1"></string>
+    <string name="descL3_saveAct1_tip2"></string>
+    <string name="savActL3_2">Carga de la lavadora</string>
+    <string name="descL3_saveAct2">Cuando pones la lavadora, ¿como es su carga?</string>
+    <string name="descL3_saveAct2_opt1">Llena</string>
+    <string name="descL3_saveAct2_opt2">A medias</string>
+    <string name="descL3_saveAct2_tip1">Si tu lavadora es de bajo consumo, poner la lavadora llena puede ahorrarte muchos litros de agua. ¡Tampoco conviene llenarla en exceso!</string>
+    <string name="descL3_saveAct2_tip2">No es recomendable poner la lavadora si no hay ropa suficiente. ¡Espera a tenerla llena para ahorrar agua!</string>
 
     <!--- ENERGY CHALLENGE LEVEL 1 -->
     <string name="enrgChalL1_1">Apagar antes de dormir</string>
@@ -137,6 +165,7 @@
 
     <!--- VIDEO & QUIZ -->
     <string name="L1_video1">Potencia y Energía</string>
+    <string name="L1_videoDesc">Este video educativo corto describe las diferencias entre potencia y energia, un concepto muy importante usado para determinar que pueden producir los sistemas fotovoltaicos con el tiempo.</string>
     <string name="quest1_L1_video1">El trabajo es realizado únicamente cuando una fuerza está _____ un objeto.</string>
     <string name="L1V1_1A">A: con</string>
     <string name="L1V1_1B">B: moviendo</string>
@@ -151,6 +180,7 @@
     <string name="L1V1_3C">C: la energía eléctrica puede cambiar la energía de la luz</string>
 
     <string name="L2_video1">Energía Eólica</string>
+    <string name="L2_videoDesc1">Este video corto describe como funciona la energía eólica y que aparatos se usan para obtener electricidad de ellos.</string>
     <string name="quest1_L2_video1">Mediante _______ se obtiene electricidad usando el viento como fuente de energía</string>
     <string name="L2V1_1A">A: centrales termoeléctricas</string>
     <string name="L2V1_1B">B: centrales eléctricas</string>
@@ -165,6 +195,7 @@
     <string name="L2V1_3C">C: energía mecánica -> eléctrica -> cinética</string>
 
     <string name="L2_video2">Los beneficios del LED</string>
+    <string name="L2_videoDesc2">Este video corto explica los beneficios de las luces LED y sus diferencias con las bombillas convencionales.</string>
     <string name="quest1_L2_video2">¿En qué país fue descubierto el LED?</string>
     <string name="L2V2_1A">A: España</string>
     <string name="L2V2_1B">B: China</string>
@@ -179,6 +210,7 @@
     <string name="L2V2_3C">C: ambas bombillas son iguales</string>
 
     <string name="L3_video1">Energía Renovable</string>
+    <string name="L3_videoDesc1">Este video corto describe que recursos podemos usar para producir energias renovables y cuales son sus beneficios.</string>
     <string name="quest1_L3_video1">¿Qué recursos podemos usar en el proceso de generar energía?</string>
     <string name="L3V1_1A">A: el sol, el viento y el calor de la tierra</string>
     <string name="L3V1_1B">B: el sol, el agua y el calor de la tierra</string>
@@ -193,6 +225,7 @@
     <string name="L3V1_3C">C: el viento</string>
 
     <string name="L3_video2">Energía Solar</string>
+    <string name="L3_videoDesc2">Este video corto describe como funciona la energía solar y que aparatos se usan para generar electricidad.</string>
     <string name="quest1_L3_video2">¿Qué es la energía solar?</string>
     <string name="L3V2_1A">A: es un tipo de energía natural</string>
     <string name="L3V2_1B">B: es un tipo de energía que se agota</string>
