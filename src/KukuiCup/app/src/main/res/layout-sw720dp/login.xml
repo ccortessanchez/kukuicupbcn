@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_land"
+    android:theme="@android:style/Theme">"
+
+    <ImageView
+        android:id="@+id/welcomeImg"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Username" >
+
+        <requestFocus />
+
+        <requestFocus />
+
+    </EditText>
+
+
+
+    <EditText
+        android:id="@+id/inputPasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputUsername"
+        android:layout_below="@+id/inputUsername"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" >
+
+    </EditText>
+
+
+
+
+    <TextView
+        android:id="@+id/welcomeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:text="@string/welcomeMsg"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/enterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputPasswd"
+        android:layout_centerHorizontal="true"
+        android:text="Login" />
+
+</RelativeLayout>

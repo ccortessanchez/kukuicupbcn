@@ -3,6 +3,7 @@ package com.ub.tfg.kukuicup.vista;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -57,14 +58,17 @@ public class UserProfileActivity extends Activity {
 
 
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_profile);
 
         Controller control = new Controller();
         String localhost = control.config.LOCALHOST;
 
-        url_update_player_passwd = "http://" + localhost + "/kukuicupbcn/update_player_passwd.php";
-        url_login = "http://" + localhost + "/kukuicupbcn/login.php";
+        url_update_player_passwd = "http://" + localhost + "update_player_passwd.php";
+        url_login = "http://" + localhost + "login.php";
 
         session = new SessionManager(getApplicationContext());
         if (!session.isLoggedIn()) {

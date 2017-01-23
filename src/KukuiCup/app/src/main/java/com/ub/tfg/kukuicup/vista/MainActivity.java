@@ -21,6 +21,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -101,6 +102,8 @@ public class MainActivity extends Activity {
     private static String url_team_details;
     private static String url_update_player_points;
     private static String url_update_team_points;
+    private static String url_get_player_ranking;
+    private static String url_get_team_ranking;
 
     String playername;
     String teamname;
@@ -108,6 +111,9 @@ public class MainActivity extends Activity {
     int teampoints;
 
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
@@ -124,10 +130,12 @@ public class MainActivity extends Activity {
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
 
-        url_player_details = "http://"+localhost+"/kukuicupbcn/get_player_details_by_name.php";
-        url_update_player_points = "http://"+localhost+"/kukuicupbcn/update_player_points.php";
-        url_team_details = "http://"+localhost+"/kukuicupbcn/get_team_details.php";
-        url_update_team_points = "http://"+localhost+"/kukuicupbcn/update_team_points.php";
+        url_player_details = "http://"+localhost+"/get_player_details_by_name.php";
+        url_update_player_points = "http://"+localhost+"/update_player_points.php";
+        url_team_details = "http://"+localhost+"/get_team_details.php";
+        url_update_team_points = "http://"+localhost+"/update_team_points.php";
+        url_get_player_ranking = "http://"+localhost+"/get_player_ranking.php";
+        url_get_team_ranking = "http://"+localhost+"/get_team_ranking.php";
 		
 		ctxt = getApplicationContext();
         pointsObt = 0;
@@ -205,7 +213,7 @@ public class MainActivity extends Activity {
         }
 
         loadPlayerData(username);
-        updateDashBoard();
+        //updateDashBoard();
 
 
         playerImg.setOnClickListener(new OnClickListener() {
@@ -248,7 +256,7 @@ public class MainActivity extends Activity {
 		
 		level3Btn.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-                if (player.getPoints() <= 150) {
+                if (player.getPoints() <= 180) {
                     alertDialog.show();
                 }
                 else {
@@ -444,13 +452,13 @@ public class MainActivity extends Activity {
                 }
 
                 if(extras.getString("badge").equals("emptyRoom")){
-                    badgeOffBeforeSleep.setImageResource(R.mipmap.empty_room_badge);
+                    badgeEmptyRoom.setImageResource(R.mipmap.empty_room_badge);
                 }
                 if(extras.getString("badge").equals("useStairs")){
-                    badgeOffBeforeSleep.setImageResource(R.mipmap.stairs_badge);
+                    badgeUseStairs.setImageResource(R.mipmap.stairs_badge);
                 }
                 if(extras.getString("badge").equals("teamPlay")){
-                    badgeOffBeforeSleep.setImageResource(R.mipmap.more_less_badge);
+                    badgeMoreLess.setImageResource(R.mipmap.more_less_badge);
                 }
             }
             if(easterEggDay){
@@ -468,7 +476,7 @@ public class MainActivity extends Activity {
                 level2Btn.setImageResource(R.drawable.ic_level);
             }
 
-            if(player.getPoints() >= 150) {
+            if(player.getPoints() >= 180) {
                 level3Btn.setImageResource(R.drawable.ic_level);
             }
 //                playerRanking.setText(extras.getInt("points"));
@@ -478,8 +486,8 @@ public class MainActivity extends Activity {
         teamName.setText(team.getName());
         playerPoints.setText(""+player.getPoints());
         teamPoints.setText(""+team.getPoints());
-//        playerRanking.setText("Ranking: "+player.getRanking());
-//        teamRanking.setText("Ranking: "+team.getClassification());
+        //playerRanking.setText(""+player.getRanking());
+        //teamRanking.setText(""+team.getClassification());
 
         if(team.getBadgeByName("Level1")!=null)
             badgeLevel1.setImageResource(R.mipmap.level1team_badge);
@@ -510,24 +518,24 @@ public class MainActivity extends Activity {
         }
 
         if(team.getBadgeByName("EmptyRoom")!=null)
-            badgeOffBeforeSleep.setImageResource(R.mipmap.empty_room_team_badge);
+            badgeEmptyRoom.setImageResource(R.mipmap.empty_room_team_badge);
         else {
             if(player.getBadgeByName("EmptyRoom")!=null)
-                badgeOffBeforeSleep.setImageResource(R.mipmap.empty_room_badge);
+                badgeEmptyRoom.setImageResource(R.mipmap.empty_room_badge);
         }
 
         if(team.getBadgeByName("UseStairs")!=null)
-            badgeOffBeforeSleep.setImageResource(R.mipmap.stairs_badge_team);
+            badgeUseStairs.setImageResource(R.mipmap.stairs_badge_team);
         else {
             if(player.getBadgeByName("UseStairs")!=null)
-                badgeOffBeforeSleep.setImageResource(R.mipmap.stairs_badge);
+                badgeUseStairs.setImageResource(R.mipmap.stairs_badge);
         }
 
         if(team.getBadgeByName("TeamPlay")!=null)
-            badgeOffBeforeSleep.setImageResource(R.mipmap.more_less_team_badge);
+            badgeMoreLess.setImageResource(R.mipmap.more_less_team_badge);
         else {
             if(player.getBadgeByName("TeamPlay")!=null)
-                badgeOffBeforeSleep.setImageResource(R.mipmap.more_less_team_badge);
+                badgeMoreLess.setImageResource(R.mipmap.more_less_team_badge);
         }
 
     }

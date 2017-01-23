@@ -51,7 +51,7 @@
 
                 <TextView
                     android:id="@+id/pointsLbl"
-                    android:text="Points"
+                    android:text="@string/pointsLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
@@ -123,10 +123,11 @@
                     android:id="@+id/primaryBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Do the Quiz"
+                    android:text="@string/btnQuiz"
                     android:layout_marginRight="35dp"
                     android:enabled="false"
                     android:background="@android:drawable/btn_default"
+                    android:textColor="#000"
                     android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse"/>
             </LinearLayout>
         </LinearLayout>

@@ -71,22 +71,22 @@
         <activity
             android:name=".admin.vista.AllPlayersActivity"
             android:screenOrientation="portrait"
-            android:label="All Players">
+            android:label="@string/allPlayersLabel">
         </activity>
         <activity
             android:name=".admin.vista.NewPlayerActivity"
             android:screenOrientation="portrait"
-            android:label="New Player">
+            android:label="@string/newPlayerLabel">
         </activity>
         <activity
             android:name=".admin.vista.NewTeamActivity"
             android:screenOrientation="portrait"
-            android:label="Edit Player">
+            android:label="@string/newTeamLabel">
         </activity>
         <activity
             android:name=".admin.vista.EditPlayerActivity"
             android:screenOrientation="portrait"
-            android:label="Edit Player">
+            android:label="@string/editPlayerLabel">
         </activity>
 
         <!-- All Product Activity -->

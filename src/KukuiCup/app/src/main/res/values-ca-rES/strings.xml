@@ -16,6 +16,7 @@
     <string name="savAction">Acción d\'estalvi</string>
     <string name="enrgChall">Repte Energètic</string>
     <string name="video">Vídeo</string>
+    <string name="btnQuiz">Fer questionari</string>
     <string name="btnDone">Fet!</string>
     <string name="btnTakePhoto">Fer foto</string>
     <string name="btnUploadPhoto">Pujar foto</string>
@@ -36,6 +37,7 @@
     <string name="resumeFloor">/pis</string>
     <string name="resumeTeam">/guanyador</string>
     <string name="btnStart">Iniciar repte</string>
+    <string name ="challDays">Dies restants:</string>
     <string name="btnContinue">Continuar repte</string>
     <string name="msgToastQuiz">pots fer-ho millor!</string>
     <string name="msgQuiz1L1">Has guanyat la medalla del Nivell 1 i 30 punts</string>
@@ -47,6 +49,16 @@
     <string name="msgBadge2">Has guanyat la medalla Usa les Escales.</string>
     <string name="msgBadge3">Has guanyat la medalla Habitació Buida.</string>
     <string name="msgBadge4">Has guanyat la medalla Joc en Equip.</string>
+    <string name="btnFinish">Acaba</string>
+    <string name="btnContinueJoke">Continua</string>
+    <string name="jokeMsg">Ben fet! Gaudeix d\'aquest acudit ...</string>
+    <string name="savTip">Consell d\'estalvi</string>
+
+    <!--- LABELS ADMIN VISTAS-->
+    <string name="allPlayersLabel">Tots els jugadors</string>
+    <string name="newPlayerLabel">Nou jugador</string>
+    <string name="newTeamLabel">Nou Equip</string>
+    <string name="editPlayerLabel">Editar jugador</string>
 
     <string name="msgPass">Has d\'omplir tots els camps</string>
     <string name="msgId">Identificació ...</string>
@@ -56,6 +68,9 @@
     <string name="msgInvPass">Contrasenya no vàlida</string>
 
     <!--- MENU ADMIN -->
+    <string name="welcomeMsg">Benvingut a KukuiCupBCN</string>
+    <string name="hintUser">Nom d\'usuari</string>
+    <string name="hintPass">Contrasenya</string>
     <string name="btnCreateTeam">Afergir Equip</string>
     <string name="btnViewPlayers">Veure Jugadors</string>
     <string name="btnCreatePlayer">Afegir Jugador</string>
@@ -78,6 +93,9 @@
     <string name="creatingPlayers">Creant jugador...</string>
     <string name="loadPlayers">Carregant jugadors. Espera siusplau...</string>
     <string name="creatingTeam">Creant jugador...</string>
+    <string name="noTournament">No hi ha cap torneig disponible. Siusplau, contacti amb l\'administrador.</string>
+    <string name="userEnter">Siusplau entri el seu nom d\'usuari i la seva contrasenya!</string>
+    <string name="invalidLogin">Usuari o contrasenya incorrectes</string>
 
     <!--- MAIN USER -->
     <string name="level1Label">Nivell 1</string>
@@ -129,38 +147,33 @@
 
     <!--- ENERGY CHALLENGE LEVEL 1 -->
     <string name="enrgChalL1_1">Apagar abans de dormir</string>
-    <string name="resumeL1_enrgChal1">Apaga i desconecta tots els aparells electronics de la teva habitació abans de dormir.</string>
+    <string name="resumeL1_enrgChal1">Has apagat i desconectat els aparells electronics de la teva habitació abans de dormir?</string>
     <string name="descL1_enrgChal1">Aconseguiràs el següent repte?
         Apagar i desconectar els aparells electronics de la teva habitació abans de dormir.
         Fes aquesta acció durant 5 dies seguits per superar aquest repte.</string>
 
     <!--- ENERGY CHALLENGE LEVEL 2 -->
     <string name="enrgChalL2_1">Fes us de les escales</string>
-    <string name="resumeL2_enrgChal1">Usa les escales en comptes de l\'ascensor</string>
+    <string name="resumeL2_enrgChal1">Has fet us de les escales avui?</string>
     <string name="descL2_enrgChal1">Aconseguiràs el següent repte?
-        Usa les escales en comptes de l\'ascensor per completar aquest repte</string>
+        Usa les escales en comptes de l\'ascensor per completar aquest repte. Fes-ho cada dia per sentir-te millor!</string>
     <string name="enrgChalL2_2">Substituir per un LED</string>
-    <string name="resumeL2_enrgChal2">Canvia qualsevol bombeta per un LED.</string>
+    <string name="resumeL2_enrgChal2">Has canviat una bombeta per un LED?</string>
     <string name="descL2_enrgChal2">Aconseguiràs el següent repte?
         Canvia qualsevol bombeta normal per una bombeta LED per completar el repte.</string>
     <string name="enrgChalL2_3">Apaga les llums</string>
-    <string name="resumeL2_enrgChal3">Apaga les llums i desconecta els aparelles electronics de qualsevol habitació buida.</string>
+    <string name="resumeL2_enrgChal3">Has apagat les llums i desconectat els aparelles electronics de l\'habitació buida?</string>
     <string name="descL2_enrgChal3">Aconseguiràs el següent repte?
-        Apaga i desconecta aparells electronics d\'habitacions buides.
-        Fes aquesta acció durant 5 dies seguits per superar aquest repte.</string>
+        Apaga i desconecta aparells electronics d\'habitacions buides. Fes aquesta acció durant 5 dies seguits per superar aquest repte.</string>
 
     <!--- ENERGY CHALLENGE LEVEL 3 -->
     <string name="enrgChalL3_1">A la caça de l\'energia</string>
-    <string name="resumeL3_enrgChal1">Per equips! Cada equip ha de trobar a la seva clase:
-        -L\'aparell amb major consum energètic
-        -L\'aparell amb menor consum energètic</string>
+    <string name="resumeL3_enrgChal1">Ha acosenguit el teu equip trobar els aparells correctes?</string>
     <string name="descL3_enrgChal1">Aconseguiràs el següent repte?
-        Per equips! Cada equip ha de trobar a la seva clase els següents aparells:
-            -L\'aparell electrònic amb major consum energètic
-            -L\'aparell electrònic amb menor consum energètic
+        Per equips! Cada equip ha l\'aparell que consumeix menys i el que més.
         El primer equip que els trobi guanyarà el repte. L\'equipo en segon lloc obtindrà 50 punts.</string>
     <string name="enrgChalL3_2">Diseny Kukui</string>
-    <string name="resumeL3_enrgChal2">Crea un diseny de KukuiCupBCN per a estampar a una samarreta i fes una foto.</string>
+    <string name="resumeL3_enrgChal2">Has fet un diseny guai? Puja una foto!</string>
     <string name="descL3_enrgChal2">Aconseguiràs el següent repte?
         Crea un diseny per a la futura samarreta de KukuiCupBCN i fes una foto para completar aquest repte.</string>
 
@@ -239,6 +252,11 @@
     <string name="L3V2_3A">A: s\'usen per transformar el vent en energia elèctrica</string>
     <string name="L3V2_3B">B: s\'usen per a guardar els raigs del sol</string>
     <string name="L3V2_3C">C: s\'usen per generar energia elèctrica</string>
+
+    <string name="badgeL1_Chal1">offBeforeSleep</string>
+    <string name="badgeL2_Chal1">useStairs</string>
+    <string name="badgeL2_Chal2">emptyRoom</string>
+    <string name="badgeL3_Chal1">teamPlay</string>
 
 
     <string name="title_logo">NATIONAL GEOGRAPHIC</string>

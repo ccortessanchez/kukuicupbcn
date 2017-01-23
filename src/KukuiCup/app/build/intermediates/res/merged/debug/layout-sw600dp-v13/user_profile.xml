@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="#BEF781">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_margin="40dp">
+
+        <ImageView
+            android:id="@+id/userImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user"/>
+
+        <TextView
+            android:id="@+id/usernameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:elegantTextHeight="false"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLogout"
+            android:id="@+id/logOutBtn"
+            android:background="#5F4C0B"
+            android:textColor="#BEF781" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/changePassLabel"
+            android:textColor="#000000"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/actualPassLabel"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/inputPswd"
+                android:layout_marginLeft="30dp"
+                android:inputType="textPassword"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/newPassLabel"
+                android:gravity="center"
+                android:textColor="#000000" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/inputNewPswd"
+                android:layout_marginLeft="30dp"
+                android:inputType="textPassword"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/confirmPassLabel"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/inputConfirmPswd"
+                android:layout_marginLeft="30dp"
+                android:inputType="textPassword"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDone"
+                android:id="@+id/doneBtn"
+                android:background="#5F4C0B"
+                android:textColor="#BEF781" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

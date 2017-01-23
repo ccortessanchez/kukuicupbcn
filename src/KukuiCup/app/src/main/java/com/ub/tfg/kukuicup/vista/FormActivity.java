@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -46,6 +47,9 @@ public class FormActivity extends Activity {
     private AlertDialog alertDialog;
 
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.form);
 
@@ -272,25 +276,25 @@ public class FormActivity extends Activity {
                         badgeImg.setImageResource(R.mipmap.level3_badge);
                         badgeImg.setVisibility(View.VISIBLE);
 
-                        answer1btn = (RadioButton)findViewById(R.id.answer1a);
+                        answer1btn = (RadioButton)findViewById(R.id.answer1b);
                         answer2btn = (RadioButton)findViewById(R.id.answer2c);
-                        answer3btn = (RadioButton)findViewById(R.id.answer3b);
+                        answer3btn = (RadioButton)findViewById(R.id.answer3a);
 
                         jokeId = 1;
-
-                        question1.setText(getResources().getString(R.string.quest1_L3_video2));
-                        answer1a.setText(getResources().getString(R.string.L3V2_1A));
-                        answer1b.setText(getResources().getString(R.string.L3V2_1B));
-                        answer1c.setVisibility(View.INVISIBLE);
-                        //answer1c.setText(getResources().getString(R.string.L3V2_1C));
+                        question1.setText(getResources().getString(R.string.quest3_L3_video2));
+                        answer1a.setText(getResources().getString(R.string.L3V2_3A));
+                        answer1b.setText(getResources().getString(R.string.L3V2_3B));
+                        answer1c.setText(getResources().getString(R.string.L3V2_3C));
                         question2.setText(getResources().getString(R.string.quest2_L3_video2));
                         answer2a.setText(getResources().getString(R.string.L3V2_2A));
                         answer2b.setText(getResources().getString(R.string.L3V2_2B));
                         answer2c.setText(getResources().getString(R.string.L3V2_2C));
                         question3.setText(getResources().getString(R.string.quest3_L3_video2));
-                        answer3a.setText(getResources().getString(R.string.L3V2_3A));
-                        answer3b.setText(getResources().getString(R.string.L3V2_3B));
-                        answer3c.setText(getResources().getString(R.string.L3V2_3C));
+                        question3.setText(getResources().getString(R.string.quest1_L3_video2));
+                        answer3a.setText(getResources().getString(R.string.L3V2_1A));
+                        answer3b.setText(getResources().getString(R.string.L3V2_1B));
+                        answer3c.setVisibility(View.INVISIBLE);
+
 
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgQuiz2L3));

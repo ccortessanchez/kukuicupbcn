@@ -6,6 +6,7 @@ import com.ub.tfg.kukuicup.controller.SessionManager;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -35,6 +36,9 @@ public class MenuAdminActivity extends Activity {
 	private SQLiteHandler db;
 	
 	public void onCreate(Bundle savedInstanceState) {
+		if(getResources().getBoolean(R.bool.tablet)){
+			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+		}
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.menu_admin);
 
@@ -49,6 +53,9 @@ public class MenuAdminActivity extends Activity {
 		btnStart = (Button) findViewById(R.id.startTournament);
 		initDateText = (TextView)findViewById(R.id.initDate);
 		endDateText = (TextView)findViewById(R.id.endDate);
+
+		initDateText.setText(getResources().getString(R.string.initDate));
+		endDateText.setText(getResources().getString(R.string.endDate));
 
 		// view players click event
 		btnViewplayers.setOnClickListener(new View.OnClickListener() {

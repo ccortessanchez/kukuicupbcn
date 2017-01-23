@@ -18,6 +18,7 @@
     <string name="enrgChall">Energy Challenge</string>
     <string name="video">Video</string>
     <string name="btnDone">Done!</string>
+    <string name="btnQuiz">Do the Quiz</string>
     <string name="btnTakePhoto">Take a photo</string>
     <string name="btnUploadPhoto">Upload photo</string>
     <string name="rewardLabel">Reward</string>
@@ -33,6 +34,7 @@
     <string name="msgToastUpload">Uploaded successfully</string>
     <string name="msgCongrats">Congratulations! Get your points!</string>
     <string name="msgCongratsAlt">Congratulations!</string>
+    <string name ="challDays">Remaining days:</string>
     <string name="resumeDay">/day</string>
     <string name="resumeFloor">/floor</string>
     <string name="resumeTeam">/winner</string>
@@ -48,6 +50,16 @@
     <string name="msgBadge2">You have won the bagde Use Stairs.</string>
     <string name="msgBadge3">You have won the bagde Empty Room.</string>
     <string name="msgBadge4">You have won the bagde Team Play.</string>
+    <string name="btnFinish">Finish</string>
+    <string name="btnContinueJoke">Continue</string>
+    <string name="jokeMsg">"Well done! Now enjoy this joke..."</string>
+    <string name="savTip">Saving tip!</string>
+
+    <!--- LABELS ADMIN VISTAS-->
+    <string name="allPlayersLabel">All Players</string>
+    <string name="newPlayerLabel">New Player</string>
+    <string name="newTeamLabel">New Team</string>
+    <string name="editPlayerLabel">Edit Player</string>
 
     <!--- MENU USER -->
     <string name="msgPass">You must fill all the gaps</string>
@@ -59,6 +71,9 @@
 
 
     <!--- MENU ADMIN -->
+    <string name="welcomeMsg">Welcome to KukuiCupBCN</string>
+    <string name="hintUser">Username</string>
+    <string name="hintPass">Password</string>
     <string name="btnCreateTeam">Add New Team</string>
     <string name="btnViewPlayers">View Players</string>
     <string name="btnCreatePlayer">Add New Player</string>
@@ -81,6 +96,9 @@
     <string name="creatingPlayers">Creating Player...</string>
     <string name="loadPlayers">Loading players. Please wait...</string>
     <string name="creatingTeam">Creating Team...</string>
+    <string name="noTournament">No tournament available at this moment. Please, contact Administrator.</string>
+    <string name="userEnter">Please enter your username and password!</string>
+    <string name="invalidLogin">Invalid username or password</string>
 
 
     <!--- MAIN USER -->
@@ -105,7 +123,7 @@
 
     <!--- SAVING ACTIONS LEVEL 2 -->
     <string name="savActL2_1">My room consumption</string>
-    <string name="descL2_saveAct1">For each electronic device in your room, calculate his energy consumption. Also write how many hours you use it every day. Then add up all the devices to know room consumption and take a photo for verification.
+    <string name="descL2_saveAct1">Calculate energy consumption for every appliance in your room. Write how many hours you use it every day. Then add up all appliances to know room consumption and take a photo for verification.
         Press the Done! button when you make this saving action.</string>
     <string name="savActL2_2">Use daylight</string>
     <string name="descL2_saveAct2">During the day, turn off your room light and use daylight (if it\'s possible in your room).
@@ -134,36 +152,32 @@
 
     <!--- ENERGY CHALLENGE LEVEL 1 -->
     <string name="enrgChalL1_1">Off before sleep</string>
-    <string name="resumeL1_enrgChal1">Turn off and unplug all electrical appliances in your room before going to sleep.</string>
+    <string name="resumeL1_enrgChal1">Did you turn off and unplug all electrical appliances before going to sleep?</string>
     <string name="descL1_enrgChal1">Will you get the next challenge? Off and unplug all electrical devices in your room before going to sleep.
         Perform this action for 5 consecutive days to win the challenge.</string>
 
     <!--- ENERGY CHALLENGE LEVEL 2 -->
     <string name="enrgChalL2_1">Use stairs</string>
-    <string name="resumeL2_enrgChal1">Use the stais instead of using elevator. Try this everyday to save more energy and feel more healthy!</string>
+    <string name="resumeL2_enrgChal1">Did you use the stairs today?</string>
     <string name="descL2_enrgChal1">Will you get the next challenge?
-        Use the stairs instead of using the elevator to win the challenge.</string>
+        Use the stairs instead of using the elevator to win the challenge. Try this everyday to save more energy and feel more healthy!</string>
     <string name="enrgChalL2_2">Change for LED</string>
-    <string name="resumeL2_enrgChal2">Change any lightbulb for a LED.</string>
+    <string name="resumeL2_enrgChal2">Did you change any lightbulb for a LED?</string>
     <string name="descL2_enrgChal2">Will you get the next challenge?
         Change any lightbulb for a LED to win the challenge.</string>
     <string name="enrgChalL2_3">Off empty room</string>
-    <string name="resumeL2_enrgChal3">Turn off and unplug all electrical devices in any empty room. </string>
+    <string name="resumeL2_enrgChal3">Did you turn off and unplug all electrical devices in the empty rooms? </string>
     <string name="descL2_enrgChal3">Will you get the next challenge?
         Off and unplug all electrical devices in any empty room. Perform this action for 5 consecutive days to win the challenge.</string>
 
     <!--- ENERGY CHALLENGE LEVEL 3 -->
     <string name="enrgChalL3_1">Team play</string>
-    <string name="resumeL3_enrgChal1">"Team play! In this challenge, each team has to find two types of electronic devices:
-        -The device with the higher consumption
-        -The device with the lower consumption</string>
+    <string name="resumeL3_enrgChal1">"Did your team find the correct appliance?</string>
     <string name="descL3_enrgChal1">Will you get the next challenge?
-        Team play! In this challenge, each team has to find two types of electronic devices:
-            -The device with the higher consumption
-            -The device with the lower consumption
+        Team play! In this challenge, each team has to find the higher and lower consumption appliance.
         The first team to find them will be the challenge winner! 50 points for the team in second place.</string>
     <string name="enrgChalL3_2">Shirt design</string>
-    <string name="resumeL3_enrgChal2">Create a design to put on a shirt for the upcoming KukuiCupBCN and take a photo of it.</string>
+    <string name="resumeL3_enrgChal2">Did you create a cool design? Take a photo of it!</string>
     <string name="descL3_enrgChal2">Will you get the next challenge?
         Create a design to put on a shirt for the upcoming KukuiCupBCN and take a photo of it to win the challenge</string>
 
@@ -245,6 +259,9 @@
 
     <!--- BADGES -->
     <string name="badgeL1_Chal1">offBeforeSleep</string>
+    <string name="badgeL2_Chal1">useStairs</string>
+    <string name="badgeL2_Chal2">emptyRoom</string>
+    <string name="badgeL3_Chal1">teamPlay</string>
 
     <string name="title_logo">NATIONAL GEOGRAPHIC</string>
     <string name="btn_skip_intro">Skip Intro</string>     

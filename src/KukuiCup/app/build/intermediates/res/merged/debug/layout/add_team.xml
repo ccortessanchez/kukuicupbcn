@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-    android:background="#BEF781">
-    <!-- Name Label -->
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BEF781"
+    android:baselineAligned="false">
+
     <TextView android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:text="@string/teamNameLabel"
-              android:paddingLeft="10dip"
-              android:paddingRight="10dip"
-              android:paddingTop="10dip"
-              android:textSize="17dip"
+        android:layout_height="wrap_content"
+        android:text="@string/teamNameLabel"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
         android:textColor="#000000" />
 
     <!-- Input Name -->
     <EditText android:id="@+id/inputName"
-              android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:layout_margin="5dip"
-              android:layout_marginBottom="15dip"
-              android:singleLine="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
         android:textColor="#000000" />
     <!-- Button Create Team -->
     <LinearLayout

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:background="#5F4C0B"
+            android:background="#BEF781"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical" >
@@ -13,14 +13,13 @@
         android:visibility="gone" />
 
     <!-- Name Label -->
-    <TextView
+    <TextView style="@style/List"
         android:id="@+id/name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingTop="6dip"
         android:paddingLeft="6dip"
         android:textSize="17dip"
-        android:textColor="#BEF781"
         android:textStyle="bold" />
 
 </LinearLayout>

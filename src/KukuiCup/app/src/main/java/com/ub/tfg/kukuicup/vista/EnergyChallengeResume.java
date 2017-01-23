@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -52,6 +53,9 @@ public class EnergyChallengeResume extends Activity {
     private ImageView challActionImg;
 
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.energy_challenge_resume);
 
@@ -82,9 +86,31 @@ public class EnergyChallengeResume extends Activity {
 
         alertDialog = new AlertDialog.Builder(EnergyChallengeResume.this).create();
         // Setting Dialog Title
-        alertDialog.setTitle(getResources().getString(R.string.msgCongratsAlt));
-        alertDialog.setIcon(R.mipmap.off_sleep_badge);
-        alertDialog.setMessage("You have won the bagde Off Before Sleep.");
+
+        if (badge.equals(getResources().getString(R.string.badgeL1_Chal1))){
+            alertDialog.setTitle(getResources().getString(R.string.msgCongratsAlt));
+            alertDialog.setIcon(R.mipmap.off_sleep_badge);
+            alertDialog.setMessage(getResources().getString(R.string.msgBadge1));
+        }
+
+        if (badge.equals(getResources().getString(R.string.badgeL2_Chal1))){
+            alertDialog.setTitle(getResources().getString(R.string.msgCongratsAlt));
+            alertDialog.setIcon(R.mipmap.stairs_badge);
+            alertDialog.setMessage(getResources().getString(R.string.msgBadge2));
+        }
+
+        if (badge.equals(getResources().getString(R.string.badgeL2_Chal2))){
+            alertDialog.setTitle(getResources().getString(R.string.msgCongratsAlt));
+            alertDialog.setIcon(R.mipmap.empty_room_badge);
+            alertDialog.setMessage(getResources().getString(R.string.msgBadge3));
+        }
+
+        if (badge.equals(getResources().getString(R.string.badgeL3_Chal1))){
+            alertDialog.setTitle(getResources().getString(R.string.msgCongratsAlt));
+            alertDialog.setIcon(R.mipmap.more_less_team_badge);
+            alertDialog.setMessage(getResources().getString(R.string.msgBadge4));
+        }
+
 
         alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
@@ -244,7 +270,7 @@ public class EnergyChallengeResume extends Activity {
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 15;
                         //cambiar nombre medalla
-                        badge = "useStairs";
+                        badge = getResources().getString(R.string.badgeL2_Chal1);
                         break;
                     case 1:
                         challActionImg.setImageResource(R.drawable.battery);
@@ -269,12 +295,12 @@ public class EnergyChallengeResume extends Activity {
                         badgeImg.setVisibility(View.VISIBLE);
                         description.setText(getResources().getString(R.string.resumeL2_enrgChal3));
 
-                        daysRemaining.setText(""+counter);
+                        daysRemaining.setText(getResources().getString(R.string.challDays)+counter);
 
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 5;
                         //cambiar nombre medalla
-                        badge = "emptyRoom";
+                        badge = getResources().getString(R.string.badgeL2_Chal2);
                         break;
                     default:
                         break;
@@ -297,7 +323,7 @@ public class EnergyChallengeResume extends Activity {
                         //comprobar primera posicion o segunda
                         pointsObt = 100;
                         //cambiar nombre medalla
-                        badge = "teamPlay";
+                        badge = getResources().getString(R.string.badgeL3_Chal1);
                         break;
                     case 1:
                         challActionImg.setImageResource(R.drawable.battery);

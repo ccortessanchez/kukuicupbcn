@@ -12,6 +12,7 @@ import org.json.JSONObject;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -54,12 +55,16 @@ public class AllPlayersActivity extends ListActivity{
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.all_players);
 
         Controller control = new Controller();
         String localhost = control.config.LOCALHOST;
-        url_all_players = "http://"+localhost+"/kukuicupbcn/get_all_players.php";
+        url_all_players = "http://"+localhost+"/get_all_players.php";
 
         // Hashmap for ListView
         playersList = new ArrayList<HashMap<String, String>>();

@@ -9,6 +9,7 @@ import com.ub.tfg.kukuicup.R;
 import com.ub.tfg.kukuicup.controller.Config;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -45,6 +46,9 @@ public class VideoActivity extends YouTubeBaseActivity implements
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		if(getResources().getBoolean(R.bool.tablet)){
+			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+		}
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,

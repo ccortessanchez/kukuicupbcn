@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -51,8 +52,12 @@ public class SavingActionActivity extends Activity {
     private RadioButton answera, answerb, answerc;
 
     private AlertDialog alertDialog;
+    private AlertDialog tip;
 
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.saving_action);
 
@@ -104,6 +109,18 @@ public class SavingActionActivity extends Activity {
                 intent.putExtra("points", pointsObt);
                 startActivity(intent);
                 primaryBtn.setEnabled(false);
+            }
+        });
+
+
+        tip = new AlertDialog.Builder(SavingActionActivity.this).create();
+        tip.setTitle(getResources().getString(R.string.savTip));
+
+
+        tip.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                // Write your code here to execute after dialog closed
+                Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgToastLevel), Toast.LENGTH_SHORT).show();
             }
         });
 

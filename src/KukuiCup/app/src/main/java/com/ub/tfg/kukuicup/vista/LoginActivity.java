@@ -11,12 +11,14 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request.Method;
@@ -42,6 +44,7 @@ public class LoginActivity extends Activity {
     private static final String TAG_PASSWD = "passwd";
     private static final String TAG_SUCCESS = "success";
 	private Context ctxt;
+    private TextView welcomeLabel;
 
     Button enterBtn;
     EditText inputUsername;
@@ -54,21 +57,26 @@ public class LoginActivity extends Activity {
     private static String url_login;
 
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
         Controller control = new Controller();
         String localhost = control.config.LOCALHOST;
-        url_login = "http://"+localhost+"/kukuicupbcn/login.php";
+        url_login = "http://"+localhost+"/login.php";
         
         ctxt = getApplicationContext();
-        
+
+        welcomeLabel = (TextView)findViewById(R.id.welcomeLabel);
         enterBtn = (Button)findViewById(R.id.enterBtn);
         inputUsername = (EditText)findViewById(R.id.inputUsername);
         inputPasswd = (EditText)findViewById(R.id.inputPasswd);
 
-        inputUsername.setHint("Username");
-        inputPasswd.setHint("Password");
+        welcomeLabel.setText(getResources().getString(R.string.welcomeMsg));
+        inputUsername.setHint(getResources().getString(R.string.hintUser));
+        inputPasswd.setHint(getResources().getString(R.string.hintPass));
 
         //Progress dialog
         pDialog = new ProgressDialog(this);
@@ -104,7 +112,7 @@ public class LoginActivity extends Activity {
                             checkLogin(username, passwd);
                         } else {
                             Toast.makeText(getApplicationContext(),
-                                    "No tournament available at this moment. Please, contact Administrator.", Toast.LENGTH_LONG)
+                                    getResources().getString(R.string.noTournament), Toast.LENGTH_LONG)
                                     .show();
                         }
 
@@ -112,7 +120,7 @@ public class LoginActivity extends Activity {
                 } else {
                     // Prompt user to enter credentials
                     Toast.makeText(getApplicationContext(),
-                            "Please enter your username and password!", Toast.LENGTH_LONG)
+                            getResources().getString(R.string.userEnter), Toast.LENGTH_LONG)
                             .show();
                 }
 
@@ -150,7 +158,7 @@ public class LoginActivity extends Activity {
                 }else{
                     //If the server response is not success
                     //Displaying an error message on toast
-                    Toast.makeText(LoginActivity.this, "Invalid username or password", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this, getResources().getString(R.string.invalidLogin), Toast.LENGTH_LONG).show();
                 }
 
             }

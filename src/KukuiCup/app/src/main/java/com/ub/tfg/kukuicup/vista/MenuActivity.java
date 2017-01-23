@@ -10,6 +10,7 @@ import android.app.Activity;
 //import android.content.Context;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
@@ -36,6 +37,9 @@ public class MenuActivity extends Activity {
     private TextView levelLabel;
 
 	public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.menu);
 		

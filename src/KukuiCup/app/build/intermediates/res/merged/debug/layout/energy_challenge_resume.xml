@@ -14,8 +14,8 @@
         android:background="@drawable/background_land" />
 
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="30dp"
@@ -41,7 +41,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginRight="35dp"
-                    android:text="Points" />
+                    android:text="@string/pointsLabel" />
 
                 <ImageView
                     android:id="@+id/badgeImg"
@@ -67,7 +67,7 @@
                     android:id="@+id/challengeReward"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Reward"
+                    android:text="@string/rewardLabel"
                     android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/pointsLbl"
                     android:layout_toStartOf="@+id/pointsLbl"
@@ -110,7 +110,7 @@
                         android:layout_gravity="left"
                         android:layout_marginLeft="35dp"
                         android:layout_marginTop="15dp"
-                        android:text="Days remaining: "
+                        android:text="@string/challDays"
                         android:layout_weight="0.24" />
 
                     <TextView
@@ -142,7 +142,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Take a photo"
+                    android:text="@string/btnTakePhoto"
                     android:id="@+id/secondaryBtn"
                     android:background="@android:drawable/btn_default"
                     tools:textColor="@android:color/black"
@@ -172,9 +172,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginRight="35dp"
-                    android:text="Done!"
+                    android:text="@string/btnDone"
                     android:background="@android:drawable/btn_default"
-                    tools:textColor="@android:color/black"
+                    android:textColor="@android:color/black"
                     android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
 
             </LinearLayout>

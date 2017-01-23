@@ -3,6 +3,7 @@ package com.ub.tfg.kukuicup.admin.vista;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -62,14 +63,17 @@ public class NewPlayerActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_player);
 
         Controller control = new Controller();
         String localhost = control.config.LOCALHOST;
 
-        url_create_player = "http://"+localhost+"/kukuicupbcn/create_player.php";
-        url_all_teams = "http://"+localhost+"/kukuicupbcn/get_all_teams.php";
+        url_create_player = "http://"+localhost+"/create_player.php";
+        url_all_teams = "http://"+localhost+"/get_all_teams.php";
 
         // Hashmap for Spinner
         teamList = new ArrayList<HashMap<String, String>>();
@@ -100,7 +104,7 @@ public class NewPlayerActivity extends Activity {
         teamSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                ((TextView) parent.getChildAt(0)).setTextColor(Color.BLACK);
+                //((TextView) parent.getChildAt(0)).setTextColor(Color.BLACK);
                 pid = ((TextView) view.findViewById(R.id.pid)).getText()
                         .toString();
             }

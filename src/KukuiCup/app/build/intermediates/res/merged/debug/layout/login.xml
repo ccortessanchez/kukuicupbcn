@@ -60,7 +60,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="93dp"
-        android:text="Welcome to KukuiCupBCN!"
+        android:text="@string/welcomeMsg"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#000000" />
 

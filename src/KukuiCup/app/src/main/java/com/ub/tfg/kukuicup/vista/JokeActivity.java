@@ -2,6 +2,7 @@ package com.ub.tfg.kukuicup.vista;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +18,7 @@ import com.ub.tfg.kukuicup.R;
 public class JokeActivity extends Activity {
 
     private int levelId;
+    private int formId;
     private int jokeId;
     private int pointsObt;
     private String badgeObt;
@@ -25,12 +27,16 @@ public class JokeActivity extends Activity {
     private ImageView jokeImg;
 
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.joke);
 
         Bundle extras = getIntent().getExtras();
 
         levelId = extras.getInt("levelId");
+        formId = extras.getInt("formId");
         jokeId = extras.getInt("jokeId");
         pointsObt = extras.getInt("points");
         badgeObt = extras.getString("badge");
@@ -38,7 +44,7 @@ public class JokeActivity extends Activity {
         continueBtn = (Button)findViewById(R.id.continueBtn);
         jokeImg = (ImageView)findViewById(R.id.jokeImg);
 
-        getInfoByFormId(1, 0);
+        getInfoByFormId(levelId, formId);
 
         continueBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

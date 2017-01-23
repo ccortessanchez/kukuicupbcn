@@ -3,6 +3,7 @@ package com.ub.tfg.kukuicup.admin.vista;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -85,16 +86,19 @@ public class EditPlayerActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.edit_player);
 
         Controller control = new Controller();
         String localhost = control.config.LOCALHOST;
 
-        url_player_details = "http://"+localhost+"/kukuicupbcn/get_player_details.php";
-        url_update_player = "http://"+localhost+"/kukuicupbcn/update_player_edit.php";
-        url_delete_player = "http://"+localhost+"/kukuicupbcn/delete_player.php";
-        url_all_teams = "http://"+localhost+"/kukuicupbcn/get_all_teams.php";
+        url_player_details = "http://"+localhost+"/get_player_details.php";
+        url_update_player = "http://"+localhost+"/update_player_edit.php";
+        url_delete_player = "http://"+localhost+"/delete_player.php";
+        url_all_teams = "http://"+localhost+"/get_all_teams.php";
 
         // save button
         btnSave = (Button) findViewById(R.id.btnSave);

@@ -39,7 +39,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:text="Reward"
+                    android:text="@string/rewardLabel"
                     android:layout_toLeftOf="@+id/pointsLbl"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="5dp"/>
@@ -47,7 +47,7 @@
                     android:id="@+id/pointsLbl"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Points"
+                    android:text="@string/pointsLabel"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"

@@ -3,6 +3,7 @@ package com.ub.tfg.kukuicup.admin.vista;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -40,13 +41,16 @@ public class NewTeamActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        if(getResources().getBoolean(R.bool.tablet)){
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_team);
 
         Controller control = new Controller();
         String localhost = control.config.LOCALHOST;
 
-        url_create_team = "http://"+localhost+"/kukuicupbcn/create_team.php";
+        url_create_team = "http://"+localhost+"/create_team.php";
 
         // Edit Text
         inputName = (EditText) findViewById(R.id.inputName);
