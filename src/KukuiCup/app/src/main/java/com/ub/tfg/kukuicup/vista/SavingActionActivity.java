@@ -382,7 +382,7 @@ public class SavingActionActivity extends Activity {
 
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 15 " +getResources().getString(R.string.msgRewardPoint));
-                        pointsObt = 20;
+                        pointsObt = 15;
                         break;
                     default:
                         break;
@@ -394,7 +394,7 @@ public class SavingActionActivity extends Activity {
                         savActionImg.setImageResource(R.drawable.piggybank);
                         savActionImg.setVisibility(View.VISIBLE);
                         actionName.setText(getResources().getString(R.string.savActL3_1));
-                        reward.setText("+3");
+                        reward.setText("+15");
                         description.setText(getResources().getString(R.string.descL3_saveAct1));
                         answera.setVisibility(View.VISIBLE);
                         answerb.setVisibility(View.VISIBLE);
@@ -416,7 +416,7 @@ public class SavingActionActivity extends Activity {
                         savActionImg.setImageResource(R.drawable.piggybank);
                         savActionImg.setVisibility(View.VISIBLE);
                         actionName.setText(getResources().getString(R.string.savActL3_2));
-                        reward.setText("+3");
+                        reward.setText("+15");
                         description.setText(getResources().getString(R.string.descL3_saveAct2));
                         answera.setVisibility(View.VISIBLE);
                         answerb.setVisibility(View.VISIBLE);

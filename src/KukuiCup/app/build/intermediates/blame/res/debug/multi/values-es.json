@@ -12,7 +12,15 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 290,
+                        "endLine": 12,
+                        "endColumn": 19,
+                        "endOffset": 454
+                    }
                 }
             },
             {
@@ -25,7 +33,15 @@
                     "endOffset": 322
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endLine": 7,
+                        "endColumn": 20,
+                        "endOffset": 284
+                    }
                 }
             },
             {
@@ -37,7 +53,14 @@
                     "endOffset": 365
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 12152,
+                        "endColumn": 42,
+                        "endOffset": 12190
+                    }
                 }
             },
             {
@@ -49,7 +72,14 @@
                     "endOffset": 413
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 184,
+                        "startColumn": 4,
+                        "startOffset": 12196,
+                        "endColumn": 47,
+                        "endOffset": 12239
+                    }
                 }
             },
             {
@@ -61,7 +91,14 @@
                     "endOffset": 463
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 12245,
+                        "endColumn": 49,
+                        "endOffset": 12290
+                    }
                 }
             },
             {
@@ -73,7 +110,14 @@
                     "endOffset": 519
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 12419,
+                        "endColumn": 55,
+                        "endOffset": 12470
+                    }
                 }
             },
             {
@@ -85,7 +129,14 @@
                     "endOffset": 571
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 4,
+                        "startOffset": 12476,
+                        "endColumn": 51,
+                        "endOffset": 12523
+                    }
                 }
             },
             {
@@ -97,7 +148,14 @@
                     "endOffset": 628
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 4,
+                        "startOffset": 12529,
+                        "endColumn": 56,
+                        "endOffset": 12581
+                    }
                 }
             },
             {
@@ -109,7 +167,14 @@
                     "endOffset": 720
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 191,
+                        "startColumn": 4,
+                        "startOffset": 12665,
+                        "endColumn": 91,
+                        "endOffset": 12752
+                    }
                 }
             },
             {
@@ -121,7 +186,14 @@
                     "endOffset": 800
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 12758,
+                        "endColumn": 79,
+                        "endOffset": 12833
+                    }
                 }
             },
             {
@@ -133,7 +205,14 @@
                     "endOffset": 895
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 193,
+                        "startColumn": 4,
+                        "startOffset": 12839,
+                        "endColumn": 94,
+                        "endOffset": 12929
+                    }
                 }
             },
             {
@@ -145,7 +224,14 @@
                     "endOffset": 952
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 11742,
+                        "endColumn": 56,
+                        "endOffset": 11794
+                    }
                 }
             },
             {
@@ -157,7 +243,14 @@
                     "endOffset": 1182
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 11800,
+                        "endColumn": 229,
+                        "endOffset": 12025
+                    }
                 }
             },
             {
@@ -169,7 +262,14 @@
                     "endOffset": 1247
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 198,
+                        "startColumn": 4,
+                        "startOffset": 13278,
+                        "endColumn": 64,
+                        "endOffset": 13338
+                    }
                 }
             },
             {
@@ -181,7 +281,14 @@
                     "endOffset": 1307
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 199,
+                        "startColumn": 4,
+                        "startOffset": 13344,
+                        "endColumn": 59,
+                        "endOffset": 13399
+                    }
                 }
             },
             {
@@ -193,7 +300,14 @@
                     "endOffset": 1364
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 13405,
+                        "endColumn": 56,
+                        "endOffset": 13457
+                    }
                 }
             },
             {
@@ -205,7 +319,14 @@
                     "endOffset": 1452
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 13571,
+                        "endColumn": 87,
+                        "endOffset": 13654
+                    }
                 }
             },
             {
@@ -217,7 +338,14 @@
                     "endOffset": 1526
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 203,
+                        "startColumn": 4,
+                        "startOffset": 13660,
+                        "endColumn": 73,
+                        "endOffset": 13729
+                    }
                 }
             },
             {
@@ -229,7 +357,14 @@
                     "endOffset": 1597
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 4,
+                        "startOffset": 13735,
+                        "endColumn": 70,
+                        "endOffset": 13801
+                    }
                 }
             },
             {
@@ -241,7 +376,14 @@
                     "endOffset": 1666
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 4,
+                        "startOffset": 13945,
+                        "endColumn": 68,
+                        "endOffset": 14009
+                    }
                 }
             },
             {
@@ -253,7 +395,14 @@
                     "endOffset": 1747
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 207,
+                        "startColumn": 4,
+                        "startOffset": 14015,
+                        "endColumn": 80,
+                        "endOffset": 14091
+                    }
                 }
             },
             {
@@ -265,7 +414,14 @@
                     "endOffset": 1828
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 208,
+                        "startColumn": 4,
+                        "startOffset": 14097,
+                        "endColumn": 80,
+                        "endOffset": 14173
+                    }
                 }
             },
             {
@@ -277,7 +433,14 @@
                     "endOffset": 1874
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 213,
+                        "startColumn": 4,
+                        "startOffset": 14478,
+                        "endColumn": 45,
+                        "endOffset": 14519
+                    }
                 }
             },
             {
@@ -289,7 +452,14 @@
                     "endOffset": 1919
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 214,
+                        "startColumn": 4,
+                        "startOffset": 14525,
+                        "endColumn": 44,
+                        "endOffset": 14565
+                    }
                 }
             },
             {
@@ -301,7 +471,14 @@
                     "endOffset": 1964
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 215,
+                        "startColumn": 4,
+                        "startOffset": 14571,
+                        "endColumn": 44,
+                        "endOffset": 14611
+                    }
                 }
             },
             {
@@ -313,7 +490,14 @@
                     "endOffset": 2007
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 14713,
+                        "endColumn": 42,
+                        "endOffset": 14751
+                    }
                 }
             },
             {
@@ -325,7 +509,14 @@
                     "endOffset": 2090
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 4,
+                        "startOffset": 14757,
+                        "endColumn": 82,
+                        "endOffset": 14835
+                    }
                 }
             },
             {
@@ -337,7 +528,14 @@
                     "endOffset": 2133
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 14841,
+                        "endColumn": 42,
+                        "endOffset": 14879
+                    }
                 }
             },
             {
@@ -349,7 +547,14 @@
                     "endOffset": 2223
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 221,
+                        "startColumn": 4,
+                        "startOffset": 15003,
+                        "endColumn": 89,
+                        "endOffset": 15088
+                    }
                 }
             },
             {
@@ -361,7 +566,14 @@
                     "endOffset": 2295
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 222,
+                        "startColumn": 4,
+                        "startOffset": 15094,
+                        "endColumn": 71,
+                        "endOffset": 15161
+                    }
                 }
             },
             {
@@ -373,7 +585,14 @@
                     "endOffset": 2362
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 15167,
+                        "endColumn": 66,
+                        "endOffset": 15229
+                    }
                 }
             },
             {
@@ -385,7 +604,14 @@
                     "endOffset": 2415
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 195,
+                        "startColumn": 4,
+                        "startOffset": 12937,
+                        "endColumn": 52,
+                        "endOffset": 12985
+                    }
                 }
             },
             {
@@ -397,7 +623,14 @@
                     "endOffset": 2476
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 4,
+                        "startOffset": 14181,
+                        "endColumn": 60,
+                        "endOffset": 14237
+                    }
                 }
             },
             {
@@ -409,7 +642,14 @@
                     "endOffset": 2635
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 12991,
+                        "endColumn": 158,
+                        "endOffset": 13145
+                    }
                 }
             },
             {
@@ -421,7 +661,14 @@
                     "endOffset": 2786
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 14243,
+                        "endColumn": 150,
+                        "endOffset": 14389
+                    }
                 }
             },
             {
@@ -433,7 +680,14 @@
                     "endOffset": 2867
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 228,
+                        "startColumn": 4,
+                        "startOffset": 15559,
+                        "endColumn": 80,
+                        "endOffset": 15635
+                    }
                 }
             },
             {
@@ -445,7 +699,14 @@
                     "endOffset": 2946
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 229,
+                        "startColumn": 4,
+                        "startOffset": 15641,
+                        "endColumn": 78,
+                        "endOffset": 15715
+                    }
                 }
             },
             {
@@ -457,7 +718,14 @@
                     "endOffset": 3036
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 15721,
+                        "endColumn": 89,
+                        "endOffset": 15806
+                    }
                 }
             },
             {
@@ -469,7 +737,14 @@
                     "endOffset": 3124
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 232,
+                        "startColumn": 4,
+                        "startOffset": 15912,
+                        "endColumn": 87,
+                        "endOffset": 15995
+                    }
                 }
             },
             {
@@ -481,7 +756,14 @@
                     "endOffset": 3218
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 233,
+                        "startColumn": 4,
+                        "startOffset": 16001,
+                        "endColumn": 93,
+                        "endOffset": 16090
+                    }
                 }
             },
             {
@@ -493,7 +775,14 @@
                     "endOffset": 3293
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 234,
+                        "startColumn": 4,
+                        "startOffset": 16096,
+                        "endColumn": 74,
+                        "endOffset": 16166
+                    }
                 }
             },
             {
@@ -505,7 +794,14 @@
                     "endOffset": 3340
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 236,
+                        "startColumn": 4,
+                        "startOffset": 16317,
+                        "endColumn": 46,
+                        "endOffset": 16359
+                    }
                 }
             },
             {
@@ -517,7 +813,14 @@
                     "endOffset": 3386
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 237,
+                        "startColumn": 4,
+                        "startOffset": 16365,
+                        "endColumn": 45,
+                        "endOffset": 16406
+                    }
                 }
             },
             {
@@ -529,7 +832,14 @@
                     "endOffset": 3435
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 238,
+                        "startColumn": 4,
+                        "startOffset": 16412,
+                        "endColumn": 48,
+                        "endOffset": 16456
+                    }
                 }
             },
             {
@@ -541,7 +851,14 @@
                     "endOffset": 3504
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 16739,
+                        "endColumn": 68,
+                        "endOffset": 16803
+                    }
                 }
             },
             {
@@ -553,7 +870,14 @@
                     "endOffset": 3578
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 244,
+                        "startColumn": 4,
+                        "startOffset": 16809,
+                        "endColumn": 73,
+                        "endOffset": 16878
+                    }
                 }
             },
             {
@@ -565,7 +889,14 @@
                     "endOffset": 3662
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 16884,
+                        "endColumn": 83,
+                        "endOffset": 16963
+                    }
                 }
             },
             {
@@ -577,7 +908,14 @@
                     "endOffset": 3728
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 4,
+                        "startOffset": 17055,
+                        "endColumn": 65,
+                        "endOffset": 17116
+                    }
                 }
             },
             {
@@ -589,7 +927,14 @@
                     "endOffset": 3796
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 17122,
+                        "endColumn": 67,
+                        "endOffset": 17185
+                    }
                 }
             },
             {
@@ -601,7 +946,14 @@
                     "endOffset": 3892
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 17191,
+                        "endColumn": 95,
+                        "endOffset": 17282
+                    }
                 }
             },
             {
@@ -613,7 +965,14 @@
                     "endOffset": 3987
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 17375,
+                        "endColumn": 94,
+                        "endOffset": 17465
+                    }
                 }
             },
             {
@@ -625,7 +984,14 @@
                     "endOffset": 4065
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 17471,
+                        "endColumn": 77,
+                        "endOffset": 17544
+                    }
                 }
             },
             {
@@ -637,7 +1003,14 @@
                     "endOffset": 4143
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 4,
+                        "startOffset": 17550,
+                        "endColumn": 77,
+                        "endOffset": 17623
+                    }
                 }
             },
             {
@@ -649,7 +1022,14 @@
                     "endOffset": 4199
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 225,
+                        "startColumn": 4,
+                        "startOffset": 15237,
+                        "endColumn": 55,
+                        "endOffset": 15288
+                    }
                 }
             },
             {
@@ -661,7 +1041,14 @@
                     "endOffset": 4251
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 16464,
+                        "endColumn": 51,
+                        "endOffset": 16511
+                    }
                 }
             },
             {
@@ -673,7 +1060,14 @@
                     "endOffset": 4408
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 226,
+                        "startColumn": 4,
+                        "startOffset": 15294,
+                        "endColumn": 156,
+                        "endOffset": 15446
+                    }
                 }
             },
             {
@@ -685,7 +1079,14 @@
                     "endOffset": 4557
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 16517,
+                        "endColumn": 148,
+                        "endOffset": 16661
+                    }
                 }
             },
             {
@@ -697,7 +1098,14 @@
                     "endOffset": 4674
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 116,
+                        "endOffset": 167
+                    }
                 }
             },
             {
@@ -709,7 +1117,14 @@
                     "endOffset": 4782
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 172,
+                        "endColumn": 107,
+                        "endOffset": 275
+                    }
                 }
             },
             {
@@ -721,7 +1136,14 @@
                     "endOffset": 4905
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 122,
+                        "endOffset": 398
+                    }
                 }
             },
             {
@@ -733,7 +1155,14 @@
                     "endOffset": 5018
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 112,
+                        "endOffset": 511
+                    }
                 }
             },
             {
@@ -745,7 +1174,14 @@
                     "endOffset": 5126
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 107,
+                        "endOffset": 619
+                    }
                 }
             },
             {
@@ -757,7 +1193,14 @@
                     "endOffset": 5211
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 84,
+                        "endOffset": 704
+                    }
                 }
             },
             {
@@ -769,7 +1212,14 @@
                     "endOffset": 5312
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 100,
+                        "endOffset": 805
+                    }
                 }
             },
             {
@@ -781,7 +1231,14 @@
                     "endOffset": 5440
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 810,
+                        "endColumn": 127,
+                        "endOffset": 933
+                    }
                 }
             },
             {
@@ -793,7 +1250,14 @@
                     "endOffset": 5516
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 938,
+                        "endColumn": 75,
+                        "endOffset": 1009
+                    }
                 }
             },
             {
@@ -805,7 +1269,14 @@
                     "endOffset": 5592
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1014,
+                        "endColumn": 75,
+                        "endOffset": 1085
+                    }
                 }
             },
             {
@@ -817,7 +1288,14 @@
                     "endOffset": 5674
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1090,
+                        "endColumn": 81,
+                        "endOffset": 1167
+                    }
                 }
             },
             {
@@ -829,7 +1307,14 @@
                     "endOffset": 5781
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1172,
+                        "endColumn": 106,
+                        "endOffset": 1274
+                    }
                 }
             },
             {
@@ -841,7 +1326,14 @@
                     "endOffset": 5881
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1279,
+                        "endColumn": 99,
+                        "endOffset": 1374
+                    }
                 }
             },
             {
@@ -853,7 +1345,14 @@
                     "endOffset": 5980
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1379,
+                        "endColumn": 98,
+                        "endOffset": 1473
+                    }
                 }
             },
             {
@@ -865,7 +1364,14 @@
                     "endOffset": 6088
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1478,
+                        "endColumn": 107,
+                        "endOffset": 1581
+                    }
                 }
             },
             {
@@ -877,7 +1383,14 @@
                     "endOffset": 6195
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1586,
+                        "endColumn": 106,
+                        "endOffset": 1688
+                    }
                 }
             },
             {
@@ -889,7 +1402,14 @@
                     "endOffset": 6302
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1693,
+                        "endColumn": 106,
+                        "endOffset": 1795
+                    }
                 }
             },
             {
@@ -901,7 +1421,14 @@
                     "endOffset": 6424
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1800,
+                        "endColumn": 121,
+                        "endOffset": 1917
+                    }
                 }
             },
             {
@@ -913,7 +1440,14 @@
                     "endOffset": 6524
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1922,
+                        "endColumn": 99,
+                        "endOffset": 2017
+                    }
                 }
             },
             {
@@ -925,7 +1459,14 @@
                     "endOffset": 6586
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 4716,
+                        "endColumn": 61,
+                        "endOffset": 4773
+                    }
                 }
             },
             {
@@ -937,7 +1478,14 @@
                     "endOffset": 6650
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3031,
+                        "endColumn": 63,
+                        "endOffset": 3090
+                    }
                 }
             },
             {
@@ -949,7 +1497,14 @@
                     "endOffset": 6696
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 127,
+                        "endColumn": 45,
+                        "endOffset": 168
+                    }
                 }
             },
             {
@@ -961,7 +1516,14 @@
                     "endOffset": 6761
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 5828,
+                        "endColumn": 64,
+                        "endOffset": 5888
+                    }
                 }
             },
             {
@@ -973,7 +1535,14 @@
                     "endOffset": 6818
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 4,
+                        "startOffset": 17631,
+                        "endColumn": 56,
+                        "endOffset": 17683
+                    }
                 }
             },
             {
@@ -985,7 +1554,14 @@
                     "endOffset": 6870
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 256,
+                        "startColumn": 4,
+                        "startOffset": 17689,
+                        "endColumn": 51,
+                        "endOffset": 17736
+                    }
                 }
             },
             {
@@ -997,7 +1573,14 @@
                     "endOffset": 6922
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 257,
+                        "startColumn": 4,
+                        "startOffset": 17742,
+                        "endColumn": 51,
+                        "endOffset": 17789
+                    }
                 }
             },
             {
@@ -1009,7 +1592,14 @@
                     "endOffset": 6973
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 17795,
+                        "endColumn": 50,
+                        "endOffset": 17841
+                    }
                 }
             },
             {
@@ -1021,7 +1611,14 @@
                     "endOffset": 7028
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 4399,
+                        "endColumn": 54,
+                        "endOffset": 4449
+                    }
                 }
             },
             {
@@ -1033,7 +1630,14 @@
                     "endOffset": 7080
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 4455,
+                        "endColumn": 51,
+                        "endOffset": 4502
+                    }
                 }
             },
             {
@@ -1045,7 +1649,14 @@
                     "endOffset": 7135
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1912,
+                        "endColumn": 54,
+                        "endOffset": 1962
+                    }
                 }
             },
             {
@@ -1076,7 +1687,14 @@
                     "endOffset": 7247
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3999,
+                        "endColumn": 58,
+                        "endOffset": 4053
+                    }
                 }
             },
             {
@@ -1088,7 +1706,14 @@
                     "endOffset": 7303
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3884,
+                        "endColumn": 55,
+                        "endOffset": 3935
+                    }
                 }
             },
             {
@@ -1100,7 +1725,14 @@
                     "endOffset": 7348
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 4561,
+                        "endColumn": 44,
+                        "endOffset": 4601
+                    }
                 }
             },
             {
@@ -1112,7 +1744,14 @@
                     "endOffset": 7392
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 703,
+                        "endColumn": 43,
+                        "endOffset": 742
+                    }
                 }
             },
             {
@@ -1124,7 +1763,14 @@
                     "endOffset": 7437
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2761,
+                        "endColumn": 44,
+                        "endOffset": 2801
+                    }
                 }
             },
             {
@@ -1136,7 +1782,14 @@
                     "endOffset": 7481
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 4607,
+                        "endColumn": 43,
+                        "endOffset": 4646
+                    }
                 }
             },
             {
@@ -1148,7 +1801,14 @@
                     "endOffset": 7518
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1279,
+                        "endColumn": 36,
+                        "endOffset": 1311
+                    }
                 }
             },
             {
@@ -1160,7 +1820,14 @@
                     "endOffset": 7573
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 647,
+                        "endColumn": 54,
+                        "endOffset": 697
+                    }
                 }
             },
             {
@@ -1172,7 +1839,14 @@
                     "endOffset": 7625
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 4508,
+                        "endColumn": 51,
+                        "endOffset": 4555
+                    }
                 }
             },
             {
@@ -1184,7 +1858,14 @@
                     "endOffset": 7675
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1861,
+                        "endColumn": 49,
+                        "endOffset": 1906
+                    }
                 }
             },
             {
@@ -1196,7 +1877,14 @@
                     "endOffset": 7727
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 748,
+                        "endColumn": 51,
+                        "endOffset": 795
+                    }
                 }
             },
             {
@@ -1208,7 +1896,14 @@
                     "endOffset": 7781
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 801,
+                        "endColumn": 53,
+                        "endOffset": 850
+                    }
                 }
             },
             {
@@ -1220,7 +1915,14 @@
                     "endOffset": 7838
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3941,
+                        "endColumn": 56,
+                        "endOffset": 3993
+                    }
                 }
             },
             {
@@ -1232,7 +1934,14 @@
                     "endOffset": 7892
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 261,
+                        "startColumn": 4,
+                        "startOffset": 17909,
+                        "endColumn": 53,
+                        "endOffset": 17958
+                    }
                 }
             },
             {
@@ -1244,7 +1953,14 @@
                     "endOffset": 7946
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1805,
+                        "endColumn": 54,
+                        "endOffset": 1855
+                    }
                 }
             },
             {
@@ -1256,7 +1972,14 @@
                     "endOffset": 8009
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 4652,
+                        "endColumn": 62,
+                        "endOffset": 4710
+                    }
                 }
             },
             {
@@ -1268,7 +1991,14 @@
                     "endOffset": 8169
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 159,
+                        "endOffset": 210
+                    }
                 }
             },
             {
@@ -1280,7 +2010,14 @@
                     "endOffset": 8295
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 215,
+                        "endColumn": 125,
+                        "endOffset": 336
+                    }
                 }
             },
             {
@@ -1292,7 +2029,14 @@
                     "endOffset": 8439
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 341,
+                        "endColumn": 143,
+                        "endOffset": 480
+                    }
                 }
             },
             {
@@ -1304,7 +2048,14 @@
                     "endOffset": 8534
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 485,
+                        "endColumn": 94,
+                        "endOffset": 575
+                    }
                 }
             },
             {
@@ -1316,7 +2067,14 @@
                     "endOffset": 8602
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 580,
+                        "endColumn": 67,
+                        "endOffset": 643
+                    }
                 }
             },
             {
@@ -1328,7 +2086,14 @@
                     "endOffset": 8674
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 648,
+                        "endColumn": 71,
+                        "endOffset": 715
+                    }
                 }
             },
             {
@@ -1340,7 +2105,14 @@
                     "endOffset": 8733
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 720,
+                        "endColumn": 58,
+                        "endOffset": 774
+                    }
                 }
             },
             {
@@ -1352,7 +2124,14 @@
                     "endOffset": 8807
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 779,
+                        "endColumn": 73,
+                        "endOffset": 848
+                    }
                 }
             },
             {
@@ -1364,7 +2143,14 @@
                     "endOffset": 8889
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 853,
+                        "endColumn": 81,
+                        "endOffset": 930
+                    }
                 }
             },
             {
@@ -1376,7 +2162,14 @@
                     "endOffset": 8987
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 935,
+                        "endColumn": 97,
+                        "endOffset": 1028
+                    }
                 }
             },
             {
@@ -1388,7 +2181,14 @@
                     "endOffset": 9059
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1033,
+                        "endColumn": 71,
+                        "endOffset": 1100
+                    }
                 }
             },
             {
@@ -1400,7 +2200,14 @@
                     "endOffset": 9131
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1105,
+                        "endColumn": 71,
+                        "endOffset": 1172
+                    }
                 }
             },
             {
@@ -1412,7 +2219,14 @@
                     "endOffset": 9222
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1177,
+                        "endColumn": 90,
+                        "endOffset": 1263
+                    }
                 }
             },
             {
@@ -1424,7 +2238,14 @@
                     "endOffset": 9327
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1268,
+                        "endColumn": 104,
+                        "endOffset": 1368
+                    }
                 }
             },
             {
@@ -1436,7 +2257,14 @@
                     "endOffset": 9392
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1373,
+                        "endColumn": 64,
+                        "endOffset": 1433
+                    }
                 }
             },
             {
@@ -1448,7 +2276,14 @@
                     "endOffset": 9461
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1438,
+                        "endColumn": 68,
+                        "endOffset": 1502
+                    }
                 }
             },
             {
@@ -1460,7 +2295,14 @@
                     "endOffset": 9610
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1507,
+                        "endColumn": 148,
+                        "endOffset": 1651
+                    }
                 }
             },
             {
@@ -1472,7 +2314,14 @@
                     "endOffset": 9676
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 4838,
+                        "endColumn": 65,
+                        "endOffset": 4899
+                    }
                 }
             },
             {
@@ -1484,7 +2333,14 @@
                     "endOffset": 9739
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 4982,
+                        "endColumn": 62,
+                        "endOffset": 5040
+                    }
                 }
             },
             {
@@ -1496,7 +2352,14 @@
                     "endOffset": 9799
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 5126,
+                        "endColumn": 59,
+                        "endOffset": 5181
+                    }
                 }
             },
             {
@@ -1508,7 +2371,14 @@
                     "endOffset": 9847
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 5709,
+                        "endColumn": 47,
+                        "endOffset": 5752
+                    }
                 }
             },
             {
@@ -1520,7 +2390,14 @@
                     "endOffset": 9893
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 5662,
+                        "endColumn": 45,
+                        "endOffset": 5703
+                    }
                 }
             },
             {
@@ -1532,7 +2409,14 @@
                     "endOffset": 9962
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 5758,
+                        "endColumn": 68,
+                        "endOffset": 5822
+                    }
                 }
             },
             {
@@ -1545,7 +2429,15 @@
                     "endOffset": 10200
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 9568,
+                        "endLine": 152,
+                        "endColumn": 84,
+                        "endOffset": 9803
+                    }
                 }
             },
             {
@@ -1558,7 +2450,15 @@
                     "endOffset": 10436
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 5996,
+                        "endLine": 111,
+                        "endColumn": 104,
+                        "endOffset": 6228
+                    }
                 }
             },
             {
@@ -1571,7 +2471,15 @@
                     "endOffset": 10655
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 6292,
+                        "endLine": 114,
+                        "endColumn": 87,
+                        "endOffset": 6507
+                    }
                 }
             },
             {
@@ -1584,7 +2492,15 @@
                     "endOffset": 10871
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 6570,
+                        "endLine": 117,
+                        "endColumn": 114,
+                        "endOffset": 6782
+                    }
                 }
             },
             {
@@ -1597,7 +2513,15 @@
                     "endOffset": 11058
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 9989,
+                        "endLine": 158,
+                        "endColumn": 118,
+                        "endOffset": 10172
+                    }
                 }
             },
             {
@@ -1610,7 +2534,15 @@
                     "endOffset": 11224
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 10331,
+                        "endLine": 162,
+                        "endColumn": 97,
+                        "endOffset": 10493
+                    }
                 }
             },
             {
@@ -1623,7 +2555,15 @@
                     "endOffset": 11442
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 165,
+                        "startColumn": 4,
+                        "startOffset": 10693,
+                        "endLine": 166,
+                        "endColumn": 149,
+                        "endOffset": 10907
+                    }
                 }
             },
             {
@@ -1636,7 +2576,15 @@
                     "endOffset": 11735
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 6896,
+                        "endLine": 122,
+                        "endColumn": 87,
+                        "endOffset": 7185
+                    }
                 }
             },
             {
@@ -1649,7 +2597,15 @@
                     "endOffset": 11958
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 7243,
+                        "endLine": 125,
+                        "endColumn": 87,
+                        "endOffset": 7462
+                    }
                 }
             },
             {
@@ -1661,7 +2617,14 @@
                     "endOffset": 12160
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 7527,
+                        "endColumn": 201,
+                        "endOffset": 7724
+                    }
                 }
             },
             {
@@ -1673,7 +2636,14 @@
                     "endOffset": 12301
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 7783,
+                        "endColumn": 140,
+                        "endOffset": 7919
+                    }
                 }
             },
             {
@@ -1686,7 +2656,15 @@
                     "endOffset": 12566
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 11116,
+                        "endLine": 173,
+                        "endColumn": 114,
+                        "endOffset": 11378
+                    }
                 }
             },
             {
@@ -1699,7 +2677,15 @@
                     "endOffset": 12746
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 11530,
+                        "endLine": 177,
+                        "endColumn": 111,
+                        "endOffset": 11706
+                    }
                 }
             },
             {
@@ -1711,7 +2697,14 @@
                     "endOffset": 12829
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 8025,
+                        "endColumn": 82,
+                        "endOffset": 8103
+                    }
                 }
             },
             {
@@ -1723,7 +2716,14 @@
                     "endOffset": 12885
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 8109,
+                        "endColumn": 55,
+                        "endOffset": 8160
+                    }
                 }
             },
             {
@@ -1735,7 +2735,14 @@
                     "endOffset": 12940
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 8166,
+                        "endColumn": 54,
+                        "endOffset": 8216
+                    }
                 }
             },
             {
@@ -1747,7 +2754,14 @@
                     "endOffset": 12995
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 8222,
+                        "endColumn": 54,
+                        "endOffset": 8272
+                    }
                 }
             },
             {
@@ -1759,7 +2773,14 @@
                     "endOffset": 13130
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 8278,
+                        "endColumn": 134,
+                        "endOffset": 8408
+                    }
                 }
             },
             {
@@ -1771,7 +2792,14 @@
                     "endOffset": 13297
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 8414,
+                        "endColumn": 166,
+                        "endOffset": 8576
+                    }
                 }
             },
             {
@@ -1783,7 +2811,14 @@
                     "endOffset": 13425
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 8582,
+                        "endColumn": 127,
+                        "endOffset": 8705
+                    }
                 }
             },
             {
@@ -1795,7 +2830,14 @@
                     "endOffset": 13514
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 8772,
+                        "endColumn": 88,
+                        "endOffset": 8856
+                    }
                 }
             },
             {
@@ -1807,7 +2849,14 @@
                     "endOffset": 13569
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 8862,
+                        "endColumn": 54,
+                        "endOffset": 8912
+                    }
                 }
             },
             {
@@ -1819,7 +2868,14 @@
                     "endOffset": 13627
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 8918,
+                        "endColumn": 57,
+                        "endOffset": 8971
+                    }
                 }
             },
             {
@@ -1831,7 +2887,14 @@
                     "endOffset": 13812
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 8977,
+                        "endColumn": 184,
+                        "endOffset": 9157
+                    }
                 }
             },
             {
@@ -1843,7 +2906,14 @@
                     "endOffset": 13968
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 9163,
+                        "endColumn": 155,
+                        "endOffset": 9314
+                    }
                 }
             },
             {
@@ -1855,7 +2925,14 @@
                     "endOffset": 14027
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3209,
+                        "endColumn": 58,
+                        "endOffset": 3263
+                    }
                 }
             },
             {
@@ -1867,7 +2944,14 @@
                     "endOffset": 14074
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 4174,
+                        "endColumn": 46,
+                        "endOffset": 4216
+                    }
                 }
             },
             {
@@ -1879,7 +2963,14 @@
                     "endOffset": 14138
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 9362,
+                        "endColumn": 63,
+                        "endOffset": 9421
+                    }
                 }
             },
             {
@@ -1891,7 +2982,14 @@
                     "endOffset": 14197
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 9851,
+                        "endColumn": 58,
+                        "endOffset": 9905
+                    }
                 }
             },
             {
@@ -1903,7 +3001,14 @@
                     "endOffset": 14259
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 10178,
+                        "endColumn": 61,
+                        "endOffset": 10235
+                    }
                 }
             },
             {
@@ -1915,7 +3020,14 @@
                     "endOffset": 14316
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 10499,
+                        "endColumn": 56,
+                        "endOffset": 10551
+                    }
                 }
             },
             {
@@ -1927,7 +3039,14 @@
                     "endOffset": 14379
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 10955,
+                        "endColumn": 62,
+                        "endOffset": 11013
+                    }
                 }
             },
             {
@@ -1939,7 +3058,14 @@
                     "endOffset": 14433
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 11384,
+                        "endColumn": 53,
+                        "endOffset": 11433
+                    }
                 }
             },
             {
@@ -1951,7 +3077,14 @@
                     "endOffset": 14487
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 551,
+                        "endColumn": 53,
+                        "endOffset": 600
+                    }
                 }
             },
             {
@@ -1963,7 +3096,14 @@
                     "endOffset": 14585
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 262,
+                        "startColumn": 4,
+                        "startOffset": 17969,
+                        "endColumn": 97,
+                        "endOffset": 18062
+                    }
                 }
             },
             {
@@ -1975,7 +3115,14 @@
                     "endOffset": 14646
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 4,
+                        "startOffset": 18068,
+                        "endColumn": 60,
+                        "endOffset": 18124
+                    }
                 }
             },
             {
@@ -1987,7 +3134,14 @@
                     "endOffset": 14715
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 68,
+                        "endOffset": 121
+                    }
                 }
             },
             {
@@ -1999,7 +3153,14 @@
                     "endOffset": 14763
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3835,
+                        "endColumn": 47,
+                        "endOffset": 3878
+                    }
                 }
             },
             {
@@ -2011,7 +3172,14 @@
                     "endOffset": 14818
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3779,
+                        "endColumn": 54,
+                        "endOffset": 3829
+                    }
                 }
             },
             {
@@ -2023,7 +3191,14 @@
                     "endOffset": 14869
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 4122,
+                        "endColumn": 50,
+                        "endOffset": 4168
+                    }
                 }
             },
             {
@@ -2035,7 +3210,14 @@
                     "endOffset": 14943
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 5413,
+                        "endColumn": 73,
+                        "endOffset": 5482
+                    }
                 }
             },
             {
@@ -2047,7 +3229,14 @@
                     "endOffset": 15020
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2861,
+                        "endColumn": 76,
+                        "endOffset": 2933
+                    }
                 }
             },
             {
@@ -2059,7 +3248,14 @@
                     "endOffset": 15068
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 5515,
+                        "endColumn": 47,
+                        "endOffset": 5558
+                    }
                 }
             },
             {
@@ -2071,7 +3267,14 @@
                     "endOffset": 15116
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 5564,
+                        "endColumn": 47,
+                        "endOffset": 5607
+                    }
                 }
             },
             {
@@ -2083,7 +3286,14 @@
                     "endOffset": 15164
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 5613,
+                        "endColumn": 47,
+                        "endOffset": 5656
+                    }
                 }
             },
             {
@@ -2095,7 +3305,14 @@
                     "endOffset": 15243
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 5046,
+                        "endColumn": 78,
+                        "endOffset": 5120
+                    }
                 }
             },
             {
@@ -2107,7 +3324,14 @@
                     "endOffset": 15319
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 4905,
+                        "endColumn": 75,
+                        "endOffset": 4976
+                    }
                 }
             },
             {
@@ -2119,7 +3343,14 @@
                     "endOffset": 15370
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 264,
+                        "startColumn": 4,
+                        "startOffset": 18130,
+                        "endColumn": 50,
+                        "endOffset": 18176
+                    }
                 }
             },
             {
@@ -2131,7 +3362,14 @@
                     "endOffset": 15432
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.18.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1656,
+                        "endColumn": 61,
+                        "endOffset": 1713
+                    }
                 }
             },
             {
@@ -2143,7 +3381,14 @@
                     "endOffset": 15516
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2439,
+                        "endColumn": 83,
+                        "endOffset": 2518
+                    }
                 }
             },
             {
@@ -2155,7 +3400,14 @@
                     "endOffset": 15595
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2524,
+                        "endColumn": 78,
+                        "endOffset": 2598
+                    }
                 }
             },
             {
@@ -2167,7 +3419,14 @@
                     "endOffset": 15673
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2604,
+                        "endColumn": 77,
+                        "endOffset": 2677
+                    }
                 }
             },
             {
@@ -2179,7 +3438,14 @@
                     "endOffset": 15750
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2683,
+                        "endColumn": 76,
+                        "endOffset": 2755
+                    }
                 }
             },
             {
@@ -2191,7 +3457,14 @@
                     "endOffset": 15855
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3520,
+                        "endColumn": 104,
+                        "endOffset": 3620
+                    }
                 }
             },
             {
@@ -2203,7 +3476,14 @@
                     "endOffset": 15921
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3453,
+                        "endColumn": 65,
+                        "endOffset": 3514
+                    }
                 }
             },
             {
@@ -2215,7 +3495,14 @@
                     "endOffset": 15994
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1533,
+                        "endColumn": 72,
+                        "endOffset": 1601
+                    }
                 }
             },
             {
@@ -2227,7 +3514,14 @@
                     "endOffset": 16051
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1607,
+                        "endColumn": 56,
+                        "endOffset": 1659
+                    }
                 }
             },
             {
@@ -2239,7 +3533,14 @@
                     "endOffset": 16146
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1183,
+                        "endColumn": 94,
+                        "endOffset": 1273
+                    }
                 }
             },
             {
@@ -2251,7 +3552,14 @@
                     "endOffset": 16198
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3340,
+                        "endColumn": 51,
+                        "endOffset": 3387
+                    }
                 }
             },
             {
@@ -2263,7 +3571,14 @@
                     "endOffset": 16257
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3626,
+                        "endColumn": 58,
+                        "endOffset": 3680
+                    }
                 }
             },
             {
@@ -2275,7 +3590,14 @@
                     "endOffset": 16354
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1085,
+                        "endColumn": 96,
+                        "endOffset": 1177
+                    }
                 }
             },
             {
@@ -2287,7 +3609,14 @@
                     "endOffset": 16413
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3393,
+                        "endColumn": 58,
+                        "endOffset": 3447
+                    }
                 }
             },
             {
@@ -2299,7 +3628,14 @@
                     "endOffset": 16481
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3271,
+                        "endColumn": 67,
+                        "endOffset": 3334
+                    }
                 }
             },
             {
@@ -2311,7 +3647,14 @@
                     "endOffset": 16566
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2033,
+                        "endColumn": 84,
+                        "endOffset": 2113
+                    }
                 }
             },
             {
@@ -2323,7 +3666,14 @@
                     "endOffset": 16651
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2119,
+                        "endColumn": 84,
+                        "endOffset": 2199
+                    }
                 }
             },
             {
@@ -2335,7 +3685,14 @@
                     "endOffset": 16737
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2266,
+                        "endColumn": 85,
+                        "endOffset": 2347
+                    }
                 }
             },
             {
@@ -2347,7 +3704,14 @@
                     "endOffset": 16797
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2205,
+                        "endColumn": 59,
+                        "endOffset": 2260
+                    }
                 }
             },
             {
@@ -2359,7 +3723,14 @@
                     "endOffset": 16882
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2353,
+                        "endColumn": 84,
+                        "endOffset": 2433
+                    }
                 }
             },
             {
@@ -2371,7 +3742,14 @@
                     "endOffset": 16931
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1372,
+                        "endColumn": 48,
+                        "endOffset": 1416
+                    }
                 }
             },
             {
@@ -2383,7 +3761,14 @@
                     "endOffset": 16981
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1422,
+                        "endColumn": 49,
+                        "endOffset": 1467
+                    }
                 }
             },
             {
@@ -2395,7 +3780,14 @@
                     "endOffset": 17035
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1317,
+                        "endColumn": 53,
+                        "endOffset": 1366
+                    }
                 }
             },
             {
@@ -2407,7 +3799,14 @@
                     "endOffset": 17099
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1968,
+                        "endColumn": 63,
+                        "endOffset": 2027
+                    }
                 }
             },
             {
@@ -2419,7 +3818,14 @@
                     "endOffset": 17158
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1473,
+                        "endColumn": 58,
+                        "endOffset": 1527
+                    }
                 }
             },
             {
@@ -2431,7 +3837,14 @@
                     "endOffset": 17216
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4779,
+                        "endColumn": 57,
+                        "endOffset": 4832
+                    }
                 }
             },
             {
@@ -2443,7 +3856,14 @@
                     "endOffset": 17273
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 3096,
+                        "endColumn": 56,
+                        "endOffset": 3148
+                    }
                 }
             },
             {
@@ -2455,7 +3875,14 @@
                     "endOffset": 17327
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 3154,
+                        "endColumn": 53,
+                        "endOffset": 3203
+                    }
                 }
             },
             {
@@ -2467,7 +3894,14 @@
                     "endOffset": 17454
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 5187,
+                        "endColumn": 126,
+                        "endOffset": 5309
+                    }
                 }
             },
             {
@@ -2479,7 +3913,14 @@
                     "endOffset": 17517
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 4222,
+                        "endColumn": 62,
+                        "endOffset": 4280
+                    }
                 }
             },
             {
@@ -2491,7 +3932,14 @@
                     "endOffset": 17564
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 908,
+                        "endColumn": 46,
+                        "endOffset": 950
+                    }
                 }
             },
             {
@@ -2503,7 +3951,14 @@
                     "endOffset": 17684
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 12031,
+                        "endColumn": 119,
+                        "endOffset": 12146
+                    }
                 }
             },
             {
@@ -2515,7 +3970,14 @@
                     "endOffset": 17810
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 197,
+                        "startColumn": 4,
+                        "startOffset": 13151,
+                        "endColumn": 125,
+                        "endOffset": 13272
+                    }
                 }
             },
             {
@@ -2527,7 +3989,14 @@
                     "endOffset": 17892
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 212,
+                        "startColumn": 4,
+                        "startOffset": 14395,
+                        "endColumn": 81,
+                        "endOffset": 14472
+                    }
                 }
             },
             {
@@ -2539,7 +4008,14 @@
                     "endOffset": 17998
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 227,
+                        "startColumn": 4,
+                        "startOffset": 15452,
+                        "endColumn": 105,
+                        "endOffset": 15553
+                    }
                 }
             },
             {
@@ -2551,7 +4027,14 @@
                     "endOffset": 18069
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 16667,
+                        "endColumn": 70,
+                        "endOffset": 16733
+                    }
                 }
             },
             {
@@ -2563,7 +4046,14 @@
                     "endOffset": 18191
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 186,
+                        "startColumn": 4,
+                        "startOffset": 12296,
+                        "endColumn": 121,
+                        "endOffset": 12413
+                    }
                 }
             },
             {
@@ -2575,7 +4065,14 @@
                     "endOffset": 18298
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 201,
+                        "startColumn": 4,
+                        "startOffset": 13463,
+                        "endColumn": 106,
+                        "endOffset": 13565
+                    }
                 }
             },
             {
@@ -2587,7 +4084,14 @@
                     "endOffset": 18393
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 216,
+                        "startColumn": 4,
+                        "startOffset": 14617,
+                        "endColumn": 94,
+                        "endOffset": 14707
+                    }
                 }
             },
             {
@@ -2599,7 +4103,14 @@
                     "endOffset": 18492
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 231,
+                        "startColumn": 4,
+                        "startOffset": 15812,
+                        "endColumn": 98,
+                        "endOffset": 15906
+                    }
                 }
             },
             {
@@ -2611,7 +4122,14 @@
                     "endOffset": 18577
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 246,
+                        "startColumn": 4,
+                        "startOffset": 16969,
+                        "endColumn": 84,
+                        "endOffset": 17049
+                    }
                 }
             },
             {
@@ -2623,7 +4141,14 @@
                     "endOffset": 18654
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 4,
+                        "startOffset": 12587,
+                        "endColumn": 76,
+                        "endOffset": 12659
+                    }
                 }
             },
             {
@@ -2635,7 +4160,14 @@
                     "endOffset": 18791
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 13807,
+                        "endColumn": 136,
+                        "endOffset": 13939
+                    }
                 }
             },
             {
@@ -2647,7 +4179,14 @@
                     "endOffset": 18908
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 220,
+                        "startColumn": 4,
+                        "startOffset": 14885,
+                        "endColumn": 116,
+                        "endOffset": 14997
+                    }
                 }
             },
             {
@@ -2659,7 +4198,14 @@
                     "endOffset": 19052
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 235,
+                        "startColumn": 4,
+                        "startOffset": 16172,
+                        "endColumn": 143,
+                        "endOffset": 16311
+                    }
                 }
             },
             {
@@ -2671,7 +4217,14 @@
                     "endOffset": 19138
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 4,
+                        "startOffset": 17288,
+                        "endColumn": 85,
+                        "endOffset": 17369
+                    }
                 }
             },
             {
@@ -2683,7 +4236,14 @@
                     "endOffset": 19181
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1665,
+                        "endColumn": 42,
+                        "endOffset": 1703
+                    }
                 }
             },
             {
@@ -2695,7 +4255,14 @@
                     "endOffset": 19227
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1709,
+                        "endColumn": 45,
+                        "endOffset": 1750
+                    }
                 }
             },
             {
@@ -2707,7 +4274,14 @@
                     "endOffset": 19367
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 9427,
+                        "endColumn": 139,
+                        "endOffset": 9562
+                    }
                 }
             },
             {
@@ -2719,7 +4293,14 @@
                     "endOffset": 19444
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 9911,
+                        "endColumn": 76,
+                        "endOffset": 9983
+                    }
                 }
             },
             {
@@ -2731,7 +4312,14 @@
                     "endOffset": 19533
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 10241,
+                        "endColumn": 88,
+                        "endOffset": 10325
+                    }
                 }
             },
             {
@@ -2743,7 +4331,14 @@
                     "endOffset": 19668
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 10557,
+                        "endColumn": 134,
+                        "endOffset": 10687
+                    }
                 }
             },
             {
@@ -2755,7 +4350,14 @@
                     "endOffset": 19764
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 11019,
+                        "endColumn": 95,
+                        "endOffset": 11110
+                    }
                 }
             },
             {
@@ -2767,7 +4369,14 @@
                     "endOffset": 19854
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 11439,
+                        "endColumn": 89,
+                        "endOffset": 11524
+                    }
                 }
             },
             {
@@ -2779,7 +4388,14 @@
                     "endOffset": 19902
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1756,
+                        "endColumn": 47,
+                        "endOffset": 1799
+                    }
                 }
             },
             {
@@ -2791,7 +4407,14 @@
                     "endOffset": 19953
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 856,
+                        "endColumn": 50,
+                        "endOffset": 902
+                    }
                 }
             },
             {
@@ -2803,7 +4426,14 @@
                     "endOffset": 20014
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 5934,
+                        "endColumn": 60,
+                        "endOffset": 5990
+                    }
                 }
             },
             {
@@ -2815,7 +4445,14 @@
                     "endOffset": 20071
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 6234,
+                        "endColumn": 56,
+                        "endOffset": 6286
+                    }
                 }
             },
             {
@@ -2827,7 +4464,14 @@
                     "endOffset": 20127
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 6513,
+                        "endColumn": 55,
+                        "endOffset": 6564
+                    }
                 }
             },
             {
@@ -2839,7 +4483,14 @@
                     "endOffset": 20194
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 6828,
+                        "endColumn": 66,
+                        "endOffset": 6890
+                    }
                 }
             },
             {
@@ -2851,7 +4502,14 @@
                     "endOffset": 20245
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 7191,
+                        "endColumn": 50,
+                        "endOffset": 7237
+                    }
                 }
             },
             {
@@ -2863,7 +4521,14 @@
                     "endOffset": 20303
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 7468,
+                        "endColumn": 57,
+                        "endOffset": 7521
+                    }
                 }
             },
             {
@@ -2875,7 +4540,14 @@
                     "endOffset": 20355
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 7730,
+                        "endColumn": 51,
+                        "endOffset": 7777
+                    }
                 }
             },
             {
@@ -2887,7 +4559,14 @@
                     "endOffset": 20414
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 7965,
+                        "endColumn": 58,
+                        "endOffset": 8019
+                    }
                 }
             },
             {
@@ -2899,7 +4578,14 @@
                     "endOffset": 20474
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 8711,
+                        "endColumn": 59,
+                        "endOffset": 8766
+                    }
                 }
             },
             {
@@ -2911,7 +4597,14 @@
                     "endOffset": 20529
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 495,
+                        "endColumn": 54,
+                        "endOffset": 545
+                    }
                 }
             },
             {
@@ -2923,7 +4616,14 @@
                     "endOffset": 20584
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2939,
+                        "endColumn": 54,
+                        "endOffset": 2989
+                    }
                 }
             },
             {
@@ -2935,7 +4635,14 @@
                     "endOffset": 20666
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2022,
+                        "endColumn": 81,
+                        "endOffset": 2099
+                    }
                 }
             },
             {
@@ -2947,7 +4654,14 @@
                     "endOffset": 20728
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 4059,
+                        "endColumn": 61,
+                        "endOffset": 4116
+                    }
                 }
             },
             {
@@ -2959,7 +4673,14 @@
                     "endOffset": 20829
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2104,
+                        "endColumn": 100,
+                        "endOffset": 2200
+                    }
                 }
             },
             {
@@ -2971,7 +4692,14 @@
                     "endOffset": 20889
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 4286,
+                        "endColumn": 59,
+                        "endOffset": 4341
+                    }
                 }
             },
             {
@@ -2983,7 +4711,14 @@
                     "endOffset": 20940
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 4347,
+                        "endColumn": 50,
+                        "endOffset": 4393
+                    }
                 }
             },
             {
@@ -2995,7 +4730,14 @@
                     "endOffset": 21005
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1019,
+                        "endColumn": 64,
+                        "endOffset": 1079
+                    }
                 }
             },
             {
@@ -3007,7 +4749,14 @@
                     "endOffset": 21067
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 956,
+                        "endColumn": 61,
+                        "endOffset": 1013
+                    }
                 }
             },
             {
@@ -3019,7 +4768,14 @@
                     "endOffset": 21126
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 260,
+                        "startColumn": 4,
+                        "startOffset": 17849,
+                        "endColumn": 58,
+                        "endOffset": 17903
+                    }
                 }
             },
             {
@@ -3031,7 +4787,14 @@
                     "endOffset": 21223
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 5315,
+                        "endColumn": 96,
+                        "endOffset": 5407
+                    }
                 }
             },
             {
@@ -3043,7 +4806,14 @@
                     "endOffset": 21263
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 606,
+                        "endColumn": 39,
+                        "endOffset": 641
+                    }
                 }
             },
             {
@@ -3055,7 +4825,14 @@
                     "endOffset": 21327
                 },
                 "from": {
-                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3714,
+                        "endColumn": 63,
+                        "endOffset": 3773
+                    }
                 }
             }
         ]

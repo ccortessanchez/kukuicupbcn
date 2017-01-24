@@ -83,7 +83,8 @@ public class MainActivity extends Activity {
     Team team = new Team();
     String username;
     String id;
-    String points;
+    String points_player;
+    String points_team;
 
     JSONObject jsonplayer;
     JSONObject jsonteam;
@@ -294,7 +295,7 @@ public class MainActivity extends Activity {
             // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             params.add(new BasicNameValuePair("name", username));
-            params.add(new BasicNameValuePair("points", points));
+            params.add(new BasicNameValuePair("points", points_player));
 
             // sending modified data through http request
             // Notice that update player url accepts POST method
@@ -326,13 +327,13 @@ public class MainActivity extends Activity {
             // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             params.add(new BasicNameValuePair("name", team.getName()));
-            params.add(new BasicNameValuePair("points", points));
+            params.add(new BasicNameValuePair("points", points_team));
 
             // sending modified data through http request
             // Notice that update player url accepts POST method
             JSONObject json = jsonParser.makeHttpRequest(url_update_team_points,
                     "POST", params);
-            Log.d("player: ", json.toString());
+            Log.d("team: ", json.toString());
 
             return null;
         }
@@ -425,12 +426,12 @@ public class MainActivity extends Activity {
         if(extras!=null){
             if(extras.containsKey("points")){
                 player.setPoints(player.getPoints()+extras.getInt("points"));
-                points = String.valueOf(player.getPoints());
+                points_player = String.valueOf(player.getPoints());
                 // starting background task to update player
                 new SavePlayerPoints().execute();
                 // starting background task to update team
                 team.setPoints(team.getPoints()+extras.getInt("points"));
-                points = String.valueOf(team.getPoints());
+                points_team = String.valueOf(team.getPoints());
                 new SaveTeamPoints().execute();
 //                loadPlayerData(username);
             }
@@ -464,12 +465,12 @@ public class MainActivity extends Activity {
             if(easterEggDay){
                 easterEggDay=false;
                 player.setPoints(player.getPoints()+5);
-                points = String.valueOf(player.getPoints());
+                points_player = String.valueOf(player.getPoints());
                 // starting background task to update player
                 new SavePlayerPoints().execute();
                 // starting background task to update team
                 team.setPoints(team.getPoints()+5);
-                points = String.valueOf(team.getPoints());
+                points_team = String.valueOf(team.getPoints());
                 new SaveTeamPoints().execute();
             }
             if(player.getPoints() >= 50) {
