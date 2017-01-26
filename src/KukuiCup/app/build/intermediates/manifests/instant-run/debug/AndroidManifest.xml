@@ -73,6 +73,10 @@
             android:screenOrientation="landscape" >
         </activity>
         <activity
+            android:name="com.ub.tfg.kukuicup.vista.RankingTeamsActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
             android:name="com.ub.tfg.kukuicup.admin.vista.AllPlayersActivity"
             android:label="@string/allPlayersLabel"
             android:screenOrientation="portrait" >
@@ -89,6 +93,7 @@
         </activity>
         <activity
             android:name="com.ub.tfg.kukuicup.admin.vista.EditPlayerActivity"
+            android:configChanges="layoutDirection|locale"
             android:label="@string/editPlayerLabel"
             android:screenOrientation="portrait" >
         </activity>

@@ -41,6 +41,8 @@
     <string name="btnStart">Start Challenge</string>
     <string name="btnContinue">Continue Challenge</string>
     <string name="msgToastQuiz">You can do it better!</string>
+    <string name="msgQuizAttemptTitle">You have no more attempts</string>
+    <string name="msgQuizAttempt">Try again next time. Pay attention to the video!</string>
     <string name="msgQuiz1L1">You have won the bagde of Level 1 and 30 points.</string>
     <string name="msgQuiz1L2">You have won the bagde of Level 2 and 30 points.</string>
     <string name="msgQuiz2L2">You have won 30 points.</string>
@@ -105,7 +107,9 @@
     <string name="level1Label">Level 1</string>
     <string name="level2Label">Level 2</string>
     <string name="level3Label">Level 3</string>
-    <string name="dashRkg">Ranking :</string>
+    <string name="dashRkgUser">User Panel</string>
+    <string name="dashRkgTeam">Ranking</string>
+    <string name="rankTeams">Teams Ranking</string>
     <string name="dashPoints">Points :</string>
     <string name="daysRemaining">KukuiCupBCN end date : </string>
     <string name="badgeCollect">Badge Collection :</string>

@@ -5,13 +5,27 @@
     android:orientation="vertical"
     android:background="#BEF781">
 
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="25sp"
+        android:groupIndicator="@drawable/group_indicator"
+        android:layout_below="@+id/linearLayout1"
+        >
+
+    </ExpandableListView>
+
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:background="#5F4C0B"
         android:layout_alignParentTop="true"
-        android:background="#5F4C0B">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
 
         <TextView
@@ -19,6 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Level 1"
+            android:textSize="25sp"
             android:textColor="#BEF781"
             android:textStyle="bold"/>
 
@@ -26,9 +41,10 @@
             android:id="@+id/LevelProgressBar"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="wrap_content"
-            android:layout_height="5dp"
+            android:layout_height="10dp"
             android:layout_gravity="center"
             android:progress="75"
+            android:layout_marginLeft="10dp"
             android:progressDrawable="@drawable/progress_bar"/>
 
         <TextView
@@ -36,22 +52,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="40/50"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"
             android:textColor="#BEF781"
             android:textStyle="bold"/>
     </LinearLayout>
-
-
-
-
-    <ExpandableListView
-        android:id="@+id/lvExp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:groupIndicator="@drawable/group_indicator"
-        android:layout_below="@+id/linearLayout1"
-        >
-
-    </ExpandableListView>
 
 </RelativeLayout>

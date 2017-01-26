@@ -6,6 +6,15 @@ package com.ub.tfg.kukuicup.controller;
 import android.app.Application;
 import android.text.TextUtils;
 
+import java.util.Locale;
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.util.DisplayMetrics;
+import android.app.Activity;
+
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;

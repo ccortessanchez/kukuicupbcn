@@ -115,12 +115,12 @@ public class SavingActionActivity extends Activity {
 
         tip = new AlertDialog.Builder(SavingActionActivity.this).create();
         tip.setTitle(getResources().getString(R.string.savTip));
+        tip.setIcon(R.drawable.piggybank);
 
 
         tip.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
-                Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgToastLevel), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -150,10 +150,14 @@ public class SavingActionActivity extends Activity {
         answera.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (actionId == 0) {
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct1_tip1), Toast.LENGTH_LONG).show();
+                    tip.setMessage(getResources().getString(R.string.descL3_saveAct1_tip1));
+                    tip.show();
+                    //Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct1_tip1), Toast.LENGTH_LONG).show();
                 }
                 if (actionId == 1) {
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct2_tip1), Toast.LENGTH_LONG).show();
+                    tip.setMessage(getResources().getString(R.string.descL3_saveAct2_tip1));
+                    tip.show();
+                    //Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct2_tip1), Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -161,11 +165,15 @@ public class SavingActionActivity extends Activity {
         answerb.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (actionId == 0) {
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct1_tip2), Toast.LENGTH_LONG).show();
+                    tip.setMessage(getResources().getString(R.string.descL3_saveAct1_tip2));
+                    tip.show();
+                    //Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct1_tip2), Toast.LENGTH_LONG).show();
 
                 }
                 if (actionId == 1) {
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct2_tip2), Toast.LENGTH_LONG).show();
+                    tip.setMessage(getResources().getString(R.string.descL3_saveAct2_tip2));
+                    tip.show();
+                    //Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct2_tip2), Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -173,7 +181,9 @@ public class SavingActionActivity extends Activity {
         answerc.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (actionId == 0) {
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct1_tip3), Toast.LENGTH_LONG).show();
+                    tip.setMessage(getResources().getString(R.string.descL3_saveAct1_tip3));
+                    tip.show();
+                    //Toast.makeText(getApplicationContext(), getResources().getString(R.string.descL3_saveAct1_tip3), Toast.LENGTH_LONG).show();
 
                 }
             }
@@ -308,7 +318,7 @@ public class SavingActionActivity extends Activity {
                         description.setText(getResources().getString(R.string.descL1_saveAct3));
 
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
-                        primaryBtn.setEnabled(true);
+                        primaryBtn.setEnabled(false);
                         secondaryBtn.setVisibility(View.INVISIBLE);
                         likeView.setVisibility(View.VISIBLE);
                         likeView.setClickable(true);

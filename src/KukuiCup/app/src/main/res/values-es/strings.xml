@@ -40,6 +40,8 @@
     <string name="btnStart">Empezar reto</string>
     <string name="btnContinue">Continuar reto</string>
     <string name="msgToastQuiz">¡Puedes hacerlo mejor!</string>
+    <string name="msgQuizAttemptTitle">No te quedan más intentos</string>
+    <string name="msgQuizAttempt">Prueba otra vez. ¡Presta atención al video!</string>
     <string name="msgQuiz1L1">Has ganado la medalla del Nivel 1 y 30 puntos</string>
     <string name="msgQuiz1L2">Has ganado la medalla del Nivel 2 y 30 puntos</string>
     <string name="msgQuiz2L2">Has ganado 30 puntos</string>
@@ -101,7 +103,9 @@
     <string name="level1Label">Nivel 1</string>
     <string name="level2Label">Nivel 2</string>
     <string name="level3Label">Nivel 3</string>
-    <string name="dashRkg">Ranking :</string>
+    <string name="dashRkgUser">Panel de Usuario</string>
+    <string name="dashRkgTeam">Ranking</string>
+    <string name="rankTeams">Classificación por equipos</string>
     <string name="dashPoints">Puntos :</string>
     <string name="daysRemaining">Fecha final KukuiCupBCN : </string>
     <string name="badgeCollect">Colección de Medallas :</string>

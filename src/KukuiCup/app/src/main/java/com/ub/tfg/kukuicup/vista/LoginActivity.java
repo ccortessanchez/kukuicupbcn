@@ -7,17 +7,26 @@ import com.android.volley.toolbox.Volley;
 import com.ub.tfg.kukuicup.R;
 import com.ub.tfg.kukuicup.admin.vista.MenuAdminActivity;
 
+import java.util.Locale;
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.util.DisplayMetrics;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -50,6 +59,10 @@ public class LoginActivity extends Activity {
     EditText inputUsername;
     EditText inputPasswd;
 
+    private ImageView english_flag;
+    private ImageView spanish_flag;
+    private ImageView catalan_flag;
+
     private ProgressDialog pDialog;
     private SessionManager session;
     private SQLiteHandler db;
@@ -73,9 +86,15 @@ public class LoginActivity extends Activity {
         enterBtn = (Button)findViewById(R.id.enterBtn);
         inputUsername = (EditText)findViewById(R.id.inputUsername);
         inputPasswd = (EditText)findViewById(R.id.inputPasswd);
+        //english_flag = (ImageView)findViewById(R.id.en_lan);
+        //spanish_flag = (ImageView)findViewById(R.id.es_lan);
+        //catalan_flag = (ImageView)findViewById(R.id.ca_lan);
 
         welcomeLabel.setText(getResources().getString(R.string.welcomeMsg));
         inputUsername.setHint(getResources().getString(R.string.hintUser));
+        //english_flag.setVisibility(View.VISIBLE);
+        //spanish_flag.setVisibility(View.VISIBLE);
+        //catalan_flag.setVisibility(View.VISIBLE);
         inputPasswd.setHint(getResources().getString(R.string.hintPass));
 
         //Progress dialog
@@ -94,6 +113,31 @@ public class LoginActivity extends Activity {
             startActivity(intent);
             finish();
         }
+
+        /**
+        english_flag.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "You have selected English", Toast.LENGTH_SHORT).show();
+                setLocale("en");
+
+            }
+        });
+
+        spanish_flag.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Has seleccionado Castellano", Toast.LENGTH_SHORT).show();
+                setLocale("es");
+
+            }
+        });
+
+        catalan_flag.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Has seleccionat Català", Toast.LENGTH_SHORT).show();
+                setLocale("ca_rES");
+
+            }
+        }); **/
 
         //Login button click event
         enterBtn.setOnClickListener(new OnClickListener() {
@@ -127,6 +171,22 @@ public class LoginActivity extends Activity {
         	}
         });
     }
+
+
+    /**
+    public void setLocale(String lang) {
+
+        Resources res = getResources();
+        DisplayMetrics dm = res.getDisplayMetrics();
+        Configuration conf = res.getConfiguration();
+        if (!conf.locale.getLanguage().equals(lang)) {
+            conf.locale = new Locale(lang);
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(this, LoginActivity.class);
+            startActivity(refresh);
+            finish();
+        }
+    } **/
 
     /**
      * function to verify login details in mysql db

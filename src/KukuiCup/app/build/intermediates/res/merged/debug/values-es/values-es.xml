@@ -132,7 +132,8 @@
     <string name="creatingPlayers">Creando Jugador...</string>
     <string name="creatingTeam">Creanado Equipo...</string>
     <string name="dashPoints">Puntos :</string>
-    <string name="dashRkg">Ranking :</string>
+    <string name="dashRkgTeam">Ranking</string>
+    <string name="dashRkgUser">Panel de Usuario</string>
     <string name="daysRemaining">Fecha final KukuiCupBCN : </string>
     <string name="descL1_enrgChal1">¿Conseguirás el siguiente reto?
         Apagar y desconectar los aparatos electrónicos de tu cuarto antes de dormir.
@@ -215,6 +216,8 @@
     <string name="msgQuiz1L3">Has ganado la medalla del Nivel 3+ y 30 puntos</string>
     <string name="msgQuiz2L2">Has ganado 30 puntos</string>
     <string name="msgQuiz2L3">Has ganado la medalla del Nivel 3 y 30 puntos</string>
+    <string name="msgQuizAttempt">Prueba otra vez. ¡Presta atención al video!</string>
+    <string name="msgQuizAttemptTitle">No te quedan más intentos</string>
     <string name="msgReward">Has ganado</string>
     <string name="msgRewardPoint">puntos</string>
     <string name="msgToastLevel">¡Tú puedes!</string>
@@ -241,6 +244,7 @@
     <string name="quest3_L2_video2">¿Qué diferencia hay entre una bombilla LED y una bombilla convencional?</string>
     <string name="quest3_L3_video1">¿Qué recurso natural es, por el momento, el más utilizado para la generación de energía eléctrica?</string>
     <string name="quest3_L3_video2">¿Qué función tienen los paneles solares?</string>
+    <string name="rankTeams">Classificación por equipos</string>
     <string name="resumeDay">/día</string>
     <string name="resumeFloor">/piso</string>
     <string name="resumeL1_enrgChal1">¿Has apagado y desconectado los aparatos electrónicos de tu habitación antes de ir a dormir?</string>

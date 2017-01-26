@@ -24,6 +24,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -67,6 +68,7 @@ public class MainActivity extends Activity {
     private TextView endDate;
 
     private ImageView playerImg;
+    private ImageView teamImg;
     private ImageView badgeLevel1;
     private ImageView badgeLevel2;
     private ImageView badgeLevel3;
@@ -166,6 +168,7 @@ public class MainActivity extends Activity {
         endDate.setText(session.getEndDate());
 
         playerImg = (ImageView) findViewById(R.id.userImg);
+        teamImg = (ImageView) findViewById(R.id.teamImg);
         badgeLevel1 = (ImageView)findViewById(R.id.badgeLevel1);
         badgeLevel2 = (ImageView)findViewById(R.id.badgeLevel2);
         badgeLevel3 = (ImageView)findViewById(R.id.badgeLevel3);
@@ -178,6 +181,7 @@ public class MainActivity extends Activity {
         level2Btn = (ImageButton) findViewById(R.id.level2Btn);
         level3Btn = (ImageButton) findViewById(R.id.level3Btn);
         playerImg.setClickable(true);
+        teamImg.setClickable(true);
 
 
         alertDialog = new AlertDialog.Builder(MainActivity.this).create();
@@ -220,6 +224,15 @@ public class MainActivity extends Activity {
         playerImg.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(ctxt, UserProfileActivity.class);
+//                intent.putExtra("name", player.getName());
+//                intent.putExtra("passwd", player.getPasswd());
+                startActivity(intent);
+            }
+        });
+
+        teamImg.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(ctxt, RankingTeamsActivity.class);
 //                intent.putExtra("name", player.getName());
 //                intent.putExtra("passwd", player.getPasswd());
                 startActivity(intent);
@@ -276,6 +289,7 @@ public class MainActivity extends Activity {
 
 
 	}
+
 
     /**
      * Background Async Task to  Save player Details
@@ -475,6 +489,7 @@ public class MainActivity extends Activity {
             }
             if(player.getPoints() >= 50) {
                 level2Btn.setImageResource(R.drawable.ic_level);
+
             }
 
             if(player.getPoints() >= 180) {
@@ -485,8 +500,8 @@ public class MainActivity extends Activity {
 
         playerName.setText(player.getName());
         teamName.setText(team.getName());
-        playerPoints.setText(""+player.getPoints());
-        teamPoints.setText(""+team.getPoints());
+        playerPoints.setText(" "+player.getPoints());
+        teamPoints.setText(" "+team.getPoints());
         //playerRanking.setText(""+player.getRanking());
         //teamRanking.setText(""+team.getClassification());
 
@@ -564,5 +579,13 @@ public class MainActivity extends Activity {
     private void hideDialog() {
         if (pDialog.isShowing())
             pDialog.dismiss();
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="#BEF781">
+    <!-- Main ListView
+         Always give id value as list(@android:id/list)
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5F4C0B"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/rankTeams"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rankTeams"
+            android:textAllCaps="true"
+            android:textColor="#BEF781"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <ListView style="@style/List"
+        android:id="@android:id/list"
+        android:textColor="#000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#BEF781"/>
+
+</LinearLayout>

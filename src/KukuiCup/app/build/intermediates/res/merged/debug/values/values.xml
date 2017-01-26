@@ -517,7 +517,8 @@
     <string name="creatingPlayers">Creating Player...</string>
     <string name="creatingTeam">Creating Team...</string>
     <string name="dashPoints">Points :</string>
-    <string name="dashRkg">Ranking :</string>
+    <string name="dashRkgTeam">Ranking</string>
+    <string name="dashRkgUser">User Panel</string>
     <string name="daysRemaining">KukuiCupBCN end date : </string>
     <string name="descL1_enrgChal1">Will you get the next challenge? Off and unplug all electrical devices in your room before going to sleep.
         Perform this action for 5 consecutive days to win the challenge.</string>
@@ -599,6 +600,8 @@
     <string name="msgQuiz1L3">You have won the bagde of Level 3+ and 30 points.</string>
     <string name="msgQuiz2L2">You have won 30 points.</string>
     <string name="msgQuiz2L3">You have won the bagde of Level 3 and 30 points.</string>
+    <string name="msgQuizAttempt">Try again next time. Pay attention to the video!</string>
+    <string name="msgQuizAttemptTitle">You have no more attempts</string>
     <string name="msgReward">You have won</string>
     <string name="msgRewardPoint">points</string>
     <string name="msgToastLevel">You can do it!</string>
@@ -625,6 +628,7 @@
     <string name="quest3_L2_video2">What\’s the difference between a LED bulb and a light bulb?</string>
     <string name="quest3_L3_video1">What natural resource is, by now, the most used for the generation of electric energy?</string>
     <string name="quest3_L3_video2">What is the function of solar panels?</string>
+    <string name="rankTeams">Teams Ranking</string>
     <string name="resumeDay">/day</string>
     <string name="resumeFloor">/floor</string>
     <string name="resumeL1_enrgChal1">Did you turn off and unplug all electrical appliances before going to sleep?</string>

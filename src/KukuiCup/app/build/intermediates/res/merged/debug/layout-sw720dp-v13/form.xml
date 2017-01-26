@@ -15,6 +15,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/formName"
             android:text="Form"
+            android:textSize="30sp"
             android:layout_marginLeft="30dp"
             android:layout_gravity="center"
             android:textColor="#000"
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:text="Reward"
+            android:textSize="30sp"
             android:layout_toLeftOf="@+id/pointsImg"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="30dp"
@@ -33,12 +35,13 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text="Points"
+            android:text="@string/pointsLabel"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="35dp"
             android:layout_gravity="center_vertical"
+            android:textSize="30sp"
             android:textColor="#000"
             android:textStyle="bold" />
 
@@ -71,6 +74,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/quest1"
             android:text="Question 1"
+            android:textSize="30sp"
             android:textColor="#000"
             android:textStyle="bold" />
 
@@ -87,6 +91,7 @@
                 android:id="@+id/answer1a"
                 android:textColor="#000"
                 android:text="Answer a"
+                android:textSize="30sp"
                 android:buttonTint="#000" />
             <RadioButton
                 android:layout_width="match_parent"
@@ -94,6 +99,7 @@
                 android:id="@+id/answer1b"
                 android:textColor="#000"
                 android:text="Answer b"
+                android:textSize="30sp"
                 android:buttonTint="#000"/>
             <RadioButton
                 android:layout_width="match_parent"
@@ -101,6 +107,7 @@
                 android:id="@+id/answer1c"
                 android:textColor="#000"
                 android:text="Answer c"
+                android:textSize="30sp"
                 android:buttonTint="#000"/>
 
         </RadioGroup>
@@ -110,6 +117,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/quest2"
             android:text="Question 2"
+            android:textSize="30sp"
             android:textColor="#000"
             android:textStyle="bold" />
 
@@ -126,6 +134,7 @@
                 android:id="@+id/answer2a"
                 android:textColor="#000"
                 android:text="Answer a"
+                android:textSize="30sp"
                 android:buttonTint="#000"/>
             <RadioButton
                 android:layout_width="match_parent"
@@ -133,6 +142,7 @@
                 android:id="@+id/answer2b"
                 android:textColor="#000"
                 android:text="Answer b"
+                android:textSize="30sp"
                 android:buttonTint="#000"/>
             <RadioButton
                 android:layout_width="match_parent"
@@ -140,6 +150,7 @@
                 android:id="@+id/answer2c"
                 android:textColor="#000"
                 android:text="Answer c"
+                android:textSize="30sp"
                 android:buttonTint="#000"/>
 
         </RadioGroup>
@@ -149,6 +160,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/quest3"
             android:text="Question 3"
+            android:textSize="30sp"
             android:textColor="#000"
             android:textStyle="bold" />
 
@@ -165,6 +177,7 @@
                 android:id="@+id/answer3a"
                 android:textColor="#000"
                 android:text="Answer a"
+                android:textSize="30sp"
                 android:buttonTint="#000"/>
             <RadioButton
                 android:layout_width="match_parent"
@@ -172,6 +185,7 @@
                 android:id="@+id/answer3b"
                 android:textColor="#000"
                 android:text="Answer b"
+                android:textSize="30sp"
                 android:buttonTint="#000"/>
             <RadioButton
                 android:layout_width="match_parent"
@@ -179,6 +193,7 @@
                 android:id="@+id/answer3c"
                 android:textColor="#000"
                 android:text="Answer c"
+                android:textSize="30sp"
                 android:buttonTint="#000"/>
 
         </RadioGroup>
@@ -200,6 +215,7 @@
             android:textColor="#BEF781"
             android:background="#5F4C0B"
             android:text="@string/btnFinish"
+            android:textSize="30sp"
             android:paddingRight="40dp"
             android:paddingLeft="40dp"
             android:textStyle="bold"

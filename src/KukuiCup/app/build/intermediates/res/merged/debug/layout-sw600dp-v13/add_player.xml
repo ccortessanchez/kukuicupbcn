@@ -14,8 +14,8 @@
                   android:paddingLeft="10dip"
                   android:paddingRight="10dip"
                   android:paddingTop="10dip"
-                  android:textSize="17dip"
-            android:textColor="#000000" />
+                  android:textSize="25sp"
+                  android:textColor="#000000" />
 
         <!-- Input Name -->
         <EditText android:id="@+id/inputName"
@@ -23,6 +23,7 @@
                   android:layout_height="wrap_content"
                   android:layout_margin="5dip"
                   android:layout_marginBottom="15dip"
+                  android:textSize="25sp"
                   android:singleLine="true"
             android:textColor="#000000" />
 
@@ -33,7 +34,7 @@
                   android:paddingLeft="10dip"
                   android:paddingRight="10dip"
                   android:paddingTop="10dip"
-                  android:textSize="17dip"
+            android:textSize="25sp"
             android:textColor="#000000" />
 
         <Spinner
@@ -41,6 +42,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/teamSpinner"
             android:textColor="#000000"
+            android:textSize="25sp"
             android:layout_gravity="center_horizontal"/>
 
 
@@ -61,6 +63,7 @@
                 android:paddingRight="40dp"
                 android:paddingLeft="40dp"
                 android:background="#5F4C0B"
+                android:textSize="25sp"
                 android:textColor="#BEF781" />
     </LinearLayout>
 

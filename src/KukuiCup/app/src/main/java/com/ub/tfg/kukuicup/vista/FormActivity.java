@@ -39,12 +39,14 @@ public class FormActivity extends Activity {
     private String answer1, answer2, answer3;
 
     private int jokeId;
+    private int form_attempt;
 
     private RadioGroup radioGr1, radioGr2, radioGr3;
     private RadioButton answer1btn, answer2btn, answer3btn;
     private RadioButton answer1a, answer1b, answer1c, answer2a, answer2b, answer2c, answer3a, answer3b, answer3c;
 
     private AlertDialog alertDialog;
+    private AlertDialog alertFormAttempts;
 
     public void onCreate(Bundle savedInstanceState) {
         if(getResources().getBoolean(R.bool.tablet)){
@@ -61,6 +63,7 @@ public class FormActivity extends Activity {
         badgeObt = "none";
 
         formName = (TextView)findViewById(R.id.formName);
+        form_attempt = 1;
         reward = (TextView)findViewById(R.id.formReward);
         question1 = (TextView)findViewById(R.id.quest1);
         question2 = (TextView)findViewById(R.id.quest2);
@@ -101,6 +104,24 @@ public class FormActivity extends Activity {
             }
         });
 
+
+        alertFormAttempts = new AlertDialog.Builder(FormActivity.this).create();
+        // Setting Dialog Title
+        alertFormAttempts.setTitle(getResources().getString(R.string.msgQuizAttemptTitle));
+
+        alertFormAttempts.setMessage(getResources().getString(R.string.msgQuizAttempt));
+
+        // Setting OK Button
+        alertFormAttempts.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                // Write your code here to execute after dialog closed
+                Intent intent = new Intent(FormActivity.this, MainActivity.class);
+                intent.putExtra("levelId",levelId);
+                intent.putExtra("points",10);
+                startActivity(intent);
+            }
+        });
+
         getInfoByFormId(levelId, formId);
 
         primaryBtn.setOnClickListener(new View.OnClickListener() {
@@ -112,7 +133,14 @@ public class FormActivity extends Activity {
 
                 }else {
                     //Try again
-                    Toast.makeText(FormActivity.this, getResources().getString(R.string.msgToastQuiz), Toast.LENGTH_SHORT).show();
+                    if (form_attempt == 0) {
+                        alertFormAttempts.show();
+                    }
+                    else {
+                        form_attempt = form_attempt - 1;
+                        Toast.makeText(FormActivity.this, getResources().getString(R.string.msgToastQuiz), Toast.LENGTH_SHORT).show();
+                    }
+
                 }
             }
         });

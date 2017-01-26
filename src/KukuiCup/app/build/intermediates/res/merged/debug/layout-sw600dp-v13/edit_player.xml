@@ -12,7 +12,7 @@
               android:paddingLeft="10dip"
               android:paddingRight="10dip"
               android:paddingTop="10dip"
-              android:textSize="17dip"
+              android:textSize="25sp"
         android:textColor="#000000" />
 
     <!-- Input Name -->
@@ -21,6 +21,7 @@
               android:layout_height="wrap_content"
               android:layout_margin="5dip"
               android:layout_marginBottom="15dip"
+              android:textSize="25sp"
               android:singleLine="true"
         android:textColor="#000000" />
 
@@ -31,7 +32,7 @@
               android:paddingLeft="10dip"
               android:paddingRight="10dip"
               android:paddingTop="10dip"
-              android:textSize="17dip"
+              android:textSize="25sp"
         android:textColor="#000000" />
 
     <!-- Input Team -->
@@ -47,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/teamSpinner"
+        android:textSize="25sp"
         android:layout_gravity="center_horizontal"/>
 
     <LinearLayout
@@ -60,6 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/btnSave"
+                android:textSize="25sp"
                 android:paddingRight="40dp"
                 android:paddingLeft="40dp"
                 android:layout_gravity="left"
@@ -78,6 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/btnDelete"
+                android:textSize="25sp"
                 android:paddingRight="10dp"
                 android:paddingLeft="10dp"
                 android:layout_gravity="right"

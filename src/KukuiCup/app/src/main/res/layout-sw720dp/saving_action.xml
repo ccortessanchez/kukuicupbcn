@@ -15,21 +15,23 @@
         android:background="@drawable/background_land"/>
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rouned_corner_shadow"
             android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_weight="2.43">
 
             <RelativeLayout
                 android:layout_width="fill_parent"
@@ -43,6 +45,7 @@
                     android:layout_toLeftOf="@+id/pointsLbl"
                     android:layout_alignParentTop="true"
                     android:text="@string/rewardLabel"
+                    android:textSize="30sp"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="5dp"/>
 
@@ -50,6 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pointsLabel"
+                    android:textSize="30sp"
                 android:id="@+id/pointsLbl"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
@@ -57,8 +61,8 @@
                 android:layout_marginRight="35dp"/>
 
                 <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:id="@+id/badgeImg"
                     android:src="@mipmap/badge_base"
                     android:visibility="invisible"
@@ -67,8 +71,8 @@
                     />
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     app:srcCompat="@drawable/piggybank"
                     android:id="@+id/savActionImg"
                     android:layout_alignParentTop="true"
@@ -81,6 +85,7 @@
 
                 <TextView
                     android:id="@+id/actionName"
+                    android:textSize="30sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Saving Action name"
@@ -94,6 +99,7 @@
 
             <TextView
                 android:id="@+id/actionDescription"
+                android:textSize="30sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Configure your computer and any external monitor to sleep after 20 minutes of inactivity."
@@ -111,28 +117,30 @@
                     android:orientation="horizontal"
                     android:layout_gravity="center"
                     android:id="@+id/RGActlvl3">
-
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/answera"
                         android:text="Answer a"
+                        android:textSize="30sp"
                         android:visibility="invisible"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/answerb"
                         android:text="Answer b"
+                        android:textSize="30sp"
                         android:visibility="invisible"/>
                     <RadioButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/answerc"
                         android:text="Answer c"
+                        android:textSize="30sp"
                         android:visibility="invisible"/>
-
                 </RadioGroup>
             </LinearLayout>
+
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -145,6 +153,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Take a photo"
+                    android:textSize="30sp"
                     android:id="@+id/secondaryBtn"
                     />
 
@@ -166,6 +175,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnUploadPhoto"
+                    android:textSize="30sp"
                     android:visibility="invisible"
                     android:enabled="false"
                     />
@@ -175,8 +185,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Done!"
+                    android:textSize="30sp"
                     android:layout_marginRight="35dp"
                     />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
             </LinearLayout>
 
         </LinearLayout>

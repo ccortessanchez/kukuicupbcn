@@ -36,6 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Videoname"
+                    android:textSize="25sp"
                     android:layout_marginLeft="35dp"
                     android:layout_centerVertical="true"/>
 
@@ -44,6 +45,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Reward"
+                    android:textSize="25sp"
                     android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/pointsLbl"
                     android:layout_centerVertical="true"
@@ -52,6 +54,7 @@
                 <TextView
                     android:id="@+id/pointsLbl"
                     android:text="@string/pointsLabel"
+                    android:textSize="25sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
@@ -60,8 +63,8 @@
                     android:layout_marginRight="35dp"/>
 
                 <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:id="@+id/badgeImg"
                     android:src="@mipmap/badge_base"
                     android:visibility="invisible"
@@ -76,6 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:textSize="25sp"
                 android:text="@string/L1_videoDesc"
                 android:layout_gravity="center"
                 android:layout_margin="30dp"/>
@@ -97,9 +101,10 @@
                 <!--android:textSize="20dp"-->
                 <!--android:textStyle="bold" />-->
 
+
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:id="@+id/playBtn"
                 android:background="@mipmap/ic_launcher"
                 android:layout_gravity="center_horizontal"/>
@@ -124,6 +129,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnQuiz"
+                    android:textSize="25sp"
                     android:layout_marginRight="35dp"
                     android:enabled="false"
                     android:background="@android:drawable/btn_default"

@@ -96,7 +96,8 @@
     <string name="creatingPlayers">Creant jugador...</string>
     <string name="creatingTeam">Creant jugador...</string>
     <string name="dashPoints">Punts :</string>
-    <string name="dashRkg">Ranking :</string>
+    <string name="dashRkgTeam">Ranking</string>
+    <string name="dashRkgUser">Panell de Usuari</string>
     <string name="daysRemaining">Data fi KukuiCupBCN : </string>
     <string name="descL1_enrgChal1">Aconseguiràs el següent repte?
         Apagar i desconectar els aparells electronics de la teva habitació abans de dormir.
@@ -166,7 +167,7 @@
     <string name="msgChangeAnfConfirm">La nova contrasenya i la confirmación ha de ser iguals</string>
     <string name="msgChangeSuccess">Canvi satisfactori</string>
     <string name="msgCongrats">Enhorabona, recull els teus punts!</string>
-    <string name="msgCongratsAlt">Enhorabpna!</string>
+    <string name="msgCongratsAlt">Enhorabona!</string>
     <string name="msgEasterEgg">Es un dia perfecte per donar-te 5 punts. Gaudeix-los!</string>
     <string name="msgId">Identificació ...</string>
     <string name="msgInvPass">Contrasenya no vàlida</string>
@@ -178,10 +179,12 @@
     <string name="msgQuiz1L3">Has guanyat la medalla del Nivell 3+ i 30 punts</string>
     <string name="msgQuiz2L2">Has guanyat 30 punts</string>
     <string name="msgQuiz2L3">Has guanyat la medalla del Nivell 3 i 30 punts</string>
+    <string name="msgQuizAttempt">Prova un altre cop. Posa atenció al video!</string>
+    <string name="msgQuizAttemptTitle">No et queden mes intents</string>
     <string name="msgReward">Has guanyat</string>
     <string name="msgRewardPoint">punts</string>
     <string name="msgToastLevel">Tu pots!</string>
-    <string name="msgToastQuiz">pots fer-ho millor!</string>
+    <string name="msgToastQuiz">Pots fer-ho millor!</string>
     <string name="msgToastUpload">Pujada correcta</string>
     <string name="newPassLabel">Contrasenya nova</string>
     <string name="newPlayerLabel">Nou jugador</string>
@@ -204,6 +207,7 @@
     <string name="quest3_L2_video2">Quina diferència hi ha entre una bombeta LED i una bombeta convencional?</string>
     <string name="quest3_L3_video1">Quin recurs natural és, de moment, el més utilitzat per a la generació d\'energia elèctrica?</string>
     <string name="quest3_L3_video2">Quina funció tenen els panells solars?</string>
+    <string name="rankTeams">Classificació per equips</string>
     <string name="resumeDay">/dia</string>
     <string name="resumeFloor">/pis</string>
     <string name="resumeL1_enrgChal1">Has apagat i desconectat els aparells electronics de la teva habitació abans de dormir?</string>
@@ -224,7 +228,7 @@
     <string name="savActL3_1">Hora de la rentadora</string>
     <string name="savActL3_2">Càrrega de la rentadora</string>
     <string name="savAction">Acción d\'estalvi</string>
-    <string name="savTip">Consell d\'estalvi</string>
+    <string name="savTip">Consell d\'estalvi!</string>
     <string name="startTournament">Iniciar el torneig</string>
     <string name="teamNameLabel">Nom de l\'Equip</string>
     <string name="teamSelectLabel">Equip</string>

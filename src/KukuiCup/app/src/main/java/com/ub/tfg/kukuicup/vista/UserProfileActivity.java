@@ -7,6 +7,7 @@ import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.text.Editable;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -67,8 +68,8 @@ public class UserProfileActivity extends Activity {
         Controller control = new Controller();
         String localhost = control.config.LOCALHOST;
 
-        url_update_player_passwd = "http://" + localhost + "update_player_passwd.php";
-        url_login = "http://" + localhost + "login.php";
+        url_update_player_passwd = "http://" + localhost + "/update_player_passwd.php";
+        url_login = "http://" + localhost + "/login.php";
 
         session = new SessionManager(getApplicationContext());
         if (!session.isLoggedIn()) {
@@ -148,6 +149,8 @@ public class UserProfileActivity extends Activity {
         protected String doInBackground(String... args) {
             String name = session.getName();
             String pass = confirmPasswd.getText().toString().trim();
+            //Editable pass = confirmPasswd.getText();
+            //String pass = args[1];
             // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             params.add(new BasicNameValuePair("name", name));

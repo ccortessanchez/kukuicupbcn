@@ -10,8 +10,9 @@
     <ListView style="@style/List"
         android:id="@android:id/list"
         android:textColor="#000"
+        android:textSize="25sp"
         android:layout_width="fill_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="#BEF781"/>
 
 </LinearLayout>

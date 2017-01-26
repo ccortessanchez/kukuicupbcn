@@ -14,8 +14,8 @@
         android:background="@drawable/background_land" />
 
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="30dp"
@@ -41,20 +41,21 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginRight="35dp"
+                    android:textSize="30sp"
                     android:text="@string/pointsLabel" />
 
                 <ImageView
                     android:id="@+id/badgeImg"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:src="@mipmap/badge_base"
                     android:visibility="invisible" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     app:srcCompat="@drawable/battery"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
@@ -68,6 +69,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/rewardLabel"
+                    android:textSize="30sp"
                     android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/pointsLbl"
                     android:layout_toStartOf="@+id/pointsLbl"
@@ -80,6 +82,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:text="Energy Challenge name"
+                    android:textSize="30sp"
                     android:layout_marginStart="25dp"
                     android:layout_alignParentTop="true"
                     android:layout_toRightOf="@+id/enrgChallImg"
@@ -111,11 +114,13 @@
                         android:layout_marginLeft="35dp"
                         android:layout_marginTop="15dp"
                         android:text="@string/challDays"
+                        android:textSize="30sp"
                         android:layout_weight="0.24" />
 
                     <TextView
                         android:id="@+id/daysRemaining"
                         android:layout_width="wrap_content"
+                        android:textSize="30sp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:layout_marginTop="15dp"
@@ -128,6 +133,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_margin="20dp"
+                    android:textSize="30sp"
                     android:text="Turn off and unplug all electrical appliances in your room before going to sleep." />
 
             </LinearLayout>
@@ -143,6 +149,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnTakePhoto"
+                    android:textSize="30sp"
                     android:id="@+id/secondaryBtn"
                     android:background="@android:drawable/btn_default"
                     tools:textColor="@android:color/black"
@@ -157,6 +164,7 @@
 
                 <Button
                     android:id="@+id/upload"
+                    android:textSize="30sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnUploadPhoto"
@@ -172,6 +180,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginRight="35dp"
+                    android:textSize="30sp"
                     android:text="@string/btnDone"
                     android:background="@android:drawable/btn_default"
                     android:textColor="@android:color/black"

@@ -32,14 +32,16 @@
     <string name="msgRewardPoint">punts</string>
     <string name="msgToastUpload">Pujada correcta</string>
     <string name="msgCongrats">Enhorabona, recull els teus punts!</string>
-    <string name="msgCongratsAlt">Enhorabpna!</string>
+    <string name="msgCongratsAlt">Enhorabona!</string>
     <string name="resumeDay">/dia</string>
     <string name="resumeFloor">/pis</string>
     <string name="resumeTeam">/guanyador</string>
     <string name="btnStart">Iniciar repte</string>
     <string name ="challDays">Dies restants:</string>
     <string name="btnContinue">Continuar repte</string>
-    <string name="msgToastQuiz">pots fer-ho millor!</string>
+    <string name="msgToastQuiz">Pots fer-ho millor!</string>
+    <string name="msgQuizAttemptTitle">No et queden mes intents</string>
+    <string name="msgQuizAttempt">Prova un altre cop. Posa atenció al video!</string>
     <string name="msgQuiz1L1">Has guanyat la medalla del Nivell 1 i 30 punts</string>
     <string name="msgQuiz1L2">Has guanyat la medalla del Nivell 2 i 30 punts</string>
     <string name="msgQuiz2L2">Has guanyat 30 punts</string>
@@ -52,7 +54,7 @@
     <string name="btnFinish">Acaba</string>
     <string name="btnContinueJoke">Continua</string>
     <string name="jokeMsg">Ben fet! Gaudeix d\'aquest acudit ...</string>
-    <string name="savTip">Consell d\'estalvi</string>
+    <string name="savTip">Consell d\'estalvi!</string>
 
     <!--- LABELS ADMIN VISTAS-->
     <string name="allPlayersLabel">Tots els jugadors</string>
@@ -101,7 +103,9 @@
     <string name="level1Label">Nivell 1</string>
     <string name="level2Label">Nivell 2</string>
     <string name="level3Label">Nivell 3</string>
-    <string name="dashRkg">Ranking :</string>
+    <string name="dashRkgUser">Panell de Usuari</string>
+    <string name="dashRkgTeam">Ranking</string>
+    <string name="rankTeams">Classificació per equips</string>
     <string name="dashPoints">Punts :</string>
     <string name="daysRemaining">Data fi KukuiCupBCN : </string>
     <string name="badgeCollect">Colecció de Medallas :</string>
