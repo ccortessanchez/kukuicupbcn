@@ -178,7 +178,7 @@
 
             <TextView
                 android:id="@+id/userRk"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/dashRkgUser"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -187,7 +187,7 @@
 
             <TextView
                 android:id="@+id/userRkgLabel"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:background="#BEF781"

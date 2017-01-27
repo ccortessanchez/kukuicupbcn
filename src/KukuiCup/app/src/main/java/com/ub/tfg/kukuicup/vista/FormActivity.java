@@ -5,7 +5,9 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -14,6 +16,15 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.ub.tfg.kukuicup.R;
+import com.ub.tfg.kukuicup.controller.Controller;
+
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cz.msebera.android.httpclient.NameValuePair;
+import cz.msebera.android.httpclient.message.BasicNameValuePair;
 
 /**
  * Created by Juanmi on 29/06/2016.
@@ -56,6 +67,8 @@ public class FormActivity extends Activity {
         setContentView(R.layout.form);
 
         Bundle extras = getIntent().getExtras();
+        Controller control = new Controller();
+        String localhost = control.config.LOCALHOST;
 
         levelId = extras.getInt("levelId");
         formId = extras.getInt("formId");

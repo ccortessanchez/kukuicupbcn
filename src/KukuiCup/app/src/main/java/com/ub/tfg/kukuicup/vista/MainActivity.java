@@ -85,11 +85,13 @@ public class MainActivity extends Activity {
     Team team = new Team();
     String username;
     String id;
+    String badge_id;
     String points_player;
     String points_team;
 
     JSONObject jsonplayer;
     JSONObject jsonteam;
+    JSONObject jsonbadge;
 
     private Calendar today;
     private Calendar endDay;
@@ -105,6 +107,8 @@ public class MainActivity extends Activity {
     private static String url_team_details;
     private static String url_update_player_points;
     private static String url_update_team_points;
+    private static String url_create_player_badges;
+    private static String url_get_player_badges;
     private static String url_get_player_ranking;
     private static String url_get_team_ranking;
 
@@ -139,6 +143,7 @@ public class MainActivity extends Activity {
         url_update_team_points = "http://"+localhost+"/update_team_points.php";
         url_get_player_ranking = "http://"+localhost+"/get_player_ranking.php";
         url_get_team_ranking = "http://"+localhost+"/get_team_ranking.php";
+        url_create_player_badges = "http://"+localhost+"/create_badge.php";
 		
 		ctxt = getApplicationContext();
         pointsObt = 0;
@@ -323,6 +328,35 @@ public class MainActivity extends Activity {
         }
     }
 
+    class SavePlayerBadges extends AsyncTask<String, String, String> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        /**
+         * Saving player
+         * */
+        protected String doInBackground(String... args) {
+
+            // Building Parameters
+            List<NameValuePair> params = new ArrayList<NameValuePair>();
+            params.add(new BasicNameValuePair("player_id", id));
+            params.add(new BasicNameValuePair("badge_id", badge_id));
+
+            // sending modified data through http request
+            // Notice that update player url accepts POST method
+            JSONObject json = jsonParser.makeHttpRequest(url_create_player_badges,
+                    "POST", params);
+            Log.d("badge: ", json.toString());
+
+            return null;
+        }
+        protected void onPostExecute(String file_url) {
+        }
+    }
+
     /**
      * Background Async Task to  Save team Details
      * */
@@ -451,28 +485,38 @@ public class MainActivity extends Activity {
             }
             if(extras.containsKey("badge")){
                 if(extras.getString("badge").equals("level1")){
+                    badge_id = "1";
                     badgeLevel1.setImageResource(R.mipmap.level1_badge);
+                    new SavePlayerBadges().execute();
                 }
 
                 if(extras.getString("badge").equals("level2")){
+                    badge_id = "2";
                     badgeLevel2.setImageResource(R.mipmap.level2_badge);
+                    new SavePlayerBadges().execute();
                 }
 
                 if(extras.getString("badge").equals("level3")){
+                    badge_id = "3";
                     badgeLevel3.setImageResource(R.mipmap.level3_badge);
+                    new SavePlayerBadges().execute();
                 }
 
                 if(extras.getString("badge").equals("offBeforeSleep")){
+                    badge_id = "4";
                     badgeOffBeforeSleep.setImageResource(R.mipmap.off_sleep_badge);
                 }
 
                 if(extras.getString("badge").equals("emptyRoom")){
+                    badge_id = "6";
                     badgeEmptyRoom.setImageResource(R.mipmap.empty_room_badge);
                 }
                 if(extras.getString("badge").equals("useStairs")){
+                    badge_id = "5";
                     badgeUseStairs.setImageResource(R.mipmap.stairs_badge);
                 }
                 if(extras.getString("badge").equals("teamPlay")){
+                    badge_id = "8";
                     badgeMoreLess.setImageResource(R.mipmap.more_less_badge);
                 }
             }
