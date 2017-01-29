@@ -53,6 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pointsLabel"
+                    android:layout_marginLeft="15dp"
                     android:textSize="25sp"
                 android:id="@+id/pointsLbl"
                 android:layout_alignParentTop="true"
@@ -66,6 +67,7 @@
                     android:id="@+id/badgeImg"
                     android:src="@mipmap/badge_base"
                     android:visibility="invisible"
+                    android:layout_toLeftOf="@id/pointsLbl"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     />

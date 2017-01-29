@@ -19,6 +19,7 @@ import com.ub.tfg.kukuicup.R;
 import com.ub.tfg.kukuicup.admin.vista.EditPlayerActivity;
 import com.ub.tfg.kukuicup.admin.vista.NewPlayerActivity;
 import com.ub.tfg.kukuicup.controller.Controller;
+import com.ub.tfg.kukuicup.controller.SessionManager;
 import com.ub.tfg.kukuicup.model.JSONParser;
 
 import org.json.JSONArray;
@@ -37,6 +38,9 @@ import cz.msebera.android.httpclient.NameValuePair;
 public class RankingTeamsActivity extends ListActivity{
     // Progress Dialog
     private ProgressDialog pDialog;
+    private SessionManager session;
+
+    String myteamID;
 
     // Creating JSON Parser object
     JSONParser jParser = new JSONParser();
@@ -67,6 +71,8 @@ public class RankingTeamsActivity extends ListActivity{
         setContentView(R.layout.ranking_teams);
 
         Controller control = new Controller();
+        session = new SessionManager(getApplicationContext());
+        myteamID = session.getTeam();
         String localhost = control.config.LOCALHOST;
         url_all_teams = "http://"+localhost+"/get_team_ranking.php";
 
@@ -130,8 +136,13 @@ public class RankingTeamsActivity extends ListActivity{
                         String id = c.getString(TAG_ID);
                         String name = c.getString(TAG_NAME);
                         String points = c.getString(TAG_POINTS);
-                        String ranked = rank + " " + name + ": " + points;
-
+                        String ranked = "";
+                        if (id.equals(myteamID)) {
+                            ranked = rank + " " + name + ": " + points + "  " + getResources().getString(R.string.yourTeamRkg);
+                        }
+                        else {
+                            ranked = rank + " " + name + ": " + points;
+                        }
                         // creating new HashMap
                         HashMap<String, String> map = new HashMap<String, String>();
 

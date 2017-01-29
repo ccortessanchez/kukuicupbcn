@@ -9,6 +9,7 @@
     <string name="com_facebook_loading">ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ…</string>
     <string name="com_facebook_loginview_cancel_action">ਰੱਦ ਕਰੋ</string>
     <string name="com_facebook_loginview_log_in_button">ਲੌਗ ਇਨ ਕਰੋ</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Facebook ਦੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook ਦੇ ਨਾਲ ਲੌਗ ਇਨ ਕਰੋ</string>
     <string name="com_facebook_loginview_log_out_action">ਲੌਗ ਆਉਟ ਕਰੋ</string>
     <string name="com_facebook_loginview_log_out_button">ਲੌਗ ਆਉਟ ਕਰੋ</string>
@@ -16,6 +17,6 @@
     <string name="com_facebook_loginview_logged_in_using_facebook">Facebook ਦਾ ਉਪਯੋਗ ਕਰਕੇ ਲੌਗ ਇਨ ਕੀਤਾ ਗਿਆ</string>
     <string name="com_facebook_send_button_text">ਭੇਜੋ</string>
     <string name="com_facebook_share_button_text">ਸਾਂਝਾ ਕਰੋ</string>
-    <string name="com_facebook_tooltip_default">ਨਵਾਂ! ਤੁ\ਸੀਂ ਨਿਯੰਤਰਣ ਵਿੱਚ ਹੋ - ਉਹ ਜਾਣਕਾਰੀ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਐਪਸ ਦੇ ਨਾਲ ਸਾਂਝੀ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ।</string>
+    <string name="com_facebook_tooltip_default">ਤੁ\ਸੀਂ ਨਿਯੰਤਰਣ ਵਿੱਚ ਹੋ - ਉਹ ਜਾਣਕਾਰੀ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਐਪਸ ਦੇ ਨਾਲ ਸਾਂਝੀ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ।</string>
     <string name="messenger_send_button_text">ਭੇਜੋ</string>
 </resources>

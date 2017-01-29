@@ -28,6 +28,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View;
@@ -42,6 +43,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+import java.util.HashMap;
+
 
 public class MainActivity extends Activity {
 	
@@ -57,7 +60,9 @@ public class MainActivity extends Activity {
     private AlertDialog easterEgg;
 	private SessionManager session;
 	private SQLiteHandler db;
+
     JSONParser jsonParser = new JSONParser();
+    ArrayList<HashMap<String, String>> badgesList;
 
     private TextView playerName;
     private TextView teamName;
@@ -91,7 +96,14 @@ public class MainActivity extends Activity {
 
     JSONObject jsonplayer;
     JSONObject jsonteam;
-    JSONObject jsonbadge;
+
+    // JSON Node names
+    private static final String TAG_SUCCESS = "success";
+    private static final String TAG_BADGES = "players_badges";
+    private static final String TAG_ID_PLAYER = "player_id";
+    private static final String TAG_ID_BADGE = "badge_id";
+
+    JSONArray badges = null;
 
     private Calendar today;
     private Calendar endDay;
@@ -144,6 +156,7 @@ public class MainActivity extends Activity {
         url_get_player_ranking = "http://"+localhost+"/get_player_ranking.php";
         url_get_team_ranking = "http://"+localhost+"/get_team_ranking.php";
         url_create_player_badges = "http://"+localhost+"/create_badge.php";
+        url_get_player_badges = "http://"+localhost+"/get_all_badges.php";
 		
 		ctxt = getApplicationContext();
         pointsObt = 0;
@@ -167,10 +180,14 @@ public class MainActivity extends Activity {
         teamName = (TextView)findViewById(R.id.teamLabel);
         playerPoints = (TextView)findViewById(R.id.userPointsLabel);
         teamPoints = (TextView)findViewById(R.id.teamPointsLabel);
-        playerRanking = (TextView)findViewById(R.id.userRkgLabel);
-        teamRanking = (TextView)findViewById(R.id.teamRkgLabel);
         endDate = (TextView)findViewById(R.id.daysRemaining);
-        endDate.setText(session.getEndDate());
+        if (session.getEndDate().equals("null")) {
+            endDate.setText(" " + getResources().getString(R.string.noEndDate));
+        }
+        else {
+            endDate.setText(" " + session.getEndDate());
+        }
+
 
         playerImg = (ImageView) findViewById(R.id.userImg);
         teamImg = (ImageView) findViewById(R.id.teamImg);
@@ -208,7 +225,17 @@ public class MainActivity extends Activity {
         alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
-                Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgToastLevel), Toast.LENGTH_SHORT).show();
+                if(getResources().getBoolean(R.bool.tablet)){
+                    Toast toast = Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgToastLevel), Toast.LENGTH_SHORT);
+                    LinearLayout toastLayout = (LinearLayout) toast.getView();
+                    TextView toastTV = (TextView) toastLayout.getChildAt(0);
+                    toastTV.setTextSize(30);
+                    toast.show();
+                }
+                else {
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.msgToastLevel), Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
         easterEgg.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
@@ -223,6 +250,7 @@ public class MainActivity extends Activity {
         }
 
         loadPlayerData(username);
+        //loadPlayerBadges(id);
         //updateDashBoard();
 
 
@@ -357,6 +385,8 @@ public class MainActivity extends Activity {
         }
     }
 
+
+
     /**
      * Background Async Task to  Save team Details
      * */
@@ -389,6 +419,49 @@ public class MainActivity extends Activity {
         }
     }
 
+
+    public String loadBadges(String id) {
+        List<NameValuePair> params = new ArrayList<NameValuePair>();
+        // getting JSON string from URL
+        JSONObject json = jsonParser.makeHttpRequest(url_get_player_badges, "GET", params);
+
+        // Check your log cat for JSON reponse
+        Log.d("All Badges: ", json.toString());
+
+        try {
+            // Checking for SUCCESS TAG
+            int success = json.getInt(TAG_SUCCESS);
+
+            if (success == 1) {
+                // players found
+                // Getting Array of players
+                badges = json.getJSONArray(TAG_BADGES);
+
+                // looping through All players
+                for (int i = 0; i < badges.length(); i++) {
+                    JSONObject c = badges.getJSONObject(i);
+
+                    // Storing each json item in variable
+                    String player_id = c.getString(TAG_ID_PLAYER);
+                    String badge_id = c.getString(TAG_ID_BADGE);
+
+                    // creating new HashMap
+                    HashMap<String, String> map = new HashMap<String, String>();
+                    if (player_id.equals(id)) {
+                        map.put(TAG_ID_PLAYER, player_id);
+                        map.put(TAG_ID_BADGE, badge_id);
+                        badgesList.add(map);
+                    }
+                }
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+
     public void loadPlayerData(String username) {
         String tag_string_req = "req_loadplayer";
         pDialog.setMessage("Loading ...");
@@ -411,6 +484,69 @@ public class MainActivity extends Activity {
 
         AppController.getInstance().addToRequestQueue(stringRequest, tag_string_req);
     }
+
+    public void loadPlayerBadges(String id) {
+        String tag_string_req = "req_loadbadges";
+        pDialog.setMessage("Loading ...");
+        showDialog();
+        StringRequest stringRequest = new StringRequest(url_get_player_badges, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                jsonToBadges(response);
+                Log.i("response", response);
+                hideDialog();
+            }
+        },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(MainActivity.this, error.getMessage().toString(), Toast.LENGTH_LONG).show();
+                        hideDialog();
+                    }
+                });
+
+        AppController.getInstance().addToRequestQueue(stringRequest, tag_string_req);
+    }
+
+    private void jsonToBadges(String response) {
+        try {
+            JSONObject jsonObject = new JSONObject(response);
+            JSONArray result = jsonObject.getJSONArray("players_badges");
+            for (int i = 0; i < result.length(); i++) {
+                JSONObject json = result.getJSONObject(i);
+                String player_id = json.getString("player_id");
+                String badge_id = json.getString("badge_id");
+                if (player_id.equals(id)) {
+                    if (badge_id.equals("1")) {
+                        badgeLevel1.setImageResource(R.mipmap.level1_badge);
+                    }
+                    if (badge_id.equals("2")) {
+                        badgeLevel2.setImageResource(R.mipmap.level2_badge);
+                    }
+                    if (badge_id.equals("3")) {
+                        badgeLevel3.setImageResource(R.mipmap.level3_badge);
+                    }
+                    if (badge_id.equals("4")) {
+                        badgeOffBeforeSleep.setImageResource(R.mipmap.off_sleep_badge);
+                    }
+                    if (badge_id.equals("5")) {
+                        badgeUseStairs.setImageResource(R.mipmap.stairs_badge);
+                    }
+                    if (badge_id.equals("6")) {
+                        badgeEmptyRoom.setImageResource(R.mipmap.empty_room_badge);
+                    }
+                    if (badge_id.equals("8")) {
+                        badgeMoreLess.setImageResource(R.mipmap.more_less_badge);
+                    }
+                }
+
+
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
     private void jsonToPlayer(String response){
         String teamid="";
         try {
@@ -418,11 +554,18 @@ public class MainActivity extends Activity {
             JSONArray result = jsonObject.getJSONArray("player");
             JSONObject json = result.getJSONObject(0);
             id = json.getString("id");
+            loadPlayerBadges(id);
             playerName.setText(json.getString("name"));
             playerPoints.setText(json.getString("points"));
             this.player.setName(json.getString("name"));
             this.player.setPoints(Integer.parseInt(json.getString("points")));
             teamid = json.getString("team_id");
+            if(player.getPoints() >= 50) {
+                level2Btn.setImageResource(R.drawable.ic_level);
+            }
+            if(player.getPoints() >= 180) {
+                level3Btn.setImageResource(R.drawable.ic_level);
+            }
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -432,6 +575,7 @@ public class MainActivity extends Activity {
 
     public void loadTeamData(String teamId) {
         String tag_string_req = "req_loadteam";
+        session.setTeam(teamId);
         pDialog.setMessage("Loading ...");
         showDialog();
         StringRequest stringRequest = new StringRequest(url_team_details + "?id='" + teamId+"'", new Response.Listener<String>() {
@@ -505,19 +649,24 @@ public class MainActivity extends Activity {
                 if(extras.getString("badge").equals("offBeforeSleep")){
                     badge_id = "4";
                     badgeOffBeforeSleep.setImageResource(R.mipmap.off_sleep_badge);
+                    new SavePlayerBadges().execute();
+
                 }
 
                 if(extras.getString("badge").equals("emptyRoom")){
                     badge_id = "6";
                     badgeEmptyRoom.setImageResource(R.mipmap.empty_room_badge);
+                    new SavePlayerBadges().execute();
                 }
                 if(extras.getString("badge").equals("useStairs")){
                     badge_id = "5";
                     badgeUseStairs.setImageResource(R.mipmap.stairs_badge);
+                    new SavePlayerBadges().execute();
                 }
                 if(extras.getString("badge").equals("teamPlay")){
                     badge_id = "8";
                     badgeMoreLess.setImageResource(R.mipmap.more_less_badge);
+                    new SavePlayerBadges().execute();
                 }
             }
             if(easterEggDay){
@@ -557,10 +706,10 @@ public class MainActivity extends Activity {
         }
 
         if(team.getBadgeByName("Level2")!=null)
-            badgeLevel1.setImageResource(R.mipmap.level2_badge);
+            badgeLevel2.setImageResource(R.mipmap.level2_badge);
         else {
             if(player.getBadgeByName("Level2")!=null)
-                badgeLevel1.setImageResource(R.mipmap.level2_badge);
+                badgeLevel2.setImageResource(R.mipmap.level2_badge);
         }
 
         if(team.getBadgeByName("Level3")!=null)

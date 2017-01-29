@@ -58,7 +58,13 @@ public class MenuActivity extends Activity {
             levelBar.setProgress(playerPoints);
 
             progressLabel = (TextView)findViewById(R.id.progressLabel);
-            progressLabel.setText(playerPoints+"/"+LEVEL1_POINTS+" Points");
+
+            if (playerPoints >= LEVEL1_POINTS) {
+                progressLabel.setText(LEVEL1_POINTS+"/"+LEVEL1_POINTS+" "+getResources().getString(R.string.pointsLabel));
+            }
+            else {
+                progressLabel.setText(playerPoints + "/" + LEVEL1_POINTS + " " + getResources().getString(R.string.pointsLabel));
+            }
         }
 
         if (levelId == 2) {
@@ -68,7 +74,13 @@ public class MenuActivity extends Activity {
             levelBar.setProgress(playerPoints);
 
             progressLabel = (TextView)findViewById(R.id.progressLabel);
-            progressLabel.setText(playerPoints+"/"+LEVEL2_POINTS+" Points");
+
+            if (playerPoints >= LEVEL2_POINTS) {
+                progressLabel.setText(LEVEL2_POINTS+"/"+LEVEL2_POINTS+" " + getResources().getString(R.string.pointsLabel));
+            }
+            else {
+                progressLabel.setText(playerPoints+"/"+LEVEL2_POINTS+" " + getResources().getString(R.string.pointsLabel));
+            }
         }
 
         if (levelId == 3) {
@@ -78,7 +90,13 @@ public class MenuActivity extends Activity {
             levelBar.setProgress(playerPoints);
 
             progressLabel = (TextView)findViewById(R.id.progressLabel);
-            progressLabel.setText(playerPoints+"/"+LEVEL3_POINTS+" Points");
+
+            if (playerPoints >= LEVEL3_POINTS) {
+                progressLabel.setText(LEVEL3_POINTS + "/" + LEVEL3_POINTS + " " + getResources().getString(R.string.pointsLabel));
+            }
+            else {
+                progressLabel.setText(playerPoints + "/" + LEVEL3_POINTS + " " + getResources().getString(R.string.pointsLabel));
+            }
         }
 
         

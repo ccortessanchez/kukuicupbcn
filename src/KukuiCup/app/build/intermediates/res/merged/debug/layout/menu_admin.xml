@@ -22,8 +22,20 @@
         android:id="@+id/btnViewPlayers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dip"
+        android:layout_marginTop="15dip"
         android:text="@string/btnViewPlayers"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:background="#5F4C0B"
+        android:textColor="#BEF781" />
+
+
+    <Button
+        android:id="@+id/btnViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:text="@string/btnViewRegister"
         android:paddingRight="40dp"
         android:paddingLeft="40dp"
         android:background="#5F4C0B"
@@ -34,7 +46,7 @@
         android:id="@+id/btnCreatePlayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dip"
+        android:layout_marginTop="15dip"
         android:text="@string/btnCreatePlayer"
         android:paddingRight="40dp"
         android:paddingLeft="40dp"
@@ -46,7 +58,7 @@
         android:id="@+id/startTournament"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dip"
+        android:layout_marginTop="15dip"
         android:text="@string/startTournament"
         android:paddingRight="25dp"
         android:paddingLeft="25dp"
@@ -57,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="25dp">
+        android:layout_marginTop="15dp">
 
         <LinearLayout
             android:layout_width="match_parent"

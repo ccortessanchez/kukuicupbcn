@@ -84,7 +84,7 @@ public class NewTeamActivity extends Activity {
             pDialog.setMessage(getResources().getString(R.string.creatingTeam));
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
-            pDialog.show();
+            //pDialog.show();
         }
 
         /**

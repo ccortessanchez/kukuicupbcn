@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginRight="35dp"
+                    android:layout_marginRight="60dp"
                     android:textSize="25sp"
                     android:text="@string/pointsLabel" />
 
@@ -153,6 +153,7 @@
                     android:background="@android:drawable/btn_default"
                     tools:textColor="@android:color/black"
                     android:textSize="25sp"
+                    android:layout_marginBottom="15dp"
                     android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse"
                     android:visibility="invisible" />
 
@@ -160,6 +161,7 @@
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:visibility="invisible"
+                    android:layout_marginBottom="15dp"
                     android:id="@+id/actionImg"/>
 
                 <Button
@@ -168,6 +170,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnUploadPhoto"
+                    android:layout_marginBottom="15dp"
                     android:textColor="@android:color/black"
                     android:visibility="invisible"
                     android:enabled="false"
@@ -182,6 +185,7 @@
                     android:layout_marginRight="35dp"
                     android:textSize="25sp"
                     android:text="@string/btnDone"
+                    android:layout_marginBottom="15dp"
                     android:background="@android:drawable/btn_default"
                     android:textColor="@android:color/black"
                     android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />

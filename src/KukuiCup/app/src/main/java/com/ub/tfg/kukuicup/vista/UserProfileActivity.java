@@ -1,7 +1,9 @@
 package com.ub.tfg.kukuicup.vista;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
@@ -25,6 +27,7 @@ import com.ub.tfg.kukuicup.controller.Controller;
 import com.ub.tfg.kukuicup.controller.SQLiteHandler;
 import com.ub.tfg.kukuicup.controller.SessionManager;
 import com.ub.tfg.kukuicup.model.JSONParser;
+import com.ub.tfg.kukuicup.model.User;
 
 import cz.msebera.android.httpclient.NameValuePair;
 import cz.msebera.android.httpclient.message.BasicNameValuePair;
@@ -50,10 +53,12 @@ public class UserProfileActivity extends Activity {
     private SessionManager session;
     private SQLiteHandler db;
     private ProgressDialog pDialog;
+    private AlertDialog alertDialog;
 
     private String confirmpass;
     private String newpass;
     JSONParser jsonParser = new JSONParser();
+    private static Button btn;
     private static String url_update_player_passwd;
     private static String url_login;
 
@@ -85,19 +90,38 @@ public class UserProfileActivity extends Activity {
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
 
+
         passwd = (EditText) findViewById(R.id.inputPswd);
         newPasswd = (EditText) findViewById(R.id.inputNewPswd);
         confirmPasswd = (EditText) findViewById(R.id.inputConfirmPswd);
         done = (Button) findViewById(R.id.doneBtn);
+        logOutBtn = (Button)findViewById(R.id.logOutBtn);
         username = (TextView) findViewById(R.id.usernameLabel);
         username.setText(session.getName().toString());
         username.setTextColor(Color.BLACK);
 
-        logOutBtn = (Button) findViewById(R.id.logOutBtn);
 
         logOutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-                logoutUser();
+                AlertDialog.Builder altDialog= new AlertDialog.Builder(UserProfileActivity.this);
+                altDialog.setMessage(getResources().getString(R.string.msgLogOut)).setCancelable(false)
+                        .setPositiveButton(getResources().getString(R.string.msgPosBtn), new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                logoutUser();
+                            }
+                        })
+                        .setNegativeButton(getResources().getString(R.string.msgNegBtn), new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                dialogInterface.cancel();
+                            }
+                        });
+                AlertDialog alert = altDialog.create();
+                alert.setTitle(getResources().getString(R.string.btnLogout));
+                alert.show();
+
             }
         });
 

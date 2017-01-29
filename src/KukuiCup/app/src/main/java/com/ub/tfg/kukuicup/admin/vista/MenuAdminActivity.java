@@ -21,6 +21,7 @@ public class MenuAdminActivity extends Activity {
 	
 
 	Button btnViewplayers;
+	Button btnViewregister;
 	Button btnNewplayer;
 	Button btnNewteam;
 	Button btnStart;
@@ -48,6 +49,7 @@ public class MenuAdminActivity extends Activity {
 		db = new SQLiteHandler(getApplicationContext());
 
 		btnViewplayers = (Button) findViewById(R.id.btnViewPlayers);
+		btnViewregister = (Button) findViewById(R.id.btnViewRegister);
 		btnNewplayer = (Button) findViewById(R.id.btnCreatePlayer);
 		btnNewteam = (Button) findViewById(R.id.btnCreateTeam);
 		btnStart = (Button) findViewById(R.id.startTournament);
@@ -64,6 +66,17 @@ public class MenuAdminActivity extends Activity {
 			public void onClick(View view) {
 				// Launching All players Activity
 				Intent i = new Intent(getApplicationContext(), AllPlayersActivity.class);
+				startActivity(i);
+
+			}
+		});
+
+		btnViewregister.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View view) {
+				// Launching All players Activity
+				Intent i = new Intent(getApplicationContext(), AllRegisterActivity.class);
 				startActivity(i);
 
 			}

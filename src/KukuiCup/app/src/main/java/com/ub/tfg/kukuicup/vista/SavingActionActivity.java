@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
@@ -19,8 +20,19 @@ import android.widget.Toast;
 
 import com.facebook.share.widget.LikeView;
 import com.ub.tfg.kukuicup.R;
+import com.ub.tfg.kukuicup.controller.Controller;
+import com.ub.tfg.kukuicup.controller.SessionManager;
+import com.ub.tfg.kukuicup.model.JSONParser;
 import com.ub.tfg.kukuicup.model.SavingAction;
 import com.facebook.FacebookSdk;
+
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cz.msebera.android.httpclient.NameValuePair;
+import cz.msebera.android.httpclient.message.BasicNameValuePair;
 
 /**
  * Created by Juanmi on 02/06/2016.
@@ -28,6 +40,7 @@ import com.facebook.FacebookSdk;
 public class SavingActionActivity extends Activity {
 
     int REQUEST_CODE = 1;
+    private SessionManager session;
 
     public int levelId;
     public int actionId;
@@ -46,6 +59,10 @@ public class SavingActionActivity extends Activity {
     private ImageView badgeImg;
     private ImageView actionImg;
     private ImageView savActionImg;
+    private String activityName;
+    private String username;
+    private static String url_activity_reg;
+    JSONParser jsonParser = new JSONParser();
 
     private RadioGroup radioGr;
     private RadioButton answer1btn, answer2btn, answer3btn;
@@ -67,6 +84,12 @@ public class SavingActionActivity extends Activity {
 
         levelId = extras.getInt("levelId");
         actionId = extras.getInt("actionId");
+
+        Controller control = new Controller();
+        session = new SessionManager(getApplicationContext());
+        username = session.getName();
+        String localhost = control.config.LOCALHOST;
+        url_activity_reg = "http://"+localhost+"/create_reg_activity.php";
 
         actionName = (TextView) findViewById(R.id.actionName);
         reward = (TextView) findViewById(R.id.actionReward);
@@ -105,6 +128,7 @@ public class SavingActionActivity extends Activity {
         alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
+                new SavePlayerActivity().execute();
                 Intent intent = new Intent(SavingActionActivity.this, MainActivity.class);
                 intent.putExtra("points", pointsObt);
                 startActivity(intent);
@@ -292,6 +316,7 @@ public class SavingActionActivity extends Activity {
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 5 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 5;
+                        activityName = "SA: Comp. Responsible";
                         break;
                     case 1:
                         savActionImg.setImageResource(R.drawable.piggybank);
@@ -308,6 +333,7 @@ public class SavingActionActivity extends Activity {
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 3 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 3;
+                        activityName = "SA: Desk Light";
 
                         break;
                     case 2:
@@ -326,6 +352,7 @@ public class SavingActionActivity extends Activity {
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 5 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 5;
+                        activityName = "SA: Like Kukui";
                         break;
                     default:
                         break;
@@ -347,6 +374,7 @@ public class SavingActionActivity extends Activity {
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 20 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 20;
+                        activityName = "SA: Room Consump.";
                         break;
                     case 1:
                         savActionImg.setImageResource(R.drawable.piggybank);
@@ -363,6 +391,7 @@ public class SavingActionActivity extends Activity {
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 3 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 3;
+                        activityName = "SA: Use Daylight";
                         break;
                     case 2:
                         savActionImg.setImageResource(R.drawable.piggybank);
@@ -378,6 +407,7 @@ public class SavingActionActivity extends Activity {
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 20 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 20;
+                        activityName = "SA: Consump. POST-IT";
                         break;
                     case 3:
                         savActionImg.setImageResource(R.drawable.piggybank);
@@ -393,6 +423,7 @@ public class SavingActionActivity extends Activity {
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 15 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 15;
+                        activityName = "SA: Search LED";
                         break;
                     default:
                         break;
@@ -420,6 +451,7 @@ public class SavingActionActivity extends Activity {
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 15 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 15;
+                        activityName = "SA: Wash M. Time";
                         break;
 
                     case 1:
@@ -440,6 +472,7 @@ public class SavingActionActivity extends Activity {
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgReward) + " 15 " +getResources().getString(R.string.msgRewardPoint));
                         pointsObt = 15;
+                        activityName = "SA: Wash M. Charge";
                         break;
                     default:
                         break;
@@ -449,5 +482,34 @@ public class SavingActionActivity extends Activity {
                 break;
         }
 
+    }
+
+    class SavePlayerActivity extends AsyncTask<String, String, String> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        /**
+         * Saving player
+         * */
+        protected String doInBackground(String... args) {
+
+            // Building Parameters
+            List<NameValuePair> params = new ArrayList<NameValuePair>();
+            params.add(new BasicNameValuePair("player_name", username));
+            params.add(new BasicNameValuePair("activity_name", activityName));
+
+            // sending modified data through http request
+            // Notice that update player url accepts POST method
+            JSONObject json = jsonParser.makeHttpRequest(url_activity_reg,
+                    "POST", params);
+            Log.d("activity_reg: ", json.toString());
+
+            return null;
+        }
+        protected void onPostExecute(String file_url) {
+        }
     }
 }

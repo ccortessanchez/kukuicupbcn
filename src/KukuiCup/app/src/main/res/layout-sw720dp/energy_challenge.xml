@@ -115,6 +115,7 @@
                     android:textSize="30sp"
                     android:textColor="@android:color/black"
                     android:layout_marginRight="35dp"
+                    android:layout_marginBottom="15dp"
                     android:background="@android:drawable/btn_default"
                     android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
 

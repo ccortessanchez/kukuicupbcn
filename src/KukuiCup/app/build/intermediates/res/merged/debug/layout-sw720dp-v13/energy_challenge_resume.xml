@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginRight="35dp"
+                    android:layout_marginRight="60dp"
                     android:textSize="30sp"
                     android:text="@string/pointsLabel" />
 
@@ -65,18 +65,6 @@
                     android:id="@+id/enrgChallImg" />
 
                 <TextView
-                    android:id="@+id/challengeReward"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/rewardLabel"
-                    android:textSize="30sp"
-                    android:layout_alignParentTop="true"
-                    android:layout_toLeftOf="@+id/pointsLbl"
-                    android:layout_toStartOf="@+id/pointsLbl"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginEnd="10dp" />
-
-                <TextView
                     android:id="@+id/challengeName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -87,6 +75,16 @@
                     android:layout_alignParentTop="true"
                     android:layout_toRightOf="@+id/enrgChallImg"
                     android:layout_toEndOf="@+id/enrgChallImg" />
+
+                <TextView
+                    android:id="@+id/challengeReward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rewardLabel"
+                    android:textSize="30sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/pointsLbl"
+                    android:layout_toStartOf="@+id/pointsLbl" />
 
             </RelativeLayout>
 
@@ -150,6 +148,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/btnTakePhoto"
                     android:textSize="30sp"
+                    android:layout_marginBottom="15dp"
                     android:id="@+id/secondaryBtn"
                     android:background="@android:drawable/btn_default"
                     tools:textColor="@android:color/black"
@@ -160,6 +159,7 @@
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:visibility="invisible"
+                    android:layout_marginBottom="15dp"
                     android:id="@+id/actionImg"/>
 
                 <Button
@@ -168,6 +168,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnUploadPhoto"
+                    android:layout_marginBottom="15dp"
                     android:textColor="@android:color/black"
                     android:visibility="invisible"
                     android:enabled="false"
@@ -180,6 +181,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginRight="35dp"
+                    android:layout_marginBottom="15dp"
                     android:textSize="30sp"
                     android:text="@string/btnDone"
                     android:background="@android:drawable/btn_default"

@@ -83,10 +83,12 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="activityReg">Registro de actividades</string>
     <string name="actualPassLabel">Contraseña actual</string>
     <string name="allPlayersLabel">Todos los jugadores</string>
+    <string name="allRegisterLabel">Registro de actividades</string>
     <string name="app_name">KukuiCup</string>
-    <string name="badgeCollect">Colección de Medallas :</string>
+    <string name="badgeCollect">Colección de Medallas:</string>
     <string name="badgeL1_Chal1">offBeforeSleep</string>
     <string name="badgeL2_Chal1">useStairs</string>
     <string name="badgeL2_Chal2">emptyRoom</string>
@@ -108,6 +110,7 @@
     <string name="btnTakePhoto">Hacer foto</string>
     <string name="btnUploadPhoto">Subir foto</string>
     <string name="btnViewPlayers">Ver Jugadores</string>
+    <string name="btnViewRegister">Ver Registro de Actividades</string>
     <string name="btn_skip_intro">Skip Intro</string>
     <string name="challDays">Dias restantes:</string>
     <string name="changePassLabel">Cambiar Contraseña</string>
@@ -120,6 +123,7 @@
     <string name="com_facebook_loading">Cargando…</string>
     <string name="com_facebook_loginview_cancel_action">Cancelar</string>
     <string name="com_facebook_loginview_log_in_button">Inicio de sesión</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continuar con Facebook</string>
     <string name="com_facebook_loginview_log_in_button_long">Iniciar sesión con Facebook</string>
     <string name="com_facebook_loginview_log_out_action">Salir</string>
     <string name="com_facebook_loginview_log_out_button">Salir</string>
@@ -127,14 +131,14 @@
     <string name="com_facebook_loginview_logged_in_using_facebook">Sesión iniciada con Facebook</string>
     <string name="com_facebook_send_button_text">Enviar</string>
     <string name="com_facebook_share_button_text">Compartir</string>
-    <string name="com_facebook_tooltip_default">¡Nuevo! Tú tienes el control: elige qué información quieres compartir con las aplicaciones.</string>
+    <string name="com_facebook_tooltip_default">Tú decides: elige qué información quieres compartir con las aplicaciones.</string>
     <string name="confirmPassLabel">Confirmar contraseña</string>
     <string name="creatingPlayers">Creando Jugador...</string>
     <string name="creatingTeam">Creanado Equipo...</string>
-    <string name="dashPoints">Puntos :</string>
+    <string name="dashPoints">Puntos:</string>
     <string name="dashRkgTeam">Ranking</string>
     <string name="dashRkgUser">Panel de Usuario</string>
-    <string name="daysRemaining">Fecha final KukuiCupBCN : </string>
+    <string name="daysRemaining">Fecha final KukuiCupBCN: </string>
     <string name="descL1_enrgChal1">¿Conseguirás el siguiente reto?
         Apagar y desconectar los aparatos electrónicos de tu cuarto antes de dormir.
         Realiza esta acción durante 5 días seguidos para conseguir el reto.</string>
@@ -193,7 +197,8 @@
     <string name="level1Label">Nivel 1</string>
     <string name="level2Label">Nivel 2</string>
     <string name="level3Label">Nivel 3</string>
-    <string name="loadPlayers">Cargando judaroes. Espera por favor...</string>
+    <string name="loadPlayers">Cargando judadores. Espera por favor...</string>
+    <string name="loadRegister">Cargando registro. Espera por favor...</string>
     <string name="loadTeams">Cargando equipos. Espera por favor...</string>
     <string name="localhost">10.133.5.181</string>
     <string name="messenger_send_button_text">Enviar</string>
@@ -209,14 +214,17 @@
     <string name="msgId">Identificando ...</string>
     <string name="msgInvPass">Contraseña inválida</string>
     <string name="msgLevelBlocked">Necesitas completar el nivel anterior para continuar</string>
+    <string name="msgLogOut">¿Seguro que quieres salir de la KukuiCupBCN?</string>
     <string name="msgLogResp">Respuesta de Login:</string>
+    <string name="msgNegBtn">No</string>
     <string name="msgPass">Debes rellenar todos los campos</string>
+    <string name="msgPosBtn">Si</string>
     <string name="msgQuiz1L1">Has ganado la medalla del Nivel 1 y 30 puntos</string>
     <string name="msgQuiz1L2">Has ganado la medalla del Nivel 2 y 30 puntos</string>
     <string name="msgQuiz1L3">Has ganado la medalla del Nivel 3+ y 30 puntos</string>
     <string name="msgQuiz2L2">Has ganado 30 puntos</string>
     <string name="msgQuiz2L3">Has ganado la medalla del Nivel 3 y 30 puntos</string>
-    <string name="msgQuizAttempt">Prueba otra vez. ¡Presta atención al video!</string>
+    <string name="msgQuizAttempt">Prueba otra vez. ¡Presta atención al video para ganar una medalla!</string>
     <string name="msgQuizAttemptTitle">No te quedan más intentos</string>
     <string name="msgReward">Has ganado</string>
     <string name="msgRewardPoint">puntos</string>
@@ -226,6 +234,7 @@
     <string name="newPassLabel">Contraseña nueva</string>
     <string name="newPlayerLabel">Nuevo Jugador</string>
     <string name="newTeamLabel">Nuevo Equipo</string>
+    <string name="noEndDate">no hay ningun torneo disponible</string>
     <string name="noTournament">No hay ningún torneo disponible. Por favor, póngase en contacto con el administrador.</string>
     <string name="playerNameLabel">Nombre del Jugador</string>
     <string name="pointsLabel">Puntos</string>
@@ -277,4 +286,5 @@
     <string name="userEnter">¡Por favor intruduce tu nombre de usuario y la contraseña!</string>
     <string name="video">Video</string>
     <string name="welcomeMsg">Bienvenido a KukuiCupBCN</string>
+    <string name="yourTeamRkg">------ TU EQUIPO!</string>
 </resources>

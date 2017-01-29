@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
@@ -17,9 +18,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ub.tfg.kukuicup.R;
+import com.ub.tfg.kukuicup.controller.Controller;
 import com.ub.tfg.kukuicup.controller.SessionManager;
+import com.ub.tfg.kukuicup.model.JSONParser;
 
+import org.json.JSONObject;
 import org.w3c.dom.Text;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cz.msebera.android.httpclient.NameValuePair;
+import cz.msebera.android.httpclient.message.BasicNameValuePair;
 
 /**
  * Created by Juanmi on 29/06/2016.
@@ -47,6 +57,11 @@ public class EnergyChallengeResume extends Activity {
     private Button secondaryBtn;
     private Button uploadBtn;
 
+    private String activityName;
+    private String username;
+    private static String url_activity_reg;
+    JSONParser jsonParser = new JSONParser();
+
     private ImageView pointsImg;
     private ImageView badgeImg;
     private ImageView actionImg;
@@ -61,6 +76,11 @@ public class EnergyChallengeResume extends Activity {
 
         Bundle extras = getIntent().getExtras();
         session = new SessionManager(getApplicationContext());
+
+        Controller control = new Controller();
+        username = session.getName();
+        String localhost = control.config.LOCALHOST;
+        url_activity_reg = "http://"+localhost+"/create_reg_activity.php";
 
         levelId = extras.getInt("levelId");
         challengeId = extras.getInt("challengeId");
@@ -115,6 +135,8 @@ public class EnergyChallengeResume extends Activity {
         alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
+                activityName = activityName + " badge";
+                new SavePlayerActivity().execute();
                 Intent intent = new Intent(EnergyChallengeResume.this, MainActivity.class);
                 intent.putExtra("points", pointsObt);
                 intent.putExtra("badge", badge);
@@ -131,6 +153,8 @@ public class EnergyChallengeResume extends Activity {
 
         primaryBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
+                activityName = activityName + " " + counter;
+                new SavePlayerActivity().execute();
                 Intent intent = new Intent(EnergyChallengeResume.this, MainActivity.class);
                 intent.putExtra("points", pointsObt);
                 session.setChallengeCnt(counter-1);
@@ -244,6 +268,7 @@ public class EnergyChallengeResume extends Activity {
 
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 5;
+                        activityName = "EC: Off Bef. Sleep";
                         badge = getResources().getString(R.string.badgeL1_Chal1);
 
 
@@ -269,7 +294,7 @@ public class EnergyChallengeResume extends Activity {
                         description.setText(getResources().getString(R.string.resumeL2_enrgChal1));
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 15;
-                        //cambiar nombre medalla
+                        activityName = "EC: Use Stairs";
                         badge = getResources().getString(R.string.badgeL2_Chal1);
                         break;
                     case 1:
@@ -283,7 +308,7 @@ public class EnergyChallengeResume extends Activity {
                         description.setText(getResources().getString(R.string.resumeL2_enrgChal2));
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 30;
-                        //cambiar nombre medalla
+                        activityName = "EC: Change LED";
                         badge = "level2Plus";
                         break;
                     case 2:
@@ -299,7 +324,7 @@ public class EnergyChallengeResume extends Activity {
 
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         pointsObt = 5;
-                        //cambiar nombre medalla
+                        activityName = "EC: Off Emp. Room";
                         badge = getResources().getString(R.string.badgeL2_Chal2);
                         break;
                     default:
@@ -322,7 +347,7 @@ public class EnergyChallengeResume extends Activity {
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
                         //comprobar primera posicion o segunda
                         pointsObt = 100;
-                        //cambiar nombre medalla
+                        activityName = "EC: Team Play";
                         badge = getResources().getString(R.string.badgeL3_Chal1);
                         break;
                     case 1:
@@ -339,6 +364,7 @@ public class EnergyChallengeResume extends Activity {
                         secondaryBtn.setVisibility(View.VISIBLE);
                         secondaryBtn.setText(getResources().getString(R.string.btnTakePhoto));
                         primaryBtn.setText(getResources().getString(R.string.btnDone));
+                        activityName = "EC: Shirt Design";
                         pointsObt = 10;
 
                         break;
@@ -352,6 +378,35 @@ public class EnergyChallengeResume extends Activity {
                 break;
         }
 
+    }
+
+    class SavePlayerActivity extends AsyncTask<String, String, String> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        /**
+         * Saving player
+         * */
+        protected String doInBackground(String... args) {
+
+            // Building Parameters
+            List<NameValuePair> params = new ArrayList<NameValuePair>();
+            params.add(new BasicNameValuePair("player_name", username));
+            params.add(new BasicNameValuePair("activity_name", activityName));
+
+            // sending modified data through http request
+            // Notice that update player url accepts POST method
+            JSONObject json = jsonParser.makeHttpRequest(url_activity_reg,
+                    "POST", params);
+            Log.d("activity_reg: ", json.toString());
+
+            return null;
+        }
+        protected void onPostExecute(String file_url) {
+        }
     }
 
 }

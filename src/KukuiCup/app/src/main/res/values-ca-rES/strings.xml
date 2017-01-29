@@ -41,7 +41,7 @@
     <string name="btnContinue">Continuar repte</string>
     <string name="msgToastQuiz">Pots fer-ho millor!</string>
     <string name="msgQuizAttemptTitle">No et queden mes intents</string>
-    <string name="msgQuizAttempt">Prova un altre cop. Posa atenció al video!</string>
+    <string name="msgQuizAttempt">Prova un altre cop. Posa atenció al video per guanyar una medalla!</string>
     <string name="msgQuiz1L1">Has guanyat la medalla del Nivell 1 i 30 punts</string>
     <string name="msgQuiz1L2">Has guanyat la medalla del Nivell 2 i 30 punts</string>
     <string name="msgQuiz2L2">Has guanyat 30 punts</string>
@@ -55,9 +55,14 @@
     <string name="btnContinueJoke">Continua</string>
     <string name="jokeMsg">Ben fet! Gaudeix d\'aquest acudit ...</string>
     <string name="savTip">Consell d\'estalvi!</string>
+    <string name="msgLogOut">Vols sortir de la KukuiCupBCN?</string>
+    <string name="msgPosBtn">Si</string>
+    <string name="msgNegBtn">No</string>
+    <string name="yourTeamRkg">------ EL TEU EQUIP!</string>
 
     <!--- LABELS ADMIN VISTAS-->
     <string name="allPlayersLabel">Tots els jugadors</string>
+    <string name="allRegisterLabel">Registre d\'activitats</string>
     <string name="newPlayerLabel">Nou jugador</string>
     <string name="newTeamLabel">Nou Equip</string>
     <string name="editPlayerLabel">Editar jugador</string>
@@ -75,6 +80,7 @@
     <string name="hintPass">Contrasenya</string>
     <string name="btnCreateTeam">Afergir Equip</string>
     <string name="btnViewPlayers">Veure Jugadors</string>
+    <string name="btnViewRegister">Veure Registre d\'Activitats</string>
     <string name="btnCreatePlayer">Afegir Jugador</string>
     <string name="startTournament">Iniciar el torneig</string>
     <string name="initDate">Data Inici:</string>
@@ -92,6 +98,7 @@
     <string name="newPassLabel">Contrasenya nova</string>
     <string name="confirmPassLabel">Confirmar contrasenya</string>
     <string name="loadTeams">Carregant equips. Espera siusplau...</string>
+    <string name="loadRegister">Caregant registre. Espera sisuplau...</string>
     <string name="creatingPlayers">Creant jugador...</string>
     <string name="loadPlayers">Carregant jugadors. Espera siusplau...</string>
     <string name="creatingTeam">Creant jugador...</string>
@@ -106,9 +113,11 @@
     <string name="dashRkgUser">Panell de Usuari</string>
     <string name="dashRkgTeam">Ranking</string>
     <string name="rankTeams">Classificació per equips</string>
-    <string name="dashPoints">Punts :</string>
-    <string name="daysRemaining">Data fi KukuiCupBCN : </string>
-    <string name="badgeCollect">Colecció de Medallas :</string>
+    <string name="activityReg">Registre d\'activitats</string>
+    <string name="dashPoints">Punts:</string>
+    <string name="daysRemaining">Data fi KukuiCupBCN: </string>
+    <string name="badgeCollect">Colecció de Medallas:</string>
+    <string name="noEndDate">no hi ha cap torneig disponible</string>
 
     <!--- SAVING ACTIONS LEVEL 1 -->
     <string name="savActL1_1">Ordinador responsable</string>

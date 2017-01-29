@@ -64,10 +64,12 @@
     <string name="L3_video2">Energia Solar</string>
     <string name="L3_videoDesc1">Aquest curt video descriu quins recursos podem utilitzar per a produir energies renovables i quins son els seus beneficis.</string>
     <string name="L3_videoDesc2">Aquest curt video descriu com funciona l\'energia solar i quins aparells s\'utilitzen per generar electricitat</string>
+    <string name="activityReg">Registre d\'activitats</string>
     <string name="actualPassLabel">Contrasenya actual</string>
     <string name="allPlayersLabel">Tots els jugadors</string>
+    <string name="allRegisterLabel">Registre d\'activitats</string>
     <string name="app_name">KukuiCup</string>
-    <string name="badgeCollect">Colecció de Medallas :</string>
+    <string name="badgeCollect">Colecció de Medallas:</string>
     <string name="badgeL1_Chal1">offBeforeSleep</string>
     <string name="badgeL2_Chal1">useStairs</string>
     <string name="badgeL2_Chal2">emptyRoom</string>
@@ -89,16 +91,17 @@
     <string name="btnTakePhoto">Fer foto</string>
     <string name="btnUploadPhoto">Pujar foto</string>
     <string name="btnViewPlayers">Veure Jugadors</string>
+    <string name="btnViewRegister">Veure Registre d\'Activitats</string>
     <string name="btn_skip_intro">Skip Intro</string>
     <string name="challDays">Dies restants:</string>
     <string name="changePassLabel">Canviar Contrasenya</string>
     <string name="confirmPassLabel">Confirmar contrasenya</string>
     <string name="creatingPlayers">Creant jugador...</string>
     <string name="creatingTeam">Creant jugador...</string>
-    <string name="dashPoints">Punts :</string>
+    <string name="dashPoints">Punts:</string>
     <string name="dashRkgTeam">Ranking</string>
     <string name="dashRkgUser">Panell de Usuari</string>
-    <string name="daysRemaining">Data fi KukuiCupBCN : </string>
+    <string name="daysRemaining">Data fi KukuiCupBCN: </string>
     <string name="descL1_enrgChal1">Aconseguiràs el següent repte?
         Apagar i desconectar els aparells electronics de la teva habitació abans de dormir.
         Fes aquesta acció durant 5 dies seguits per superar aquest repte.</string>
@@ -158,6 +161,7 @@
     <string name="level2Label">Nivell 2</string>
     <string name="level3Label">Nivell 3</string>
     <string name="loadPlayers">Carregant jugadors. Espera siusplau...</string>
+    <string name="loadRegister">Caregant registre. Espera sisuplau...</string>
     <string name="loadTeams">Carregant equips. Espera siusplau...</string>
     <string name="localhost">10.133.5.181</string>
     <string name="msgBadge1">Has guanyat la medalla Apagar Abans De Dormir.</string>
@@ -172,14 +176,17 @@
     <string name="msgId">Identificació ...</string>
     <string name="msgInvPass">Contrasenya no vàlida</string>
     <string name="msgLevelBlocked">Has d\'acabar el nivell anterior per poder continuar</string>
+    <string name="msgLogOut">Vols sortir de la KukuiCupBCN?</string>
     <string name="msgLogResp">Resposta de Login:</string>
+    <string name="msgNegBtn">No</string>
     <string name="msgPass">Has d\'omplir tots els camps</string>
+    <string name="msgPosBtn">Si</string>
     <string name="msgQuiz1L1">Has guanyat la medalla del Nivell 1 i 30 punts</string>
     <string name="msgQuiz1L2">Has guanyat la medalla del Nivell 2 i 30 punts</string>
     <string name="msgQuiz1L3">Has guanyat la medalla del Nivell 3+ i 30 punts</string>
     <string name="msgQuiz2L2">Has guanyat 30 punts</string>
     <string name="msgQuiz2L3">Has guanyat la medalla del Nivell 3 i 30 punts</string>
-    <string name="msgQuizAttempt">Prova un altre cop. Posa atenció al video!</string>
+    <string name="msgQuizAttempt">Prova un altre cop. Posa atenció al video per guanyar una medalla!</string>
     <string name="msgQuizAttemptTitle">No et queden mes intents</string>
     <string name="msgReward">Has guanyat</string>
     <string name="msgRewardPoint">punts</string>
@@ -189,6 +196,7 @@
     <string name="newPassLabel">Contrasenya nova</string>
     <string name="newPlayerLabel">Nou jugador</string>
     <string name="newTeamLabel">Nou Equip</string>
+    <string name="noEndDate">no hi ha cap torneig disponible</string>
     <string name="noTournament">No hi ha cap torneig disponible. Siusplau, contacti amb l\'administrador.</string>
     <string name="playerNameLabel">Nom del Jugador</string>
     <string name="pointsLabel">Punts</string>
@@ -238,4 +246,5 @@
     <string name="userEnter">Siusplau entri el seu nom d\'usuari i la seva contrasenya!</string>
     <string name="video">Vídeo</string>
     <string name="welcomeMsg">Benvingut a KukuiCupBCN</string>
+    <string name="yourTeamRkg">------ EL TEU EQUIP!</string>
 </resources>

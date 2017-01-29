@@ -49,6 +49,7 @@
     <color name="com_facebook_button_background_color_pressed">#2f477a</color>
     <color name="com_facebook_button_background_color_selected">#7c8fc8</color>
     <color name="com_facebook_button_border_color_focused">#dedee6</color>
+    <color name="com_facebook_button_login_background_color">#4267b2</color>
     <color name="com_facebook_button_login_silver_background_color">#f4f6f8</color>
     <color name="com_facebook_button_login_silver_background_color_pressed">#e9eaf0</color>
     <color name="com_facebook_button_send_background_color">@color/com_facebook_messenger_blue</color>
@@ -316,6 +317,7 @@
     <dimen name="com_facebook_auth_dialog_corner_radius">2dp</dimen>
     <dimen name="com_facebook_auth_dialog_corner_radius_oversized">4dp</dimen>
     <dimen name="com_facebook_button_corner_radius">2dp</dimen>
+    <dimen name="com_facebook_button_login_corner_radius">3dp</dimen>
     <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
     <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
     <dimen name="com_facebook_likeboxcountview_caret_height">3dp</dimen>
@@ -460,10 +462,12 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="activityReg">Activity Register</string>
     <string name="actualPassLabel">Actual password</string>
     <string name="allPlayersLabel">All Players</string>
+    <string name="allRegisterLabel">Register Activity</string>
     <string name="app_name">KukuiCup</string>
-    <string name="badgeCollect">Badge Collection :</string>
+    <string name="badgeCollect">Badge Collection:</string>
     <string name="badgeL1_Chal1">offBeforeSleep</string>
     <string name="badgeL2_Chal1">useStairs</string>
     <string name="badgeL2_Chal2">emptyRoom</string>
@@ -485,6 +489,7 @@
     <string name="btnTakePhoto">Take a photo</string>
     <string name="btnUploadPhoto">Upload photo</string>
     <string name="btnViewPlayers">View Players</string>
+    <string name="btnViewRegister">View Activity Register</string>
     <string name="btn_skip_intro">Skip Intro</string>
     <string name="challDays">Remaining days:</string>
     <string name="changePassLabel">Change Password</string>
@@ -497,6 +502,7 @@
     <string name="com_facebook_loading">Loading…</string>
     <string name="com_facebook_loginview_cancel_action">Cancel</string>
     <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continue with Facebook</string>
     <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
     <string name="com_facebook_loginview_log_out_action">Log out</string>
     <string name="com_facebook_loginview_log_out_button">Log out</string>
@@ -512,14 +518,14 @@
     <string name="com_facebook_smart_login_confirmation_cancel">Not you?</string>
     <string name="com_facebook_smart_login_confirmation_continue_as">Continue as %1$s</string>
     <string name="com_facebook_smart_login_confirmation_title">Confirm Login</string>
-    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <string name="com_facebook_tooltip_default">You\'re in control - choose what info you want to share with apps.</string>
     <string name="confirmPassLabel">Confirm password</string>
     <string name="creatingPlayers">Creating Player...</string>
     <string name="creatingTeam">Creating Team...</string>
-    <string name="dashPoints">Points :</string>
+    <string name="dashPoints">Points:</string>
     <string name="dashRkgTeam">Ranking</string>
     <string name="dashRkgUser">User Panel</string>
-    <string name="daysRemaining">KukuiCupBCN end date : </string>
+    <string name="daysRemaining">KukuiCupBCN end date: </string>
     <string name="descL1_enrgChal1">Will you get the next challenge? Off and unplug all electrical devices in your room before going to sleep.
         Perform this action for 5 consecutive days to win the challenge.</string>
     <string name="descL1_saveAct1">Configure your computer and any external monitor to sleep after 20 minutes of inactivity.
@@ -578,6 +584,7 @@
     <string name="level2Label">Level 2</string>
     <string name="level3Label">Level 3</string>
     <string name="loadPlayers">Loading players. Please wait...</string>
+    <string name="loadRegister">Loading register. Please wait...</string>
     <string name="loadTeams">Loading teams. Please wait...</string>
     <string name="localhost">10.133.5.181</string>
     <string name="messenger_send_button_text">Send</string>
@@ -593,14 +600,17 @@
     <string name="msgId">Identification ...</string>
     <string name="msgInvPass">Invalid password</string>
     <string name="msgLevelBlocked">You need to complete the previous level to continue</string>
+    <string name="msgLogOut">Do you really want to log out of KukuiCupBCN?</string>
     <string name="msgLogResp">Login Response:</string>
+    <string name="msgNegBtn">No</string>
     <string name="msgPass">You must fill all the gaps</string>
+    <string name="msgPosBtn">Yes</string>
     <string name="msgQuiz1L1">You have won the bagde of Level 1 and 30 points.</string>
     <string name="msgQuiz1L2">You have won the bagde of Level 2 and 30 points.</string>
     <string name="msgQuiz1L3">You have won the bagde of Level 3+ and 30 points.</string>
     <string name="msgQuiz2L2">You have won 30 points.</string>
     <string name="msgQuiz2L3">You have won the bagde of Level 3 and 30 points.</string>
-    <string name="msgQuizAttempt">Try again next time. Pay attention to the video!</string>
+    <string name="msgQuizAttempt">Try again next time. Pay attention to the video to win a badge!</string>
     <string name="msgQuizAttemptTitle">You have no more attempts</string>
     <string name="msgReward">You have won</string>
     <string name="msgRewardPoint">points</string>
@@ -610,6 +620,7 @@
     <string name="newPassLabel">New password</string>
     <string name="newPlayerLabel">New Player</string>
     <string name="newTeamLabel">New Team</string>
+    <string name="noEndDate">no tournament available</string>
     <string name="noTournament">No tournament available at this moment. Please, contact Administrator.</string>
     <string name="playerNameLabel">Player Name</string>
     <string name="pointsLabel">Points</string>
@@ -661,6 +672,7 @@
     <string name="userEnter">Please enter your username and password!</string>
     <string name="video">Video</string>
     <string name="welcomeMsg">Welcome to KukuiCupBCN</string>
+    <string name="yourTeamRkg">------ YOUR TEAM!</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2157,7 +2169,11 @@
         <item name="android:text">@string/com_facebook_share_button_text</item>
     </style>
     <style name="com_facebook_loginview_default_style" parent="com_facebook_button">
-        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+        <item name="android:background">@drawable/com_facebook_button_login_background</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:textSize">13.0dp</item>
     </style>
     <style name="com_facebook_loginview_silver_style" parent="com_facebook_loginview_default_style">
         <item name="android:background">@drawable/com_facebook_button_login_silver_background</item>

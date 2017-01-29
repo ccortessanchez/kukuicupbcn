@@ -9,7 +9,7 @@ public class Config {
     public static final String YOUTUBE_VIDEO_CODE = "_PD7a1EWjsTc";
 
     //Dev Machine IP
-    public static final String LOCALHOST = "192.168.1.130/kukuicupbcn";
-    //public static final String LOCALHOST = "proyectonline.es/carlos";
+    //public static final String LOCALHOST = "192.168.1.129/kukuicupbcn";
+    public static final String LOCALHOST = "proyectonline.es/carlos";
     //public static final String LOCALHOST = "10.133.10.8";
 }

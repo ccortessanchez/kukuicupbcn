@@ -130,7 +130,7 @@ public class AllPlayersActivity extends ListActivity{
             pDialog.setMessage(getResources().getString(R.string.loadPlayers));
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(false);
-            pDialog.show();
+            //pDialog.show();
         }
 
         /**

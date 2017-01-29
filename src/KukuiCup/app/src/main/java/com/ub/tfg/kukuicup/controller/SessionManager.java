@@ -78,6 +78,13 @@ public class SessionManager {
 
     public String getName() {return pref.getString(KEY_NAME, "null");}
 
+    public void setTeam(String team) {
+        editor.putString(KEY_TEAM, team);
+        editor.commit();
+    }
+
+    public String getTeam() {return pref.getString(KEY_TEAM, "null");}
+
     public void setEasterEggDay(int day) {
 
         editor.putInt(KEY_EASTEREGG_DAY, day);

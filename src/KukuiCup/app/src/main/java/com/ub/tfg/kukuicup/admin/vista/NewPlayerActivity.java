@@ -132,7 +132,7 @@ public class NewPlayerActivity extends Activity {
             pDialog.setMessage(getResources().getString(R.string.creatingPlayers));
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
-            pDialog.show();
+            //pDialog.show();
         }
 
         /**

@@ -31,6 +31,18 @@
         android:background="#5F4C0B"
         android:textColor="#BEF781" />
 
+    <Button
+        android:id="@+id/btnViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:textSize="25sp"
+        android:text="@string/btnViewRegister"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:background="#5F4C0B"
+        android:textColor="#BEF781" />
+
     <!--  Button to create a new player screen -->
     <Button
         android:id="@+id/btnCreatePlayer"

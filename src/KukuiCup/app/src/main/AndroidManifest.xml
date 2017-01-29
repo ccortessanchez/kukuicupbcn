@@ -34,6 +34,7 @@
         </activity>
         <activity
             android:name=".vista.MenuActivity"
+            android:icon="@drawable/ic_launcher"
             android:screenOrientation="landscape" >            
         </activity>
         <activity
@@ -76,6 +77,11 @@
             android:name=".admin.vista.AllPlayersActivity"
             android:screenOrientation="portrait"
             android:label="@string/allPlayersLabel">
+        </activity>
+        <activity
+            android:name=".admin.vista.AllRegisterActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/allRegisterLabel">
         </activity>
         <activity
             android:name=".admin.vista.NewPlayerActivity"

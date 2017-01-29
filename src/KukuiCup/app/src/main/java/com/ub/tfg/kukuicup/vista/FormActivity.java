@@ -11,12 +11,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.ub.tfg.kukuicup.R;
 import com.ub.tfg.kukuicup.controller.Controller;
+import com.ub.tfg.kukuicup.controller.SessionManager;
+import com.ub.tfg.kukuicup.model.JSONParser;
 
 import org.json.JSONObject;
 
@@ -30,6 +33,8 @@ import cz.msebera.android.httpclient.message.BasicNameValuePair;
  * Created by Juanmi on 29/06/2016.
  */
 public class FormActivity extends Activity {
+
+    private SessionManager session;
 
     public int levelId;
     public int formId;
@@ -48,6 +53,11 @@ public class FormActivity extends Activity {
     private ImageView badgeImg;
 
     private String answer1, answer2, answer3;
+
+    private String activityName;
+    private String username;
+    private static String url_activity_reg;
+    JSONParser jsonParser = new JSONParser();
 
     private int jokeId;
     private int form_attempt;
@@ -68,12 +78,16 @@ public class FormActivity extends Activity {
 
         Bundle extras = getIntent().getExtras();
         Controller control = new Controller();
-        String localhost = control.config.LOCALHOST;
 
         levelId = extras.getInt("levelId");
         formId = extras.getInt("formId");
         pointsObt = extras.getInt("points");
         badgeObt = "none";
+
+        session = new SessionManager(getApplicationContext());
+        username = session.getName();
+        String localhost = control.config.LOCALHOST;
+        url_activity_reg = "http://"+localhost+"/create_reg_activity.php";
 
         formName = (TextView)findViewById(R.id.formName);
         form_attempt = 1;
@@ -108,6 +122,7 @@ public class FormActivity extends Activity {
         alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
+                new SavePlayerActivity().execute();
                 Intent intent = new Intent(FormActivity.this, JokeActivity.class);
                 intent.putExtra("levelId",levelId);
                 intent.putExtra("formId",formId);
@@ -128,6 +143,7 @@ public class FormActivity extends Activity {
         alertFormAttempts.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
+                new SavePlayerActivity().execute();
                 Intent intent = new Intent(FormActivity.this, MainActivity.class);
                 intent.putExtra("levelId",levelId);
                 intent.putExtra("points",10);
@@ -151,7 +167,20 @@ public class FormActivity extends Activity {
                     }
                     else {
                         form_attempt = form_attempt - 1;
-                        Toast.makeText(FormActivity.this, getResources().getString(R.string.msgToastQuiz), Toast.LENGTH_SHORT).show();
+
+                        if(getResources().getBoolean(R.bool.tablet)){
+                            Toast toast = Toast.makeText(FormActivity.this, getResources().getString(R.string.msgToastQuiz), Toast.LENGTH_SHORT);
+                            LinearLayout toastLayout = (LinearLayout) toast.getView();
+                            TextView toastTV = (TextView) toastLayout.getChildAt(0);
+                            toastTV.setTextSize(30);
+                            toast.show();
+                        }
+
+                        else {
+                            Toast.makeText(FormActivity.this, getResources().getString(R.string.msgToastQuiz), Toast.LENGTH_SHORT).show();
+                        }
+
+
                     }
 
                 }
@@ -195,6 +224,7 @@ public class FormActivity extends Activity {
                         // Setting Icon to Dialog
                         alertDialog.setIcon(R.mipmap.level1_badge);
                         pointsObt+=30;
+                        activityName = "V+Q: Power Energy";
                         badgeObt = "level1";
 
                         break;
@@ -238,6 +268,7 @@ public class FormActivity extends Activity {
                         // Setting Icon to Dialog
                         alertDialog.setIcon(R.mipmap.level2_badge);
                         pointsObt+=30;
+                        activityName = "V+Q: Wind Power";
                         badgeObt = "level2";
                         break;
 
@@ -267,6 +298,7 @@ public class FormActivity extends Activity {
 
                         // Setting Dialog Message
                         alertDialog.setMessage(getResources().getString(R.string.msgQuiz2L2));
+                        activityName = "V+Q: LED Benefits";
                         pointsObt+=30;
 
                         break;
@@ -308,6 +340,7 @@ public class FormActivity extends Activity {
                         // Setting Icon to Dialog
                         alertDialog.setIcon(R.mipmap.level1_badge);
                         pointsObt+=30;
+                        activityName = "V+Q: Renew. Energy";
                         badgeObt = "level3+";
                         break;
 
@@ -342,6 +375,7 @@ public class FormActivity extends Activity {
                         // Setting Icon to Dialog
                         alertDialog.setIcon(R.mipmap.level3_badge);
                         pointsObt+=30;
+                        activityName = "V+Q: Solar Energy";
                         badgeObt = "level3";
                         break;
                     case 2:
@@ -354,6 +388,35 @@ public class FormActivity extends Activity {
                 break;
         }
 
+    }
+
+    class SavePlayerActivity extends AsyncTask<String, String, String> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        /**
+         * Saving player
+         * */
+        protected String doInBackground(String... args) {
+
+            // Building Parameters
+            List<NameValuePair> params = new ArrayList<NameValuePair>();
+            params.add(new BasicNameValuePair("player_name", username));
+            params.add(new BasicNameValuePair("activity_name", activityName));
+
+            // sending modified data through http request
+            // Notice that update player url accepts POST method
+            JSONObject json = jsonParser.makeHttpRequest(url_activity_reg,
+                    "POST", params);
+            Log.d("activity_reg: ", json.toString());
+
+            return null;
+        }
+        protected void onPostExecute(String file_url) {
+        }
     }
 
 }

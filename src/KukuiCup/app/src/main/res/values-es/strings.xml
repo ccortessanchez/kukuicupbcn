@@ -41,7 +41,7 @@
     <string name="btnContinue">Continuar reto</string>
     <string name="msgToastQuiz">¡Puedes hacerlo mejor!</string>
     <string name="msgQuizAttemptTitle">No te quedan más intentos</string>
-    <string name="msgQuizAttempt">Prueba otra vez. ¡Presta atención al video!</string>
+    <string name="msgQuizAttempt">Prueba otra vez. ¡Presta atención al video para ganar una medalla!</string>
     <string name="msgQuiz1L1">Has ganado la medalla del Nivel 1 y 30 puntos</string>
     <string name="msgQuiz1L2">Has ganado la medalla del Nivel 2 y 30 puntos</string>
     <string name="msgQuiz2L2">Has ganado 30 puntos</string>
@@ -55,9 +55,14 @@
     <string name="btnContinueJoke">Continua</string>
     <string name="jokeMsg">¡Bien hecho! Disfruta de este chiste ...</string>
     <string name="savTip">¡Consejo de ahorro!</string>
+    <string name="msgLogOut">¿Seguro que quieres salir de la KukuiCupBCN?</string>
+    <string name="msgPosBtn">Si</string>
+    <string name="msgNegBtn">No</string>
+    <string name="yourTeamRkg">------ TU EQUIPO!</string>
 
     <!--- LABELS ADMIN VISTAS-->
     <string name="allPlayersLabel">Todos los jugadores</string>
+    <string name="allRegisterLabel">Registro de actividades</string>
     <string name="newPlayerLabel">Nuevo Jugador</string>
     <string name="newTeamLabel">Nuevo Equipo</string>
     <string name="editPlayerLabel">Editar Jugador</string>
@@ -75,6 +80,7 @@
     <string name="hintPass">Contraseña</string>
     <string name="btnCreateTeam">Añadir Equipo</string>
     <string name="btnViewPlayers">Ver Jugadores</string>
+    <string name="btnViewRegister">Ver Registro de Actividades</string>
     <string name="btnCreatePlayer">Añadir Jugador</string>
     <string name="startTournament">Empezar el torneo</string>
     <string name="initDate">Fecha Inicio:</string>
@@ -92,8 +98,9 @@
     <string name="newPassLabel">Contraseña nueva</string>
     <string name="confirmPassLabel">Confirmar contraseña</string>
     <string name="loadTeams">Cargando equipos. Espera por favor...</string>
+    <string name="loadRegister">Cargando registro. Espera por favor...</string>
     <string name="creatingPlayers">Creando Jugador...</string>
-    <string name="loadPlayers">Cargando judaroes. Espera por favor...</string>
+    <string name="loadPlayers">Cargando judadores. Espera por favor...</string>
     <string name="creatingTeam">Creanado Equipo...</string>
     <string name="noTournament">No hay ningún torneo disponible. Por favor, póngase en contacto con el administrador.</string>
     <string name="userEnter">¡Por favor intruduce tu nombre de usuario y la contraseña!</string>
@@ -106,9 +113,11 @@
     <string name="dashRkgUser">Panel de Usuario</string>
     <string name="dashRkgTeam">Ranking</string>
     <string name="rankTeams">Classificación por equipos</string>
-    <string name="dashPoints">Puntos :</string>
-    <string name="daysRemaining">Fecha final KukuiCupBCN : </string>
-    <string name="badgeCollect">Colección de Medallas :</string>
+    <string name="activityReg">Registro de actividades</string>
+    <string name="dashPoints">Puntos:</string>
+    <string name="daysRemaining">Fecha final KukuiCupBCN: </string>
+    <string name="badgeCollect">Colección de Medallas:</string>
+    <string name="noEndDate">no hay ningun torneo disponible</string>
 
     <!--- SAVING ACTIONS LEVEL 1 -->
     <string name="savActL1_1">Ordenador responsable</string>
