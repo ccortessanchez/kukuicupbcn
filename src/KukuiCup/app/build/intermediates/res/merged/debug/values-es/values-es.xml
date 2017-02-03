@@ -87,6 +87,8 @@
     <string name="actualPassLabel">Contraseña actual</string>
     <string name="allPlayersLabel">Todos los jugadores</string>
     <string name="allRegisterLabel">Registro de actividades</string>
+    <string name="allTeamsLabel">Todos los equipos</string>
+    <string name="allTournamentsLabel">Todos los torneos</string>
     <string name="app_name">KukuiCup</string>
     <string name="badgeCollect">Colección de Medallas:</string>
     <string name="badgeL1_Chal1">offBeforeSleep</string>
@@ -95,6 +97,7 @@
     <string name="badgeL3_Chal1">teamPlay</string>
     <string name="btnAddPlayer">Crear Jugador</string>
     <string name="btnAddTeam">Crear Equipo</string>
+    <string name="btnAdminTour">Admin Torneo</string>
     <string name="btnContinue">Continuar reto</string>
     <string name="btnContinueJoke">Continua</string>
     <string name="btnCreatePlayer">Añadir Jugador</string>
@@ -110,7 +113,9 @@
     <string name="btnTakePhoto">Hacer foto</string>
     <string name="btnUploadPhoto">Subir foto</string>
     <string name="btnViewPlayers">Ver Jugadores</string>
-    <string name="btnViewRegister">Ver Registro de Actividades</string>
+    <string name="btnViewRegister">Registro Actividades</string>
+    <string name="btnViewTeams">Ver Equipos</string>
+    <string name="btnViewTour">Ver Torneos</string>
     <string name="btn_skip_intro">Skip Intro</string>
     <string name="challDays">Dias restantes:</string>
     <string name="changePassLabel">Cambiar Contraseña</string>
@@ -178,6 +183,8 @@
     <string name="descL3_saveAct2_tip1">Si tu lavadora es de bajo consumo, poner la lavadora llena puede ahorrarte muchos litros de agua. ¡Tampoco conviene llenarla en exceso!</string>
     <string name="descL3_saveAct2_tip2">No es recomendable poner la lavadora si no hay ropa suficiente. ¡Espera a tenerla llena para ahorrar agua!</string>
     <string name="editPlayerLabel">Editar Jugador</string>
+    <string name="editTeamLabel">Editar Equipo</string>
+    <string name="editTournamentLabel">Editar torneo</string>
     <string name="endDate">Fecha Fin:</string>
     <string name="enrgChalL1_1">Apagar antes de dormir</string>
     <string name="enrgChalL2_1">Usa las escaleras</string>
@@ -192,6 +199,7 @@
     <string name="hintPass">Contraseña</string>
     <string name="hintUser">Nombre de usuario</string>
     <string name="initDate">Fecha Inicio:</string>
+    <string name="initDateLabel">Fecha de Inicio</string>
     <string name="invalidLogin">Usuario o contraseña incorrectos</string>
     <string name="jokeMsg">¡Bien hecho! Disfruta de este chiste ...</string>
     <string name="level1Label">Nivel 1</string>
@@ -202,6 +210,7 @@
     <string name="loadTeams">Cargando equipos. Espera por favor...</string>
     <string name="localhost">10.133.5.181</string>
     <string name="messenger_send_button_text">Enviar</string>
+    <string name="minPoints">Has conseguido el minimo de puntos del torneo. ¡Ahora ya puedes vovler a hacer todas las actividades!</string>
     <string name="msgBadge1">Has ganado la medalla Apagar Antes De Dormir.</string>
     <string name="msgBadge2">Has ganado la medalla Usa las Escaleras.</string>
     <string name="msgBadge3">Has ganado la medalla Habitación Vacía.</string>
@@ -210,6 +219,9 @@
     <string name="msgChangeSuccess">Cambio satisfactorio</string>
     <string name="msgCongrats">¡Enhorabuena, recoge tus puntos!</string>
     <string name="msgCongratsAlt">¡Enhorabuena!</string>
+    <string name="msgDeletePlayer">¿Seguro que quieres borrar este jugador?</string>
+    <string name="msgDeleteTeam">¿Seguro que quieres borrar este equipo?</string>
+    <string name="msgDeleteTournament">¿Seguro que quieres borrar este torneo?</string>
     <string name="msgEasterEgg">Es un día perfecto para darte 5 puntos. ¡Disfrútalos!</string>
     <string name="msgId">Identificando ...</string>
     <string name="msgInvPass">Contraseña inválida</string>
@@ -234,6 +246,8 @@
     <string name="newPassLabel">Contraseña nueva</string>
     <string name="newPlayerLabel">Nuevo Jugador</string>
     <string name="newTeamLabel">Nuevo Equipo</string>
+    <string name="newTourLabel">Nuevo Torneo</string>
+    <string name="nextLevel">¡Prueba a realizar actividades del siguiente nivel! Consigue 467 puntos para desbloquear todas las actividades otra vez</string>
     <string name="noEndDate">no hay ningun torneo disponible</string>
     <string name="noTournament">No hay ningún torneo disponible. Por favor, póngase en contacto con el administrador.</string>
     <string name="playerNameLabel">Nombre del Jugador</string>
@@ -276,13 +290,15 @@
     <string name="savAction">Acción de Ahorro</string>
     <string name="savTip">¡Consejo de ahorro!</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
-    <string name="startTournament">Empezar el torneo</string>
+    <string name="startTournament">Crear torneo</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string name="teamNameLabel">Nombre del Equipo</string>
     <string name="teamSelectLabel">Equipo</string>
     <string name="titleEasterEgg">¡Es tu día de suerte!</string>
     <string name="titleLevelBlocked">Nivel bloqueado</string>
+    <string name="titleMinPoints">Nivel completado</string>
     <string name="title_logo">NATIONAL GEOGRAPHIC</string>
+    <string name="tournamentSelectLabel">Torneo</string>
     <string name="userEnter">¡Por favor intruduce tu nombre de usuario y la contraseña!</string>
     <string name="video">Video</string>
     <string name="welcomeMsg">Bienvenido a KukuiCupBCN</string>

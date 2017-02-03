@@ -4,14 +4,26 @@
               android:layout_height="fill_parent"
               android:gravity="center_horizontal"
               android:orientation="vertical"
-              android:background="@drawable/background">
+              android:background="@drawable/background_land">
 
 
+
+    <Button
+        android:id="@+id/btnViewTeams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:text="@string/btnViewTeams"
+        android:textSize="25sp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:background="#5F4C0B"
+        android:textColor="#BEF781" />
     <Button
         android:id="@+id/btnCreateTeam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dip"
+        android:layout_marginTop="15dip"
         android:text= "@string/btnCreateTeam"
         android:textSize="25sp"
         android:paddingRight="40dp"
@@ -23,21 +35,9 @@
         android:id="@+id/btnViewPlayers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
+        android:layout_marginTop="15dip"
         android:text="@string/btnViewPlayers"
         android:textSize="25sp"
-        android:paddingRight="40dp"
-        android:paddingLeft="40dp"
-        android:background="#5F4C0B"
-        android:textColor="#BEF781" />
-
-    <Button
-        android:id="@+id/btnViewRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
-        android:textSize="25sp"
-        android:text="@string/btnViewRegister"
         android:paddingRight="40dp"
         android:paddingLeft="40dp"
         android:background="#5F4C0B"
@@ -48,7 +48,7 @@
         android:id="@+id/btnCreatePlayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
+        android:layout_marginTop="15dip"
         android:text="@string/btnCreatePlayer"
         android:textSize="25sp"
         android:paddingRight="40dp"
@@ -56,61 +56,16 @@
         android:background="#5F4C0B"
         android:textColor="#BEF781" />
 
-
     <Button
-        android:id="@+id/startTournament"
+        android:id="@+id/btnViewRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
-        android:text="@string/startTournament"
+        android:layout_marginTop="15dip"
+        android:text="@string/btnViewRegister"
         android:textSize="25sp"
-        android:paddingRight="25dp"
-        android:paddingLeft="25dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
         android:background="#5F4C0B"
         android:textColor="#BEF781" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/initDate"
-                android:textSize="25sp"
-                android:textColor="#000000" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="25sp"
-                android:id="@+id/initDate"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/endDate"
-                android:textSize="25sp"
-                android:textColor="#000000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="25sp"
-                android:id="@+id/endDate"/>
-        </LinearLayout>
-    </LinearLayout>
 </LinearLayout>

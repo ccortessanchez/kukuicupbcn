@@ -60,6 +60,10 @@
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edit_team.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout\\edit_team.xml"
+    },
+    {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_admin.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout\\menu_admin.xml"
     },
@@ -90,6 +94,10 @@
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edit_tournament.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout\\edit_tournament.xml"
     },
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
@@ -162,6 +170,10 @@
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_tournament.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout\\menu_tournament.xml"
     },
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu.xml",
@@ -260,6 +272,14 @@
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_tournaments.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout\\all_tournaments.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_teams.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout\\all_teams.xml"
+    },
+    {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout\\main.xml"
     },
@@ -294,6 +314,10 @@
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_tournament.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout\\add_tournament.xml"
     },
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",

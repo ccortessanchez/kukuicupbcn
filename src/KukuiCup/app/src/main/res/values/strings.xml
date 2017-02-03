@@ -24,6 +24,7 @@
     <string name="rewardLabel">Reward</string>
     <string name="pointsLabel">Points</string>
     <string name="titleLevelBlocked">Level blocked</string>
+    <string name="titleMinPoints">Level completed</string>
     <string name="titleEasterEgg">It\'s your lucky day!</string>
     <string name="msgLevelBlocked">You need to complete the previous level to continue</string>
     <string name="msgEasterEgg">It\'s a perfect day to give you 5 points. Enjoy it!</string>
@@ -57,16 +58,24 @@
     <string name="jokeMsg">"Well done! Now enjoy this joke..."</string>
     <string name="savTip">Saving tip!</string>
     <string name="msgLogOut">Do you really want to log out of KukuiCupBCN?</string>
+    <string name="msgDeletePlayer">Do you really want to delete this player?</string>
+    <string name="msgDeleteTeam">Do you really want to delete this team?</string>
+    <string name="msgDeleteTournament">Do you really want to delete this tournament?</string>
     <string name="msgPosBtn">Yes</string>
     <string name="msgNegBtn">No</string>
     <string name="yourTeamRkg">------ YOUR TEAM!</string>
 
     <!--- LABELS ADMIN VISTAS-->
     <string name="allPlayersLabel">All Players</string>
+    <string name="allTeamsLabel">All Teams</string>
+    <string name="allTournamentsLabel">All Tournaments</string>
     <string name="allRegisterLabel">Register Activity</string>
     <string name="newPlayerLabel">New Player</string>
     <string name="newTeamLabel">New Team</string>
+    <string name="newTourLabel">New Tournament</string>
     <string name="editPlayerLabel">Edit Player</string>
+    <string name="editTeamLabel">Edit Team</string>
+    <string name="editTournamentLabel">Edit Tournament</string>
 
     <!--- MENU USER -->
     <string name="msgPass">You must fill all the gaps</string>
@@ -81,16 +90,21 @@
     <string name="welcomeMsg">Welcome to KukuiCupBCN</string>
     <string name="hintUser">Username</string>
     <string name="hintPass">Password</string>
+    <string name="btnAdminTour">Admin Tournament</string>
+    <string name="btnViewTour">View Tournaments</string>
     <string name="btnCreateTeam">Add New Team</string>
     <string name="btnViewPlayers">View Players</string>
-    <string name="btnViewRegister">View Activity Register</string>
+    <string name="btnViewTeams">View Teams</string>
+    <string name="btnViewRegister">Activity Register</string>
     <string name="btnCreatePlayer">Add New Player</string>
-    <string name="startTournament">Start the tournament</string>
+    <string name="startTournament">Create tournament</string>
     <string name="initDate">Init Date:</string>
     <string name="endDate">End Date:</string>
     <string name="playerNameLabel">Player Name</string>
     <string name="teamNameLabel">Team Name</string>
     <string name="teamSelectLabel">Team</string>
+    <string name="tournamentSelectLabel">Tournament</string>
+    <string name="initDateLabel">Init Date</string>
     <string name="btnAddPlayer">Create Player</string>
     <string name="btnAddTeam">Create Team</string>
     <string name="btnSave">Save Changes</string>
@@ -122,6 +136,8 @@
     <string name="daysRemaining">KukuiCupBCN end date: </string>
     <string name="badgeCollect">Badge Collection:</string>
     <string name="noEndDate">no tournament available</string>
+    <string name="nextLevel">Try activities of the next level! Reach 467 points to unlock all the activities again.</string>
+    <string name="minPoints">You have achieved the minimum points of the competition. Now you can do again all the activities!</string>
 
     <!--- SAVING ACTIONS LEVEL 1 -->
     <string name="savActL1_1">Computer responsible</string>

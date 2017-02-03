@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:2:1-116:12
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:2:1-142:12
 	package
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml
@@ -54,7 +54,7 @@ ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCu
 	android:name
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:12:19-57
 application
-ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:14:5-112:20
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:14:5-138:20
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\AndroidManifest.xml:5:5-19
 MERGED from [com.facebook.android:facebook-android-sdk:4.19.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.19.0\AndroidManifest.xml:28:5-48:19
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:25:5-20
@@ -114,102 +114,144 @@ ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCu
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:42:13-49
 	android:name
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:41:13-58
-activity#com.ub.tfg.kukuicup.vista.VideoActivity
+activity#com.ub.tfg.kukuicup.admin.vista.MenuTournamentActivity
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:44:9-47:20
 	android:screenOrientation
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:46:13-50
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:46:13-49
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:45:13-48
-activity#com.ub.tfg.kukuicup.vista.FormActivity
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:45:13-63
+activity#com.ub.tfg.kukuicup.vista.VideoActivity
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:48:9-51:20
 	android:screenOrientation
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:50:13-49
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:50:13-50
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:49:13-47
-activity#com.ub.tfg.kukuicup.vista.JokeActivity
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:49:13-48
+activity#com.ub.tfg.kukuicup.vista.FormActivity
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:52:9-55:20
 	android:screenOrientation
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:54:13-50
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:54:13-49
 	android:name
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:53:13-47
-activity#com.ub.tfg.kukuicup.vista.SavingActionActivity
+activity#com.ub.tfg.kukuicup.vista.JokeActivity
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:56:9-59:20
 	android:screenOrientation
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:58:13-50
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:57:13-55
-activity#com.ub.tfg.kukuicup.vista.EnergyChallengeActivity
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:57:13-47
+activity#com.ub.tfg.kukuicup.vista.SavingActionActivity
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:60:9-63:20
 	android:screenOrientation
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:62:13-50
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:61:13-58
-activity#com.ub.tfg.kukuicup.vista.EnergyChallengeResume
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:61:13-55
+activity#com.ub.tfg.kukuicup.vista.EnergyChallengeActivity
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:64:9-67:20
 	android:screenOrientation
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:66:13-50
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:65:13-56
-activity#com.ub.tfg.kukuicup.vista.UserProfileActivity
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:65:13-58
+activity#com.ub.tfg.kukuicup.vista.EnergyChallengeResume
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:68:9-71:20
 	android:screenOrientation
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:70:13-50
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:69:13-54
-activity#com.ub.tfg.kukuicup.vista.RankingTeamsActivity
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:69:13-56
+activity#com.ub.tfg.kukuicup.vista.UserProfileActivity
 ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:72:9-75:20
 	android:screenOrientation
 		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:74:13-50
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:73:13-55
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:73:13-54
+activity#com.ub.tfg.kukuicup.vista.RankingTeamsActivity
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:76:9-79:20
+	android:screenOrientation
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:78:13-50
+	android:name
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:77:13-55
 activity#com.ub.tfg.kukuicup.admin.vista.AllPlayersActivity
-ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:76:9-80:20
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:80:9-84:20
 	android:screenOrientation
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:82:13-49
 	android:label
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:79:13-52
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:83:13-52
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:77:13-59
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:81:13-59
 activity#com.ub.tfg.kukuicup.admin.vista.AllRegisterActivity
-ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:81:9-85:20
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:85:9-89:20
 	android:screenOrientation
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:83:13-49
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:87:13-49
 	android:label
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:84:13-53
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:88:13-53
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:82:13-60
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:86:13-60
+activity#com.ub.tfg.kukuicup.admin.vista.AllTeamsActivity
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:90:9-94:20
+	android:screenOrientation
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:92:13-49
+	android:label
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:93:13-50
+	android:name
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:91:13-57
+activity#com.ub.tfg.kukuicup.admin.vista.AllTournamentsActivity
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:95:9-99:20
+	android:screenOrientation
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:97:13-49
+	android:label
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:98:13-56
+	android:name
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:96:13-63
 activity#com.ub.tfg.kukuicup.admin.vista.NewPlayerActivity
-ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:86:9-90:20
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:100:9-104:20
 	android:screenOrientation
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:88:13-49
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:102:13-49
 	android:label
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:89:13-51
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:103:13-51
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:87:13-58
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:101:13-58
 activity#com.ub.tfg.kukuicup.admin.vista.NewTeamActivity
-ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:91:9-95:20
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:105:9-109:20
 	android:screenOrientation
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:93:13-49
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:107:13-49
 	android:label
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:94:13-49
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:108:13-49
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:92:13-56
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:106:13-56
 activity#com.ub.tfg.kukuicup.admin.vista.EditPlayerActivity
-ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:96:9-101:20
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:110:9-115:20
 	android:screenOrientation
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:99:13-49
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:113:13-49
 	android:label
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:100:13-52
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:114:13-52
 	android:configChanges
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:98:13-59
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:112:13-59
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:97:13-59
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:111:13-59
+activity#com.ub.tfg.kukuicup.admin.vista.EditTeamActivity
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:116:9-121:20
+	android:screenOrientation
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:119:13-49
+	android:label
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:120:13-50
+	android:configChanges
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:118:13-59
+	android:name
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:117:13-57
+activity#com.ub.tfg.kukuicup.admin.vista.EditTournamentActivity
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:122:9-127:20
+	android:screenOrientation
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:125:13-49
+	android:label
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:126:13-56
+	android:configChanges
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:124:13-59
+	android:name
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:123:13-63
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:110:9-107
+ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:136:9-107
 	android:value
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:110:66-105
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:136:66-105
 	android:name
-		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:110:20-65
+		ADDED from C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\src\main\AndroidManifest.xml:136:20-65
 activity#com.facebook.FacebookActivity
 ADDED from [com.facebook.android:facebook-android-sdk:4.19.0] C:\Users\carlos\Desktop\Uni\TFG\Kukui Cup BCN\kukuicupbcn\src\KukuiCup\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.19.0\AndroidManifest.xml:29:9-32:66
 	android:configChanges

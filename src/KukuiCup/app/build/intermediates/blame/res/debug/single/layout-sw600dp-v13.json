@@ -1,19 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\player_list_item.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\player_list_item.xml"
-    },
-    {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\saving_action.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\saving_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\activity_register.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\activity_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\menu.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\menu.xml"
     },
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\login.xml",
@@ -24,44 +12,28 @@
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\form.xml"
     },
     {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\add_team.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\add_team.xml"
-    },
-    {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\ranking_teams.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\ranking_teams.xml"
     },
     {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\user_profile.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\user_profile.xml"
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\edit_team.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\edit_team.xml"
     },
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\team_list_item.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\team_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\edit_player.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\edit_player.xml"
-    },
-    {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\menu_admin.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\menu_admin.xml"
-    },
-    {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\joke.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\joke.xml"
-    },
-    {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\energy_challenge.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\energy_challenge.xml"
     },
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\list_item.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\list_item.xml"
     },
     {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\list_group.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\list_group.xml"
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\all_tournaments.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\all_tournaments.xml"
     },
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\video.xml",
@@ -70,10 +42,6 @@
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\add_player.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\add_player.xml"
-    },
-    {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\register_list_item.xml",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\register_list_item.xml"
     },
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\tasteit.xml",
@@ -88,7 +56,63 @@
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\energy_challenge_resume.xml"
     },
     {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\menu_tournament.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\menu_tournament.xml"
+    },
+    {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\main.xml",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\player_list_item.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\player_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\menu.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\activity_register.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\add_team.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\add_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\user_profile.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\edit_player.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\edit_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\add_tournament.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\add_tournament.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\joke.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\joke.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\energy_challenge.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\energy_challenge.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\list_group.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\list_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\register_list_item.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\register_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\edit_tournament.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\edit_tournament.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\all_teams.xml",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\src\\main\\res\\layout-sw600dp\\all_teams.xml"
     }
 ]

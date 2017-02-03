@@ -35,6 +35,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 
+import com.ub.tfg.kukuicup.admin.vista.MenuTournamentActivity;
 import com.ub.tfg.kukuicup.controller.AppController;
 import com.ub.tfg.kukuicup.controller.Controller;
 import com.ub.tfg.kukuicup.controller.SQLiteHandler;
@@ -148,7 +149,7 @@ public class LoginActivity extends Activity {
                 // Check for empty data in the form
                 if (!username.isEmpty() && !passwd.isEmpty()) {
                     if(username.equals("admin") && passwd.equals("1234")) {
-                        Intent intent = new Intent(ctxt, MenuAdminActivity.class);
+                        Intent intent = new Intent(ctxt, MenuTournamentActivity.class);
                         startActivity(intent);
                     } else {
                         if(session.getEndDate()!=null) {

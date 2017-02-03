@@ -18,13 +18,14 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class MenuAdminActivity extends Activity {
-	
 
+
+	Button btnViewteams;
 	Button btnViewplayers;
 	Button btnViewregister;
 	Button btnNewplayer;
 	Button btnNewteam;
-	Button btnStart;
+	//Button btnStart;
 
 	SessionManager session;
 
@@ -37,7 +38,7 @@ public class MenuAdminActivity extends Activity {
 	private SQLiteHandler db;
 	
 	public void onCreate(Bundle savedInstanceState) {
-		if(getResources().getBoolean(R.bool.tablet)){
+		if (getResources().getBoolean(R.bool.tablet)) {
 			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 		}
 		super.onCreate(savedInstanceState);
@@ -48,17 +49,26 @@ public class MenuAdminActivity extends Activity {
 		//SQLite database handler
 		db = new SQLiteHandler(getApplicationContext());
 
+		btnViewteams = (Button) findViewById(R.id.btnViewTeams);
 		btnViewplayers = (Button) findViewById(R.id.btnViewPlayers);
 		btnViewregister = (Button) findViewById(R.id.btnViewRegister);
 		btnNewplayer = (Button) findViewById(R.id.btnCreatePlayer);
 		btnNewteam = (Button) findViewById(R.id.btnCreateTeam);
-		btnStart = (Button) findViewById(R.id.startTournament);
-		initDateText = (TextView)findViewById(R.id.initDate);
-		endDateText = (TextView)findViewById(R.id.endDate);
+		//btnStart = (Button) findViewById(R.id.startTournament);
+		//initDateText = (TextView)findViewById(R.id.initDate);
+		//endDateText = (TextView)findViewById(R.id.endDate);
 
-		initDateText.setText(getResources().getString(R.string.initDate));
-		endDateText.setText(getResources().getString(R.string.endDate));
 
+		btnViewteams.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View view) {
+				// Launching All players Activity
+				Intent i = new Intent(getApplicationContext(), AllTeamsActivity.class);
+				startActivity(i);
+
+			}
+		});
 		// view players click event
 		btnViewplayers.setOnClickListener(new View.OnClickListener() {
 
@@ -105,31 +115,13 @@ public class MenuAdminActivity extends Activity {
 
 			}
 		});
+	}
 
-		btnStart.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View view) {
-				SimpleDateFormat format1 = new SimpleDateFormat("dd-MM-yyyy");
-				initData = Calendar.getInstance();
-				endData = Calendar.getInstance();
-
-				initData.add(Calendar.DATE,1);
-				endData.add(Calendar.DAY_OF_YEAR, 21);
-				endData.add(Calendar.DATE,1);
-
-				dayCounter = 21;
-
-				String formattedInit = format1.format(initData.getTime());
-				String formattedEnd = format1.format(endData.getTime());
-				initDateText.setText(formattedInit);
-				initDateText.setTextColor(Color.BLACK);
-				endDateText.setText(formattedEnd);
-				endDateText.setTextColor(Color.BLACK);
-
-				session.setEndDay(formattedEnd);
-			}
-		});
+	@Override
+	public void onBackPressed() {
+		Intent i = new Intent(getApplicationContext(), MenuTournamentActivity.class);
+		i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(i);
 	}
 
 }

@@ -1,7 +1,9 @@
 package com.ub.tfg.kukuicup.admin.vista;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
@@ -29,6 +31,7 @@ import com.ub.tfg.kukuicup.controller.Controller;
 import com.ub.tfg.kukuicup.controller.CustomRequest;
 import com.ub.tfg.kukuicup.model.JSONParser;
 import com.ub.tfg.kukuicup.vista.MainActivity;
+import com.ub.tfg.kukuicup.vista.UserProfileActivity;
 
 import cz.msebera.android.httpclient.NameValuePair;
 import cz.msebera.android.httpclient.message.BasicNameValuePair;
@@ -137,12 +140,28 @@ public class EditPlayerActivity extends Activity {
 
         // Delete button click event
         btnDelete.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
                 // deleting player in background thread
-                new Deleteplayer().execute();
-            }
+                @Override
+                public void onClick(View v) {
+                    AlertDialog.Builder altDialog = new AlertDialog.Builder(EditPlayerActivity.this);
+                    altDialog.setMessage(getResources().getString(R.string.msgDeletePlayer)).setCancelable(false)
+                            .setPositiveButton(getResources().getString(R.string.msgPosBtn), new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
+                                    new Deleteplayer().execute();
+                                }
+                            })
+                            .setNegativeButton(getResources().getString(R.string.msgNegBtn), new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
+                                    dialogInterface.cancel();
+                                }
+                            });
+                    AlertDialog alert = altDialog.create();
+                    alert.setTitle(getResources().getString(R.string.btnDelete));
+                    alert.show();
+
+                }
         });
 
         teamSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -205,7 +224,7 @@ public class EditPlayerActivity extends Activity {
             pDialog.setMessage("Saving Player ...");
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
-            pDialog.show();
+            //pDialog.show();
         }
 
         /**
@@ -272,7 +291,7 @@ public class EditPlayerActivity extends Activity {
             pDialog.setMessage("Deleting Player...");
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
-            pDialog.show();
+            //pDialog.show();
         }
 
         /**
@@ -337,7 +356,7 @@ public class EditPlayerActivity extends Activity {
             pDialog.setMessage("Loading teams. Please wait...");
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(false);
-            pDialog.show();
+            //pDialog.show();
         }
 
         /**

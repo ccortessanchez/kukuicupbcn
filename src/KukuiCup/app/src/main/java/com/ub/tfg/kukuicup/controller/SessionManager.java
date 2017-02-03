@@ -26,6 +26,7 @@ public class SessionManager {
 
     private static final String KEY_IS_LOGGEDIN = "isLoggedIn";
     public static final String KEY_EASTEREGG_DAY = "easterEggDay";
+    public static final String KEY_ALL_ACTIVITIES = "unlockedAll";
     public static final String KEY_NAME = "name";
 
     public static final String KEY_PLAYER = "player";
@@ -99,5 +100,12 @@ public class SessionManager {
     }
 
     public String getEndDate() {return pref.getString(KEY_END_DATE, "null");}
+
+    public void setAllUnlocked(boolean isUnlocked) {
+        editor.putBoolean(KEY_ALL_ACTIVITIES, isUnlocked);
+        editor.commit();
+    }
+
+    public boolean isAllUnlocked() {return  pref.getBoolean(KEY_ALL_ACTIVITIES,false);}
 
 }

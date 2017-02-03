@@ -1,4 +1,4 @@
-#Sun Jan 29 17:01:29 CET 2017
+#Fri Feb 03 10:46:14 CET 2017
 base.0=C\:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

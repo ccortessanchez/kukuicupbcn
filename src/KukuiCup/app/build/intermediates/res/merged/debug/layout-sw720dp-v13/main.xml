@@ -292,6 +292,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/daysRemaining"
+            android:layout_marginTop="5dp"
+            android:background="#FFF"
             android:textSize="30sp"
             android:textColor="@android:color/black"/>
 
@@ -299,6 +301,8 @@
             android:id="@+id/daysRemaining"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FFF"
             android:textSize="30sp"
             android:textColor="@android:color/black"
             />

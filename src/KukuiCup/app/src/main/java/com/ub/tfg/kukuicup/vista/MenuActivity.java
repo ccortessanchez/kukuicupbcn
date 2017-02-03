@@ -8,13 +8,17 @@ import com.ub.tfg.kukuicup.R;
 
 import android.app.Activity;
 //import android.content.Context;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -35,6 +39,7 @@ public class MenuActivity extends Activity {
     private int playerPoints;
     private TextView progressLabel;
     private TextView levelLabel;
+    private AlertDialog alertDialog;
 
 	public void onCreate(Bundle savedInstanceState) {
         if(getResources().getBoolean(R.bool.tablet)){
@@ -51,6 +56,18 @@ public class MenuActivity extends Activity {
         playerPoints = extras.getInt("points");
         levelLabel = (TextView)findViewById(R.id.levelLabel);
         levelBar = (ProgressBar)findViewById(R.id.LevelProgressBar);
+
+        alertDialog = new AlertDialog.Builder(MenuActivity.this).create();
+        alertDialog.setTitle(getResources().getString(R.string.titleMinPoints));
+        alertDialog.setMessage(getResources().getString(R.string.nextLevel));
+        alertDialog.setIcon(R.drawable.ic_level);
+        alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                // Write your code here to execute after dialog closed
+            }
+        });
+
+
         if (levelId == 1) {
             levelLabel.setText(getResources().getString(R.string.level1Label));
 
@@ -123,28 +140,144 @@ public class MenuActivity extends Activity {
                     Intent intent = new Intent(ctxt, SavingActionActivity.class);
                     intent.putExtra("levelId",levelId);
                     intent.putExtra("actionId",childPosition);
-                    startActivity(intent);
+                    if (levelId == 1) {
+                        if ((playerPoints >= LEVEL1_POINTS)&&(playerPoints < LEVEL3_POINTS)) {
+                            alertDialog.show();
+                        } else if ((playerPoints >= LEVEL3_POINTS)||(playerPoints < LEVEL1_POINTS)) {
+                            startActivity(intent);
+                            Toast.makeText(
+                                    getApplicationContext(),
+                                    listDataHeader.get(groupPosition)
+                                            + " : "
+                                            + listDataChild.get(
+                                            listDataHeader.get(groupPosition)).get(
+                                            childPosition), Toast.LENGTH_SHORT)
+                                    .show();
+                        }
+                    }
+                    if (levelId == 2) {
+                        if ((playerPoints >= LEVEL2_POINTS)&&(playerPoints < LEVEL3_POINTS)) {
+                            alertDialog.show();
+                        } else if ((playerPoints >= LEVEL3_POINTS)||(playerPoints < LEVEL2_POINTS)) {
+                            startActivity(intent);
+                            Toast.makeText(
+                                    getApplicationContext(),
+                                    listDataHeader.get(groupPosition)
+                                            + " : "
+                                            + listDataChild.get(
+                                            listDataHeader.get(groupPosition)).get(
+                                            childPosition), Toast.LENGTH_SHORT)
+                                    .show();
+                        }
+                    }
+                    if (levelId == 3) {
+                        startActivity(intent);
+                        Toast.makeText(
+                                getApplicationContext(),
+                                listDataHeader.get(groupPosition)
+                                        + " : "
+                                        + listDataChild.get(
+                                        listDataHeader.get(groupPosition)).get(
+                                        childPosition), Toast.LENGTH_SHORT)
+                                .show();
+
+                    }
                 }
                 if (groupPosition==1) {
                     Intent intent = new Intent(ctxt, EnergyChallengeActivity.class);
                     intent.putExtra("levelId",levelId);
                     intent.putExtra("challengeId",childPosition);
-                    startActivity(intent);
+                    if (levelId == 1) {
+                        if ((playerPoints >= LEVEL1_POINTS)&&(playerPoints < LEVEL3_POINTS)) {
+                            alertDialog.show();
+                        } else if ((playerPoints >= LEVEL3_POINTS)||(playerPoints < LEVEL1_POINTS)) {
+                            startActivity(intent);
+                            Toast.makeText(
+                                    getApplicationContext(),
+                                    listDataHeader.get(groupPosition)
+                                            + " : "
+                                            + listDataChild.get(
+                                            listDataHeader.get(groupPosition)).get(
+                                            childPosition), Toast.LENGTH_SHORT)
+                                    .show();
+                        }
+                    }
+                    if (levelId == 2) {
+                        if ((playerPoints >= LEVEL2_POINTS)&&(playerPoints < LEVEL3_POINTS)) {
+                            alertDialog.show();
+                        } else if ((playerPoints >= LEVEL3_POINTS)||(playerPoints < LEVEL2_POINTS)) {
+                            startActivity(intent);
+                            Toast.makeText(
+                                    getApplicationContext(),
+                                    listDataHeader.get(groupPosition)
+                                            + " : "
+                                            + listDataChild.get(
+                                            listDataHeader.get(groupPosition)).get(
+                                            childPosition), Toast.LENGTH_SHORT)
+                                    .show();
+                        }
+                    }
+                    if (levelId == 3) {
+                        startActivity(intent);
+                        Toast.makeText(
+                                getApplicationContext(),
+                                listDataHeader.get(groupPosition)
+                                        + " : "
+                                        + listDataChild.get(
+                                        listDataHeader.get(groupPosition)).get(
+                                        childPosition), Toast.LENGTH_SHORT)
+                                .show();
+
+                    }
                 }
                 if (groupPosition==2) {
                     Intent intent = new Intent(ctxt, VideoActivity.class);
                     intent.putExtra("levelId",levelId);
                     intent.putExtra("videoId",childPosition);
-                    startActivity(intent);
+                    if (levelId == 1) {
+                        if ((playerPoints >= LEVEL1_POINTS)&&(playerPoints < LEVEL3_POINTS)) {
+                            alertDialog.show();
+                        } else if ((playerPoints >= LEVEL3_POINTS)||(playerPoints < LEVEL1_POINTS)) {
+                            startActivity(intent);
+                            Toast.makeText(
+                                    getApplicationContext(),
+                                    listDataHeader.get(groupPosition)
+                                            + " : "
+                                            + listDataChild.get(
+                                            listDataHeader.get(groupPosition)).get(
+                                            childPosition), Toast.LENGTH_SHORT)
+                                    .show();
+                        }
+                    }
+                    if (levelId == 2) {
+                        if ((playerPoints >= LEVEL2_POINTS)&&(playerPoints < LEVEL3_POINTS)) {
+                            alertDialog.show();
+                        } else if ((playerPoints >= LEVEL3_POINTS)||(playerPoints < LEVEL2_POINTS)) {
+                            startActivity(intent);
+                            Toast.makeText(
+                                    getApplicationContext(),
+                                    listDataHeader.get(groupPosition)
+                                            + " : "
+                                            + listDataChild.get(
+                                            listDataHeader.get(groupPosition)).get(
+                                            childPosition), Toast.LENGTH_SHORT)
+                                    .show();
+                        }
+                    }
+                    if (levelId == 3) {
+                        startActivity(intent);
+                        Toast.makeText(
+                                getApplicationContext(),
+                                listDataHeader.get(groupPosition)
+                                        + " : "
+                                        + listDataChild.get(
+                                        listDataHeader.get(groupPosition)).get(
+                                        childPosition), Toast.LENGTH_SHORT)
+                                .show();
+
+                    }
                 }
-                Toast.makeText(
-                        getApplicationContext(),
-                        listDataHeader.get(groupPosition)
-                                + " : "
-                                + listDataChild.get(
-                                listDataHeader.get(groupPosition)).get(
-                                childPosition), Toast.LENGTH_SHORT)
-                        .show();
+
                 return false;
             }
         });

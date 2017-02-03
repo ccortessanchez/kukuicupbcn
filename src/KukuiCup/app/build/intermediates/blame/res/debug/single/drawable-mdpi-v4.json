@@ -12,12 +12,12 @@
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.19.0\\res\\drawable-mdpi-v4\\messenger_bubble_small_white.png"
     },
     {
-        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_close.png",
-        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.19.0\\res\\drawable-mdpi-v4\\com_facebook_close.png"
-    },
-    {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
         "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_close.png",
+        "source": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.19.0\\res\\drawable-mdpi-v4\\com_facebook_close.png"
     },
     {
         "merged": "C:\\Users\\carlos\\Desktop\\Uni\\TFG\\Kukui Cup BCN\\kukuicupbcn\\src\\KukuiCup\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",

@@ -23,6 +23,7 @@
     <string name="rewardLabel">Recompensa</string>
     <string name="pointsLabel">Puntos</string>
     <string name="titleLevelBlocked">Nivel bloqueado</string>
+    <string name="titleMinPoints">Nivel completado</string>
     <string name="titleEasterEgg">¡Es tu día de suerte!</string>
     <string name="msgLevelBlocked">Necesitas completar el nivel anterior para continuar</string>
     <string name="msgEasterEgg">Es un día perfecto para darte 5 puntos. ¡Disfrútalos!</string>
@@ -56,16 +57,24 @@
     <string name="jokeMsg">¡Bien hecho! Disfruta de este chiste ...</string>
     <string name="savTip">¡Consejo de ahorro!</string>
     <string name="msgLogOut">¿Seguro que quieres salir de la KukuiCupBCN?</string>
+    <string name="msgDeletePlayer">¿Seguro que quieres borrar este jugador?</string>
+    <string name="msgDeleteTeam">¿Seguro que quieres borrar este equipo?</string>
+    <string name="msgDeleteTournament">¿Seguro que quieres borrar este torneo?</string>
     <string name="msgPosBtn">Si</string>
     <string name="msgNegBtn">No</string>
     <string name="yourTeamRkg">------ TU EQUIPO!</string>
 
     <!--- LABELS ADMIN VISTAS-->
     <string name="allPlayersLabel">Todos los jugadores</string>
+    <string name="allTeamsLabel">Todos los equipos</string>
+    <string name="allTournamentsLabel">Todos los torneos</string>
     <string name="allRegisterLabel">Registro de actividades</string>
     <string name="newPlayerLabel">Nuevo Jugador</string>
     <string name="newTeamLabel">Nuevo Equipo</string>
+    <string name="newTourLabel">Nuevo Torneo</string>
     <string name="editPlayerLabel">Editar Jugador</string>
+    <string name="editTeamLabel">Editar Equipo</string>
+    <string name="editTournamentLabel">Editar torneo</string>
 
     <string name="msgPass">Debes rellenar todos los campos</string>
     <string name="msgId">Identificando ...</string>
@@ -78,16 +87,21 @@
     <string name="welcomeMsg">Bienvenido a KukuiCupBCN</string>
     <string name="hintUser">Nombre de usuario</string>
     <string name="hintPass">Contraseña</string>
+    <string name="btnAdminTour">Admin Torneo</string>
+    <string name="btnViewTour">Ver Torneos</string>
     <string name="btnCreateTeam">Añadir Equipo</string>
     <string name="btnViewPlayers">Ver Jugadores</string>
-    <string name="btnViewRegister">Ver Registro de Actividades</string>
+    <string name="btnViewTeams">Ver Equipos</string>
+    <string name="btnViewRegister">Registro Actividades</string>
     <string name="btnCreatePlayer">Añadir Jugador</string>
-    <string name="startTournament">Empezar el torneo</string>
+    <string name="startTournament">Crear torneo</string>
     <string name="initDate">Fecha Inicio:</string>
     <string name="endDate">Fecha Fin:</string>
     <string name="playerNameLabel">Nombre del Jugador</string>
     <string name="teamNameLabel">Nombre del Equipo</string>
     <string name="teamSelectLabel">Equipo</string>
+    <string name="tournamentSelectLabel">Torneo</string>
+    <string name="initDateLabel">Fecha de Inicio</string>
     <string name="btnAddPlayer">Crear Jugador</string>
     <string name="btnAddTeam">Crear Equipo</string>
     <string name="btnSave">Guardar Cambios</string>
@@ -118,6 +132,8 @@
     <string name="daysRemaining">Fecha final KukuiCupBCN: </string>
     <string name="badgeCollect">Colección de Medallas:</string>
     <string name="noEndDate">no hay ningun torneo disponible</string>
+    <string name="nextLevel">¡Prueba a realizar actividades del siguiente nivel! Consigue 467 puntos para desbloquear todas las actividades otra vez</string>
+    <string name="minPoints">Has conseguido el minimo de puntos del torneo. ¡Ahora ya puedes vovler a hacer todas las actividades!</string>
 
     <!--- SAVING ACTIONS LEVEL 1 -->
     <string name="savActL1_1">Ordenador responsable</string>

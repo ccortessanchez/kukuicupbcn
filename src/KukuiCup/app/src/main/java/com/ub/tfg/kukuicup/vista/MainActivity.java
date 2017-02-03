@@ -58,6 +58,7 @@ public class MainActivity extends Activity {
 
     private AlertDialog alertDialog;
     private AlertDialog easterEgg;
+    private AlertDialog unlockedActivities;
 	private SessionManager session;
 	private SQLiteHandler db;
 
@@ -114,6 +115,7 @@ public class MainActivity extends Activity {
 
     boolean init;
     private boolean easterEggDay = false;
+    private boolean allActivities = false;
     private String teamId;
     private static String url_player_details;
     private static String url_team_details;
@@ -208,18 +210,22 @@ public class MainActivity extends Activity {
 
         alertDialog = new AlertDialog.Builder(MainActivity.this).create();
         easterEgg = new AlertDialog.Builder(MainActivity.this).create();
+        unlockedActivities = new AlertDialog.Builder(MainActivity.this).create();
 
         // Setting Dialog Title
         alertDialog.setTitle(getResources().getString(R.string.titleLevelBlocked));
         easterEgg.setTitle(getResources().getString(R.string.titleEasterEgg));
+        unlockedActivities.setTitle(getResources().getString(R.string.titleMinPoints));
 
         // Setting Dialog Message
         alertDialog.setMessage(getResources().getString(R.string.msgLevelBlocked));
         easterEgg.setMessage(getResources().getString(R.string.msgEasterEgg));
+        unlockedActivities.setMessage(getResources().getString(R.string.minPoints));
 
         // Setting Icon to Dialog
         alertDialog.setIcon(R.drawable.ic_blocked_level);
         easterEgg.setIcon(R.drawable.ic_user);
+        unlockedActivities.setIcon(R.drawable.ic_launcher);
 
         // Setting OK Button
         alertDialog.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
@@ -245,8 +251,19 @@ public class MainActivity extends Activity {
             }
         });
 
+        unlockedActivities.setButton2(getResources().getString(R.string.btnOk), new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                // Write your code here to execute after dialog closed
+
+            }
+        });
+
         if(easterEggDay){
             easterEgg.show();
+        }
+
+        if(allActivities){
+            unlockedActivities.show();
         }
 
         loadPlayerData(username);

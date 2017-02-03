@@ -68,6 +68,8 @@
     <string name="actualPassLabel">Contrasenya actual</string>
     <string name="allPlayersLabel">Tots els jugadors</string>
     <string name="allRegisterLabel">Registre d\'activitats</string>
+    <string name="allTeamsLabel">Tots el equips</string>
+    <string name="allTournamentsLabel">Tots els tornejos</string>
     <string name="app_name">KukuiCup</string>
     <string name="badgeCollect">Colecció de Medallas:</string>
     <string name="badgeL1_Chal1">offBeforeSleep</string>
@@ -76,6 +78,7 @@
     <string name="badgeL3_Chal1">teamPlay</string>
     <string name="btnAddPlayer">Crear Jugador</string>
     <string name="btnAddTeam">Crear Equip</string>
+    <string name="btnAdminTour">Admin Torneig</string>
     <string name="btnContinue">Continuar repte</string>
     <string name="btnContinueJoke">Continua</string>
     <string name="btnCreatePlayer">Afegir Jugador</string>
@@ -91,7 +94,9 @@
     <string name="btnTakePhoto">Fer foto</string>
     <string name="btnUploadPhoto">Pujar foto</string>
     <string name="btnViewPlayers">Veure Jugadors</string>
-    <string name="btnViewRegister">Veure Registre d\'Activitats</string>
+    <string name="btnViewRegister">Registre Activitats</string>
+    <string name="btnViewTeams">Veure Equips</string>
+    <string name="btnViewTour">Veure Tornejos</string>
     <string name="btn_skip_intro">Skip Intro</string>
     <string name="challDays">Dies restants:</string>
     <string name="changePassLabel">Canviar Contrasenya</string>
@@ -141,6 +146,8 @@
     <string name="descL3_saveAct2_tip1">Si la teva rentadora es de baix consum, posar-la plena pot estalviar-te alguns litres d\'aigua. Tampoc cal emplenar-la massa!</string>
     <string name="descL3_saveAct2_tip2">No es recomenable posar la rentora si no hi ha roba suficient. Espera a emplenar-la per estalviar aigua!</string>
     <string name="editPlayerLabel">Editar jugador</string>
+    <string name="editTeamLabel">Editar equip</string>
+    <string name="editTournamentLabel">Editar torneig</string>
     <string name="endDate">Data Fi:</string>
     <string name="enrgChalL1_1">Apagar abans de dormir</string>
     <string name="enrgChalL2_1">Fes us de les escales</string>
@@ -155,6 +162,7 @@
     <string name="hintPass">Contrasenya</string>
     <string name="hintUser">Nom d\'usuari</string>
     <string name="initDate">Data Inici:</string>
+    <string name="initDateLabel">Data d\'Inici</string>
     <string name="invalidLogin">Usuari o contrasenya incorrectes</string>
     <string name="jokeMsg">Ben fet! Gaudeix d\'aquest acudit ...</string>
     <string name="level1Label">Nivell 1</string>
@@ -164,6 +172,7 @@
     <string name="loadRegister">Caregant registre. Espera sisuplau...</string>
     <string name="loadTeams">Carregant equips. Espera siusplau...</string>
     <string name="localhost">10.133.5.181</string>
+    <string name="minPoints">Has aconseguit el minim de punts del torneig. Ara ja pots tornar a fer totes les activitats!</string>
     <string name="msgBadge1">Has guanyat la medalla Apagar Abans De Dormir.</string>
     <string name="msgBadge2">Has guanyat la medalla Usa les Escales.</string>
     <string name="msgBadge3">Has guanyat la medalla Habitació Buida.</string>
@@ -172,6 +181,9 @@
     <string name="msgChangeSuccess">Canvi satisfactori</string>
     <string name="msgCongrats">Enhorabona, recull els teus punts!</string>
     <string name="msgCongratsAlt">Enhorabona!</string>
+    <string name="msgDeletePlayer">Vols esborrar aquest jugador?</string>
+    <string name="msgDeleteTeam">Vols esborrar aquest equip?</string>
+    <string name="msgDeleteTournament">Vols esborrar aquest torneig?</string>
     <string name="msgEasterEgg">Es un dia perfecte per donar-te 5 punts. Gaudeix-los!</string>
     <string name="msgId">Identificació ...</string>
     <string name="msgInvPass">Contrasenya no vàlida</string>
@@ -196,6 +208,8 @@
     <string name="newPassLabel">Contrasenya nova</string>
     <string name="newPlayerLabel">Nou jugador</string>
     <string name="newTeamLabel">Nou Equip</string>
+    <string name="newTourLabel">Nou Torneig</string>
+    <string name="nextLevel">Prova a fer activitats del següent nivell! Aconsegueix 467 punts per desbloquejar un altre cop les activitats</string>
     <string name="noEndDate">no hi ha cap torneig disponible</string>
     <string name="noTournament">No hi ha cap torneig disponible. Siusplau, contacti amb l\'administrador.</string>
     <string name="playerNameLabel">Nom del Jugador</string>
@@ -237,12 +251,14 @@
     <string name="savActL3_2">Càrrega de la rentadora</string>
     <string name="savAction">Acción d\'estalvi</string>
     <string name="savTip">Consell d\'estalvi!</string>
-    <string name="startTournament">Iniciar el torneig</string>
+    <string name="startTournament">Crear Torneig</string>
     <string name="teamNameLabel">Nom de l\'Equip</string>
     <string name="teamSelectLabel">Equip</string>
     <string name="titleEasterEgg">Es el teu dia de sort!</string>
     <string name="titleLevelBlocked">Nivell bloquejat</string>
+    <string name="titleMinPoints">Nivell superat</string>
     <string name="title_logo">NATIONAL GEOGRAPHIC</string>
+    <string name="tournamentSelectLabel">Torneig</string>
     <string name="userEnter">Siusplau entri el seu nom d\'usuari i la seva contrasenya!</string>
     <string name="video">Vídeo</string>
     <string name="welcomeMsg">Benvingut a KukuiCupBCN</string>

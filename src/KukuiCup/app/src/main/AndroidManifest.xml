@@ -42,6 +42,10 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
+            android:name=".admin.vista.MenuTournamentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name=".vista.VideoActivity"
             android:screenOrientation="landscape">
         </activity>
@@ -84,6 +88,16 @@
             android:label="@string/allRegisterLabel">
         </activity>
         <activity
+            android:name=".admin.vista.AllTeamsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/allTeamsLabel">
+        </activity>
+        <activity
+            android:name=".admin.vista.AllTournamentsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/allTournamentsLabel">
+        </activity>
+        <activity
             android:name=".admin.vista.NewPlayerActivity"
             android:screenOrientation="portrait"
             android:label="@string/newPlayerLabel">
@@ -98,6 +112,18 @@
             android:configChanges="layoutDirection|locale"
             android:screenOrientation="portrait"
             android:label="@string/editPlayerLabel">
+        </activity>
+        <activity
+            android:name=".admin.vista.EditTeamActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:label="@string/editTeamLabel">
+        </activity>
+        <activity
+            android:name=".admin.vista.EditTournamentActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:label="@string/editTournamentLabel">
         </activity>
 
         <!-- All Product Activity -->

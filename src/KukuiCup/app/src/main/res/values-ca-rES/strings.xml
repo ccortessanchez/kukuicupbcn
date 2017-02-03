@@ -23,6 +23,7 @@
     <string name="rewardLabel">Recompensa</string>
     <string name="pointsLabel">Punts</string>
     <string name="titleLevelBlocked">Nivell bloquejat</string>
+    <string name="titleMinPoints">Nivell superat</string>
     <string name="titleEasterEgg">Es el teu dia de sort!</string>
     <string name="msgLevelBlocked">Has d\'acabar el nivell anterior per poder continuar</string>
     <string name="msgEasterEgg">Es un dia perfecte per donar-te 5 punts. Gaudeix-los!</string>
@@ -56,16 +57,24 @@
     <string name="jokeMsg">Ben fet! Gaudeix d\'aquest acudit ...</string>
     <string name="savTip">Consell d\'estalvi!</string>
     <string name="msgLogOut">Vols sortir de la KukuiCupBCN?</string>
+    <string name="msgDeletePlayer">Vols esborrar aquest jugador?</string>
+    <string name="msgDeleteTeam">Vols esborrar aquest equip?</string>
+    <string name="msgDeleteTournament">Vols esborrar aquest torneig?</string>
     <string name="msgPosBtn">Si</string>
     <string name="msgNegBtn">No</string>
     <string name="yourTeamRkg">------ EL TEU EQUIP!</string>
 
     <!--- LABELS ADMIN VISTAS-->
     <string name="allPlayersLabel">Tots els jugadors</string>
+    <string name="allTeamsLabel">Tots el equips</string>
+    <string name="allTournamentsLabel">Tots els tornejos</string>
     <string name="allRegisterLabel">Registre d\'activitats</string>
     <string name="newPlayerLabel">Nou jugador</string>
     <string name="newTeamLabel">Nou Equip</string>
+    <string name="newTourLabel">Nou Torneig</string>
     <string name="editPlayerLabel">Editar jugador</string>
+    <string name="editTeamLabel">Editar equip</string>
+    <string name="editTournamentLabel">Editar torneig</string>
 
     <string name="msgPass">Has d\'omplir tots els camps</string>
     <string name="msgId">Identificació ...</string>
@@ -78,16 +87,21 @@
     <string name="welcomeMsg">Benvingut a KukuiCupBCN</string>
     <string name="hintUser">Nom d\'usuari</string>
     <string name="hintPass">Contrasenya</string>
+    <string name="btnAdminTour">Admin Torneig</string>
+    <string name="btnViewTour">Veure Tornejos</string>
     <string name="btnCreateTeam">Afergir Equip</string>
     <string name="btnViewPlayers">Veure Jugadors</string>
-    <string name="btnViewRegister">Veure Registre d\'Activitats</string>
+    <string name="btnViewTeams">Veure Equips</string>
+    <string name="btnViewRegister">Registre Activitats</string>
     <string name="btnCreatePlayer">Afegir Jugador</string>
-    <string name="startTournament">Iniciar el torneig</string>
+    <string name="startTournament">Crear Torneig</string>
     <string name="initDate">Data Inici:</string>
     <string name="endDate">Data Fi:</string>
     <string name="playerNameLabel">Nom del Jugador</string>
     <string name="teamNameLabel">Nom de l\'Equip</string>
+    <string name="initDateLabel">Data d\'Inici</string>
     <string name="teamSelectLabel">Equip</string>
+    <string name="tournamentSelectLabel">Torneig</string>
     <string name="btnAddPlayer">Crear Jugador</string>
     <string name="btnAddTeam">Crear Equip</string>
     <string name="btnSave">Guardar Canvis</string>
@@ -118,6 +132,8 @@
     <string name="daysRemaining">Data fi KukuiCupBCN: </string>
     <string name="badgeCollect">Colecció de Medallas:</string>
     <string name="noEndDate">no hi ha cap torneig disponible</string>
+    <string name="nextLevel">Prova a fer activitats del següent nivell! Aconsegueix 467 punts per desbloquejar un altre cop les activitats</string>
+    <string name="minPoints">Has aconseguit el minim de punts del torneig. Ara ja pots tornar a fer totes les activitats!</string>
 
     <!--- SAVING ACTIONS LEVEL 1 -->
     <string name="savActL1_1">Ordinador responsable</string>

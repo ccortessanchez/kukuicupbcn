@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BEF781"
+    android:baselineAligned="false">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/teamNameLabel"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:textSize="25sp"
+        android:singleLine="true"
+        android:textColor="#000000" />
+    <!-- Button Create Team -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="75dip">
+
+        <Button android:id="@+id/btnCreateTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startTournament"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:background="#5F4C0B"
+            android:textSize="25sp"
+            android:textColor="#BEF781" />
+    </LinearLayout>
+</LinearLayout>

@@ -213,4 +213,11 @@ public class AllPlayersActivity extends ListActivity{
         }
 
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(getApplicationContext(), MenuAdminActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
 }

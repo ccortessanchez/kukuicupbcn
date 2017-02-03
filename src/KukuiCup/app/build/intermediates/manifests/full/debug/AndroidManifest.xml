@@ -45,6 +45,10 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.MenuTournamentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="com.ub.tfg.kukuicup.vista.VideoActivity"
             android:screenOrientation="landscape" >
         </activity>
@@ -87,6 +91,16 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.AllTeamsActivity"
+            android:label="@string/allTeamsLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.AllTournamentsActivity"
+            android:label="@string/allTournamentsLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="com.ub.tfg.kukuicup.admin.vista.NewPlayerActivity"
             android:label="@string/newPlayerLabel"
             android:screenOrientation="portrait" >
@@ -100,6 +114,18 @@
             android:name="com.ub.tfg.kukuicup.admin.vista.EditPlayerActivity"
             android:configChanges="layoutDirection|locale"
             android:label="@string/editPlayerLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.EditTeamActivity"
+            android:configChanges="layoutDirection|locale"
+            android:label="@string/editTeamLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.EditTournamentActivity"
+            android:configChanges="layoutDirection|locale"
+            android:label="@string/editTournamentLabel"
             android:screenOrientation="portrait" >
         </activity>
 
