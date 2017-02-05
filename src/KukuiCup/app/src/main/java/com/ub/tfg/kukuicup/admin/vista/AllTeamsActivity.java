@@ -30,7 +30,7 @@ import java.util.List;
 import cz.msebera.android.httpclient.NameValuePair;
 
 /**
- * Created by Juanmi on 07/06/2016.
+ * Created Carlos Cortes
  */
 public class AllTeamsActivity extends ListActivity{
     // Progress Dialog

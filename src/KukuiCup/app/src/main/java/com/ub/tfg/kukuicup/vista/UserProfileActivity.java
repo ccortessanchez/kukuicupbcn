@@ -39,7 +39,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Juanmi on 01/07/2016.
+ * Created by Juanmi on 01/07/2016. Edited by Carlos Cortes.
  */
 public class UserProfileActivity extends Activity {
 

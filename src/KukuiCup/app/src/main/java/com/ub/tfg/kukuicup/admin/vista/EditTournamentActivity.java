@@ -40,7 +40,7 @@ import cz.msebera.android.httpclient.NameValuePair;
 import cz.msebera.android.httpclient.message.BasicNameValuePair;
 
 /**
- * Created by Juanmi on 24/06/2016.
+ * Created by Carlos Cortes
  */
 public class EditTournamentActivity extends Activity {
     EditText txtName;

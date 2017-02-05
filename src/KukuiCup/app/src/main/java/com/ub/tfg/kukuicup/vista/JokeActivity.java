@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.ub.tfg.kukuicup.R;
 
 /**
- * Created by Juanmi on 30/06/2016.
+ * Created by Juanmi on 30/06/2016. Edited by Carlos Cortes.
  */
 public class JokeActivity extends Activity {
 

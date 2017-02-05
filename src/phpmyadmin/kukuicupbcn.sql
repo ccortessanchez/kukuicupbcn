@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-12-2016 a las 15:28:09
+-- Tiempo de generación: 05-02-2017 a las 14:42:46
 -- Versión del servidor: 5.7.14
 -- Versión de PHP: 5.6.25
 
@@ -19,6 +19,28 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `kukuicupbcn`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `activity_reg`
+--
+
+CREATE TABLE `activity_reg` (
+  `player_name` varchar(30) NOT NULL,
+  `activity_name` varchar(30) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `activity_reg`
+--
+
+INSERT INTO `activity_reg` (`player_name`, `activity_name`) VALUES
+('ccortes', 'SA: Desk Light'),
+('ccortes', 'SA: Comp. Responsible'),
+('ccortes', 'EC: Off Bef. Sleep'),
+('ccortes', 'V+Q: Power Energy'),
+('ccortes', 'EC: Off Bef. Sleep');
 
 -- --------------------------------------------------------
 
@@ -65,14 +87,13 @@ CREATE TABLE `players` (
 --
 
 INSERT INTO `players` (`id`, `name`, `passwd`, `points`, `team_id`) VALUES
-(2, 'jarias', 'passwd', 15, 2),
+(2, 'jarias', 'passwd', 193, 2),
 (10, 'leomartin', 'passwd', 5, 4),
 (11, 'danielaferrer', 'passwd', 8, 3),
 (12, 'inmarodriguez', 'passwd', 15, 3),
 (13, 'rafasuares', 'passwd', 15, 4),
-(14, 'juliolopez', 'passwd', 10, 2),
-(15, 'ccortes', 'passwd', 357, 4),
-(16, 'carlosc', 'passwd', 0, 4);
+(15, 'ccortes', 'passwd', 1154, 4),
+(16, 'carlosc', 'passwd', 0, 2);
 
 -- --------------------------------------------------------
 
@@ -81,9 +102,18 @@ INSERT INTO `players` (`id`, `name`, `passwd`, `points`, `team_id`) VALUES
 --
 
 CREATE TABLE `players_badges` (
-  `player_id` int(4) NOT NULL,
-  `badge_id` int(4) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `player_id` int(11) NOT NULL,
+  `badge_id` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `players_badges`
+--
+
+INSERT INTO `players_badges` (`player_id`, `badge_id`) VALUES
+(15, 1),
+(15, 2),
+(15, 1);
 
 -- --------------------------------------------------------
 
@@ -103,11 +133,12 @@ CREATE TABLE `teams` (
 --
 
 INSERT INTO `teams` (`id`, `name`, `points`, `tournament_id`) VALUES
-(2, 'Team Yellow', 25, 1),
+(2, 'Team Yellow', 193, 1),
 (3, 'Team Red', 23, 1),
-(4, 'Team Blue', 357, 1),
+(4, 'Team Blue', 1154, 1),
 (5, 'Team Green', 0, NULL),
-(6, 'Team Black', 0, NULL);
+(6, 'Team Black', 0, NULL),
+(8, 'Team Orange', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -140,7 +171,8 @@ CREATE TABLE `tournament` (
 --
 
 INSERT INTO `tournament` (`id`, `init_date`, `finish_date`, `duration`, `n_teams`, `n_players`) VALUES
-(1, NULL, NULL, NULL, 0, 0);
+(1, NULL, NULL, NULL, 0, 0),
+(30, '2017-02-03', '2017-02-24', 21, 0, 0);
 
 --
 -- Índices para tablas volcadas
@@ -158,13 +190,6 @@ ALTER TABLE `badges`
 ALTER TABLE `players`
   ADD PRIMARY KEY (`id`),
   ADD KEY `team_id` (`team_id`);
-
---
--- Indices de la tabla `players_badges`
---
-ALTER TABLE `players_badges`
-  ADD KEY `player_id` (`player_id`,`badge_id`),
-  ADD KEY `badge_id` (`badge_id`);
 
 --
 -- Indices de la tabla `teams`
@@ -208,12 +233,12 @@ ALTER TABLE `players`
 -- AUTO_INCREMENT de la tabla `teams`
 --
 ALTER TABLE `teams`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT de la tabla `tournament`
 --
 ALTER TABLE `tournament`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 --
 -- Restricciones para tablas volcadas
 --
@@ -223,13 +248,6 @@ ALTER TABLE `tournament`
 --
 ALTER TABLE `players`
   ADD CONSTRAINT `players_ibfk_1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Filtros para la tabla `players_badges`
---
-ALTER TABLE `players_badges`
-  ADD CONSTRAINT `players_badges_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `players_badges_ibfk_2` FOREIGN KEY (`badge_id`) REFERENCES `badges` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `teams`

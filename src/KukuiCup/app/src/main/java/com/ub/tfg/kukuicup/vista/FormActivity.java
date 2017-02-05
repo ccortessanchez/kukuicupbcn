@@ -30,7 +30,7 @@ import cz.msebera.android.httpclient.NameValuePair;
 import cz.msebera.android.httpclient.message.BasicNameValuePair;
 
 /**
- * Created by Juanmi on 29/06/2016.
+ * Created by Juanmi on 29/06/2016. Edited by Carlos Cortes.
  */
 public class FormActivity extends Activity {
 

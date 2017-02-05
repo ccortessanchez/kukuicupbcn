@@ -16,7 +16,7 @@ import com.ub.tfg.kukuicup.controller.SessionManager;
 import com.ub.tfg.kukuicup.model.EnergyChallenge;
 
 /**
- * Created by Juanmi on 02/06/2016.
+ * Created by Juanmi on 02/06/2016. Edited by Carlos Cortes.
  */
 public class EnergyChallengeActivity extends Activity {
 

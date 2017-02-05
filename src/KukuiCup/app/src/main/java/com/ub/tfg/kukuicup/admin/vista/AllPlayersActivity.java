@@ -29,7 +29,7 @@ import com.ub.tfg.kukuicup.controller.Controller;
 import com.ub.tfg.kukuicup.model.JSONParser;
 
 /**
- * Created by Juanmi on 07/06/2016.
+ * Created by Juanmi on 07/06/2016. Edited by Carlos Cortes.
  */
 public class AllPlayersActivity extends ListActivity{
     // Progress Dialog

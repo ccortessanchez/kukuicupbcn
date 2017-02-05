@@ -33,7 +33,7 @@ import java.util.List;
 import cz.msebera.android.httpclient.NameValuePair;
 
 /**
- * Created by Carlos
+ * Created by Carlos Cortes.
  */
 public class RankingTeamsActivity extends ListActivity{
     // Progress Dialog

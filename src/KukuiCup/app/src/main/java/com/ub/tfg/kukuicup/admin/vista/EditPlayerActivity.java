@@ -45,7 +45,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Juanmi on 24/06/2016.
+ * Created by Juanmi on 24/06/2016. Edited by Carlos Cortes.
  */
 public class EditPlayerActivity extends Activity {
     EditText txtName;
