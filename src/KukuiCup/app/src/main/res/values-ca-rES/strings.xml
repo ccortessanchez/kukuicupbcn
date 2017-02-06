@@ -63,6 +63,8 @@
     <string name="msgPosBtn">Si</string>
     <string name="msgNegBtn">No</string>
     <string name="yourTeamRkg">------ EL TEU EQUIP!</string>
+    <string name ="titleMsgMaxTour">Màxim de tornejos</string>
+    <string name ="msgMaxTour">Has arribat al nombre màxim de tornejos. Esborra un abans de començar un altre.</string>
 
     <!--- LABELS ADMIN VISTAS-->
     <string name="allPlayersLabel">Tots els jugadors</string>
@@ -95,8 +97,8 @@
     <string name="btnViewRegister">Registre Activitats</string>
     <string name="btnCreatePlayer">Afegir Jugador</string>
     <string name="startTournament">Crear Torneig</string>
-    <string name="initDate">Data Inici:</string>
-    <string name="endDate">Data Fi:</string>
+    <string name="initDate">Data Inici (aaaa-mm-dd)</string>
+    <string name="endDate">Data Fi (aaaa-mm-dd)</string>
     <string name="playerNameLabel">Nom del Jugador</string>
     <string name="teamNameLabel">Nom de l\'Equip</string>
     <string name="initDateLabel">Data d\'Inici</string>

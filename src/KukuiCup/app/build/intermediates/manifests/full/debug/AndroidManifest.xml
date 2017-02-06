@@ -111,6 +111,11 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.NewTournamentActivity"
+            android:label="@string/newTourLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="com.ub.tfg.kukuicup.admin.vista.EditPlayerActivity"
             android:configChanges="layoutDirection|locale"
             android:label="@string/editPlayerLabel"

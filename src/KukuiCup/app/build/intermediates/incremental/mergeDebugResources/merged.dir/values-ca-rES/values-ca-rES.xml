@@ -148,7 +148,7 @@
     <string name="editPlayerLabel">Editar jugador</string>
     <string name="editTeamLabel">Editar equip</string>
     <string name="editTournamentLabel">Editar torneig</string>
-    <string name="endDate">Data Fi:</string>
+    <string name="endDate">Data Fi (aaaa-mm-dd)</string>
     <string name="enrgChalL1_1">Apagar abans de dormir</string>
     <string name="enrgChalL2_1">Fes us de les escales</string>
     <string name="enrgChalL2_2">Substituir per un LED</string>
@@ -161,7 +161,7 @@
     <string name="hello">Hola mon, Activitat de KukuiCup!</string>
     <string name="hintPass">Contrasenya</string>
     <string name="hintUser">Nom d\'usuari</string>
-    <string name="initDate">Data Inici:</string>
+    <string name="initDate">Data Inici (aaaa-mm-dd)</string>
     <string name="initDateLabel">Data d\'Inici</string>
     <string name="invalidLogin">Usuari o contrasenya incorrectes</string>
     <string name="jokeMsg">Ben fet! Gaudeix d\'aquest acudit ...</string>
@@ -190,6 +190,7 @@
     <string name="msgLevelBlocked">Has d\'acabar el nivell anterior per poder continuar</string>
     <string name="msgLogOut">Vols sortir de la KukuiCupBCN?</string>
     <string name="msgLogResp">Resposta de Login:</string>
+    <string name="msgMaxTour">Has arribat al nombre màxim de tornejos. Esborra un abans de començar un altre.</string>
     <string name="msgNegBtn">No</string>
     <string name="msgPass">Has d\'omplir tots els camps</string>
     <string name="msgPosBtn">Si</string>
@@ -257,6 +258,7 @@
     <string name="titleEasterEgg">Es el teu dia de sort!</string>
     <string name="titleLevelBlocked">Nivell bloquejat</string>
     <string name="titleMinPoints">Nivell superat</string>
+    <string name="titleMsgMaxTour">Màxim de tornejos</string>
     <string name="title_logo">NATIONAL GEOGRAPHIC</string>
     <string name="tournamentSelectLabel">Torneig</string>
     <string name="userEnter">Siusplau entri el seu nom d\'usuari i la seva contrasenya!</string>

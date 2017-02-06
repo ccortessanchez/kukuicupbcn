@@ -43,7 +43,8 @@ import cz.msebera.android.httpclient.message.BasicNameValuePair;
  * Created by Carlos Cortes
  */
 public class EditTournamentActivity extends Activity {
-    EditText txtName;
+    EditText txtInitDate;
+    EditText txtEndDate;
 //    EditText txtTeam;
     Button btnSave;
     Button btnDelete;
@@ -64,13 +65,14 @@ public class EditTournamentActivity extends Activity {
 
     // single player url
     private static String url_tournament_details;
-    private static String url_update_team;
+    private static String url_update_tournament;
     private static String url_delete_tournament;
     private static String url_all_tournaments;
 
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
-    private static final String TAG_TEAM = "team";
+    private static final String TAG_INIT_DATE = "init_date";
+    private static final String TAG_END_DATE = "finish_date";
     private static final String TAG_ID = "id";
     private static final String TAG_NAME = "name";
     private static final String TAG_TOURNAMENT = "tournament";
@@ -87,7 +89,7 @@ public class EditTournamentActivity extends Activity {
         String localhost = control.config.LOCALHOST;
 
         url_tournament_details = "http://"+localhost+"/get_tournament_details.php";
-        url_update_team = "http://"+localhost+"/update_team_edit.php";
+        url_update_tournament = "http://"+localhost+"/update_tournament_edit.php";
         url_delete_tournament = "http://"+localhost+"/delete_tournament.php";
         url_all_tournaments = "http://"+localhost+"/get_all_tournaments.php";
 
@@ -96,7 +98,8 @@ public class EditTournamentActivity extends Activity {
         btnDelete = (Button) findViewById(R.id.btnDelete);
 
         //Edit text
-        txtName = (EditText)findViewById(R.id.inputName);
+        txtInitDate = (EditText)findViewById(R.id.inputInitDate);
+        txtEndDate = (EditText)findViewById(R.id.inputEndDate);
 //        txtTeam = (EditText)findViewById(R.id.inputTeam);
 
         // getting player details from intent
@@ -108,6 +111,16 @@ public class EditTournamentActivity extends Activity {
         // Getting complete player details in background thread
 //        new GetPlayerDetails().execute();
         getTournamentDetails();
+
+        btnSave.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // starting background task to update player
+                new SaveTournamentDetails().execute();
+//                savePlayerDetails();
+            }
+        });
 
         // Delete button click event
         btnDelete.setOnClickListener(new View.OnClickListener() {
@@ -160,9 +173,74 @@ public class EditTournamentActivity extends Activity {
             JSONObject jsonObject = new JSONObject(response);
             JSONArray result = jsonObject.getJSONArray(TAG_TOURNAMENT);
             JSONObject json = result.getJSONObject(0);
-            txtName.setText(json.getString(TAG_ID) + " " + getResources().getString(R.string.tournamentSelectLabel));
+            txtInitDate.setText(json.getString(TAG_INIT_DATE));
+            txtEndDate.setText(json.getString(TAG_END_DATE));
         } catch (JSONException e) {
             e.printStackTrace();
+        }
+    }
+
+    class SaveTournamentDetails extends AsyncTask<String, String, String> {
+
+        /**
+         * Before starting background thread Show Progress Dialog
+         * */
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            pDialog = new ProgressDialog(EditTournamentActivity.this);
+            pDialog.setMessage("Saving Team ...");
+            pDialog.setIndeterminate(false);
+            pDialog.setCancelable(true);
+            //pDialog.show();
+        }
+
+        /**
+         * Saving player
+         * */
+        protected String doInBackground(String... args) {
+
+            // getting updated data from EditTexts
+            String init_date = txtInitDate.getText().toString().trim();
+            String finish_date = txtEndDate.getText().toString().trim();
+
+            // Building Parameters
+            List<NameValuePair> params = new ArrayList<NameValuePair>();
+            params.add(new BasicNameValuePair(TAG_ID, id));
+            params.add(new BasicNameValuePair(TAG_INIT_DATE, init_date));
+            params.add(new BasicNameValuePair(TAG_END_DATE, finish_date));
+
+            // sending modified data through http request
+            // Notice that update player url accepts POST method
+            JSONObject json = jsonParser.makeHttpRequest(url_update_tournament,
+                    "POST", params);
+
+            // check json success tag
+            try {
+                int success = json.getInt(TAG_SUCCESS);
+
+                if (success == 1) {
+                    // successfully updated
+                    Intent i = getIntent();
+                    // send result code 100 to notify about player update
+                    setResult(100, i);
+                    finish();
+                } else {
+                    // failed to update player
+                }
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+
+        /**
+         * After completing background task Dismiss the progress dialog
+         * **/
+        protected void onPostExecute(String file_url) {
+            // dismiss the dialog once player uupdated
+            pDialog.dismiss();
         }
     }
 

@@ -8,7 +8,7 @@
     <!-- Name Label -->
     <TextView android:layout_width="fill_parent"
               android:layout_height="wrap_content"
-              android:text="@string/tournamentSelectLabel"
+              android:text="@string/initDate"
               android:paddingLeft="10dip"
               android:paddingRight="10dip"
               android:paddingTop="10dip"
@@ -16,12 +16,32 @@
         android:textColor="#000000" />
 
     <!-- Input Name -->
-    <EditText android:id="@+id/inputName"
+    <EditText android:id="@+id/inputInitDate"
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:layout_margin="5dip"
               android:layout_marginBottom="15dip"
               android:singleLine="true"
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/endDate"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputEndDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:textSize="25sp"
         android:textColor="#000000" />
 
 
@@ -41,18 +61,35 @@
         android:orientation="horizontal"
         android:layout_marginTop="60dip">
         <!-- Button Create Player -->
+        <Button android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btnSave"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textSize="25sp"
+            android:layout_gravity="left"
+            android:background="#5F4C0B"
+            android:textColor="#BEF781" />
+
+        <TextView
+            android:id="@+id/centerPoint"
+            android:text=""
+            android:layout_width="35dip"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true" />
 
         <!-- Button Create Player -->
         <Button android:id="@+id/btnDelete"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/btnDelete"
-                android:paddingRight="10dp"
-                android:paddingLeft="10dp"
-                android:textSize="25sp"
-                android:layout_gravity="right"
-                android:background="#5F4C0B"
-                android:textColor="#BEF781" />
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btnDelete"
+            android:textSize="25sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="right"
+            android:background="#5F4C0B"
+            android:textColor="#BEF781" />
     </LinearLayout>
 
 </LinearLayout>

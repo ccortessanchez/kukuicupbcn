@@ -16,6 +16,7 @@ import com.ub.tfg.kukuicup.controller.Controller;
 import com.ub.tfg.kukuicup.controller.SQLiteHandler;
 import com.ub.tfg.kukuicup.controller.SessionManager;
 import com.ub.tfg.kukuicup.model.JSONParser;
+import com.ub.tfg.kukuicup.vista.LoginActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -72,8 +73,8 @@ public class MenuTournamentActivity extends Activity {
 		btnAdminTour = (Button)findViewById(R.id.btnAdminTour);
 		btnViewtournaments = (Button) findViewById(R.id.btnViewTours);
 		btnStart = (Button) findViewById(R.id.startTournament);
-		initDateText = (TextView)findViewById(R.id.initDate);
-		endDateText = (TextView)findViewById(R.id.endDate);
+		//initDateText = (TextView)findViewById(R.id.initDate);
+		//endDateText = (TextView)findViewById(R.id.endDate);
 
 
 		btnAdminTour.setOnClickListener(new View.OnClickListener() {
@@ -104,21 +105,12 @@ public class MenuTournamentActivity extends Activity {
 			@Override
 			public void onClick(View view) {
 
-				new CreateNewTournament().execute();
-				SimpleDateFormat format1 = new SimpleDateFormat("dd-MM-yyyy");
-				initData = Calendar.getInstance();
-				endData = Calendar.getInstance();
+				Intent i = new Intent(getApplicationContext(), NewTournamentActivity.class);
+				startActivity(i);
 
-				initData.add(Calendar.DATE,1);
-				endData.add(Calendar.DAY_OF_YEAR, 21);
-				endData.add(Calendar.DATE,1);
 
-				dayCounter = 21;
-
-				String formattedInit = format1.format(initData.getTime());
-				String formattedEnd = format1.format(endData.getTime());
-				initDateText.setText(formattedInit);
-				endDateText.setText(formattedEnd);
+				//initDateText.setText(formattedInit);
+				//endDateText.setText(formattedEnd);
 
 
 			}
@@ -209,6 +201,12 @@ public class MenuTournamentActivity extends Activity {
 			pDialog.dismiss();
 		}
 
+	}
+	@Override
+	public void onBackPressed() {
+		Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+		i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(i);
 	}
 
 }

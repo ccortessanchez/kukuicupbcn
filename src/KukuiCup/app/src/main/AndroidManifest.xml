@@ -108,6 +108,11 @@
             android:label="@string/newTeamLabel">
         </activity>
         <activity
+            android:name=".admin.vista.NewTournamentActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/newTourLabel">
+        </activity>
+        <activity
             android:name=".admin.vista.EditPlayerActivity"
             android:configChanges="layoutDirection|locale"
             android:screenOrientation="portrait"

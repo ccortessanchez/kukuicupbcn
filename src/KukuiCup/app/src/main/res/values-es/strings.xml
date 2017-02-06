@@ -63,6 +63,8 @@
     <string name="msgPosBtn">Si</string>
     <string name="msgNegBtn">No</string>
     <string name="yourTeamRkg">------ TU EQUIPO!</string>
+    <string name ="titleMsgMaxTour">Máximo de torneos</string>
+    <string name ="msgMaxTour">Has llegado al número máximo de torneos. Borra uno antes de empezar otro.</string>
 
     <!--- LABELS ADMIN VISTAS-->
     <string name="allPlayersLabel">Todos los jugadores</string>
@@ -95,8 +97,8 @@
     <string name="btnViewRegister">Registro Actividades</string>
     <string name="btnCreatePlayer">Añadir Jugador</string>
     <string name="startTournament">Crear torneo</string>
-    <string name="initDate">Fecha Inicio:</string>
-    <string name="endDate">Fecha Fin:</string>
+    <string name="initDate">Fecha Inicio (aaaa-mm-dd)</string>
+    <string name="endDate">Fecha Fin (aaaa-mm-dd)</string>
     <string name="playerNameLabel">Nombre del Jugador</string>
     <string name="teamNameLabel">Nombre del Equipo</string>
     <string name="teamSelectLabel">Equipo</string>

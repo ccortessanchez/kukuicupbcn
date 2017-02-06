@@ -9,7 +9,7 @@
 
     <TextView android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/teamNameLabel"
+        android:text="@string/initDate"
         android:paddingLeft="10dip"
         android:paddingRight="10dip"
         android:paddingTop="10dip"
@@ -17,7 +17,25 @@
         android:textColor="#000000" />
 
     <!-- Input Name -->
-    <EditText android:id="@+id/inputName"
+    <EditText android:id="@+id/inputInitDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/endDate"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
+        android:textColor="#000000" />
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputEndDate"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dip"
@@ -32,7 +50,7 @@
         android:orientation="vertical"
         android:layout_marginTop="50dip">
 
-        <Button android:id="@+id/btnCreateTeam"
+        <Button android:id="@+id/btnCreateTournament"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/startTournament"

@@ -571,7 +571,7 @@
     <string name="editPlayerLabel">Edit Player</string>
     <string name="editTeamLabel">Edit Team</string>
     <string name="editTournamentLabel">Edit Tournament</string>
-    <string name="endDate">End Date:</string>
+    <string name="endDate">End Date (yyyy-mm-dd)</string>
     <string name="enrgChalL1_1">Off before sleep</string>
     <string name="enrgChalL2_1">Use stairs</string>
     <string name="enrgChalL2_2">Change for LED</string>
@@ -584,7 +584,7 @@
     <string name="hello">Hello World, KukuiCupActivity!</string>
     <string name="hintPass">Password</string>
     <string name="hintUser">Username</string>
-    <string name="initDate">Init Date:</string>
+    <string name="initDate">Init Date (yyyy-mm-dd)</string>
     <string name="initDateLabel">Init Date</string>
     <string name="invalidLogin">Invalid username or password</string>
     <string name="jokeMsg">"Well done! Now enjoy this joke..."</string>
@@ -614,6 +614,7 @@
     <string name="msgLevelBlocked">You need to complete the previous level to continue</string>
     <string name="msgLogOut">Do you really want to log out of KukuiCupBCN?</string>
     <string name="msgLogResp">Login Response:</string>
+    <string name="msgMaxTour">You have reached the maximum number of tournaments. Please delete one before creating another.</string>
     <string name="msgNegBtn">No</string>
     <string name="msgPass">You must fill all the gaps</string>
     <string name="msgPosBtn">Yes</string>
@@ -683,6 +684,7 @@
     <string name="titleEasterEgg">It\'s your lucky day!</string>
     <string name="titleLevelBlocked">Level blocked</string>
     <string name="titleMinPoints">Level completed</string>
+    <string name="titleMsgMaxTour">Maximum tournaments</string>
     <string name="title_logo">NATIONAL GEOGRAPHIC</string>
     <string name="tournamentSelectLabel">Tournament</string>
     <string name="userEnter">Please enter your username and password!</string>
