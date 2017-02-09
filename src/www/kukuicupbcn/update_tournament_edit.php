@@ -9,11 +9,12 @@ error_reporting(E_ALL ^ E_DEPRECATED);
 $response = array();
  
 // check for required fields
-if (isset($_POST['id']) && isset($_POST['init_date']) && isset($_POST['finish_date'])) {
+if (isset($_POST['id']) && isset($_POST['init_date']) && isset($_POST['finish_date']) && isset($_POST['name'])) {
  
 	$id = $_POST['id'];
     $init_date = $_POST['init_date'];
 	$finish_date = $_POST['finish_date'];
+	$name = $_POST['name'];
  
     // include db connect class
     require_once __DIR__ . '/db_connect.php';
@@ -22,7 +23,7 @@ if (isset($_POST['id']) && isset($_POST['init_date']) && isset($_POST['finish_da
     $db = new DB_CONNECT();
  
     // mysql update row with matched id
-    $result = mysql_query("UPDATE tournament SET init_date = '$init_date', finish_date = '$finish_date' WHERE id = $id");
+    $result = mysql_query("UPDATE tournament SET init_date = '$init_date', finish_date = '$finish_date', name = '$name' WHERE id = $id");
  
     // check if row inserted or not
     if ($result) {

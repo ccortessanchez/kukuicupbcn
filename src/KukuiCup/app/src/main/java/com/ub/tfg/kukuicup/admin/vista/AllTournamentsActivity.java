@@ -168,7 +168,8 @@ public class AllTournamentsActivity extends ListActivity{
                         String id = c.getString(TAG_ID);
                         String init_date = c.get(TAG_INIT_DATE).toString();
                         String finish_date = c.get(TAG_FINISH_DATE).toString();
-                        String name = init_date + " / " + finish_date;
+                        String name = c.get(TAG_NAME).toString();
+                        name = name + " -- " + init_date + "/ " + finish_date;
                         //Date init_date;
                         //Date finish_date;
 

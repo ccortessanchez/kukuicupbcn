@@ -47,4 +47,15 @@
         android:paddingLeft="25dp"
         android:background="#5F4C0B"
         android:textColor="#BEF781" />
+    <Button
+        android:id="@+id/btnRankingTeams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:text="@string/rankTeams"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:background="#5F4C0B"
+        android:textSize="25sp"
+        android:textColor="#BEF781" />
 </LinearLayout>

@@ -71,7 +71,7 @@
                 android:layout_height="match_parent"
                 android:text="@string/actualPassLabel"
                 android:textSize="30sp"
-                android:gravity="center"
+                android:gravity="center|left"
                 android:textColor="#000000" />
 
             <EditText
@@ -79,7 +79,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/inputPswd"
                 android:textSize="30sp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="15dp"
                 android:inputType="textPassword"
                 android:textColor="#000000" />
 
@@ -97,13 +97,13 @@
                 android:layout_height="match_parent"
                 android:text="@string/newPassLabel"
                 android:textSize="30sp"
-                android:gravity="center"
+                android:gravity="center|left"
                 android:textColor="#000000" />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/inputNewPswd"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="15dp"
                 android:textSize="30sp"
                 android:inputType="textPassword"
                 android:textColor="#000000" />
@@ -121,14 +121,14 @@
                 android:layout_height="match_parent"
                 android:text="@string/confirmPassLabel"
                 android:textSize="30sp"
-                android:gravity="center"
+                android:gravity="center|left"
                 android:textColor="#000000" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/inputConfirmPswd"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="15dp"
                 android:textSize="30sp"
                 android:inputType="textPassword"
                 android:textColor="#000000" />

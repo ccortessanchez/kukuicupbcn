@@ -32,6 +32,7 @@ if (isset($_GET["id"])) {
 			$tournament["init_date"] = $row["init_date"];
 			$tournament["finish_date"] = $row["finish_date"];
 			$tournament["duration"] = $row["duration"];
+			$tournament["name"] = $row["name"];
             // success
             $response["success"] = 1;
  

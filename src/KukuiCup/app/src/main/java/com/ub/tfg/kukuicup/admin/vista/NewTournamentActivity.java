@@ -27,6 +27,9 @@ import java.util.List;
 import cz.msebera.android.httpclient.NameValuePair;
 import cz.msebera.android.httpclient.message.BasicNameValuePair;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 /**
  * Created by Juanmi on 27/06/2016.
  */
@@ -37,6 +40,9 @@ public class NewTournamentActivity extends Activity {
     JSONParser jsonParser = new JSONParser();
     EditText inputInitDate;
     EditText inputEndDate;
+    EditText inputName;
+    Calendar initData;
+    Calendar endData;
     private AlertDialog alertDialog;
 
     int dayCounter;
@@ -66,6 +72,21 @@ public class NewTournamentActivity extends Activity {
         // Edit Text
         inputInitDate = (EditText) findViewById(R.id.inputInitDate);
         inputEndDate = (EditText) findViewById(R.id.inputEndDate);
+        inputName = (EditText) findViewById(R.id.inputTourName);
+
+        SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd");
+        initData = Calendar.getInstance();
+        endData = Calendar.getInstance();
+
+        initData.add(Calendar.DATE,1);
+        endData.add(Calendar.DAY_OF_YEAR, 21);
+        endData.add(Calendar.DATE,1);
+
+        String formattedInit = format1.format(initData.getTime());
+        String formattedEnd = format1.format(endData.getTime());
+        inputInitDate.setText(formattedInit);
+        inputEndDate.setText(formattedEnd);
+
 
 
         // Create button
@@ -104,6 +125,7 @@ public class NewTournamentActivity extends Activity {
          * Creating team
          * */
         protected String doInBackground(String... args) {
+            String name = inputName.getText().toString();
             String init_date = inputInitDate.getText().toString();
             String finish_date = inputEndDate.getText().toString();
 
@@ -112,6 +134,7 @@ public class NewTournamentActivity extends Activity {
             params.add(new BasicNameValuePair("init_date", init_date));
             params.add(new BasicNameValuePair("finish_date", finish_date));
             params.add(new BasicNameValuePair("duration", "21"));
+            params.add(new BasicNameValuePair("name",name));
 
             // getting JSON Object
             // Note that create team url accepts POST method

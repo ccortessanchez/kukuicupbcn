@@ -463,7 +463,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="activityReg">Activity Register</string>
-    <string name="actualPassLabel">Actual password</string>
+    <string name="actualPassLabel">Actual password:</string>
     <string name="allPlayersLabel">All Players</string>
     <string name="allRegisterLabel">Register Activity</string>
     <string name="allTeamsLabel">All Teams</string>
@@ -487,6 +487,7 @@
     <string name="btnLogout">Log Out</string>
     <string name="btnOk">OK</string>
     <string name="btnQuiz">Do the Quiz</string>
+    <string name="btnRankingPlayers">Players Ranking</string>
     <string name="btnSave">Save Changes</string>
     <string name="btnStart">Start Challenge</string>
     <string name="btnTakePhoto">Take a photo</string>
@@ -494,7 +495,7 @@
     <string name="btnViewPlayers">View Players</string>
     <string name="btnViewRegister">Activity Register</string>
     <string name="btnViewTeams">View Teams</string>
-    <string name="btnViewTour">View Tournaments</string>
+    <string name="btnViewTour">Edit Tournament</string>
     <string name="btn_skip_intro">Skip Intro</string>
     <string name="challDays">Remaining days:</string>
     <string name="changePassLabel">Change Password</string>
@@ -524,7 +525,7 @@
     <string name="com_facebook_smart_login_confirmation_continue_as">Continue as %1$s</string>
     <string name="com_facebook_smart_login_confirmation_title">Confirm Login</string>
     <string name="com_facebook_tooltip_default">You\'re in control - choose what info you want to share with apps.</string>
-    <string name="confirmPassLabel">Confirm password</string>
+    <string name="confirmPassLabel">Confirm password:</string>
     <string name="creatingPlayers">Creating Player...</string>
     <string name="creatingTeam">Creating Team...</string>
     <string name="dashPoints">Points:</string>
@@ -630,7 +631,7 @@
     <string name="msgToastLevel">You can do it!</string>
     <string name="msgToastQuiz">You can do it better!</string>
     <string name="msgToastUpload">Uploaded successfully</string>
-    <string name="newPassLabel">New password</string>
+    <string name="newPassLabel">New password:</string>
     <string name="newPlayerLabel">New Player</string>
     <string name="newTeamLabel">New Team</string>
     <string name="newTourLabel">New Tournament</string>
@@ -680,13 +681,14 @@
     <string name="startTournament">Create tournament</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="teamNameLabel">Team Name</string>
-    <string name="teamSelectLabel">Team</string>
+    <string name="teamSelectLabel">Select Team:</string>
     <string name="titleEasterEgg">It\'s your lucky day!</string>
     <string name="titleLevelBlocked">Level blocked</string>
     <string name="titleMinPoints">Level completed</string>
     <string name="titleMsgMaxTour">Maximum tournaments</string>
     <string name="title_logo">NATIONAL GEOGRAPHIC</string>
-    <string name="tournamentSelectLabel">Tournament</string>
+    <string name="tournamentNameLabel">Tournament Name</string>
+    <string name="tournamentSelectLabel">Select Tournament:</string>
     <string name="userEnter">Please enter your username and password!</string>
     <string name="video">Video</string>
     <string name="welcomeMsg">Welcome to KukuiCupBCN</string>

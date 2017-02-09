@@ -65,7 +65,7 @@
     <string name="L3_videoDesc1">Aquest curt video descriu quins recursos podem utilitzar per a produir energies renovables i quins son els seus beneficis.</string>
     <string name="L3_videoDesc2">Aquest curt video descriu com funciona l\'energia solar i quins aparells s\'utilitzen per generar electricitat</string>
     <string name="activityReg">Registre d\'activitats</string>
-    <string name="actualPassLabel">Contrasenya actual</string>
+    <string name="actualPassLabel">Contrasenya actual:</string>
     <string name="allPlayersLabel">Tots els jugadors</string>
     <string name="allRegisterLabel">Registre d\'activitats</string>
     <string name="allTeamsLabel">Tots el equips</string>
@@ -89,6 +89,7 @@
     <string name="btnLogout">Sortir</string>
     <string name="btnOk">OK</string>
     <string name="btnQuiz">Fer questionari</string>
+    <string name="btnRankingPlayers">Classificació jugadors</string>
     <string name="btnSave">Guardar Canvis</string>
     <string name="btnStart">Iniciar repte</string>
     <string name="btnTakePhoto">Fer foto</string>
@@ -96,11 +97,11 @@
     <string name="btnViewPlayers">Veure Jugadors</string>
     <string name="btnViewRegister">Registre Activitats</string>
     <string name="btnViewTeams">Veure Equips</string>
-    <string name="btnViewTour">Veure Tornejos</string>
+    <string name="btnViewTour">Editar Tornejos</string>
     <string name="btn_skip_intro">Skip Intro</string>
     <string name="challDays">Dies restants:</string>
     <string name="changePassLabel">Canviar Contrasenya</string>
-    <string name="confirmPassLabel">Confirmar contrasenya</string>
+    <string name="confirmPassLabel">Confirmar contrasenya:</string>
     <string name="creatingPlayers">Creant jugador...</string>
     <string name="creatingTeam">Creant jugador...</string>
     <string name="dashPoints">Punts:</string>
@@ -206,7 +207,7 @@
     <string name="msgToastLevel">Tu pots!</string>
     <string name="msgToastQuiz">Pots fer-ho millor!</string>
     <string name="msgToastUpload">Pujada correcta</string>
-    <string name="newPassLabel">Contrasenya nova</string>
+    <string name="newPassLabel">Contrasenya nova:</string>
     <string name="newPlayerLabel">Nou jugador</string>
     <string name="newTeamLabel">Nou Equip</string>
     <string name="newTourLabel">Nou Torneig</string>
@@ -230,7 +231,7 @@
     <string name="quest3_L2_video2">Quina diferència hi ha entre una bombeta LED i una bombeta convencional?</string>
     <string name="quest3_L3_video1">Quin recurs natural és, de moment, el més utilitzat per a la generació d\'energia elèctrica?</string>
     <string name="quest3_L3_video2">Quina funció tenen els panells solars?</string>
-    <string name="rankTeams">Classificació per equips</string>
+    <string name="rankTeams">Classificació equips</string>
     <string name="resumeDay">/dia</string>
     <string name="resumeFloor">/pis</string>
     <string name="resumeL1_enrgChal1">Has apagat i desconectat els aparells electronics de la teva habitació abans de dormir?</string>
@@ -254,13 +255,14 @@
     <string name="savTip">Consell d\'estalvi!</string>
     <string name="startTournament">Crear Torneig</string>
     <string name="teamNameLabel">Nom de l\'Equip</string>
-    <string name="teamSelectLabel">Equip</string>
+    <string name="teamSelectLabel">Selecciona Equip:</string>
     <string name="titleEasterEgg">Es el teu dia de sort!</string>
     <string name="titleLevelBlocked">Nivell bloquejat</string>
     <string name="titleMinPoints">Nivell superat</string>
     <string name="titleMsgMaxTour">Màxim de tornejos</string>
     <string name="title_logo">NATIONAL GEOGRAPHIC</string>
-    <string name="tournamentSelectLabel">Torneig</string>
+    <string name="tournamentNameLabel">Nom del Torneig</string>
+    <string name="tournamentSelectLabel">Selecciona Torneig:</string>
     <string name="userEnter">Siusplau entri el seu nom d\'usuari i la seva contrasenya!</string>
     <string name="video">Vídeo</string>
     <string name="welcomeMsg">Benvingut a KukuiCupBCN</string>

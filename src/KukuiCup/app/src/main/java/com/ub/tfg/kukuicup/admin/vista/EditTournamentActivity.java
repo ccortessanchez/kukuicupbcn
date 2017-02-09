@@ -45,6 +45,7 @@ import cz.msebera.android.httpclient.message.BasicNameValuePair;
 public class EditTournamentActivity extends Activity {
     EditText txtInitDate;
     EditText txtEndDate;
+    EditText txtName;
 //    EditText txtTeam;
     Button btnSave;
     Button btnDelete;
@@ -100,6 +101,7 @@ public class EditTournamentActivity extends Activity {
         //Edit text
         txtInitDate = (EditText)findViewById(R.id.inputInitDate);
         txtEndDate = (EditText)findViewById(R.id.inputEndDate);
+        txtName = (EditText)findViewById(R.id.inputTourName);
 //        txtTeam = (EditText)findViewById(R.id.inputTeam);
 
         // getting player details from intent
@@ -175,6 +177,7 @@ public class EditTournamentActivity extends Activity {
             JSONObject json = result.getJSONObject(0);
             txtInitDate.setText(json.getString(TAG_INIT_DATE));
             txtEndDate.setText(json.getString(TAG_END_DATE));
+            txtName.setText(json.getString(TAG_NAME));
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -203,12 +206,14 @@ public class EditTournamentActivity extends Activity {
             // getting updated data from EditTexts
             String init_date = txtInitDate.getText().toString().trim();
             String finish_date = txtEndDate.getText().toString().trim();
+            String name = txtName.getText().toString().trim();
 
             // Building Parameters
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             params.add(new BasicNameValuePair(TAG_ID, id));
             params.add(new BasicNameValuePair(TAG_INIT_DATE, init_date));
             params.add(new BasicNameValuePair(TAG_END_DATE, finish_date));
+            params.add(new BasicNameValuePair(TAG_NAME, name));
 
             // sending modified data through http request
             // Notice that update player url accepts POST method

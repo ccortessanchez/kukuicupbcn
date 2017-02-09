@@ -31,8 +31,9 @@ if (mysql_num_rows($result) > 0) {
         $tournament["id"] = $row["id"];
         $tournament["init_date"] = $row["init_date"];
         $tournament["finish_date"] = $row["finish_date"];
-        //$tournament["duration"] = $row["duration"];
- 
+        $tournament["duration"] = $row["duration"];
+		$tournament["name"] = $row["name"];
+		
         // push single team into final response array
         array_push($response["tournaments"], $tournament);
     }

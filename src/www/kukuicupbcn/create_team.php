@@ -10,9 +10,10 @@
 $response = array();
  
 // check for required fields
-if (isset($_POST['name'])) {
+if (isset($_POST['name']) && isset($_POST['tournament_id'])) {
  
     $name = $_POST['name'];
+	$tournament_id = $_POST['tournament_id'];
  
     // include db connect class
     require_once __DIR__ . '/db_connect.php';
@@ -21,7 +22,7 @@ if (isset($_POST['name'])) {
     $db = new DB_CONNECT();
  
     // mysql inserting a new row
-    $result = mysql_query("INSERT INTO teams(name) VALUES('$name')");
+    $result = mysql_query("INSERT INTO teams(name, tournament_id) VALUES('$name', '$tournament_id')");
  
     // check if row inserted or not
     if ($result) {

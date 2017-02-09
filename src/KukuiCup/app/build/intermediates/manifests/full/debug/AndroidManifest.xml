@@ -22,6 +22,7 @@
         android:label="@string/app_name" >
         <activity
             android:name="com.ub.tfg.kukuicup.vista.LoginActivity"
+            android:icon="@drawable/ic_launcher"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
 "
@@ -131,6 +132,16 @@
             android:name="com.ub.tfg.kukuicup.admin.vista.EditTournamentActivity"
             android:configChanges="layoutDirection|locale"
             android:label="@string/editTournamentLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.RankingTeamsActivity"
+            android:label="@string/allTeamsLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.RankingPlayersActivity"
+            android:label="@string/allPlayersLabel"
             android:screenOrientation="portrait" >
         </activity>
 

@@ -10,11 +10,12 @@ error_reporting(E_ALL ^ E_DEPRECATED);
 $response = array();
  
 // check for required fields
-if (isset($_POST['init_date'])&& isset($_POST['finish_date'])&& isset($_POST['duration'])) {
+if (isset($_POST['init_date'])&& isset($_POST['finish_date'])&& isset($_POST['duration'])&& isset($_POST['name'])) {
  
     $init_date = $_POST['init_date'];
 	$finish_date = $_POST['finish_date'];
 	$duration = $_POST['duration'];
+	$name = $_POST['name'];
  
     // include db connect class
     require_once'/db_connect.php';
@@ -23,7 +24,7 @@ if (isset($_POST['init_date'])&& isset($_POST['finish_date'])&& isset($_POST['du
     $db = new DB_CONNECT();
  
     // mysql inserting a new row
-    $result = mysql_query("INSERT INTO tournament(init_date, finish_date, duration) VALUES('$init_date', '$finish_date', '$duration')");
+    $result = mysql_query("INSERT INTO tournament(init_date, finish_date, duration, name) VALUES('$init_date', '$finish_date', '$duration', '$name')");
  
     // check if row inserted or not
     if ($result) {

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ub.tfg.kukuicup"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        name="com.ub.tfg.kukuicup.controller.AppController"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.LoginActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.MainActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.MenuActivity"
+            android:icon="@drawable/ic_launcher"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.MenuAdminActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.MenuTournamentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.VideoActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.FormActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.JokeActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.SavingActionActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.EnergyChallengeActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.EnergyChallengeResume"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.UserProfileActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.vista.RankingTeamsActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.AllPlayersActivity"
+            android:label="@string/allPlayersLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.AllRegisterActivity"
+            android:label="@string/allRegisterLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.AllTeamsActivity"
+            android:label="@string/allTeamsLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.AllTournamentsActivity"
+            android:label="@string/allTournamentsLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.NewPlayerActivity"
+            android:label="@string/newPlayerLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.NewTeamActivity"
+            android:label="@string/newTeamLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.NewTournamentActivity"
+            android:label="@string/newTourLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.EditPlayerActivity"
+            android:configChanges="layoutDirection|locale"
+            android:label="@string/editPlayerLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.EditTeamActivity"
+            android:configChanges="layoutDirection|locale"
+            android:label="@string/editTeamLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.EditTournamentActivity"
+            android:configChanges="layoutDirection|locale"
+            android:label="@string/editTournamentLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.RankingTeamsActivity"
+            android:label="@string/allTeamsLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ub.tfg.kukuicup.admin.vista.RankingPlayersActivity"
+            android:label="@string/allPlayersLabel"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- All Product Activity -->
+        <!-- All Product Activity -->
+
+
+        <!-- Add Product Activity -->
+
+
+        <!-- Edit Product Activity -->
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.ub.tfg.kukuicup.FacebookInitProvider"
+            android:exported="false" />
+    </application>
+
+</manifest>

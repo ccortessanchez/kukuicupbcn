@@ -375,7 +375,7 @@ public class EditTeamActivity extends Activity {
 
                         // Storing each json item in variable
                         String id = c.getString(TAG_ID);
-                        String name = id + " " + getResources().getString(R.string.tournamentSelectLabel);
+                        String name = c.getString(TAG_NAME);
 
                         // creating new HashMap
                         HashMap<String, String> map = new HashMap<String, String>();

@@ -84,7 +84,7 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
     <string name="activityReg">Registro de actividades</string>
-    <string name="actualPassLabel">Contraseña actual</string>
+    <string name="actualPassLabel">Contraseña actual:</string>
     <string name="allPlayersLabel">Todos los jugadores</string>
     <string name="allRegisterLabel">Registro de actividades</string>
     <string name="allTeamsLabel">Todos los equipos</string>
@@ -108,6 +108,7 @@
     <string name="btnLogout">Salir</string>
     <string name="btnOk">OK</string>
     <string name="btnQuiz">Hacer cuestionario</string>
+    <string name="btnRankingPlayers">Clasificación jugadores</string>
     <string name="btnSave">Guardar Cambios</string>
     <string name="btnStart">Empezar reto</string>
     <string name="btnTakePhoto">Hacer foto</string>
@@ -115,7 +116,7 @@
     <string name="btnViewPlayers">Ver Jugadores</string>
     <string name="btnViewRegister">Registro Actividades</string>
     <string name="btnViewTeams">Ver Equipos</string>
-    <string name="btnViewTour">Ver Torneos</string>
+    <string name="btnViewTour">Editar Torneos</string>
     <string name="btn_skip_intro">Skip Intro</string>
     <string name="challDays">Dias restantes:</string>
     <string name="changePassLabel">Cambiar Contraseña</string>
@@ -137,7 +138,7 @@
     <string name="com_facebook_send_button_text">Enviar</string>
     <string name="com_facebook_share_button_text">Compartir</string>
     <string name="com_facebook_tooltip_default">Tú decides: elige qué información quieres compartir con las aplicaciones.</string>
-    <string name="confirmPassLabel">Confirmar contraseña</string>
+    <string name="confirmPassLabel">Confirmar contraseña:</string>
     <string name="creatingPlayers">Creando Jugador...</string>
     <string name="creatingTeam">Creanado Equipo...</string>
     <string name="dashPoints">Puntos:</string>
@@ -244,7 +245,7 @@
     <string name="msgToastLevel">¡Tú puedes!</string>
     <string name="msgToastQuiz">¡Puedes hacerlo mejor!</string>
     <string name="msgToastUpload">Subida correcta</string>
-    <string name="newPassLabel">Contraseña nueva</string>
+    <string name="newPassLabel">Contraseña nueva:</string>
     <string name="newPlayerLabel">Nuevo Jugador</string>
     <string name="newTeamLabel">Nuevo Equipo</string>
     <string name="newTourLabel">Nuevo Torneo</string>
@@ -268,7 +269,7 @@
     <string name="quest3_L2_video2">¿Qué diferencia hay entre una bombilla LED y una bombilla convencional?</string>
     <string name="quest3_L3_video1">¿Qué recurso natural es, por el momento, el más utilizado para la generación de energía eléctrica?</string>
     <string name="quest3_L3_video2">¿Qué función tienen los paneles solares?</string>
-    <string name="rankTeams">Classificación por equipos</string>
+    <string name="rankTeams">Clasificación equipos</string>
     <string name="resumeDay">/día</string>
     <string name="resumeFloor">/piso</string>
     <string name="resumeL1_enrgChal1">¿Has apagado y desconectado los aparatos electrónicos de tu habitación antes de ir a dormir?</string>
@@ -294,13 +295,14 @@
     <string name="startTournament">Crear torneo</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string name="teamNameLabel">Nombre del Equipo</string>
-    <string name="teamSelectLabel">Equipo</string>
+    <string name="teamSelectLabel">Selecciona Equipo:</string>
     <string name="titleEasterEgg">¡Es tu día de suerte!</string>
     <string name="titleLevelBlocked">Nivel bloqueado</string>
     <string name="titleMinPoints">Nivel completado</string>
     <string name="titleMsgMaxTour">Máximo de torneos</string>
     <string name="title_logo">NATIONAL GEOGRAPHIC</string>
-    <string name="tournamentSelectLabel">Torneo</string>
+    <string name="tournamentNameLabel">Nombre del Torneo</string>
+    <string name="tournamentSelectLabel">Selecciona Torneo:</string>
     <string name="userEnter">¡Por favor intruduce tu nombre de usuario y la contraseña!</string>
     <string name="video">Video</string>
     <string name="welcomeMsg">Bienvenido a KukuiCupBCN</string>

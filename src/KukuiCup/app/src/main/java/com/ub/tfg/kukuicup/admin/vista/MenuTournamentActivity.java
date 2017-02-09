@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListAdapter;
+import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import com.ub.tfg.kukuicup.R;
@@ -16,7 +18,7 @@ import com.ub.tfg.kukuicup.controller.Controller;
 import com.ub.tfg.kukuicup.controller.SQLiteHandler;
 import com.ub.tfg.kukuicup.controller.SessionManager;
 import com.ub.tfg.kukuicup.model.JSONParser;
-import com.ub.tfg.kukuicup.vista.LoginActivity;
+import com.ub.tfg.kukuicup.vista.*;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -24,6 +26,7 @@ import org.json.JSONObject;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
 import java.util.List;
 
 import cz.msebera.android.httpclient.NameValuePair;
@@ -37,13 +40,27 @@ public class MenuTournamentActivity extends Activity {
 	Button btnAdminTour;
 	Button btnViewtournaments;
 	Button btnStart;
+	Button btnRankingTeams;
 
 	JSONParser jsonParser = new JSONParser();
 
 	SessionManager session;
 
+	boolean tournament_exist = false;
+
 	private static String url_create_tournament;
+	private String url_all_tournaments;
+
+	ArrayList<HashMap<String, String>> tournamentsList;
+
+
+	// JSON Node names
 	private static final String TAG_SUCCESS = "success";
+	private static final String TAG_TOURNAMENTS = "tournaments";
+	private static final String TAG_ID = "id";
+	private static final String TAG_INIT_DATE = "init_date";
+	private static final String TAG_FINISH_DATE = "finish_date";
+	private static final String TAG_NAME = "name";
 
 	Calendar initData;
 	Calendar endData;
@@ -64,15 +81,35 @@ public class MenuTournamentActivity extends Activity {
 		String localhost = control.config.LOCALHOST;
 		session = new SessionManager(getApplicationContext());
 
+		if (session.getEndDate().equals(null)) {
+			tournament_exist = false;
+		}
+		else {
+			tournament_exist = true;
+		}
+
+
 		//SQLite database handler
 		db = new SQLiteHandler(getApplicationContext());
 
 
 		url_create_tournament = "http://"+localhost+"/create_tournament.php";
+		url_all_tournaments = "http://"+localhost+"/get_all_tournaments.php";
+
+		tournamentsList = new ArrayList<HashMap<String, String>>();
+
+		// Loading players in Background Thread
 
 		btnAdminTour = (Button)findViewById(R.id.btnAdminTour);
 		btnViewtournaments = (Button) findViewById(R.id.btnViewTours);
 		btnStart = (Button) findViewById(R.id.startTournament);
+		btnRankingTeams = (Button) findViewById(R.id.btnRankingTeams);
+
+		if(!tournament_exist) {
+			btnAdminTour.setVisibility(View.INVISIBLE);
+			btnViewtournaments.setVisibility(View.INVISIBLE);
+			btnRankingTeams.setVisibility(View.INVISIBLE);
+		}
 		//initDateText = (TextView)findViewById(R.id.initDate);
 		//endDateText = (TextView)findViewById(R.id.endDate);
 
@@ -115,6 +152,22 @@ public class MenuTournamentActivity extends Activity {
 
 			}
 		});
+
+		btnRankingTeams.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View view) {
+
+				Intent i = new Intent(getApplicationContext(),RankingTeamsActivity.class);
+				startActivity(i);
+
+
+				//initDateText.setText(formattedInit);
+				//endDateText.setText(formattedEnd);
+
+
+			}
+		});
 	}
 
 	class CreateNewTournament extends AsyncTask<String,String,String> {
@@ -125,10 +178,25 @@ public class MenuTournamentActivity extends Activity {
 		@Override
 		protected void onPreExecute() {
 			super.onPreExecute();
-			pDialog = new ProgressDialog(MenuTournamentActivity.this);
-			pDialog.setMessage(getResources().getString(R.string.creatingPlayers));
-			pDialog.setIndeterminate(false);
-			pDialog.setCancelable(true);
+			List<NameValuePair> params = new ArrayList<NameValuePair>();
+			// getting JSON string from URL
+			JSONObject json = jsonParser.makeHttpRequest(url_all_tournaments, "GET", params);
+
+			// Check your log cat for JSON reponse
+			Log.d("All Tournaments: ", json.toString());
+
+			try {
+				// Checking for SUCCESS TAG
+				int success = json.getInt(TAG_SUCCESS);
+
+				if (success == 1) {
+					tournament_exist = true;
+				} else {
+					tournament_exist = false;
+				}
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
 			//pDialog.show();
 		}
 
@@ -202,7 +270,10 @@ public class MenuTournamentActivity extends Activity {
 		}
 
 	}
-	@Override
+
+
+
+		@Override
 	public void onBackPressed() {
 		Intent i = new Intent(getApplicationContext(), LoginActivity.class);
 		i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
